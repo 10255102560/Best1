@@ -1,0 +1,9 @@
+.secrets/
+.env
+__pycache__/
+*.pyc
+.venv/
+data/raw/
+artifacts/**/cache/
+dist/
+*.tmp

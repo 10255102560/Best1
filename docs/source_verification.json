@@ -1,0 +1,30 @@
+[
+  {
+    "name": "gsm8k_train",
+    "error": "curl: (28) Operation timed out after 45009 milliseconds with 39962 out of 4166206 bytes received\n"
+  },
+  {
+    "name": "gsm8k_test",
+    "error": "curl: (28) Operation timed out after 45007 milliseconds with 32768 out of 749738 bytes received\n"
+  },
+  {
+    "name": "textgrad",
+    "bytes": 43211,
+    "title": "[2406.07496] TextGrad: Automatic &#34;Differentiation&#34; via Text"
+  },
+  {
+    "name": "adas",
+    "bytes": 42548,
+    "title": "[2408.08435] Automated Design of Agentic Systems"
+  },
+  {
+    "name": "gepa",
+    "bytes": 45033,
+    "title": "[2507.19457] GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning"
+  },
+  {
+    "name": "dgm",
+    "bytes": 44091,
+    "title": "[2505.22954] Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents"
+  }
+]
