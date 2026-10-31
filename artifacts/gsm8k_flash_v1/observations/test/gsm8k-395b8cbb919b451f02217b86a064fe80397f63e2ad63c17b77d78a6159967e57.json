@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-395b8cbb919b451f02217b86a064fe80397f63e2ad63c17b77d78a6159967e57",
+    "question": "The Llesis family drove and hiked 6 hours to their vacation spot. They drove an average of 50 miles per hour and hiked an average of 5 miles per hour less than half their speed when they drive. If it took them 1.5 hours to hike, how far was their vacation spot?",
+    "answer": "255",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "255",
+      "text": "<answer>255</answer>",
+      "input_tokens": 144,
+      "output_tokens": 133,
+      "total_tokens": 277,
+      "reasoning_tokens": 124,
+      "calls": 1,
+      "latency_s": 0.9183937001507729,
+      "request_ids": [
+        "f933bd2f95d84f609199abc4f2095ac7"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "255",
+      "text": "They hiked for 1.5 hours, so they drove for \\(6 - 1.5 = 4.5\\) hours.\n\nDriving distance: \\(50 \\times 4.5 = 225\\) miles.  \nHiking speed: \\(\\frac{50}{2} - 5 = 20\\) mph.  \nHiking distance: \\(20 \\times 1.5 = 30\\) miles.\n\nTotal distance: \\(225 + 30 = 255\\) miles.\n\n<answer>255</answer>",
+      "input_tokens": 144,
+      "output_tokens": 294,
+      "total_tokens": 438,
+      "reasoning_tokens": 184,
+      "calls": 1,
+      "latency_s": 1.6496401000767946,
+      "request_ids": [
+        "98e09142e7a74d4181c3942d1052fb0b"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "255",
+      "text": "Total time 6 h; hiking 1.5 h means driving 4.5 h.  \nDriving distance: \\(50 \\times 4.5 = 225\\) mi.  \nHiking speed: \\(50/2 - 5 = 20\\) mph, so hiking distance: \\(20 \\times 1.5 = 30\\) mi.  \nTotal: \\(225 + 30 = 255\\) mi. The proposed solution is correct.\n\n<answer>255</answer>",
+      "input_tokens": 436,
+      "output_tokens": 536,
+      "total_tokens": 972,
+      "reasoning_tokens": 322,
+      "calls": 2,
+      "latency_s": 3.356558300089091,
+      "request_ids": [
+        "98e09142e7a74d4181c3942d1052fb0b",
+        "0acb56e9ea8f42a28b2a2e1b4ce11b3c"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

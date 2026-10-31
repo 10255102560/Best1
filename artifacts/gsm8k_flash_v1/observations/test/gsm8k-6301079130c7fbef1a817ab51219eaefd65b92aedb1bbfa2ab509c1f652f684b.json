@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-6301079130c7fbef1a817ab51219eaefd65b92aedb1bbfa2ab509c1f652f684b",
+    "question": "Jane planted a beanstalk in her backyard. After the first week, it was 3 inches tall. It doubled in height the second week. It grew another 4 inches in the third week. How tall was the beanstalk after 3 weeks?",
+    "answer": "10",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "<answer>10</answer>",
+      "input_tokens": 129,
+      "output_tokens": 40,
+      "total_tokens": 169,
+      "reasoning_tokens": 31,
+      "calls": 1,
+      "latency_s": 0.8663043999113142,
+      "request_ids": [
+        "8c6e42794fd14b3b933cfe4c27ecf08f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "Week 1: 3 inches  \nWeek 2: doubled to 6 inches  \nWeek 3: grew 4 inches, so 6 + 4 = 10 inches\n\n<answer>10</answer>",
+      "input_tokens": 129,
+      "output_tokens": 77,
+      "total_tokens": 206,
+      "reasoning_tokens": 30,
+      "calls": 1,
+      "latency_s": 0.7789840002078563,
+      "request_ids": [
+        "4b792d740a8042788668d53e350c690e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "The interpretation and arithmetic are correct: 3 → doubled to 6 → plus 4 = 10 inches.\n\n<answer>10</answer>",
+      "input_tokens": 343,
+      "output_tokens": 172,
+      "total_tokens": 515,
+      "reasoning_tokens": 93,
+      "calls": 2,
+      "latency_s": 1.8819882001262158,
+      "request_ids": [
+        "4b792d740a8042788668d53e350c690e",
+        "c2b8847ad19041da80f291bdeb3770d2"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

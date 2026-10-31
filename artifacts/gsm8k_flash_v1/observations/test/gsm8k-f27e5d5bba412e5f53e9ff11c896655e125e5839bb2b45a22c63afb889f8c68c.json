@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f27e5d5bba412e5f53e9ff11c896655e125e5839bb2b45a22c63afb889f8c68c",
+    "question": "Jeff and Brad are trying to divide 100 dollars between them. Jeff gets 4 times as much as Brad. How much does Jeff get in dollars?",
+    "answer": "80",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "80",
+      "text": "<answer>80</answer>",
+      "input_tokens": 109,
+      "output_tokens": 46,
+      "total_tokens": 155,
+      "reasoning_tokens": 37,
+      "calls": 1,
+      "latency_s": 0.7533408999443054,
+      "request_ids": [
+        "32531542d80c41c2b08af4a993f39faf"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "80",
+      "text": "Let Brad get \\(x\\) dollars. Then Jeff gets \\(4x\\) dollars.\n\n\\[\nx + 4x = 100\n\\]\n\\[\n5x = 100 \\Rightarrow x = 20\n\\]\n\nJeff gets:\n\n\\[\n4x = 4(20) = 80\n\\]\n\n<answer>80</answer>",
+      "input_tokens": 109,
+      "output_tokens": 109,
+      "total_tokens": 218,
+      "reasoning_tokens": 37,
+      "calls": 1,
+      "latency_s": 0.9499256000854075,
+      "request_ids": [
+        "97307df664834cbf8125cd71b3cdd30a"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "80",
+      "text": "Verification: \\(x + 4x = 100 \\Rightarrow 5x = 100 \\Rightarrow x = 20\\). Jeff gets \\(4x = 80\\). Correct.\n\n<answer>80</answer>",
+      "input_tokens": 328,
+      "output_tokens": 237,
+      "total_tokens": 565,
+      "reasoning_tokens": 118,
+      "calls": 2,
+      "latency_s": 2.3269680999219418,
+      "request_ids": [
+        "97307df664834cbf8125cd71b3cdd30a",
+        "2f20003a29db4576996a20a170eedf87"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

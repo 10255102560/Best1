@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ce0fb1b2eade08ac351b0f051f6452f0988dee2eb2721744cb0859ce1c8bf7b2",
+    "question": "Jeff is 10 years older than his younger sister, Martha. Martha, on the other hand, is 4 years younger than her boyfriend, Mike. If Mike is 24 years old, how old is Jeff?",
+    "answer": "30",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "<answer>30</answer>",
+      "input_tokens": 122,
+      "output_tokens": 42,
+      "total_tokens": 164,
+      "reasoning_tokens": 33,
+      "calls": 1,
+      "latency_s": 1.3967903000302613,
+      "request_ids": [
+        "11a8bfe7ac314a24bb4880bab4f61e71"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "Mike is 24, so Martha is \\(24 - 4 = 20\\).  \nJeff is \\(20 + 10 = 30\\).\n\n<answer>30</answer>",
+      "input_tokens": 122,
+      "output_tokens": 88,
+      "total_tokens": 210,
+      "reasoning_tokens": 50,
+      "calls": 1,
+      "latency_s": 0.7371580998878926,
+      "request_ids": [
+        "560f54d57cbf4f298f4935c812e602be"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "Mike is 24; Martha is 24 − 4 = 20; Jeff is 20 + 10 = 30. The proposed solution is correct.\n\n<answer>30</answer>",
+      "input_tokens": 320,
+      "output_tokens": 190,
+      "total_tokens": 510,
+      "reasoning_tokens": 110,
+      "calls": 2,
+      "latency_s": 1.6572824998293072,
+      "request_ids": [
+        "560f54d57cbf4f298f4935c812e602be",
+        "98f506a3af4c4dc1bcb026e30d317a7a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

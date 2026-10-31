@@ -1,0 +1,13 @@
+{
+  "outside_main_ledger": true,
+  "purpose": "initial connectivity probe before experiment",
+  "attempts": 1,
+  "successes": 1,
+  "input_tokens": 45,
+  "output_tokens": 33,
+  "total_tokens": 78,
+  "response": "<answer>5</answer>",
+  "main_ledger_attempts": 938,
+  "combined_attempts": 939,
+  "authorization_approximate_request_cap": 1000
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-e0a83c66032dbe1bcb8fa7e1c5d38c62bc530d9fe74632cc9564d5aabdfaef02",
+    "question": "Lena has 16 candy bars. She needs 5 more candy bars to have 3 times as many as Kevin, and Kevin has 4 candy bars less than Nicole. How many more candy bars does Lena have than Nicole?",
+    "answer": "5",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "<answer>5</answer>",
+      "input_tokens": 125,
+      "output_tokens": 122,
+      "total_tokens": 247,
+      "reasoning_tokens": 113,
+      "calls": 1,
+      "latency_s": 0.7662496999837458,
+      "request_ids": [
+        "daab733363934caba3f80b6ab9afe338"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Lena has 16 candy bars.  \nWith 5 more, she would have \\(16+5=21\\), which is 3 times Kevin’s amount:  \n\\(3K=21 \\Rightarrow K=7\\).\n\nKevin has 4 fewer than Nicole:  \n\\(N=7+4=11\\).\n\nLena has \\(16-11=5\\) more candy bars than Nicole.\n\n<answer>5</answer>",
+      "input_tokens": 125,
+      "output_tokens": 225,
+      "total_tokens": 350,
+      "reasoning_tokens": 136,
+      "calls": 1,
+      "latency_s": 1.1514487999957055,
+      "request_ids": [
+        "280aaaabecbe40dab15fc38197208c0f"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Verification: \\(16+5=21=3K\\), so \\(K=7\\). Nicole has \\(7+4=11\\). Lena has \\(16-11=5\\) more than Nicole. The interpretation and arithmetic are correct.\n\n<answer>5</answer>",
+      "input_tokens": 377,
+      "output_tokens": 433,
+      "total_tokens": 810,
+      "reasoning_tokens": 287,
+      "calls": 2,
+      "latency_s": 2.3160586000885814,
+      "request_ids": [
+        "280aaaabecbe40dab15fc38197208c0f",
+        "2db70a9b76154334ba99b8db1c79f106"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

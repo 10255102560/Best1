@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-14aaa623956df882205744119795092a847c0a7e66781136e2eac4c5029b9a5e",
+    "question": "A loaf of bread has 24 slices. If Abby can eat 2 slices a day while Josh can eat twice as much, how many days will the loaf of bread last?",
+    "answer": "4",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "<answer>4</answer>",
+      "input_tokens": 114,
+      "output_tokens": 47,
+      "total_tokens": 161,
+      "reasoning_tokens": 38,
+      "calls": 1,
+      "latency_s": 0.828741499921307,
+      "request_ids": [
+        "dc3cce63ee4e4e7ea08ca1d03abb5f59"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "Abby eats 2 slices/day.  \nJosh eats twice as much: \\(2 \\times 2 = 4\\) slices/day.  \nTogether: \\(2 + 4 = 6\\) slices/day.  \nThe loaf lasts: \\(24 \\div 6 = 4\\) days.\n\n<answer>4</answer>",
+      "input_tokens": 114,
+      "output_tokens": 112,
+      "total_tokens": 226,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 4.591746299993247,
+      "request_ids": [
+        "274873e3fdda421092a97f5057a50f5e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "Verified: Josh eats \\(2 \\times 2 = 4\\) slices/day. Together they eat \\(2+4=6\\) slices/day. \\(24 \\div 6 = 4\\) days.\n\n<answer>4</answer>",
+      "input_tokens": 335,
+      "output_tokens": 245,
+      "total_tokens": 580,
+      "reasoning_tokens": 125,
+      "calls": 2,
+      "latency_s": 6.275615000165999,
+      "request_ids": [
+        "274873e3fdda421092a97f5057a50f5e",
+        "39d80e0b7176401fb480d8720624e244"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-bbdc88587646a7a3068a3d123460a777561cfa9a71534567b74fe2250094ac93",
+    "question": "The red car is 40% cheaper than the blue car. The price of the blue car is $100. How much do both cars cost?",
+    "answer": "160",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "160",
+      "text": "<answer>160</answer>",
+      "input_tokens": 108,
+      "output_tokens": 58,
+      "total_tokens": 166,
+      "reasoning_tokens": 49,
+      "calls": 1,
+      "latency_s": 0.569164700107649,
+      "request_ids": [
+        "7458c6a16634492bbb102a85b2329732"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "160",
+      "text": "Blue car = $100  \nRed car = 100 × (1 − 0.40) = 100 × 0.60 = $60  \nTotal = 100 + 60 = 160\n\n<answer>160</answer>",
+      "input_tokens": 108,
+      "output_tokens": 112,
+      "total_tokens": 220,
+      "reasoning_tokens": 60,
+      "calls": 1,
+      "latency_s": 0.9040749999694526,
+      "request_ids": [
+        "015c4d6c21ba40d5939eaf80f07b817c"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "160",
+      "text": "Blue car = $100. Red car is 40% cheaper: 100 × 0.60 = $60. Total = 100 + 60 = 160. The proposed solution is correct.\n\n<answer>160</answer>",
+      "input_tokens": 306,
+      "output_tokens": 221,
+      "total_tokens": 527,
+      "reasoning_tokens": 118,
+      "calls": 2,
+      "latency_s": 1.7740225000306964,
+      "request_ids": [
+        "015c4d6c21ba40d5939eaf80f07b817c",
+        "72fcbfacfc784e95a88cea6df2050647"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

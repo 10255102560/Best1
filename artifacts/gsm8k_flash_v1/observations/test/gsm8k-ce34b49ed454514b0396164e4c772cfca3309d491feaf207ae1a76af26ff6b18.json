@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ce34b49ed454514b0396164e4c772cfca3309d491feaf207ae1a76af26ff6b18",
+    "question": "In a student council election, candidate A got 20% of the votes while candidate B got 50% more than candidate A's votes. The rest of the votes was given to candidate C. If there were 100 voters, how many votes did candidate C get?",
+    "answer": "50",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "<answer>50</answer>",
+      "input_tokens": 133,
+      "output_tokens": 70,
+      "total_tokens": 203,
+      "reasoning_tokens": 61,
+      "calls": 1,
+      "latency_s": 0.5706126999575645,
+      "request_ids": [
+        "a61dbc6310ee4b9d80e82346f890761b"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "Candidate A: \\(20\\%\\) of 100 = 20 votes.  \nCandidate B: \\(50\\%\\) more than A = \\(20 \\times 1.5 = 30\\) votes.  \nCandidate C: \\(100 - 20 - 30 = 50\\) votes.\n\n<answer>50</answer>",
+      "input_tokens": 133,
+      "output_tokens": 128,
+      "total_tokens": 261,
+      "reasoning_tokens": 62,
+      "calls": 1,
+      "latency_s": 0.8297967000398785,
+      "request_ids": [
+        "1a6a4f313e8845db9d6287fb3d153f48"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "A: 20% of 100 = 20 votes.  \nB: 50% more than A = 20 × 1.5 = 30 votes.  \nC: 100 − 20 − 30 = 50 votes.  \nThe interpretation and arithmetic are correct.\n\n<answer>50</answer>",
+      "input_tokens": 370,
+      "output_tokens": 295,
+      "total_tokens": 665,
+      "reasoning_tokens": 161,
+      "calls": 2,
+      "latency_s": 1.7864545001648366,
+      "request_ids": [
+        "1a6a4f313e8845db9d6287fb3d153f48",
+        "25edccc1d2f34e96b00d3eac82f3b007"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

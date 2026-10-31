@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-33124e6d03181e4b1aca64cc55c53c21e3de8defa96d0119f98d78df31764348",
+    "question": "Ben bought a car for $20000 in 2007. The price of the car depreciates at a constant rate of 21% per year. Find the price of the car in the year 2010.",
+    "answer": "7400",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 0,
+      "prediction": "9860.78",
+      "text": "<answer>9860.78</answer>",
+      "input_tokens": 122,
+      "output_tokens": 185,
+      "total_tokens": 307,
+      "reasoning_tokens": 173,
+      "calls": 1,
+      "latency_s": 1.6439967998303473,
+      "request_ids": [
+        "bff714421fdc4de0afd6677b470b2744"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 0,
+      "prediction": "9860.78",
+      "text": "Depreciation factor per year: \\(1 - 0.21 = 0.79\\)\n\nFrom 2007 to 2010 is 3 years:\n\\[\n20000 \\times 0.79^3 = 20000 \\times 0.493039 = 9860.78\n\\]\n\n<answer>9860.78</answer>",
+      "input_tokens": 122,
+      "output_tokens": 281,
+      "total_tokens": 403,
+      "reasoning_tokens": 206,
+      "calls": 1,
+      "latency_s": 1.6513302000239491,
+      "request_ids": [
+        "4035cae6382344338c2154fd3a71cfd8"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 0,
+      "prediction": "9860.78",
+      "text": "The interpretation and arithmetic are correct: 3 years of depreciation at 21% per year gives \\(20000(0.79)^3 = 9860.78\\).\n\n<answer>9860.78</answer>",
+      "input_tokens": 357,
+      "output_tokens": 443,
+      "total_tokens": 800,
+      "reasoning_tokens": 321,
+      "calls": 2,
+      "latency_s": 2.8224190999753773,
+      "request_ids": [
+        "4035cae6382344338c2154fd3a71cfd8",
+        "3f252a7ffcc14049ac2c2cb736909428"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

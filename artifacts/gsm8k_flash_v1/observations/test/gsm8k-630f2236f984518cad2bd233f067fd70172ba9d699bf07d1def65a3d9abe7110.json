@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-630f2236f984518cad2bd233f067fd70172ba9d699bf07d1def65a3d9abe7110",
+    "question": "A magazine costs half as much as a book. The book costs $4. A pen costs $1 less than a magazine. How much is the pen?",
+    "answer": "1",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "1",
+      "text": "<answer>1</answer>",
+      "input_tokens": 110,
+      "output_tokens": 49,
+      "total_tokens": 159,
+      "reasoning_tokens": 40,
+      "calls": 1,
+      "latency_s": 0.7869971001055092,
+      "request_ids": [
+        "499b148b18a34a3aa7d222c579633a1f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "1",
+      "text": "The book costs $4, so the magazine costs half: $2.  \nThe pen costs $1 less than the magazine: $2 − $1 = $1.\n\n<answer>1</answer>",
+      "input_tokens": 110,
+      "output_tokens": 87,
+      "total_tokens": 197,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 0.6932959000114352,
+      "request_ids": [
+        "c19d71f75b554a488f5eeb9a571d1f2f"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "1",
+      "text": "The magazine costs $4 ÷ 2 = $2. The pen costs $2 − $1 = $1. The proposed solution is correct.\n\n<answer>1</answer>",
+      "input_tokens": 302,
+      "output_tokens": 188,
+      "total_tokens": 490,
+      "reasoning_tokens": 105,
+      "calls": 2,
+      "latency_s": 1.454242599895224,
+      "request_ids": [
+        "c19d71f75b554a488f5eeb9a571d1f2f",
+        "a0fcfa09804b4b4b9f5056362a01eab4"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

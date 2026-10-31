@@ -54,6 +54,50 @@ def _comparison_line(label: str, result: dict[str, Any], metric: str, scale: flo
     )
 
 
+def _main_findings(summary: dict[str, Any]) -> list[str]:
+    metrics = summary.get("metrics", {})
+    initial = metrics.get("initial_reason")
+    learned = metrics.get("learned")
+    best = metrics.get("best_fixed")
+    if not initial or not learned or not best or initial["mean_tokens"] <= 0:
+        return []
+    n = summary.get("config", {}).get("test_size", 0)
+    count = lambda item: f"{round(item['accuracy'] * n)}/{n}" if n else f"{100 * item['accuracy']:.2f}%"
+    token_change = 100 * (learned["mean_tokens"] / initial["mean_tokens"] - 1)
+    best_change = 100 * (best["mean_tokens"] / initial["mean_tokens"] - 1)
+    lines = [
+        "**主结果：** 学习调度器与初始分步推理在独立测试集上的正确题数分别为 "
+        f"**{count(learned)}、{count(initial)}**；平均 token 从 "
+        f"**{initial['mean_tokens']:.2f} 变为 {learned['mean_tokens']:.2f}（{token_change:+.2f}%）**。",
+        "",
+        f"验证集事先选中的最佳固定策略 `{_markdown(summary.get('best_fixed_strategy', '未记录'))}` "
+        f"答对 **{count(best)}**，平均仅用 **{best['mean_tokens']:.2f} token**，"
+        f"相对初始策略变化 **{best_change:+.2f}%**。"
+        "梯度方法的增益必须同时与这一简单基线比较，不能只比较初始策略。",
+        "",
+    ]
+    accuracy_difference = summary.get("comparisons", {}).get("vs_best_fixed", {}).get("accuracy_difference")
+    if accuracy_difference and accuracy_difference["ci95"][0] <= 0 <= accuracy_difference["ci95"][1]:
+        lines += [
+            "学习调度器与最佳固定策略的准确率差区间包含 0；"
+            "即使最佳固定策略多答对了题目，也不能据此声称准确率显著提升。"
+            "准确率证据与 token／效用证据应分别解释。",
+            "",
+        ]
+    oracle = metrics.get("oracle")
+    if oracle and best["mean_tokens"] > 0 and math.isclose(oracle["accuracy"], best["accuracy"]):
+        extra_tokens = best["mean_tokens"] - oracle["mean_tokens"]
+        if extra_tokens >= 0:
+            lines += [
+                f"**路由空间诊断：** 使用测试标签的 oracle 与最佳固定策略正确率相同，"
+                f"仅再节省 **{extra_tokens:.4f} token/题（{100 * extra_tokens / best['mean_tokens']:.2f}%）**。"
+                "这说明在本批题目、已采集的三条策略及当前效用权重下，精细路由超过固定选择的可用空间很小；"
+                "oracle 不能部署，这一诊断也不能外推到其他模型或任务。",
+                "",
+            ]
+    return lines
+
+
 def _svg(metrics: dict[str, dict[str, Any]], run_name: str) -> str:
     keys = [key for key in _ENGLISH_LABELS if key in metrics]
     height = 150 + 49 * len(keys)
@@ -118,6 +162,7 @@ def write_report(summary: dict[str, Any], output_dir: str | Path) -> dict[str, s
         "循环包括收集训练反馈、更新候选调度器、验证集选择和保留或回退。"
         "这是参数化 harness 的受限自我改进，不代表任意代码递归修改或通用能力持续增长。",
         "",
+        *_main_findings(summary),
         "## 实验设置",
         "",
         f"- 数据集：`{_markdown(config.get('dataset', '未记录'))}`；模型：`{_markdown(config.get('model', '未记录'))}`。",
@@ -153,7 +198,7 @@ def write_report(summary: dict[str, Any], output_dir: str | Path) -> dict[str, s
         if lower > 0:
             verdict = "相对验证集选出的最佳固定策略，效用差的 95% 配对 bootstrap 区间下界大于 0，支持在本测试分布和成本权重下取得效用提升。"
         elif upper < 0:
-            verdict = "相对验证集选出的最佳固定策略，效用差的 95% 配对 bootstrap 区间上界小于 0；当前调度器表现更差，不能宣称自我改进成功。"
+            verdict = "相对验证集选出的最佳固定策略，效用差的 95% 配对 bootstrap 区间上界小于 0；当前调度器劣于最佳固定策略，不能宣称梯度路由优于简单固定选择。"
         else:
             verdict = "相对验证集选出的最佳固定策略，效用差的 95% 配对 bootstrap 区间包含 0，尚不足以证明调度器取得稳定收益。"
     else:

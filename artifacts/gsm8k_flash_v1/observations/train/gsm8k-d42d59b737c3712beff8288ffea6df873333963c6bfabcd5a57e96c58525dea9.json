@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-d42d59b737c3712beff8288ffea6df873333963c6bfabcd5a57e96c58525dea9",
+    "question": "James turned 23 the same time John turned 35.  Tim is 5 years less than twice John's age.  If Tim is 79 how old is James?",
+    "answer": "25",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 0,
+      "prediction": "30",
+      "text": "<answer>30</answer>",
+      "input_tokens": 114,
+      "output_tokens": 101,
+      "total_tokens": 215,
+      "reasoning_tokens": 92,
+      "calls": 1,
+      "latency_s": 0.8005512000527233,
+      "request_ids": [
+        "4241656998b74f77a84932a65bc52eba"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 0,
+      "prediction": "30",
+      "text": "Tim is 5 less than twice John's age:\n\n\\(79 = 2J - 5\\)\n\n\\(2J = 84 \\Rightarrow J = 42\\)\n\nJames is 12 years younger than John because when James was 23, John was 35:\n\n\\(42 - 12 = 30\\)\n\n<answer>30</answer>",
+      "input_tokens": 114,
+      "output_tokens": 175,
+      "total_tokens": 289,
+      "reasoning_tokens": 103,
+      "calls": 1,
+      "latency_s": 1.3145745999645442,
+      "request_ids": [
+        "002e9cd6c9074979925ff3e72851e282"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 0,
+      "prediction": "30",
+      "text": "Tim: \\(79 = 2J - 5 \\Rightarrow J = 42\\).  \nJohn is 12 years older than James, so James is \\(42 - 12 = 30\\).\n\n<answer>30</answer>",
+      "input_tokens": 338,
+      "output_tokens": 315,
+      "total_tokens": 653,
+      "reasoning_tokens": 194,
+      "calls": 2,
+      "latency_s": 2.2221602997742593,
+      "request_ids": [
+        "002e9cd6c9074979925ff3e72851e282",
+        "285066993c8747508c46dcb8c0b46a00"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

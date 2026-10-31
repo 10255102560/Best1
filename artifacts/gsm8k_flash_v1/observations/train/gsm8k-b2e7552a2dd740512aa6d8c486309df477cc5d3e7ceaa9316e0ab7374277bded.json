@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-b2e7552a2dd740512aa6d8c486309df477cc5d3e7ceaa9316e0ab7374277bded",
+    "question": "Ben has 8 apples more than Phillip does. Tom has three eighths as many apples at Ben has. If Phillip has 40 apples, how many apples does Tom have?",
+    "answer": "18",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "18",
+      "text": "<answer>18</answer>",
+      "input_tokens": 115,
+      "output_tokens": 58,
+      "total_tokens": 173,
+      "reasoning_tokens": 49,
+      "calls": 1,
+      "latency_s": 0.6169143000151962,
+      "request_ids": [
+        "16ac1b3aabfb4ca097a8fa582663ab3f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "18",
+      "text": "Phillip has 40 apples.  \nBen has \\(40 + 8 = 48\\) apples.  \nTom has \\(\\frac{3}{8} \\times 48 = 18\\) apples.\n\n<answer>18</answer>",
+      "input_tokens": 115,
+      "output_tokens": 115,
+      "total_tokens": 230,
+      "reasoning_tokens": 65,
+      "calls": 1,
+      "latency_s": 1.2780967000871897,
+      "request_ids": [
+        "a947df006a724126a598f01c47b02edf"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "18",
+      "text": "Phillip = 40; Ben = 40 + 8 = 48; Tom = (3/8) × 48 = 18. The proposed solution is correct.\n\n<answer>18</answer>",
+      "input_tokens": 318,
+      "output_tokens": 231,
+      "total_tokens": 549,
+      "reasoning_tokens": 135,
+      "calls": 2,
+      "latency_s": 2.211539400042966,
+      "request_ids": [
+        "a947df006a724126a598f01c47b02edf",
+        "a2479b71fcd74129a307a2e532d8e0ea"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

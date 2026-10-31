@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-8022fe598578e027d9e2b1aae31b808331365d3e90e751712c7398f0aad30411",
+    "question": "Marty has 100 centimeters of ribbon that he must cut into 4 equal parts. Each of the cut parts must be divided into 5 equal parts. How long will each final cut be?",
+    "answer": "5",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "<answer>5</answer>",
+      "input_tokens": 118,
+      "output_tokens": 62,
+      "total_tokens": 180,
+      "reasoning_tokens": 53,
+      "calls": 1,
+      "latency_s": 0.6943260000552982,
+      "request_ids": [
+        "f0ba336de5b74e59b141241107f567d8"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "100 centimeters cut into 4 equal parts: \\(100 \\div 4 = 25\\) cm each.\n\nEach 25 cm part divided into 5 equal parts: \\(25 \\div 5 = 5\\) cm.\n\n<answer>5</answer>",
+      "input_tokens": 118,
+      "output_tokens": 103,
+      "total_tokens": 221,
+      "reasoning_tokens": 48,
+      "calls": 1,
+      "latency_s": 0.7659143002238125,
+      "request_ids": [
+        "9540f3f6d4964e80a425b3914302544e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "The interpretation and arithmetic are correct: \\(100 \\div 4 = 25\\), then \\(25 \\div 5 = 5\\) cm per final cut.\n\n<answer>5</answer>",
+      "input_tokens": 329,
+      "output_tokens": 209,
+      "total_tokens": 538,
+      "reasoning_tokens": 112,
+      "calls": 2,
+      "latency_s": 1.6810418001841754,
+      "request_ids": [
+        "9540f3f6d4964e80a425b3914302544e",
+        "0c2e686c62ab4de1aeec5873d165d0a7"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

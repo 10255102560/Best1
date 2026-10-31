@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-2e86e88d07ed8afdc49bc4264097408cb3f31092110f6ee39068617968060b11",
+    "question": "A marketing company pays its employees on a commission-based salary system. If you sell goods worth $1000, you earn a 30% commission. Sales over $1000 get you an additional 10% commission. Calculate the amount of money Antonella earned if she sold goods worth $2500.",
+    "answer": "450",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 0,
+      "prediction": "900",
+      "text": "<answer>900</answer>",
+      "input_tokens": 139,
+      "output_tokens": 736,
+      "total_tokens": 875,
+      "reasoning_tokens": 727,
+      "calls": 1,
+      "latency_s": 3.097002799855545,
+      "request_ids": [
+        "11ce905e5019494f9b0bd60ecf6e87c7"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 0,
+      "prediction": "900",
+      "text": "First $1000 commission: \\(1000 \\times 30\\% = 300\\)\n\nSales over $1000: \\(2500 - 1000 = 1500\\)\n\nAdditional commission on excess: \\(1500 \\times 10\\% = 150\\)\n\nBase commission on all sales: \\(2500 \\times 30\\% = 750\\)\n\nTotal earned: \\(750 + 150 = 900\\)\n\n<answer>900</answer>",
+      "input_tokens": 139,
+      "output_tokens": 395,
+      "total_tokens": 534,
+      "reasoning_tokens": 303,
+      "calls": 1,
+      "latency_s": 2.114043700043112,
+      "request_ids": [
+        "f038cb76f0f24ecf8c25b2195cfb21e3"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 0,
+      "prediction": "900",
+      "text": "The intended commission is 30% on all sales plus an additional 10% on sales over $1000:  \n\\(2500 \\times 0.30 = 750\\)  \n\\((2500 - 1000) \\times 0.10 = 150\\)  \nTotal: \\(750 + 150 = 900\\).  \nThe proposed solution’s extra “first $1000” line is redundant, but the final result is correct.\n\n<answer>900</answer>",
+      "input_tokens": 408,
+      "output_tokens": 2421,
+      "total_tokens": 2829,
+      "reasoning_tokens": 2228,
+      "calls": 2,
+      "latency_s": 10.543934300076216,
+      "request_ids": [
+        "f038cb76f0f24ecf8c25b2195cfb21e3",
+        "fd048969d72e4905b8155f980363d623"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

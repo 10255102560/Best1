@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7b832d3662e74e6707243ad93c7fcbd828241caf6c9cc09c27af1e05a0231af0",
+    "question": "Dennis uses 1 pound of butter for every dozen croissants that he makes.  He needs to make 6 dozen croissants.  The grocery store currently has a promotion for buy one pound of butter get one half off.  If the butter costs $4.00 a pound, how much will it cost him to purchase 6 pounds of butter?",
+    "answer": "18",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "18",
+      "text": "<answer>18</answer>",
+      "input_tokens": 153,
+      "output_tokens": 98,
+      "total_tokens": 251,
+      "reasoning_tokens": 89,
+      "calls": 1,
+      "latency_s": 1.0083720998372883,
+      "request_ids": [
+        "2e90b8d380ac4b4ca152f60ab9a73c2c"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "18",
+      "text": "Dennis needs 6 pounds of butter.\n\nPromotion: buy 1 pound at $4.00, get the next pound for half price ($2.00).  \nEach pair costs $4.00 + $2.00 = $6.00.\n\n6 pounds = 3 pairs, so:\n3 × $6.00 = $18.00\n\n<answer>18</answer>",
+      "input_tokens": 153,
+      "output_tokens": 171,
+      "total_tokens": 324,
+      "reasoning_tokens": 88,
+      "calls": 1,
+      "latency_s": 1.0454287000466138,
+      "request_ids": [
+        "8a7a9cb7817645b3ab0ff702286d7189"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "18",
+      "text": "Verification: 6 dozen croissants require 6 pounds of butter. With buy-one-get-one-half-off, 6 pounds form 3 pairs. Each pair costs $4.00 + $2.00 = $6.00, so 3 × $6.00 = $18.00. The proposed solution is correct.\n\n<answer>18</answer>",
+      "input_tokens": 427,
+      "output_tokens": 357,
+      "total_tokens": 784,
+      "reasoning_tokens": 195,
+      "calls": 2,
+      "latency_s": 2.1307927002198994,
+      "request_ids": [
+        "8a7a9cb7817645b3ab0ff702286d7189",
+        "d283393bdcd248ecaa3811c98df3bb78"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-9277481de8a1017530754ea8d69be7e20fddbf3895ba339c4b325ad32c085326",
+    "question": "Four books are arranged on a shelf. The first book is 31 mm thick while the second book is 50 mm thick. The third book is 5 mm less thick than the second book, and the fourth book is twice as thick as the first book. What is the total thickness of the four books?",
+    "answer": "188",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "188",
+      "text": "<answer>188</answer>",
+      "input_tokens": 141,
+      "output_tokens": 60,
+      "total_tokens": 201,
+      "reasoning_tokens": 51,
+      "calls": 1,
+      "latency_s": 0.8052018000744283,
+      "request_ids": [
+        "4a20bc61feb847849583fc5c73a4a7a6"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "188",
+      "text": "First book: 31 mm  \nSecond book: 50 mm  \nThird book: 50 − 5 = 45 mm  \nFourth book: 2 × 31 = 62 mm  \n\nTotal: 31 + 50 + 45 + 62 = 188 mm\n\n<answer>188</answer>",
+      "input_tokens": 141,
+      "output_tokens": 127,
+      "total_tokens": 268,
+      "reasoning_tokens": 60,
+      "calls": 1,
+      "latency_s": 1.160474400036037,
+      "request_ids": [
+        "5f5d47778b0b494792a2727cd0587844"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "188",
+      "text": "The thicknesses are correctly interpreted: 31, 50, 45, and 62 mm. Their sum is 31 + 50 + 45 + 62 = 188 mm.\n\n<answer>188</answer>",
+      "input_tokens": 387,
+      "output_tokens": 218,
+      "total_tokens": 605,
+      "reasoning_tokens": 102,
+      "calls": 2,
+      "latency_s": 1.9927336999680847,
+      "request_ids": [
+        "5f5d47778b0b494792a2727cd0587844",
+        "1eee2b93a24f4b0a8c90e7b25ad0ee93"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

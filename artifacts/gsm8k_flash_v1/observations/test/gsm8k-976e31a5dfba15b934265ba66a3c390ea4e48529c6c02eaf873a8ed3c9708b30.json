@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-976e31a5dfba15b934265ba66a3c390ea4e48529c6c02eaf873a8ed3c9708b30",
+    "question": "Andrea has 8 more apples than Jamal and half as many bananas as Jamal. Jamal has 4 more bananas than apples. How many fruits are there if Andrea has 52 apples?",
+    "answer": "168",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "168",
+      "text": "<answer>168</answer>",
+      "input_tokens": 118,
+      "output_tokens": 167,
+      "total_tokens": 285,
+      "reasoning_tokens": 158,
+      "calls": 1,
+      "latency_s": 0.9649968999437988,
+      "request_ids": [
+        "289b040ab11140c4bb2411ff2c58aace"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "168",
+      "text": "Andrea apples = 52  \nJamal apples = 52 − 8 = 44  \nJamal bananas = 44 + 4 = 48  \nAndrea bananas = 48 ÷ 2 = 24  \n\nTotal fruits = 52 + 24 + 44 + 48 = 168\n\n<answer>168</answer>",
+      "input_tokens": 118,
+      "output_tokens": 217,
+      "total_tokens": 335,
+      "reasoning_tokens": 146,
+      "calls": 1,
+      "latency_s": 1.807727700099349,
+      "request_ids": [
+        "227405f0b0b344bf835e64dd77ca4fa2"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "168",
+      "text": "Andrea apples = 52, so Jamal apples = 52 − 8 = 44.  \nJamal bananas = 44 + 4 = 48, so Andrea bananas = 48 ÷ 2 = 24.  \nTotal fruits = 52 + 24 + 44 + 48 = 168. The proposed solution is correct.\n\n<answer>168</answer>",
+      "input_tokens": 345,
+      "output_tokens": 448,
+      "total_tokens": 793,
+      "reasoning_tokens": 296,
+      "calls": 2,
+      "latency_s": 3.5156847001053393,
+      "request_ids": [
+        "227405f0b0b344bf835e64dd77ca4fa2",
+        "1be9127acae44c90a077abc27139793c"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

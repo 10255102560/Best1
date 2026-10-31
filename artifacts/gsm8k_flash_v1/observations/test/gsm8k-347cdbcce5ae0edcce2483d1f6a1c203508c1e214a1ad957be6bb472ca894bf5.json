@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-347cdbcce5ae0edcce2483d1f6a1c203508c1e214a1ad957be6bb472ca894bf5",
+    "question": "Tim wanted to make lemonade for a pool party.  For a gallon of lemonade, his recipe called for 1 cup of fresh lemon juice.  He found that 6 lemons would yield 1 cup of juice.  He figured he would need to make 4 gallons of lemonade for the party.  His best friend Allen asked if Tim could make an extra gallon for him that was twice as tart as the other gallons.  How many lemons will Tim need?",
+    "answer": "36",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "36",
+      "text": "<answer>36</answer>",
+      "input_tokens": 177,
+      "output_tokens": 199,
+      "total_tokens": 376,
+      "reasoning_tokens": 190,
+      "calls": 1,
+      "latency_s": 2.0049076001159847,
+      "request_ids": [
+        "ba5a0358c98c44cc9fa7c18099235385"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "36",
+      "text": "4 regular gallons need \\(4 \\times 1 = 4\\) cups of juice.  \nThe extra gallon is twice as tart, so it needs \\(2\\) cups of juice.  \nTotal juice needed: \\(4 + 2 = 6\\) cups.  \nEach cup requires 6 lemons: \\(6 \\times 6 = 36\\).\n\n<answer>36</answer>",
+      "input_tokens": 177,
+      "output_tokens": 257,
+      "total_tokens": 434,
+      "reasoning_tokens": 176,
+      "calls": 1,
+      "latency_s": 2.5098133999854326,
+      "request_ids": [
+        "4f047f8638044ad2939dd5b4cd297344"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "36",
+      "text": "The interpretation and arithmetic are correct: 4 regular gallons need 4 cups, the extra twice-as-tart gallon needs 2 cups, totaling 6 cups. At 6 lemons per cup, Tim needs 36 lemons.\n\n<answer>36</answer>",
+      "input_tokens": 473,
+      "output_tokens": 415,
+      "total_tokens": 888,
+      "reasoning_tokens": 277,
+      "calls": 2,
+      "latency_s": 4.240853700088337,
+      "request_ids": [
+        "4f047f8638044ad2939dd5b4cd297344",
+        "717ccf440c274df2b7403f64edd526e9"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

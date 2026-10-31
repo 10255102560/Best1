@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0e2c0311365f518160dbc1740354d54e25c8e691a0afe2f24ea3411361caee1b",
+    "question": "While camping, Cyrus counted 14 mosquito bites on his arms and legs. He later counted another 10 on his body. While he was suffering, his entire family of 6 other people only got a total of half the number of bites that Cyrus got. If they all have an equal number of bites, how many mosquito bites does each member of the rest of Cyrus' family have?",
+    "answer": "2",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "<answer>2</answer>",
+      "input_tokens": 156,
+      "output_tokens": 105,
+      "total_tokens": 261,
+      "reasoning_tokens": 96,
+      "calls": 1,
+      "latency_s": 0.8221887999679893,
+      "request_ids": [
+        "873851101f20472e81f50ef7330b690d"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "Cyrus’s total bites: \\(14 + 10 = 24\\)\n\nThe rest of the family got half as many total: \\(24 \\div 2 = 12\\)\n\nThere are 6 other family members, so each got: \\(12 \\div 6 = 2\\)\n\n<answer>2</answer>",
+      "input_tokens": 156,
+      "output_tokens": 169,
+      "total_tokens": 325,
+      "reasoning_tokens": 101,
+      "calls": 1,
+      "latency_s": 1.2381898001767695,
+      "request_ids": [
+        "0cb234ec917d4dbdb01d905aefb1375f"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "Cyrus’s total: \\(14 + 10 = 24\\).  \nOther 6 people total: \\(24 \\div 2 = 12\\).  \nEach person: \\(12 \\div 6 = 2\\).  \nThe proposed solution is correct.\n\n<answer>2</answer>",
+      "input_tokens": 418,
+      "output_tokens": 314,
+      "total_tokens": 732,
+      "reasoning_tokens": 184,
+      "calls": 2,
+      "latency_s": 4.441107400227338,
+      "request_ids": [
+        "0cb234ec917d4dbdb01d905aefb1375f",
+        "844f442e4b314239b523f56d597b009a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

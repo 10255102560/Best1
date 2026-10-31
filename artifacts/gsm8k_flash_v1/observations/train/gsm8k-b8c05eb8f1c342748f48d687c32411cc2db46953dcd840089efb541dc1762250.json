@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-b8c05eb8f1c342748f48d687c32411cc2db46953dcd840089efb541dc1762250",
+    "question": "Bart makes a mixtape.  The first side has 6 songs.  The second side has 4 songs.  Each song is 4 minutes.  How long is the total tape?",
+    "answer": "40",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "40",
+      "text": "<answer>40</answer>",
+      "input_tokens": 119,
+      "output_tokens": 33,
+      "total_tokens": 152,
+      "reasoning_tokens": 24,
+      "calls": 1,
+      "latency_s": 0.49720590002834797,
+      "request_ids": [
+        "cdd4a65c8fa746178ed7e96c5eebfc0d"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "40",
+      "text": "The tape has \\(6 + 4 = 10\\) songs.  \nEach song is 4 minutes, so the total length is \\(10 \\times 4 = 40\\) minutes.\n\n<answer>40</answer>",
+      "input_tokens": 119,
+      "output_tokens": 84,
+      "total_tokens": 203,
+      "reasoning_tokens": 36,
+      "calls": 1,
+      "latency_s": 1.4004200000781566,
+      "request_ids": [
+        "3fbc4bb2a38f4ed8b19652fdccb52ddd"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "40",
+      "text": "Verified: \\(6+4=10\\) songs, and \\(10 \\times 4=40\\) minutes. The proposed solution is correct.\n\n<answer>40</answer>",
+      "input_tokens": 324,
+      "output_tokens": 197,
+      "total_tokens": 521,
+      "reasoning_tokens": 111,
+      "calls": 2,
+      "latency_s": 2.3583380999043584,
+      "request_ids": [
+        "3fbc4bb2a38f4ed8b19652fdccb52ddd",
+        "1eb12c64b1dd47d5a052765a19e8d99d"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

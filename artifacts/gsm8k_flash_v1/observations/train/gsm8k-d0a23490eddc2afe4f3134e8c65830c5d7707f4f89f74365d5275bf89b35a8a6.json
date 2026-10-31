@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-d0a23490eddc2afe4f3134e8c65830c5d7707f4f89f74365d5275bf89b35a8a6",
+    "question": "Stefan goes to a restaurant to eat dinner with his family. They order an appetizer that costs $10 and 4 entrees that are $20 each. If they tip 20% of the total for the waiter, what is the total amount of money that they spend at the restaurant?",
+    "answer": "108",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "108",
+      "text": "<answer>108</answer>",
+      "input_tokens": 138,
+      "output_tokens": 75,
+      "total_tokens": 213,
+      "reasoning_tokens": 66,
+      "calls": 1,
+      "latency_s": 0.9305660999380052,
+      "request_ids": [
+        "22f52650f86f440482a15589f97abdab"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "108",
+      "text": "Appetizer: $10  \nEntrees: 4 × $20 = $80  \nSubtotal: $10 + $80 = $90  \nTip: 20% × $90 = $18  \nTotal: $90 + $18 = $108\n\n<answer>108</answer>",
+      "input_tokens": 138,
+      "output_tokens": 134,
+      "total_tokens": 272,
+      "reasoning_tokens": 71,
+      "calls": 1,
+      "latency_s": 0.9113456001505256,
+      "request_ids": [
+        "24d0a705b8c8459cb8bd1172d233d5d1"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "108",
+      "text": "Verification: Subtotal = $10 + 4×$20 = $90. Tip = 20% of $90 = $18. Total = $90 + $18 = $108. The proposed solution is correct.\n\n<answer>108</answer>",
+      "input_tokens": 377,
+      "output_tokens": 284,
+      "total_tokens": 661,
+      "reasoning_tokens": 165,
+      "calls": 2,
+      "latency_s": 1.8624616002198309,
+      "request_ids": [
+        "24d0a705b8c8459cb8bd1172d233d5d1",
+        "ce892b224d314828bc1f5d483c54a1f6"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

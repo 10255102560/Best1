@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-b536c532b75503159107b3c0f795356aaca5523857967698fc2d7f64212e15c9",
+    "question": "Amber is trying to decide if she wants to spend her $7 on candy or chips. She decides to buy the thing that she can get the most of. The bags of candy cost $1 and contain 12 ounces each. The bags of chips are $1.40 and contain 17 ounces each. How many ounces does she get if she buys the item that gives her the most?",
+    "answer": "85",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "85",
+      "text": "<answer>85</answer>",
+      "input_tokens": 158,
+      "output_tokens": 114,
+      "total_tokens": 272,
+      "reasoning_tokens": 105,
+      "calls": 1,
+      "latency_s": 0.9424572999123484,
+      "request_ids": [
+        "af369756d9d343a2b932856e0c0689b8"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "85",
+      "text": "Candy: \\(7 \\div 1 = 7\\) bags, giving \\(7 \\times 12 = 84\\) ounces.\n\nChips: \\(7 \\div 1.40 = 5\\) bags, giving \\(5 \\times 17 = 85\\) ounces.\n\nChips give more, so she gets 85 ounces.\n\n<answer>85</answer>",
+      "input_tokens": 158,
+      "output_tokens": 222,
+      "total_tokens": 380,
+      "reasoning_tokens": 143,
+      "calls": 1,
+      "latency_s": 2.375557699939236,
+      "request_ids": [
+        "1c368f537135414386fb1fc07f802bbb"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "85",
+      "text": "Candy: \\(7 \\div 1 = 7\\) bags, \\(7 \\times 12 = 84\\) oz.  \nChips: \\(7 \\div 1.40 = 5\\) bags, \\(5 \\times 17 = 85\\) oz.  \nChips provide more, so the proposed solution is correct.\n\n<answer>85</answer>",
+      "input_tokens": 433,
+      "output_tokens": 612,
+      "total_tokens": 1045,
+      "reasoning_tokens": 454,
+      "calls": 2,
+      "latency_s": 5.611685999901965,
+      "request_ids": [
+        "1c368f537135414386fb1fc07f802bbb",
+        "2c38f375c81c4b7f9674ccadaa190f3b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

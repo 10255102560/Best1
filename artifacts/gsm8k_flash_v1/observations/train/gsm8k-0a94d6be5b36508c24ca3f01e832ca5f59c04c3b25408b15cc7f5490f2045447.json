@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0a94d6be5b36508c24ca3f01e832ca5f59c04c3b25408b15cc7f5490f2045447",
+    "question": "Abigail is trying a new recipe for a cold drink. It uses 1/4 of a cup of iced tea and 1 and 1/4 of a cup of lemonade to make one drink. If she fills a pitcher with 18 total cups of this drink, how many cups of lemonade are in the pitcher?",
+    "answer": "15",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "<answer>15</answer>",
+      "input_tokens": 147,
+      "output_tokens": 122,
+      "total_tokens": 269,
+      "reasoning_tokens": 113,
+      "calls": 1,
+      "latency_s": 0.7929283000994474,
+      "request_ids": [
+        "ace0f100b9b6467ba91854b628c32e83"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Each drink totals \\( \\frac14 + 1\\frac14 = 1\\frac12 = \\frac32 \\) cups.\n\nLemonade fraction: \\( \\frac{1\\frac14}{\\frac32} = \\frac{\\frac54}{\\frac32} = \\frac56 \\).\n\nFor 18 cups: \\(18 \\times \\frac56 = 15\\).\n\n<answer>15</answer>",
+      "input_tokens": 147,
+      "output_tokens": 181,
+      "total_tokens": 328,
+      "reasoning_tokens": 100,
+      "calls": 1,
+      "latency_s": 0.9936949000693858,
+      "request_ids": [
+        "b65b7beb34ea499da717aba1dc7b9ee0"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "The recipe makes \\(1/4 + 1\\frac14 = 1\\frac12\\) cups per drink, with lemonade fraction \\(\\frac{5/4}{3/2} = \\frac56\\). Thus \\(18 \\times \\frac56 = 15\\) cups of lemonade. The proposed solution is correct.\n\n<answer>15</answer>",
+      "input_tokens": 413,
+      "output_tokens": 369,
+      "total_tokens": 782,
+      "reasoning_tokens": 214,
+      "calls": 2,
+      "latency_s": 2.130660800030455,
+      "request_ids": [
+        "b65b7beb34ea499da717aba1dc7b9ee0",
+        "54d263b9e93a4172a4ae2174ae0cc578"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

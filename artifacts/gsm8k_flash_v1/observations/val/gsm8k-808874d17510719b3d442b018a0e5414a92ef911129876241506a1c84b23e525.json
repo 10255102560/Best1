@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-808874d17510719b3d442b018a0e5414a92ef911129876241506a1c84b23e525",
+    "question": "An apartment building has 12 floors and half of them are full. The remaining floors are all at half-capacity. If each floor has 10 apartments and each apartment has four people, how many people are in the building?",
+    "answer": "360",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "360",
+      "text": "<answer>360</answer>",
+      "input_tokens": 124,
+      "output_tokens": 101,
+      "total_tokens": 225,
+      "reasoning_tokens": 92,
+      "calls": 1,
+      "latency_s": 0.9162081000395119,
+      "request_ids": [
+        "f10458bf380a4570a7f6d1521703acfa"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "360",
+      "text": "6 floors are full: \\(6 \\times 10 \\times 4 = 240\\) people.  \n6 floors are at half-capacity: \\(6 \\times 10 \\times 4 \\times \\frac{1}{2} = 120\\) people.  \nTotal: \\(240 + 120 = 360\\).\n\n<answer>360</answer>",
+      "input_tokens": 124,
+      "output_tokens": 171,
+      "total_tokens": 295,
+      "reasoning_tokens": 95,
+      "calls": 1,
+      "latency_s": 0.904237899929285,
+      "request_ids": [
+        "3d89b239684244f1880c900239dfc2ee"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "360",
+      "text": "The interpretation and arithmetic are correct: 6 full floors hold \\(6 \\times 10 \\times 4 = 240\\) people. The other 6 floors at half-capacity hold \\(6 \\times 10 \\times 4 \\times \\frac12 = 120\\) people. Total: \\(240 + 120 = 360\\).\n\n<answer>360</answer>",
+      "input_tokens": 362,
+      "output_tokens": 384,
+      "total_tokens": 746,
+      "reasoning_tokens": 229,
+      "calls": 2,
+      "latency_s": 2.816082399804145,
+      "request_ids": [
+        "3d89b239684244f1880c900239dfc2ee",
+        "ff288a90b7b6456b83428786a950f086"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

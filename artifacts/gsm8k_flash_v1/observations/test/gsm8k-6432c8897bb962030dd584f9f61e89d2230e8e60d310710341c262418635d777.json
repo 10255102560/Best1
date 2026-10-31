@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-6432c8897bb962030dd584f9f61e89d2230e8e60d310710341c262418635d777",
+    "question": "John decides to get a loan by mortgaging his home.  His house is worth $250,000.  He gets a loan worth 40% of that.  He uses 60% of that to pay off his debts.  How much money did he have leftover after paying debt?",
+    "answer": "40000",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "40000",
+      "text": "<answer>40000</answer>",
+      "input_tokens": 138,
+      "output_tokens": 106,
+      "total_tokens": 244,
+      "reasoning_tokens": 96,
+      "calls": 1,
+      "latency_s": 0.8661917001008987,
+      "request_ids": [
+        "71921866ca224e8b8c65b4b1e5695cbf"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "40000",
+      "text": "House value: $250,000  \nLoan amount: 40% of $250,000 = $100,000  \nDebt payment: 60% of $100,000 = $60,000  \nLeftover: $100,000 − $60,000 = $40,000\n\n<answer>40000</answer>",
+      "input_tokens": 138,
+      "output_tokens": 160,
+      "total_tokens": 298,
+      "reasoning_tokens": 89,
+      "calls": 1,
+      "latency_s": 0.8881592999678105,
+      "request_ids": [
+        "b7be8957383248bd99f1caaf479a538c"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "40000",
+      "text": "Loan: 40% × 250,000 = 100,000.  \nDebt payment: 60% × 100,000 = 60,000.  \nLeftover: 100,000 − 60,000 = 40,000.  \nThe proposed solution is correct.\n\n<answer>40000</answer>",
+      "input_tokens": 385,
+      "output_tokens": 331,
+      "total_tokens": 716,
+      "reasoning_tokens": 189,
+      "calls": 2,
+      "latency_s": 2.2833879999816418,
+      "request_ids": [
+        "b7be8957383248bd99f1caaf479a538c",
+        "fca59214492a40f193ebb816332ea935"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

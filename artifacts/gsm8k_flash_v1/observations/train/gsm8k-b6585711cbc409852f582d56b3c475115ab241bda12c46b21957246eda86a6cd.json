@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-b6585711cbc409852f582d56b3c475115ab241bda12c46b21957246eda86a6cd",
+    "question": "Marie has 98 unread messages on her phone. She decides to clear them by reading 20 messages a day. However, she also gets 6 new messages a day. How many days will it take her to read all her unread messages?",
+    "answer": "7",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "7",
+      "text": "<answer>7</answer>",
+      "input_tokens": 129,
+      "output_tokens": 632,
+      "total_tokens": 761,
+      "reasoning_tokens": 623,
+      "calls": 1,
+      "latency_s": 3.581203900044784,
+      "request_ids": [
+        "81d4109507c14536bdf0fbd1f1b2e914"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "7",
+      "text": "Marie reduces her unread messages by \\(20 - 6 = 14\\) per day.\n\n\\[\n98 \\div 14 = 7\n\\]\n\n<answer>7</answer>",
+      "input_tokens": 129,
+      "output_tokens": 600,
+      "total_tokens": 729,
+      "reasoning_tokens": 560,
+      "calls": 1,
+      "latency_s": 2.928473599953577,
+      "request_ids": [
+        "2889fcbdeb3a4419af952a69c6f366e0"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "7",
+      "text": "Net reduction is \\(20-6=14\\) messages per day. \\(98 \\div 14=7\\). The proposed solution is correct.\n\n<answer>7</answer>",
+      "input_tokens": 336,
+      "output_tokens": 1165,
+      "total_tokens": 1501,
+      "reasoning_tokens": 1087,
+      "calls": 2,
+      "latency_s": 5.6259282999672,
+      "request_ids": [
+        "2889fcbdeb3a4419af952a69c6f366e0",
+        "ffc8adaca6d24d81a692b19f9b720d2f"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

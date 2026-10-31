@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-9dfc76cf6707a2946bd24f6446176e73a91829754d599a12e0ce4ef2b2e53b15",
+    "question": "Uncle Ben has four horses. Each horse can consume five pounds of oats per meal. He feeds his horses twice a day. If one bag contains 50-pounds of oats,  how many bags of oats does he need to fed his horses for five days?",
+    "answer": "4",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "<answer>4</answer>",
+      "input_tokens": 132,
+      "output_tokens": 61,
+      "total_tokens": 193,
+      "reasoning_tokens": 52,
+      "calls": 1,
+      "latency_s": 0.9287397000007331,
+      "request_ids": [
+        "2fc5298b74d74befb8ce22598a195b50"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "4 horses × 5 pounds = 20 pounds per meal  \n20 × 2 meals = 40 pounds per day  \n40 × 5 days = 200 pounds total  \n200 ÷ 50 = 4 bags  \n\n<answer>4</answer>",
+      "input_tokens": 132,
+      "output_tokens": 122,
+      "total_tokens": 254,
+      "reasoning_tokens": 68,
+      "calls": 1,
+      "latency_s": 0.922588000074029,
+      "request_ids": [
+        "4d4f9945a9b549c29fde683eb2919eea"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "Verification: 4 × 5 × 2 × 5 = 200 pounds total; 200 ÷ 50 = 4 bags. The proposed solution is correct.\n\n<answer>4</answer>",
+      "input_tokens": 356,
+      "output_tokens": 270,
+      "total_tokens": 626,
+      "reasoning_tokens": 171,
+      "calls": 2,
+      "latency_s": 2.1012642001733184,
+      "request_ids": [
+        "4d4f9945a9b549c29fde683eb2919eea",
+        "c4b91345aba04cb28365e779984dd7ca"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

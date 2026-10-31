@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-df7e67a952895583dfc94f905687418f03123f227dee5b2555f9eeb1fa73efd4",
+    "question": "Mason likes eating carrots. If he eats 4 carrots each on weekdays and 5 carrots each on Saturday and Sunday, how many carrots does he eat a week?",
+    "answer": "30",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "<answer>30</answer>",
+      "input_tokens": 113,
+      "output_tokens": 42,
+      "total_tokens": 155,
+      "reasoning_tokens": 33,
+      "calls": 1,
+      "latency_s": 0.7820784000214189,
+      "request_ids": [
+        "82c9f99697314fe4af5b6905528a7b4d"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "Mason eats \\(4 \\times 5 = 20\\) carrots on weekdays and \\(5 \\times 2 = 10\\) carrots on the weekend.\n\nTotal: \\(20 + 10 = 30\\)\n\n<answer>30</answer>",
+      "input_tokens": 113,
+      "output_tokens": 87,
+      "total_tokens": 200,
+      "reasoning_tokens": 34,
+      "calls": 1,
+      "latency_s": 0.7941604999359697,
+      "request_ids": [
+        "d28ff4344e0b4052aa6bb599b5a5c5e2"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "Verified: \\(5 \\times 4 = 20\\) weekday carrots, \\(2 \\times 5 = 10\\) weekend carrots, total \\(20 + 10 = 30\\).\n\n<answer>30</answer>",
+      "input_tokens": 317,
+      "output_tokens": 209,
+      "total_tokens": 526,
+      "reasoning_tokens": 109,
+      "calls": 2,
+      "latency_s": 2.915737699950114,
+      "request_ids": [
+        "d28ff4344e0b4052aa6bb599b5a5c5e2",
+        "77d7a3ed29ca4f9d8cb5304a75f52819"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

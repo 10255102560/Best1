@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-615ca15e98eeed057e3d9bbb81cf6a400869afaf62b67a05f8dcea0aaabc1b31",
+    "question": "When Sophie watches her nephew, she gets out a variety of toys for him. The bag of building blocks has 31 blocks in it. The bin of stuffed animals has 8 stuffed animals inside. The tower of stacking rings has 9 multicolored rings on it. Sophie recently bought a tube of bouncy balls, bringing her total number of toys for her nephew up to 62. How many bouncy balls came in the tube?",
+    "answer": "14",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "<answer>14</answer>",
+      "input_tokens": 169,
+      "output_tokens": 122,
+      "total_tokens": 291,
+      "reasoning_tokens": 113,
+      "calls": 1,
+      "latency_s": 0.8916972000151873,
+      "request_ids": [
+        "27d0f01f5b044fc19054627859d7212b"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "Existing toys: \\(31 + 8 + 9 = 48\\)\n\nBouncy balls: \\(62 - 48 = 14\\)\n\n<answer>14</answer>",
+      "input_tokens": 169,
+      "output_tokens": 152,
+      "total_tokens": 321,
+      "reasoning_tokens": 114,
+      "calls": 1,
+      "latency_s": 0.8948429001029581,
+      "request_ids": [
+        "2b4dff8b7f784f60812bb291ce0d03bf"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "Existing toys: \\(31+8+9=48\\). Bouncy balls: \\(62-48=14\\). The interpretation and arithmetic are correct.\n\n<answer>14</answer>",
+      "input_tokens": 414,
+      "output_tokens": 297,
+      "total_tokens": 711,
+      "reasoning_tokens": 219,
+      "calls": 2,
+      "latency_s": 1.891893699998036,
+      "request_ids": [
+        "2b4dff8b7f784f60812bb291ce0d03bf",
+        "f2e340a1a8094b85bc0e0e10e0b4f69c"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

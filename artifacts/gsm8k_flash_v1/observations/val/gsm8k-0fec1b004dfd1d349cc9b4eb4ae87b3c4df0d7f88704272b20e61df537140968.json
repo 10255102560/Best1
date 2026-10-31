@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0fec1b004dfd1d349cc9b4eb4ae87b3c4df0d7f88704272b20e61df537140968",
+    "question": "Randy had some money. Smith gave him another $200. Randy then gave Sally $1,200 and kept the rest. If Randy has $2000 left, how much money, in dollars, did Randy have at first?",
+    "answer": "3000",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "3000",
+      "text": "<answer>3000</answer>",
+      "input_tokens": 125,
+      "output_tokens": 64,
+      "total_tokens": 189,
+      "reasoning_tokens": 54,
+      "calls": 1,
+      "latency_s": 0.9080854998901486,
+      "request_ids": [
+        "21348071382b419a9c557b4bf039f4a3"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "3000",
+      "text": "Randy’s initial amount: \\(x\\)\n\nAfter receiving $200: \\(x + 200\\)\n\nAfter giving Sally $1,200, he has:\n\\[\nx + 200 - 1200 = 2000\n\\]\n\\[\nx - 1000 = 2000\n\\]\n\\[\nx = 3000\n\\]\n\n<answer>3000</answer>",
+      "input_tokens": 125,
+      "output_tokens": 138,
+      "total_tokens": 263,
+      "reasoning_tokens": 56,
+      "calls": 1,
+      "latency_s": 1.1965437999460846,
+      "request_ids": [
+        "a5d6a3083fe048269c95b77706f25f20"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "3000",
+      "text": "Verification: \\(x + 200 - 1200 = 2000\\), so \\(x - 1000 = 2000\\), giving \\(x = 3000\\). The interpretation and arithmetic are correct.\n\n<answer>3000</answer>",
+      "input_tokens": 370,
+      "output_tokens": 290,
+      "total_tokens": 660,
+      "reasoning_tokens": 154,
+      "calls": 2,
+      "latency_s": 2.2447011000476778,
+      "request_ids": [
+        "a5d6a3083fe048269c95b77706f25f20",
+        "0352b67c35024a6ba2fb3f03a898edc7"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-cb3ade818942190d8edfaad4989b65306d76bb40076a9232379b954781abfd31",
+    "question": "Sophia is thinking of taking a road trip in her car, and would like to know how far she can drive on a single tank of gas. She has traveled 100 miles since last filling her tank, and she needed to put in 4 gallons of gas to fill it up again. The owner's manual for her car says that her tank holds 12 gallons of gas. How many miles can Sophia drive on a single tank of gas?",
+    "answer": "300",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "300",
+      "text": "<answer>300</answer>",
+      "input_tokens": 168,
+      "output_tokens": 62,
+      "total_tokens": 230,
+      "reasoning_tokens": 53,
+      "calls": 1,
+      "latency_s": 0.8185493999626487,
+      "request_ids": [
+        "6fe191a97b564e0bb03b58c17329c64f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "300",
+      "text": "Sophia used 4 gallons to drive 100 miles, so her car gets:\n\n100 ÷ 4 = 25 miles per gallon\n\nWith a 12-gallon tank, she can drive:\n\n25 × 12 = 300 miles\n\n<answer>300</answer>",
+      "input_tokens": 168,
+      "output_tokens": 131,
+      "total_tokens": 299,
+      "reasoning_tokens": 73,
+      "calls": 1,
+      "latency_s": 0.8920758001040667,
+      "request_ids": [
+        "435cf92aaca2479994c8e7bcc74ac3e3"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "300",
+      "text": "Verification: 100 miles used 4 gallons, so fuel economy is 100 ÷ 4 = 25 mpg. A 12-gallon tank gives 25 × 12 = 300 miles. The interpretation and arithmetic are correct.\n\n<answer>300</answer>",
+      "input_tokens": 432,
+      "output_tokens": 283,
+      "total_tokens": 715,
+      "reasoning_tokens": 166,
+      "calls": 2,
+      "latency_s": 2.0572055000811815,
+      "request_ids": [
+        "435cf92aaca2479994c8e7bcc74ac3e3",
+        "0f63e0078d5c4a29bf9d44e445f9d718"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

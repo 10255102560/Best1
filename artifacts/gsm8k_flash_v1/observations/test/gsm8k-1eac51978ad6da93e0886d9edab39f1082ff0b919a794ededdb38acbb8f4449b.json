@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-1eac51978ad6da93e0886d9edab39f1082ff0b919a794ededdb38acbb8f4449b",
+    "question": "A factory used to make tractors, but now makes silos. When they made tractors, they sold 10 tractors a day and made $100 per tractor. Now, they sell 5 silos a day, and make $220 per silo. What percentage more are they making per day now?",
+    "answer": "10",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "<answer>10</answer>",
+      "input_tokens": 142,
+      "output_tokens": 70,
+      "total_tokens": 212,
+      "reasoning_tokens": 61,
+      "calls": 1,
+      "latency_s": 0.8017580001614988,
+      "request_ids": [
+        "f514daf80328402ea6c869c1e035b8b3"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "Old daily revenue: \\(10 \\times 100 = 1000\\)\n\nNew daily revenue: \\(5 \\times 220 = 1100\\)\n\nIncrease: \\(1100 - 1000 = 100\\)\n\nPercentage increase: \\(\\frac{100}{1000} \\times 100 = 10\\%\\)\n\n<answer>10</answer>",
+      "input_tokens": 142,
+      "output_tokens": 142,
+      "total_tokens": 284,
+      "reasoning_tokens": 71,
+      "calls": 1,
+      "latency_s": 1.6096510998904705,
+      "request_ids": [
+        "eaf4c5042ea4474fb50fb7e1230c0f0d"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "Old daily revenue: \\(10 \\times 100 = 1000\\).  \nNew daily revenue: \\(5 \\times 220 = 1100\\).  \nIncrease: \\(100\\), which is \\(100/1000 = 10\\%\\) more.\n\n<answer>10</answer>",
+      "input_tokens": 393,
+      "output_tokens": 263,
+      "total_tokens": 656,
+      "reasoning_tokens": 133,
+      "calls": 2,
+      "latency_s": 2.91065049986355,
+      "request_ids": [
+        "eaf4c5042ea4474fb50fb7e1230c0f0d",
+        "8df8b6dd2797445a9235a88df3da39a5"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

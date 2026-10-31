@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-8f2176df358c70a75121c82db44b64920c183e5bc374e59d7c3ea2c1aeaa51ed",
+    "question": "Aunt May milks her cows twice a day. This morning she got 365 gallons of milk. This evening she got 380 gallons. She sold 612 gallons to the local ice cream factory.  She had 15 gallons left over from yesterday.  How many gallons of milk does she have left?",
+    "answer": "148",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "148",
+      "text": "<answer>148</answer>",
+      "input_tokens": 141,
+      "output_tokens": 49,
+      "total_tokens": 190,
+      "reasoning_tokens": 40,
+      "calls": 1,
+      "latency_s": 0.7863202001899481,
+      "request_ids": [
+        "604f20f0f6694e2ab3483ffae07ecd90"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "148",
+      "text": "Morning + evening + leftover: 365 + 380 + 15 = 760 gallons.  \nAfter selling 612 gallons: 760 − 612 = 148 gallons.\n\n<answer>148</answer>",
+      "input_tokens": 141,
+      "output_tokens": 97,
+      "total_tokens": 238,
+      "reasoning_tokens": 52,
+      "calls": 1,
+      "latency_s": 0.9825804000720382,
+      "request_ids": [
+        "3de635425b62414db6ae363c969f816f"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "148",
+      "text": "The total milk available is 365 + 380 + 15 = 760 gallons. After selling 612 gallons, 760 − 612 = 148 gallons remain. The proposed solution is correct.\n\n<answer>148</answer>",
+      "input_tokens": 365,
+      "output_tokens": 226,
+      "total_tokens": 591,
+      "reasoning_tokens": 131,
+      "calls": 2,
+      "latency_s": 2.213250600034371,
+      "request_ids": [
+        "3de635425b62414db6ae363c969f816f",
+        "ac818bfc78314514a0e752aac060dbc2"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

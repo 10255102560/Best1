@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0e8a96e636ebc6111a725ae90f3fc21b9efb4a5acf180f27349f00aec09ea1ad",
+    "question": "Mary is writing a story, and wants her 60 characters to be split according to their initials. Half of her characters have the initial A, and half of this amount have the initial C. Mary wants the rest of her characters to have the initials D and E, but she wants there to be twice as many characters with the initial D as there are characters with the initial E. How many of Mary’s characters have the initial D?",
+    "answer": "10",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "<answer>10</answer>",
+      "input_tokens": 167,
+      "output_tokens": 91,
+      "total_tokens": 258,
+      "reasoning_tokens": 82,
+      "calls": 1,
+      "latency_s": 1.0202256999909878,
+      "request_ids": [
+        "6484b32767e14dd5a8483300a4c1f100"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "Half of 60 have initial A: \\(60 \\div 2 = 30\\).\n\nHalf of that amount have initial C: \\(30 \\div 2 = 15\\).\n\nRemaining characters for D and E: \\(60 - 30 - 15 = 15\\).\n\nLet E be \\(x\\), then D is \\(2x\\):\n\\[\nx + 2x = 15 \\Rightarrow 3x = 15 \\Rightarrow x = 5\n\\]\nSo D has \\(2x = 10\\).\n\n<answer>10</answer>",
+      "input_tokens": 167,
+      "output_tokens": 220,
+      "total_tokens": 387,
+      "reasoning_tokens": 104,
+      "calls": 1,
+      "latency_s": 3.218604999827221,
+      "request_ids": [
+        "081902a1a086469e8a1c5f6df99618a6"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "Verification: A = 30, C = 15, remaining D+E = 15. With D = 2E, 3E = 15, so E = 5 and D = 10. The proposed solution is correct.\n\n<answer>10</answer>",
+      "input_tokens": 488,
+      "output_tokens": 381,
+      "total_tokens": 869,
+      "reasoning_tokens": 204,
+      "calls": 2,
+      "latency_s": 4.436281899688765,
+      "request_ids": [
+        "081902a1a086469e8a1c5f6df99618a6",
+        "8281031bc5f14b8bb6761edc967d273e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

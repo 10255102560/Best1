@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-3764ef17fed6e87c8f90c19ee8cae5fa61614cf071d9eabe93e90a5169f9371a",
+    "question": "The great pyramids sit at an angle of 32 degrees from the ground when you stand at the entrance of Sahir's house. The sun is moving at 5 degrees an hour straight upward from the pyramid relative to Sahir's house. If the sun starts at the tip of the pyramid and moves for 10 hours, how many degrees will there be from the ground to the sun?",
+    "answer": "82",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "82",
+      "text": "<answer>82</answer>",
+      "input_tokens": 156,
+      "output_tokens": 138,
+      "total_tokens": 294,
+      "reasoning_tokens": 129,
+      "calls": 1,
+      "latency_s": 0.9537096000276506,
+      "request_ids": [
+        "307f3ae375f84a5591099ccdda4e50e7"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "82",
+      "text": "The pyramid tip is initially at \\(32^\\circ\\) from the ground.  \nThe sun rises \\(5^\\circ\\) per hour for 10 hours:\n\n\\[\n5 \\times 10 = 50^\\circ\n\\]\n\nTotal angle from the ground:\n\n\\[\n32 + 50 = 82^\\circ\n\\]\n\n<answer>82</answer>",
+      "input_tokens": 156,
+      "output_tokens": 231,
+      "total_tokens": 387,
+      "reasoning_tokens": 158,
+      "calls": 1,
+      "latency_s": 1.1363192000426352,
+      "request_ids": [
+        "c04efc4e8562415ea69a85697295187e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "82",
+      "text": "The initial angle to the pyramid tip is \\(32^\\circ\\). The sun rises \\(5^\\circ\\) per hour for 10 hours, adding \\(50^\\circ\\). Thus the final angle from the ground is \\(32 + 50 = 82^\\circ\\). The proposed solution is correct.\n\n<answer>82</answer>",
+      "input_tokens": 423,
+      "output_tokens": 504,
+      "total_tokens": 927,
+      "reasoning_tokens": 363,
+      "calls": 2,
+      "latency_s": 2.529332499951124,
+      "request_ids": [
+        "c04efc4e8562415ea69a85697295187e",
+        "36da643253df4624a71b40b22a5113b9"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

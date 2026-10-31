@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-99ebb60738f2ba49b3498d052d887d7df7553f7422dbd475c2b1c4912cc030dc",
+    "question": "If there are two pennies in each of the twelve compartments of Roshesmina's piggy bank and she adds 6 more pennies to each compartment, calculate the total number of pennies she has?",
+    "answer": "96",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "96",
+      "text": "<answer>96</answer>",
+      "input_tokens": 117,
+      "output_tokens": 64,
+      "total_tokens": 181,
+      "reasoning_tokens": 55,
+      "calls": 1,
+      "latency_s": 0.712577500147745,
+      "request_ids": [
+        "3a2138161b154940831fb00a785f9454"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "96",
+      "text": "There are 12 compartments.\n\nInitially: \\(12 \\times 2 = 24\\) pennies.  \nAdded: \\(12 \\times 6 = 72\\) pennies.  \nTotal: \\(24 + 72 = 96\\) pennies.\n\n<answer>96</answer>",
+      "input_tokens": 117,
+      "output_tokens": 117,
+      "total_tokens": 234,
+      "reasoning_tokens": 59,
+      "calls": 1,
+      "latency_s": 0.9039714999962598,
+      "request_ids": [
+        "7602eca23a8c4b76b87cbe67c2ff6c4c"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "96",
+      "text": "Interpretation and arithmetic are correct: each compartment ends with \\(2+6=8\\) pennies, and \\(12 \\times 8=96\\).\n\n<answer>96</answer>",
+      "input_tokens": 330,
+      "output_tokens": 248,
+      "total_tokens": 578,
+      "reasoning_tokens": 151,
+      "calls": 2,
+      "latency_s": 2.0535376998595893,
+      "request_ids": [
+        "7602eca23a8c4b76b87cbe67c2ff6c4c",
+        "59c642799d2d4681b09d18e90f943229"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

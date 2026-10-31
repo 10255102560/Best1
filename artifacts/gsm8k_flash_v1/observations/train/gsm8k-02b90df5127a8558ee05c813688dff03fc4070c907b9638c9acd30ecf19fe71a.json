@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-02b90df5127a8558ee05c813688dff03fc4070c907b9638c9acd30ecf19fe71a",
+    "question": "A convenience store sells 180  gallons of soda a week.  They buy syrup boxes that can make 30 gallons of soda, and each box costs $40.  How much do they pay for syrup a week?",
+    "answer": "240",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "240",
+      "text": "<answer>240</answer>",
+      "input_tokens": 123,
+      "output_tokens": 82,
+      "total_tokens": 205,
+      "reasoning_tokens": 73,
+      "calls": 1,
+      "latency_s": 0.722885699942708,
+      "request_ids": [
+        "9e0536b3d2324d5da57417c011c92778"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "240",
+      "text": "They need \\(180 \\div 30 = 6\\) boxes per week.  \nCost: \\(6 \\times 40 = 240\\).\n\n<answer>240</answer>",
+      "input_tokens": 123,
+      "output_tokens": 90,
+      "total_tokens": 213,
+      "reasoning_tokens": 52,
+      "calls": 1,
+      "latency_s": 0.9026140000205487,
+      "request_ids": [
+        "f92f9d48c3224f918c27ad73726a9fb7"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "240",
+      "text": "The store needs \\(180 \\div 30 = 6\\) boxes per week. At $40 per box, the weekly cost is \\(6 \\times 40 = 240\\). The proposed solution is correct.\n\n<answer>240</answer>",
+      "input_tokens": 322,
+      "output_tokens": 209,
+      "total_tokens": 531,
+      "reasoning_tokens": 119,
+      "calls": 2,
+      "latency_s": 1.7735361000522971,
+      "request_ids": [
+        "f92f9d48c3224f918c27ad73726a9fb7",
+        "ed54fb7141b347b88414441a2cb57ced"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

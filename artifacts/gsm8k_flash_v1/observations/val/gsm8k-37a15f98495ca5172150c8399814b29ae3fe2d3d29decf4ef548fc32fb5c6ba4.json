@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-37a15f98495ca5172150c8399814b29ae3fe2d3d29decf4ef548fc32fb5c6ba4",
+    "question": "A bathroom has 10 6 inch tiles along its width and 20 6 inch tiles along its length.  What is the square footage of the bathroom?",
+    "answer": "50",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "<answer>50</answer>",
+      "input_tokens": 111,
+      "output_tokens": 63,
+      "total_tokens": 174,
+      "reasoning_tokens": 54,
+      "calls": 1,
+      "latency_s": 0.7609246000647545,
+      "request_ids": [
+        "c1fb6b0f66ca4448a44fc72d7fdf1450"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "Each tile is 6 inches = 0.5 feet.\n\nWidth: \\(10 \\times 0.5 = 5\\) ft  \nLength: \\(20 \\times 0.5 = 10\\) ft  \nArea: \\(5 \\times 10 = 50\\) square feet\n\n<answer>50</answer>",
+      "input_tokens": 111,
+      "output_tokens": 132,
+      "total_tokens": 243,
+      "reasoning_tokens": 63,
+      "calls": 1,
+      "latency_s": 0.9206773999612778,
+      "request_ids": [
+        "d0693801c65a4bdcb263483926893c00"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "Verified: 10 × 0.5 = 5 ft wide; 20 × 0.5 = 10 ft long; area = 5 × 10 = 50 sq ft. The proposed solution is correct.\n\n<answer>50</answer>",
+      "input_tokens": 329,
+      "output_tokens": 274,
+      "total_tokens": 603,
+      "reasoning_tokens": 149,
+      "calls": 2,
+      "latency_s": 2.613819899968803,
+      "request_ids": [
+        "d0693801c65a4bdcb263483926893c00",
+        "671583fd087e4719884438e7097d7174"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,2178 @@
+[
+  {
+    "task_id": "gsm8k-0e5674e4d7115ea814703a118d31223ae6b0506c731a42e6966fb1f471723501",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "5",
+    "text": "Bethany: 10 laps  \nTrey: 10 + 4 = 14 laps  \nShaelyn: 14 ÷ 2 = 7 laps  \nQuinn: 7 − 2 = 5 laps  \nDifference: 10 − 5 = 5\n\n<answer>5</answer>",
+    "input_tokens": 143,
+    "output_tokens": 148,
+    "total_tokens": 291,
+    "reasoning_tokens": 82,
+    "calls": 1,
+    "latency_s": 0.8809563999529928,
+    "request_ids": [
+      "82f0ca2e2840473abb74b9a575d102ee"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-f369237c904ac50a012948e3cdb48e2b647d0a8dbe97f910f50ce5e27c6f269f",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "490",
+    "text": "George has 200 bananas.\n\nPears: \\(200 \\times 1.45 = 290\\)\n\nTotal fruits: \\(200 + 290 = 490\\)\n\n<answer>490</answer>",
+    "input_tokens": 103,
+    "output_tokens": 97,
+    "total_tokens": 200,
+    "reasoning_tokens": 55,
+    "calls": 1,
+    "latency_s": 0.8732956999447197,
+    "request_ids": [
+      "f3ca75db250a4439bd37de8b4c180917"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-8f14c99e512f47be6586053b235f9a71b15ce8f6a8da5ddc34fdd31f0868e6ab",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "225",
+    "text": "Amora and Lainey each got 70 chips.  \nCollins got 15 more than each of them: \\(70 + 15 = 85\\).  \nTotal: \\(70 + 70 + 85 = 225\\).\n\n<answer>225</answer>",
+    "input_tokens": 148,
+    "output_tokens": 168,
+    "total_tokens": 316,
+    "reasoning_tokens": 112,
+    "calls": 1,
+    "latency_s": 1.6927716999780387,
+    "request_ids": [
+      "d979bac1272e480fb7ea470ab8436cc0"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-17a31b91347c9a1d770b6d8e145169979de2a5a0e2fd649f5ad70dbd0d46a608",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "6",
+    "text": "Each ride costs \\(2 \\times \\$2 = \\$4\\).\n\nFor 9 rides with tickets: \\(9 \\times \\$4 = \\$36\\).\n\nDavid pays \\$30 for the bracelet, so he saves:\n\n\\[\n\\$36 - \\$30 = \\$6\n\\]\n\n<answer>6</answer>",
+    "input_tokens": 154,
+    "output_tokens": 168,
+    "total_tokens": 322,
+    "reasoning_tokens": 105,
+    "calls": 1,
+    "latency_s": 1.5765564998146147,
+    "request_ids": [
+      "874bdfaa43284f4a8ab8dedbaa73cb55"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-630f2236f984518cad2bd233f067fd70172ba9d699bf07d1def65a3d9abe7110",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "1",
+    "text": "The book costs $4, so the magazine costs half: $2.  \nThe pen costs $1 less than the magazine: $2 − $1 = $1.\n\n<answer>1</answer>",
+    "input_tokens": 110,
+    "output_tokens": 87,
+    "total_tokens": 197,
+    "reasoning_tokens": 43,
+    "calls": 1,
+    "latency_s": 0.6932959000114352,
+    "request_ids": [
+      "c19d71f75b554a488f5eeb9a571d1f2f"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-5f00ebb4858593f13433757d80c2678a6bb7541805438f9b090b0bc3d43c6d3d",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "2",
+    "text": "Total selling price = $80 × 1.25 = $100  \nPrice per watermelon = $100 ÷ 50 = $2\n\n<answer>2</answer>",
+    "input_tokens": 110,
+    "output_tokens": 83,
+    "total_tokens": 193,
+    "reasoning_tokens": 46,
+    "calls": 1,
+    "latency_s": 0.9023817998822778,
+    "request_ids": [
+      "9adc418110974756b9d024c11ea75d0c"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-f746ebf1df21f6f01b75082e21e4d07f9df647bbd066bc65f2e65c85917c12d7",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "14",
+    "text": "Leila: \\(3 \\times 2 = 6\\)  \nJack: \\(5 \\times 1 = 5\\)  \nChase: \\(1 \\times 3 = 3\\)  \n\nTotal: \\(6 + 5 + 3 = 14\\)\n\n<answer>14</answer>",
+    "input_tokens": 153,
+    "output_tokens": 121,
+    "total_tokens": 274,
+    "reasoning_tokens": 57,
+    "calls": 1,
+    "latency_s": 0.9196060998365283,
+    "request_ids": [
+      "27c6fd68fcfb4ea48b424f064888d92b"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-c29d9fd2eb045db17c1aa23f41bf26f9b8112da4aacf45f64f06fdb6380671da",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "1260",
+    "text": "John completes \\(30 \\times 5 = 150\\) tasks per day.  \nDaily pay: \\(150 \\times 1.20 = 180\\).  \nWeekly pay: \\(180 \\times 7 = 1260\\).\n\n<answer>1260</answer>",
+    "input_tokens": 121,
+    "output_tokens": 98,
+    "total_tokens": 219,
+    "reasoning_tokens": 41,
+    "calls": 1,
+    "latency_s": 0.8954480001702905,
+    "request_ids": [
+      "f0c0f06132bf4c04bd11ce81d040b076"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-f27e5d5bba412e5f53e9ff11c896655e125e5839bb2b45a22c63afb889f8c68c",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "80",
+    "text": "Let Brad get \\(x\\) dollars. Then Jeff gets \\(4x\\) dollars.\n\n\\[\nx + 4x = 100\n\\]\n\\[\n5x = 100 \\Rightarrow x = 20\n\\]\n\nJeff gets:\n\n\\[\n4x = 4(20) = 80\n\\]\n\n<answer>80</answer>",
+    "input_tokens": 109,
+    "output_tokens": 109,
+    "total_tokens": 218,
+    "reasoning_tokens": 37,
+    "calls": 1,
+    "latency_s": 0.9499256000854075,
+    "request_ids": [
+      "97307df664834cbf8125cd71b3cdd30a"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-2b3bae8efd6b9ed6f141fc64bc923077734a09178d6ccc13627771830bf7a66a",
+    "action": "direct",
+    "correct": 1,
+    "prediction": "60",
+    "text": "<answer>60</answer>",
+    "input_tokens": 157,
+    "output_tokens": 82,
+    "total_tokens": 239,
+    "reasoning_tokens": 73,
+    "calls": 1,
+    "latency_s": 0.7802331000566483,
+    "request_ids": [
+      "174dd296286d4eb8b4db9d89d00900a5"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-e64a8c924be9765ee5b9bb5e7bb9d668d416f8c546a0a01cf835a3c0a8676bb7",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "2",
+    "text": "Team A total: \\(4 \\times 55 = 220\\) seconds.\n\nTeam B total: \\(60 + 57 + 54 + 51 = 222\\) seconds.\n\nWinning margin: \\(222 - 220 = 2\\) seconds.\n\n<answer>2</answer>",
+    "input_tokens": 202,
+    "output_tokens": 176,
+    "total_tokens": 378,
+    "reasoning_tokens": 115,
+    "calls": 1,
+    "latency_s": 2.5784251000732183,
+    "request_ids": [
+      "c30727c30ea24732a893aace4fa41c6a"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-5be5bfdd7f984c8f636f205fd5c66689b7b2e1a3e9f361f88d6d36e7d01bdc9b",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "8",
+    "text": "Deepa saw \\(9 \\times 3 = 27\\) tickets total.\n\nAverage price per ticket: \\(216 \\div 27 = 8\\).\n\n<answer>8</answer>",
+    "input_tokens": 120,
+    "output_tokens": 89,
+    "total_tokens": 209,
+    "reasoning_tokens": 49,
+    "calls": 1,
+    "latency_s": 0.9517723999451846,
+    "request_ids": [
+      "60dbef65a1004814ba6fd5f430dbfe14"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-3c0cf3d6ed58e0802ed4e94c0c22437f86cfd3bec8c269cb2dc0157f2a42b1e3",
+    "action": "reason",
+    "correct": 0,
+    "prediction": "3.5",
+    "text": "First race: lost $5.  \nSecond race: won \\(2 \\times 5 + 1 = 11\\).  \nThird race: lost \\(1.5 \\times 11 = 16.5\\).\n\nNet result: \\(-5 + 11 - 16.5 = -10.5\\), so he lost $10.50 total.  \nAverage loss per race: \\(10.5 \\div 3 = 3.5\\).\n\n<answer>3.5</answer>",
+    "input_tokens": 155,
+    "output_tokens": 637,
+    "total_tokens": 792,
+    "reasoning_tokens": 534,
+    "calls": 1,
+    "latency_s": 3.064978600014001,
+    "request_ids": [
+      "f2409dd823634eca8005db25cdae7d22"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-33124e6d03181e4b1aca64cc55c53c21e3de8defa96d0119f98d78df31764348",
+    "action": "reason",
+    "correct": 0,
+    "prediction": "9860.78",
+    "text": "Depreciation factor per year: \\(1 - 0.21 = 0.79\\)\n\nFrom 2007 to 2010 is 3 years:\n\\[\n20000 \\times 0.79^3 = 20000 \\times 0.493039 = 9860.78\n\\]\n\n<answer>9860.78</answer>",
+    "input_tokens": 122,
+    "output_tokens": 281,
+    "total_tokens": 403,
+    "reasoning_tokens": 206,
+    "calls": 1,
+    "latency_s": 1.6513302000239491,
+    "request_ids": [
+      "4035cae6382344338c2154fd3a71cfd8"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-ded22d5a2b02a6728ec9172a94fcebb19a76c8bae84e52c3100eaea99b1f8711",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "40",
+    "text": "Ashley brought \\(5 \\times 10 = 50\\) oranges.  \nBrianne brought \\(50 + 20 = 70\\) oranges.  \nTotal oranges: \\(50 + 70 = 120\\).  \nPies: \\(120 \\div 3 = 40\\).\n\n<answer>40</answer>",
+    "input_tokens": 130,
+    "output_tokens": 120,
+    "total_tokens": 250,
+    "reasoning_tokens": 54,
+    "calls": 1,
+    "latency_s": 4.751872200053185,
+    "request_ids": [
+      "91c88c994f3a4087bf4c3c13b1a5c789"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-76ce519d1ac0ef6634354d64a5b937a55848581b7b5f0153da65878788db969a",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "10",
+    "text": "Daisies: 30 pots  \nRoses: \\(2 \\times 30 = 60\\) pots  \nTotal needed: \\(30 + 60 = 90\\) pots  \nLeft over: \\(100 - 90 = 10\\)\n\n<answer>10</answer>",
+    "input_tokens": 143,
+    "output_tokens": 128,
+    "total_tokens": 271,
+    "reasoning_tokens": 70,
+    "calls": 1,
+    "latency_s": 1.2179149999283254,
+    "request_ids": [
+      "f992f246bd8945279380f7bdb429ca66"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-ceb39fd64d4c7ba749980b9e6c68099a2fa1e8b43a5846f518e8109f8ee68dd0",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "45",
+    "text": "3 cages × 10 hamsters = 30 hamsters  \n3 cages × 5 guinea pigs = 15 guinea pigs  \nTotal = 30 + 15 = 45 rodents\n\n<answer>45</answer>",
+    "input_tokens": 120,
+    "output_tokens": 104,
+    "total_tokens": 224,
+    "reasoning_tokens": 57,
+    "calls": 1,
+    "latency_s": 0.7994534000754356,
+    "request_ids": [
+      "09777eedf38c4656b8c6d42a47fcf958"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-61ae4f44824d77f2d0661eeadfbe2c4efc6e3c50c00fffc18ac5e181d617aac4",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "15",
+    "text": "Cheerios: \\(1.25 \\times 5 = 6.25\\) pounds lost.  \nDonuts: \\(1.75 \\times 5 = 8.75\\) pounds gained.  \nDifference: \\(8.75 + 6.25 = 15\\) pounds.\n\n<answer>15</answer>",
+    "input_tokens": 140,
+    "output_tokens": 153,
+    "total_tokens": 293,
+    "reasoning_tokens": 84,
+    "calls": 1,
+    "latency_s": 0.9066870999522507,
+    "request_ids": [
+      "c05fa0b7e35a4f7599cc038a8512ea9d"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-4c18a059c275dba38b8f54e4d680037512b6d8843d9055e14356c58cb8fa9434",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "3",
+    "text": "Bill gets \\( \\frac{1}{3} \\times 12 = 4 \\) slices.  \nMark gets \\( \\frac{1}{4} \\times 12 = 3 \\) slices.  \nJenny eats 2 slices.  \n\nTotal used: \\(4 + 3 + 2 = 9\\) slices.  \nSlices left: \\(12 - 9 = 3\\).\n\n<answer>3</answer>",
+    "input_tokens": 119,
+    "output_tokens": 191,
+    "total_tokens": 310,
+    "reasoning_tokens": 101,
+    "calls": 1,
+    "latency_s": 0.949051900068298,
+    "request_ids": [
+      "9264e8e396a74c89bf5ae53035134361"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-9dfc76cf6707a2946bd24f6446176e73a91829754d599a12e0ce4ef2b2e53b15",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "4",
+    "text": "4 horses × 5 pounds = 20 pounds per meal  \n20 × 2 meals = 40 pounds per day  \n40 × 5 days = 200 pounds total  \n200 ÷ 50 = 4 bags  \n\n<answer>4</answer>",
+    "input_tokens": 132,
+    "output_tokens": 122,
+    "total_tokens": 254,
+    "reasoning_tokens": 68,
+    "calls": 1,
+    "latency_s": 0.922588000074029,
+    "request_ids": [
+      "4d4f9945a9b549c29fde683eb2919eea"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-7d1c135b0f6a57ec349fcd28a4697b58a78f5a0a928b53384023a99906b8c0dc",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "273",
+    "text": "Mariah and her grandma used:\n\n\\[\n\\frac14 + \\frac12 = \\frac14 + \\frac24 = \\frac34\n\\]\n\nof a skein.\n\n\\[\n364 \\times \\frac34 = 273\n\\]\n\n<answer>273</answer>",
+    "input_tokens": 139,
+    "output_tokens": 113,
+    "total_tokens": 252,
+    "reasoning_tokens": 57,
+    "calls": 1,
+    "latency_s": 0.8770216000266373,
+    "request_ids": [
+      "2f18ed6f7e7f45f2a571203b0b549c64"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-962ed36159d1c4e82e0bca167ceb3fc2444fe5aca00faddfd0792a456143f37d",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "306",
+    "text": "850 kg ÷ 50 kg per bag = 17 bags  \n17 bags × $18 per bag = $306\n\n<answer>306</answer>",
+    "input_tokens": 116,
+    "output_tokens": 65,
+    "total_tokens": 181,
+    "reasoning_tokens": 32,
+    "calls": 1,
+    "latency_s": 0.873977400129661,
+    "request_ids": [
+      "90389650d7b44df9acaf7813b671f097"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-ecf7cf4ab1168ffd05aceb7cae22286616e2b17d4e27e12e09b35911a0dfe899",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "2",
+    "text": "100 × 30% = 30 receive interviews.  \n30 × 20% = 6 receive offers.  \n6 × 1/3 = 2 accept the position.\n\n<answer>2</answer>",
+    "input_tokens": 138,
+    "output_tokens": 77,
+    "total_tokens": 215,
+    "reasoning_tokens": 31,
+    "calls": 1,
+    "latency_s": 0.9092421000823379,
+    "request_ids": [
+      "5366c19abd4c4c8099151f12d60ce04d"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-db895bf876404c4b7af0f08796be7f5d874a5a04cdb4207ce558884c49cd2f81",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "85",
+    "text": "Maggie: \\(60 - \\frac{1}{4}(60) = 60 - 15 = 45\\)  \nRiza: \\(60 - \\frac{1}{3}(60) = 60 - 20 = 40\\)  \nTogether left: \\(45 + 40 = 85\\)\n\n<answer>85</answer>",
+    "input_tokens": 115,
+    "output_tokens": 140,
+    "total_tokens": 255,
+    "reasoning_tokens": 66,
+    "calls": 1,
+    "latency_s": 1.240201000124216,
+    "request_ids": [
+      "ee01eaaed92e45b58941a7c09542c517"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-d4361774065b955e4e17e09f558f182bd7c30ab75b669e20a2af929748977a7f",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "14",
+    "text": "Henry and 3 friends make 4 people total.\n\n7 pizzas × 8 slices = 56 slices  \n56 slices ÷ 4 people = 14 slices each\n\n<answer>14</answer>",
+    "input_tokens": 124,
+    "output_tokens": 93,
+    "total_tokens": 217,
+    "reasoning_tokens": 49,
+    "calls": 1,
+    "latency_s": 0.8302305999677628,
+    "request_ids": [
+      "e2906c05b32f4cb6955059cc4c7abc83"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-337a0db3199099629e51d189c5f73a160aa32e85c8f641ebaecf351e56147e87",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "77",
+    "text": "Total spent: €1090 + €157 + €74 + €102 = €1423  \nMoney left: €1500 − €1423 = €77\n\n<answer>77</answer>",
+    "input_tokens": 185,
+    "output_tokens": 126,
+    "total_tokens": 311,
+    "reasoning_tokens": 83,
+    "calls": 1,
+    "latency_s": 1.787806099979207,
+    "request_ids": [
+      "6021212176db47558297b855deadbfbc"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-28fb99429ec958e5b65efd4f5117dc23dc2d94ebde960f4d4f624af5775cac7d",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "4",
+    "text": "Total cost = $60.  \nIf he misses \\(m\\) classes, he attends \\(10-m\\) classes.  \nCost per attended class = \\(\\frac{60}{10-m}\\).\n\nTo stay at or below $10 per class:\n\\[\n\\frac{60}{10-m} \\le 10\n\\]\n\\[\n60 \\le 100 - 10m\n\\]\n\\[\n10m \\le 40\n\\]\n\\[\nm \\le 4\n\\]\n\nHe can miss 4 classes and still have the cost be exactly $10 per class. Missing 5 would make it more than $10.\n\n<answer>4</answer>",
+    "input_tokens": 139,
+    "output_tokens": 355,
+    "total_tokens": 494,
+    "reasoning_tokens": 220,
+    "calls": 1,
+    "latency_s": 1.7051180999260396,
+    "request_ids": [
+      "1ad01d2b701f47d68ec18c49c3f745ef"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-7f8708e061916b29b4626068219f88e3732e1ff136166e383f11b38ddfdc8b4e",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "33",
+    "text": "Carlton’s team: 13 players  \nZeke’s team: 13 + 7 = 20 players  \nCombined: 13 + 20 = 33 players\n\n<answer>33</answer>",
+    "input_tokens": 111,
+    "output_tokens": 89,
+    "total_tokens": 200,
+    "reasoning_tokens": 41,
+    "calls": 1,
+    "latency_s": 2.95907840016298,
+    "request_ids": [
+      "d505b57c4f4148f7882243384f577df2"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-1eac51978ad6da93e0886d9edab39f1082ff0b919a794ededdb38acbb8f4449b",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "10",
+    "text": "Old daily revenue: \\(10 \\times 100 = 1000\\)\n\nNew daily revenue: \\(5 \\times 220 = 1100\\)\n\nIncrease: \\(1100 - 1000 = 100\\)\n\nPercentage increase: \\(\\frac{100}{1000} \\times 100 = 10\\%\\)\n\n<answer>10</answer>",
+    "input_tokens": 142,
+    "output_tokens": 142,
+    "total_tokens": 284,
+    "reasoning_tokens": 71,
+    "calls": 1,
+    "latency_s": 1.6096510998904705,
+    "request_ids": [
+      "eaf4c5042ea4474fb50fb7e1230c0f0d"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-3f3ac89c0ca7ebb081af5e9ee0958b0eee7d118460b5be0f6122a7c9f52a2cbf",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "20",
+    "text": "The second car gains on the first at:\n\n\\(70 - 60 = 10\\) miles per hour\n\nAfter 2 hours, the distance between them is:\n\n\\(10 \\times 2 = 20\\) miles\n\n<answer>20</answer>",
+    "input_tokens": 143,
+    "output_tokens": 96,
+    "total_tokens": 239,
+    "reasoning_tokens": 42,
+    "calls": 1,
+    "latency_s": 0.9776177001185715,
+    "request_ids": [
+      "ab399e14a17c43d29ce45c9bb47035cf"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-2adae610d41d993d6191fbe7de5e80a2bebaf65dd4d1e0139b6ebc64ba1b25b6",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "6",
+    "text": "Ice cream savings: \\(2 \\times (13 - 11) = 2 \\times 2 = 4\\)\n\nMilk savings: \\(4 \\times 0.5 = 2\\)\n\nTotal savings: \\(4 + 2 = 6\\)\n\n<answer>6</answer>",
+    "input_tokens": 130,
+    "output_tokens": 128,
+    "total_tokens": 258,
+    "reasoning_tokens": 66,
+    "calls": 1,
+    "latency_s": 0.8920415998436511,
+    "request_ids": [
+      "670939497bd0476180ab73eb499cd81f"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-6edbe8f433462868a73f3880baf50e6d8c7c4993ab0285194db44a740597bc3b",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "168",
+    "text": "Team Alphas found \\(40\\%\\) of 700:\n\\[\n0.40 \\times 700 = 280\n\\]\n\nRemaining shells:\n\\[\n700 - 280 = 420\n\\]\n\nTeam The finders found \\(60\\%\\) of the remaining:\n\\[\n0.60 \\times 420 = 252\n\\]\n\nTeam Gogetters found:\n\\[\n420 - 252 = 168\n\\]\n\n<answer>168</answer>",
+    "input_tokens": 151,
+    "output_tokens": 162,
+    "total_tokens": 313,
+    "reasoning_tokens": 71,
+    "calls": 1,
+    "latency_s": 2.737570600118488,
+    "request_ids": [
+      "18b871472b9e4d819eb805a587abdff6"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-ad8fc3e3549f9716b73c9d547a3702463b1076f4abc8c1cb42464666081ad82e",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "48",
+    "text": "Dogs: \\(5 \\times 4 = 20\\) legs  \nCats: \\(2 \\times 4 = 8\\) legs  \nBirds: \\(10 \\times 2 = 20\\) legs  \n\nTotal: \\(20 + 8 + 20 = 48\\)\n\n<answer>48</answer>",
+    "input_tokens": 109,
+    "output_tokens": 121,
+    "total_tokens": 230,
+    "reasoning_tokens": 53,
+    "calls": 1,
+    "latency_s": 0.8633751999586821,
+    "request_ids": [
+      "2c9c986b80e84abd92e9fc94f2b20324"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-c5914b7f4969c7e206c5453268bc7b9752a8534f91ff3c12f5771e4478b4b806",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "45",
+    "text": "Phone cost: $400  \nSavings: $80  \nFirst job: 20 × $10 = $200  \nSecond job: 15 × $5 = $75  \n\nTotal saved: $80 + $200 + $75 = $355  \nStill needed: $400 − $355 = $45\n\n<answer>45</answer>",
+    "input_tokens": 157,
+    "output_tokens": 146,
+    "total_tokens": 303,
+    "reasoning_tokens": 74,
+    "calls": 1,
+    "latency_s": 0.9085559998638928,
+    "request_ids": [
+      "565f8f64992a46ecab52efeaaed91009"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-9277481de8a1017530754ea8d69be7e20fddbf3895ba339c4b325ad32c085326",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "188",
+    "text": "First book: 31 mm  \nSecond book: 50 mm  \nThird book: 50 − 5 = 45 mm  \nFourth book: 2 × 31 = 62 mm  \n\nTotal: 31 + 50 + 45 + 62 = 188 mm\n\n<answer>188</answer>",
+    "input_tokens": 141,
+    "output_tokens": 127,
+    "total_tokens": 268,
+    "reasoning_tokens": 60,
+    "calls": 1,
+    "latency_s": 1.160474400036037,
+    "request_ids": [
+      "5f5d47778b0b494792a2727cd0587844"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-ebdf9d30387f3db5d92ca235950b4525cee5fcbf9e6b6a4820c3eaf36c82eeb0",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "880",
+    "text": "Each pepper costs $15.\n\n- Watermelon: \\(3 \\times 15 = 45\\)\n- Orange: \\(45 - 5 = 40\\)\n\nTotal cost:\n- 4 watermelons: \\(4 \\times 45 = 180\\)\n- 20 peppers: \\(20 \\times 15 = 300\\)\n- 10 oranges: \\(10 \\times 40 = 400\\)\n\nTotal: \\(180 + 300 + 400 = 880\\)\n\n<answer>880</answer>",
+    "input_tokens": 158,
+    "output_tokens": 181,
+    "total_tokens": 339,
+    "reasoning_tokens": 73,
+    "calls": 1,
+    "latency_s": 1.7130275000818074,
+    "request_ids": [
+      "ff004e81ec7c41b4bdc51924ffa328fd"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-3764ef17fed6e87c8f90c19ee8cae5fa61614cf071d9eabe93e90a5169f9371a",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "82",
+    "text": "The pyramid tip is initially at \\(32^\\circ\\) from the ground.  \nThe sun rises \\(5^\\circ\\) per hour for 10 hours:\n\n\\[\n5 \\times 10 = 50^\\circ\n\\]\n\nTotal angle from the ground:\n\n\\[\n32 + 50 = 82^\\circ\n\\]\n\n<answer>82</answer>",
+    "input_tokens": 156,
+    "output_tokens": 231,
+    "total_tokens": 387,
+    "reasoning_tokens": 158,
+    "calls": 1,
+    "latency_s": 1.1363192000426352,
+    "request_ids": [
+      "c04efc4e8562415ea69a85697295187e"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-341d9cae0dc739aff2a980a812b6ae732202a08285004020bbba45d14c10354d",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "6",
+    "text": "Cheese slices needed: \\(6 \\times 6 = 36\\)  \nCheese pizzas: \\(36 \\div 12 = 3\\)\n\nPepperoni slices needed: \\(6 \\times 4 = 24\\)  \nPepperoni pizzas: \\(24 \\div 8 = 3\\)\n\nTotal pizzas: \\(3 + 3 = 6\\)\n\n<answer>6</answer>",
+    "input_tokens": 132,
+    "output_tokens": 204,
+    "total_tokens": 336,
+    "reasoning_tokens": 118,
+    "calls": 1,
+    "latency_s": 1.2429534001275897,
+    "request_ids": [
+      "3b41ef8ee10c4a48a022f6d478a30df1"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-0b4f455e95a59897b45a6aafd73b13e5e51bfc176dd376a03a9481317b2c4f52",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "12",
+    "text": "Today's height: \\(20 \\times 12 = 240\\) inches  \nNeeded growth: \\(600 - 240 = 360\\) inches  \nDays: \\(360 \\div 30 = 12\\)\n\n<answer>12</answer>",
+    "input_tokens": 117,
+    "output_tokens": 118,
+    "total_tokens": 235,
+    "reasoning_tokens": 66,
+    "calls": 1,
+    "latency_s": 0.924198100110516,
+    "request_ids": [
+      "a4d10aa49d224dfc9850a1149d453b16"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-6b345cbbec94fa0f4c00e6e37f5aeb8dfcdd15e782d972b6d7a8d0dc794a4edd",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "50",
+    "text": "Total distance: \\(110 + 140 = 250\\) miles  \nTotal time: \\(2 + 3 = 5\\) hours  \nAverage speed: \\(250 \\div 5 = 50\\)\n\n<answer>50</answer>",
+    "input_tokens": 112,
+    "output_tokens": 99,
+    "total_tokens": 211,
+    "reasoning_tokens": 49,
+    "calls": 1,
+    "latency_s": 0.7104458000976592,
+    "request_ids": [
+      "2c644070c0a1451aa93b9b270061abc6"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-b60489b93677661b963fee9d63f4f91c649cd338401539c7e52168d6e423aea0",
+    "action": "direct",
+    "correct": 1,
+    "prediction": "17",
+    "text": "<answer>17</answer>",
+    "input_tokens": 190,
+    "output_tokens": 129,
+    "total_tokens": 319,
+    "reasoning_tokens": 120,
+    "calls": 1,
+    "latency_s": 0.8539689001627266,
+    "request_ids": [
+      "36b55e97aa0940fa851b755d46b4a40f"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-d2f08a2a99794ecc9380ef2ef66187a76e0d7fb8b27ea91cae6b20acb2a407d6",
+    "action": "direct",
+    "correct": 1,
+    "prediction": "32",
+    "text": "<answer>32</answer>",
+    "input_tokens": 170,
+    "output_tokens": 96,
+    "total_tokens": 266,
+    "reasoning_tokens": 87,
+    "calls": 1,
+    "latency_s": 1.0022175000049174,
+    "request_ids": [
+      "4318694243c7464bb58fdc0bb6d042b7"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-f5347c0a17bc34f97b1e4102ab5c5b584ab099a713a4578866ded36183bb7ca4",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "5",
+    "text": "From 1 PM to 4 PM is 3 hours.\n\nDistance traveled: \\(10 \\times 3 = 30\\) miles.\n\nReturn time at 6 mph: \\(30 \\div 6 = 5\\) hours.\n\n<answer>5</answer>",
+    "input_tokens": 126,
+    "output_tokens": 131,
+    "total_tokens": 257,
+    "reasoning_tokens": 75,
+    "calls": 1,
+    "latency_s": 1.579591799993068,
+    "request_ids": [
+      "1fae50e866ba49ae8a40b9c925e3e864"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-ea144e629cc162bba8fcfa49eb978956ad71ba30b5de1ea963808772e9f2c4c7",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "10000",
+    "text": "Total patient time: \\(500 \\times 24 = 12{,}000\\) minutes \\(= 200\\) hours.\n\nRevenue: \\(200 \\times 200 = \\$40{,}000\\)  \nDoctor cost: \\(200 \\times 150 = \\$30{,}000\\)  \nProfit: \\(40{,}000 - 30{,}000 = \\$10{,}000\\)\n\n<answer>10000</answer>",
+    "input_tokens": 134,
+    "output_tokens": 222,
+    "total_tokens": 356,
+    "reasoning_tokens": 134,
+    "calls": 1,
+    "latency_s": 1.1773058001417667,
+    "request_ids": [
+      "5cb900888f0b4642a21696cfb3a231e9"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-7aa62685482c5b7d97193b2449294f48e01ee3247c0c2c4e39f68ea8b16a958f",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "280",
+    "text": "30% of 1000 went through A: \\(0.30 \\times 1000 = 300\\)\n\nRemaining: \\(1000 - 300 = 700\\)\n\nThrough B: \\(\\frac{3}{5} \\times 700 = 420\\)\n\nThrough C: \\(700 - 420 = 280\\)\n\n<answer>280</answer>",
+    "input_tokens": 164,
+    "output_tokens": 141,
+    "total_tokens": 305,
+    "reasoning_tokens": 66,
+    "calls": 1,
+    "latency_s": 1.0122313001193106,
+    "request_ids": [
+      "e2821f1088484f6bb0a6a1c97fcd30be"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-8a35f8003090dafaeb4f173ac43cb1059581f552e66f61078d844fdf50b3a826",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "27",
+    "text": "Morisette: 5 apples + 8 oranges = 13 fruits  \nKael: twice apples = 10 apples; half oranges = 4 oranges → 14 fruits  \nTotal: 13 + 14 = 27\n\n<answer>27</answer>",
+    "input_tokens": 131,
+    "output_tokens": 155,
+    "total_tokens": 286,
+    "reasoning_tokens": 98,
+    "calls": 1,
+    "latency_s": 0.8435287000611424,
+    "request_ids": [
+      "a27792c53aae47839869fcdea4f8076d"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-2dec018e2d325528482554eea27f0c51231c44d9c991cde448dd0ff3e1bced55",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "25",
+    "text": "Ava’s extra points:\n- 8 enemies × 10 = 80\n- 3 berries × 5 = 15\nTotal extra = 95\n\nAva finishes 4 seconds slower, so she has 4 fewer seconds left:\n- 4 × 30 = 120 fewer points\n\nNet difference:\n95 − 120 = −25\n\nSo Ava scores 25 points less than Emma. The difference between their scores is 25.\n\n<answer>25</answer>",
+    "input_tokens": 188,
+    "output_tokens": 273,
+    "total_tokens": 461,
+    "reasoning_tokens": 170,
+    "calls": 1,
+    "latency_s": 1.6011087999213487,
+    "request_ids": [
+      "31bce86632ae41d7b86bbbfc0303deee"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-bcc720da9dd01ad20a365f8db79d24b12df59c1e792f37423789d899153f1206",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "17",
+    "text": "James swims 60% of 20 miles:\n\n- Distance swum first: \\(0.6 \\times 20 = 12\\) miles\n- Time at 2 mph: \\(12 \\div 2 = 6\\) hours\n- Rest time: half of 6 = 3 hours\n- Remaining distance: \\(20 - 12 = 8\\) miles\n- Speed is half of 2 mph = 1 mph\n- Time for remaining distance: \\(8 \\div 1 = 8\\) hours\n\nTotal time: \\(6 + 3 + 8 = 17\\) hours\n\n<answer>17</answer>",
+    "input_tokens": 165,
+    "output_tokens": 262,
+    "total_tokens": 427,
+    "reasoning_tokens": 126,
+    "calls": 1,
+    "latency_s": 1.305267499992624,
+    "request_ids": [
+      "8c1d91ba08d048a388f0eeb37f4f9327"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-14aaa623956df882205744119795092a847c0a7e66781136e2eac4c5029b9a5e",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "4",
+    "text": "Abby eats 2 slices/day.  \nJosh eats twice as much: \\(2 \\times 2 = 4\\) slices/day.  \nTogether: \\(2 + 4 = 6\\) slices/day.  \nThe loaf lasts: \\(24 \\div 6 = 4\\) days.\n\n<answer>4</answer>",
+    "input_tokens": 114,
+    "output_tokens": 112,
+    "total_tokens": 226,
+    "reasoning_tokens": 43,
+    "calls": 1,
+    "latency_s": 4.591746299993247,
+    "request_ids": [
+      "274873e3fdda421092a97f5057a50f5e"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-885f54b75b068b4560c8ba32a0b22f80faeba3b1313fdb1c538a302196bd51bf",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "144",
+    "text": "North and south walls: \\(2 \\times (10 \\times 8) = 160\\) sq ft  \nEast and west walls: \\(2 \\times (5 \\times 8) = 80\\) sq ft  \nTotal area: \\(160 + 80 = 240\\) sq ft  \nGallons needed: \\(240 \\div 20 = 12\\)  \nCost: \\(12 \\times 12 = 144\\)\n\n<answer>144</answer>",
+    "input_tokens": 138,
+    "output_tokens": 188,
+    "total_tokens": 326,
+    "reasoning_tokens": 91,
+    "calls": 1,
+    "latency_s": 6.121143999975175,
+    "request_ids": [
+      "018d3a77293e443a8fd48aef82122ec8"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-0451387a793c40081f67f9904c3d1d2176e0405c6fff9c5682ac827c916df04f",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "3",
+    "text": "Total weight: \\(80 \\times 75 = 6000\\) pounds.  \nTrucks needed: \\(6000 \\div 2000 = 3\\).\n\n<answer>3</answer>",
+    "input_tokens": 131,
+    "output_tokens": 102,
+    "total_tokens": 233,
+    "reasoning_tokens": 59,
+    "calls": 1,
+    "latency_s": 0.9060344998724759,
+    "request_ids": [
+      "2eccc0526f17478eab3767b7a6d9bd6f"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-f41e06674cff7c4a34c4d1bd8a4f860e8167f7c4c2d9fa19d6db3dd6abf31791",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "50",
+    "text": "Half the Earth’s circumference is \\(40{,}000 \\div 2 = 20{,}000\\) km.  \nAt 400 km per day: \\(20{,}000 \\div 400 = 50\\) days.\n\n<answer>50</answer>",
+    "input_tokens": 130,
+    "output_tokens": 102,
+    "total_tokens": 232,
+    "reasoning_tokens": 45,
+    "calls": 1,
+    "latency_s": 1.4567513999063522,
+    "request_ids": [
+      "1d9fb58cd3d947c78512503830462a92"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-eff3d00c8dafbe0fcae28ca18a0e08136079eda199cbcbb59fb0df00e3fa900a",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "168",
+    "text": "Spiders: 90  \nMillipedes: \\( \\frac{1}{3} \\times 90 = 30 \\)  \nStink bugs: \\( 2 \\times 30 - 12 = 48 \\)  \nTotal: \\( 90 + 30 + 48 = 168 \\)\n\n<answer>168</answer>",
+    "input_tokens": 134,
+    "output_tokens": 159,
+    "total_tokens": 293,
+    "reasoning_tokens": 87,
+    "calls": 1,
+    "latency_s": 1.1869414001703262,
+    "request_ids": [
+      "d4808423285846c49600b6a559a4bc55"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-63ea70f8333d4666e0a5fc2c8401bb75f474c6db5aeb35d3ad64002619033b7e",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "12",
+    "text": "Heather divides the raisins equally among 3 uses:\n\n\\(27 \\div 3 = 9\\) cups for oatmeal cookies.\n\nEach batch uses \\(\\frac{3}{4}\\) cup:\n\n\\(9 \\div \\frac{3}{4} = 9 \\times \\frac{4}{3} = 12\\)\n\n<answer>12</answer>",
+    "input_tokens": 157,
+    "output_tokens": 144,
+    "total_tokens": 301,
+    "reasoning_tokens": 70,
+    "calls": 1,
+    "latency_s": 0.8163122001569718,
+    "request_ids": [
+      "ea9aab78badf4b4c8d9936d8406e03e3"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-a34d602472ddbdfad9354e44fc8c65b131f35f7473503021bcf08bc98aeda3a2",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "50",
+    "text": "Each female ate 3 dumplings, so each male ate \\(3+1=4\\) dumplings.\n\nTotal dumplings:\n\\[\n8 \\times 4 + 6 \\times 3 = 32 + 18 = 50\n\\]\n\n<answer>50</answer>",
+    "input_tokens": 139,
+    "output_tokens": 170,
+    "total_tokens": 309,
+    "reasoning_tokens": 110,
+    "calls": 1,
+    "latency_s": 1.1566407999489456,
+    "request_ids": [
+      "bab830220b0145ddb037c09db10f0e06"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-6432c8897bb962030dd584f9f61e89d2230e8e60d310710341c262418635d777",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "40000",
+    "text": "House value: $250,000  \nLoan amount: 40% of $250,000 = $100,000  \nDebt payment: 60% of $100,000 = $60,000  \nLeftover: $100,000 − $60,000 = $40,000\n\n<answer>40000</answer>",
+    "input_tokens": 138,
+    "output_tokens": 160,
+    "total_tokens": 298,
+    "reasoning_tokens": 89,
+    "calls": 1,
+    "latency_s": 0.8881592999678105,
+    "request_ids": [
+      "b7be8957383248bd99f1caaf479a538c"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-a80fcb77071dae4e9a6a89c6555675fae4b3b3ff41c9fde7d2c14b935cba5e73",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "3",
+    "text": "Jon drives \\(100 \\times 30 = 3000\\) miles in the month.\n\nSince he needs a tune-up every 1000 miles:\n\n\\(3000 \\div 1000 = 3\\)\n\n<answer>3</answer>",
+    "input_tokens": 118,
+    "output_tokens": 164,
+    "total_tokens": 282,
+    "reasoning_tokens": 113,
+    "calls": 1,
+    "latency_s": 0.9350317001808435,
+    "request_ids": [
+      "4e4a8e1f7f8a4bc68b1208f1e32c00db"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-015ab86660220bc82b343822b4170c3a789b21e7347ed02a5beafb112f1586cb",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "72000",
+    "text": "Each spring creates 1 jellyfish per second.\n\n4 hours = \\(4 \\times 60 \\times 60 = 14{,}400\\) seconds.\n\n5 springs create:\n\\[\n5 \\times 14{,}400 = 72{,}000\n\\]\n\n<answer>72000</answer>",
+    "input_tokens": 110,
+    "output_tokens": 163,
+    "total_tokens": 273,
+    "reasoning_tokens": 99,
+    "calls": 1,
+    "latency_s": 0.9008567999117076,
+    "request_ids": [
+      "0a4d06d843cc45308f412bac12f146ed"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-bb2b6666ea1c56ff0a42f5f907c57f43318a71c8c86ab71eb5112e0580e61816",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "6",
+    "text": "Current stuffed animals: \\(3+5+2+4=14\\).\n\nLet \\(x\\) be the number of stuffed goats.  \n\\[\n\\frac{x}{14+x}=0.30=\\frac{3}{10}\n\\]\n\\[\n10x=3(14+x)=42+3x\n\\]\n\\[\n7x=42 \\Rightarrow x=6\n\\]\n\n<answer>6</answer>",
+    "input_tokens": 140,
+    "output_tokens": 175,
+    "total_tokens": 315,
+    "reasoning_tokens": 89,
+    "calls": 1,
+    "latency_s": 1.1597879000473768,
+    "request_ids": [
+      "34aba7d673d54b4fa4a5d7597d4fa5f5"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-6f351a87c46d612e7dcfeb95927bff59fde20d704c30d0036a1b7ba1a3b53000",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "72",
+    "text": "20 kb/s = 0.02 Mb/s  \n0.02 × 3600 = 72 Mb/hour\n\n<answer>72</answer>",
+    "input_tokens": 129,
+    "output_tokens": 96,
+    "total_tokens": 225,
+    "reasoning_tokens": 63,
+    "calls": 1,
+    "latency_s": 0.8176162000745535,
+    "request_ids": [
+      "368acf05fbcf4bedb79fad805ec6af32"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-615ca15e98eeed057e3d9bbb81cf6a400869afaf62b67a05f8dcea0aaabc1b31",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "14",
+    "text": "Existing toys: \\(31 + 8 + 9 = 48\\)\n\nBouncy balls: \\(62 - 48 = 14\\)\n\n<answer>14</answer>",
+    "input_tokens": 169,
+    "output_tokens": 152,
+    "total_tokens": 321,
+    "reasoning_tokens": 114,
+    "calls": 1,
+    "latency_s": 0.8948429001029581,
+    "request_ids": [
+      "2b4dff8b7f784f60812bb291ce0d03bf"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-3fb92d8c98d9dd549dc12302fd66e11e374ef593c013910b14ef5247d19fa57a",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "150",
+    "text": "He sells \\( \\frac{2}{3} \\) of his cards.\n\nTotal money needed: \\(100 + 50 = 150\\) dollars.\n\nIf he started with \\(N\\) cards, he sells:\n\\[\n\\frac{2}{3}N\n\\]\nAt \\$1.50 each, revenue is:\n\\[\n1.5 \\times \\frac{2}{3}N = N\n\\]\nSo:\n\\[\nN = 150\n\\]\n\n<answer>150</answer>",
+    "input_tokens": 148,
+    "output_tokens": 284,
+    "total_tokens": 432,
+    "reasoning_tokens": 181,
+    "calls": 1,
+    "latency_s": 1.5599783000070602,
+    "request_ids": [
+      "f48f2c7629e44e83b9ea1dd38fe9aa41"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-06a7701683401dd59105bf8bc59b5dd044ad9aa79760a65e4b0e66df84fa5a83",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "3000",
+    "text": "6 weeks × 2 sessions/week = 12 sessions  \n12 sessions × 2 hours = 24 hours  \n24 hours × $125/hour = $3,000\n\n<answer>3000</answer>",
+    "input_tokens": 132,
+    "output_tokens": 102,
+    "total_tokens": 234,
+    "reasoning_tokens": 57,
+    "calls": 1,
+    "latency_s": 0.8736750001553446,
+    "request_ids": [
+      "10eb74ff26f5407190ff814108899e0e"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-85c3fe20535bb44e58361fd67a17141f0021821c2c59d08faef190d9dd9142b0",
+    "action": "reason",
+    "correct": 0,
+    "prediction": null,
+    "text": "",
+    "input_tokens": 133,
+    "output_tokens": 2048,
+    "total_tokens": 2181,
+    "reasoning_tokens": 2048,
+    "calls": 1,
+    "latency_s": 8.983874100027606,
+    "request_ids": [
+      "d5ba5a36f307452e8934d595f471a285"
+    ],
+    "finish_reason": "length"
+  },
+  {
+    "task_id": "gsm8k-f8c22476e86d0f0c09502796502193646e7b329d9b9b7b43442a50d30c3d4c8d",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "20",
+    "text": "Each house has \\(3 \\times 2 = 6\\) bedroom windows.  \nFor 2 houses: \\(6 \\times 2 = 12\\) bedroom windows.  \nAdditional windows: \\(4 \\times 2 = 8\\).  \nTotal: \\(12 + 8 = 20\\).\n\n<answer>20</answer>",
+    "input_tokens": 125,
+    "output_tokens": 126,
+    "total_tokens": 251,
+    "reasoning_tokens": 56,
+    "calls": 1,
+    "latency_s": 0.9425337999127805,
+    "request_ids": [
+      "8536902a3bc24e2398a9ba4b2a21f6b5"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-c05d581df38250f44e8d1a85e15fb3800f03c86967261b979cf682d930186695",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "2",
+    "text": "Total cups for chamomile and mint: \\(27 - 15 = 12\\)\n\nCups per row: \\(12 \\div 3 = 4\\)\n\nMint tea per row (half of each row): \\(4 \\div 2 = 2\\)\n\n<answer>2</answer>",
+    "input_tokens": 150,
+    "output_tokens": 440,
+    "total_tokens": 590,
+    "reasoning_tokens": 377,
+    "calls": 1,
+    "latency_s": 3.328201700001955,
+    "request_ids": [
+      "3ee45e23188d4682a86f9c4fe7d92d97"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-b11b56a423ba220e96b19cac692b6e312f1f219f840d8b50717ba96469152621",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "15",
+    "text": "The cake is cut into 8 equal pieces, so each piece weighs:\n\n20 ÷ 8 = 2.5 ounces\n\nRory and her mom eat 2 pieces:\n\n2 × 2.5 = 5 ounces\n\nRemaining cake:\n\n20 − 5 = 15 ounces\n\n<answer>15</answer>",
+    "input_tokens": 113,
+    "output_tokens": 126,
+    "total_tokens": 239,
+    "reasoning_tokens": 57,
+    "calls": 1,
+    "latency_s": 0.866290400037542,
+    "request_ids": [
+      "ea819fc75046443e9741ac107f968bc4"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-df9d44585a723f56aee91fb213d9bb7d108ea278ea38d7e56f0a1f762e160ffe",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "280",
+    "text": "Jen works \\(7.5 \\times 6 = 45\\) hours per week.  \nIn 4 weeks: \\(45 \\times 4 = 180\\) hours.  \nPay: \\(180 \\times 1.5 = 270\\).  \nAdd attendance bonus: \\(270 + 10 = 280\\).\n\n<answer>280</answer>",
+    "input_tokens": 144,
+    "output_tokens": 147,
+    "total_tokens": 291,
+    "reasoning_tokens": 73,
+    "calls": 1,
+    "latency_s": 0.9267654998693615,
+    "request_ids": [
+      "4518febbb76847d0b1b6c97f542f323b"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-c795b4a2f56573748f202c3f32c08fbf8ab39674bfc41f9979cf3dcb1b8aa50c",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "60",
+    "text": "Bailey receives \\(5 \\times 8 = 40\\) dollars in allowance.\n\nStarting amount: \\(100 - 40 = 60\\).\n\n<answer>60</answer>",
+    "input_tokens": 128,
+    "output_tokens": 76,
+    "total_tokens": 204,
+    "reasoning_tokens": 38,
+    "calls": 1,
+    "latency_s": 1.070675500202924,
+    "request_ids": [
+      "b77c32e2d6b340cdb87c779f5207a071"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-a73dd2097f0fa8fa815e660582d31c80e64a2cded69e916fc61e81cf29caa132",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "9",
+    "text": "Jenny buys 36 cookies per week.\n\n- Son eats: \\(4 \\times 5 = 20\\) cookies\n- Husband eats: \\(1 \\times 7 = 7\\) cookies\n- Total eaten by others: \\(20 + 7 = 27\\)\n\nJenny eats: \\(36 - 27 = 9\\)\n\n<answer>9</answer>",
+    "input_tokens": 145,
+    "output_tokens": 154,
+    "total_tokens": 299,
+    "reasoning_tokens": 76,
+    "calls": 1,
+    "latency_s": 0.9089885000139475,
+    "request_ids": [
+      "647e4fde12054d7d8f0e4612201999a9"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-7b832d3662e74e6707243ad93c7fcbd828241caf6c9cc09c27af1e05a0231af0",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "18",
+    "text": "Dennis needs 6 pounds of butter.\n\nPromotion: buy 1 pound at $4.00, get the next pound for half price ($2.00).  \nEach pair costs $4.00 + $2.00 = $6.00.\n\n6 pounds = 3 pairs, so:\n3 × $6.00 = $18.00\n\n<answer>18</answer>",
+    "input_tokens": 153,
+    "output_tokens": 171,
+    "total_tokens": 324,
+    "reasoning_tokens": 88,
+    "calls": 1,
+    "latency_s": 1.0454287000466138,
+    "request_ids": [
+      "8a7a9cb7817645b3ab0ff702286d7189"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-df618d9f8760a83dbe8f2c628d08b4104823cef140d896d549dbebee472d5d89",
+    "action": "direct",
+    "correct": 1,
+    "prediction": "220",
+    "text": "<answer>220</answer>",
+    "input_tokens": 194,
+    "output_tokens": 59,
+    "total_tokens": 253,
+    "reasoning_tokens": 50,
+    "calls": 1,
+    "latency_s": 1.109631400089711,
+    "request_ids": [
+      "8b3150027f1a4298a321b0cea6dc8b36"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-8022fe598578e027d9e2b1aae31b808331365d3e90e751712c7398f0aad30411",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "5",
+    "text": "100 centimeters cut into 4 equal parts: \\(100 \\div 4 = 25\\) cm each.\n\nEach 25 cm part divided into 5 equal parts: \\(25 \\div 5 = 5\\) cm.\n\n<answer>5</answer>",
+    "input_tokens": 118,
+    "output_tokens": 103,
+    "total_tokens": 221,
+    "reasoning_tokens": 48,
+    "calls": 1,
+    "latency_s": 0.7659143002238125,
+    "request_ids": [
+      "9540f3f6d4964e80a425b3914302544e"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-522b8171eaeb6e5cc5371722357ca01db1c65f8b2d7a2ee13e63f228ff7331fc",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "12",
+    "text": "8 hours ÷ 4 hours per trip = 2 trips  \n24 berries ÷ 2 trips = 12 berries per trip\n\n<answer>12</answer>",
+    "input_tokens": 177,
+    "output_tokens": 1069,
+    "total_tokens": 1246,
+    "reasoning_tokens": 1034,
+    "calls": 1,
+    "latency_s": 4.852331600151956,
+    "request_ids": [
+      "8309ebec5b0a40e7a8efc77422f27914"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-fd8141b759063de0fcd6b169664753359fc151c9a7f2972de039aa4ee4ea0e7a",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "38",
+    "text": "The total before the coupon is $19 + $26 = $45.  \nAfter the $7 coupon: $45 − $7 = $38.\n\n<answer>38</answer>",
+    "input_tokens": 129,
+    "output_tokens": 66,
+    "total_tokens": 195,
+    "reasoning_tokens": 26,
+    "calls": 1,
+    "latency_s": 1.3345566000789404,
+    "request_ids": [
+      "f58b6c771520424eab99f1f36af26f12"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-85fd327a2ea7086667ec633f67db522297a242a9f73badd4512d1036bd71a461",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "64",
+    "text": "He completes \\(50 - 10 = 40\\) packages per hour.\n\nEarnings per hour: \\(40 \\times 0.20 = 8\\) dollars.\n\nIn an 8-hour day: \\(8 \\times 8 = 64\\) dollars.\n\n<answer>64</answer>",
+    "input_tokens": 135,
+    "output_tokens": 134,
+    "total_tokens": 269,
+    "reasoning_tokens": 72,
+    "calls": 1,
+    "latency_s": 1.0846138000488281,
+    "request_ids": [
+      "b2ec8124eae245eaaec72989ee3cac21"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-9a2c9bf059d93ef84fd0b9e6873d9b65a5fa32ed13c0a193996396bf17f00fd5",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "20",
+    "text": "20 candles require \\(20 \\div 10 = 2\\) pounds of beeswax.\n\nSupplies cost: \\(2 \\times \\$10 = \\$20\\)\n\nRevenue: \\(20 \\times \\$2 = \\$40\\)\n\nNet profit: \\(\\$40 - \\$20 = \\$20\\)\n\n<answer>20</answer>",
+    "input_tokens": 150,
+    "output_tokens": 238,
+    "total_tokens": 388,
+    "reasoning_tokens": 171,
+    "calls": 1,
+    "latency_s": 1.2418353999964893,
+    "request_ids": [
+      "2b280074522341318fe2747cb2b6d820"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-bbdc88587646a7a3068a3d123460a777561cfa9a71534567b74fe2250094ac93",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "160",
+    "text": "Blue car = $100  \nRed car = 100 × (1 − 0.40) = 100 × 0.60 = $60  \nTotal = 100 + 60 = 160\n\n<answer>160</answer>",
+    "input_tokens": 108,
+    "output_tokens": 112,
+    "total_tokens": 220,
+    "reasoning_tokens": 60,
+    "calls": 1,
+    "latency_s": 0.9040749999694526,
+    "request_ids": [
+      "015c4d6c21ba40d5939eaf80f07b817c"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-dc96f3a6bf1b82f904c8774e07f09e0ca0fe56826a0cbded0f86607b08b96f91",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "600",
+    "text": "Katina removes $100 per month for 2 years:\n\n\\(2 \\text{ years} = 24 \\text{ months}\\)\n\nTotal removed: \\(100 \\times 24 = 2400\\)\n\nRemaining: \\(3000 - 2400 = 600\\)\n\n<answer>600</answer>",
+    "input_tokens": 114,
+    "output_tokens": 104,
+    "total_tokens": 218,
+    "reasoning_tokens": 40,
+    "calls": 1,
+    "latency_s": 0.8747694999910891,
+    "request_ids": [
+      "091211f69fd640719f1b5df54c36594b"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-fdb1abfa3877c610fc2a2d8cd05bc7e3e323a8cec95f91b25e1a98d0c81ee8e5",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "3",
+    "text": "Each movie trip costs $7 + $7 = $14.  \n$42 ÷ $14 = 3.\n\n<answer>3</answer>",
+    "input_tokens": 122,
+    "output_tokens": 71,
+    "total_tokens": 193,
+    "reasoning_tokens": 39,
+    "calls": 1,
+    "latency_s": 0.6437864999752492,
+    "request_ids": [
+      "340ef52285ee4e68b71534db50ae6052"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-a23260eec5cc25e5d26efb7c22d63d39a87a991a577a4a5a7d1b374f1d1d81c1",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "30",
+    "text": "Prince Thaddeus: 100 dragons  \nPrince Arthur: \\( \\frac{3}{4} \\times 100 = 75 \\)  \nPrince Walter: \\(2 \\times 75 = 150\\)  \nPrince Bruce: \\( \\frac{1}{5} \\times 150 = 30\\)\n\n<answer>30</answer>",
+    "input_tokens": 166,
+    "output_tokens": 123,
+    "total_tokens": 289,
+    "reasoning_tokens": 51,
+    "calls": 1,
+    "latency_s": 0.8386892999988049,
+    "request_ids": [
+      "21dc8019cd314abdaf7381c576141985"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-17e2ab181c65ba6279bea813b437e6a7b073fe1935156d3b5950b4e8abbb9157",
+    "action": "direct",
+    "correct": 1,
+    "prediction": "145",
+    "text": "<answer>145</answer>",
+    "input_tokens": 263,
+    "output_tokens": 147,
+    "total_tokens": 410,
+    "reasoning_tokens": 138,
+    "calls": 1,
+    "latency_s": 0.9554337998852134,
+    "request_ids": [
+      "2259d8c0ed7440de822ec4500b242797"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-ce34b49ed454514b0396164e4c772cfca3309d491feaf207ae1a76af26ff6b18",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "50",
+    "text": "Candidate A: \\(20\\%\\) of 100 = 20 votes.  \nCandidate B: \\(50\\%\\) more than A = \\(20 \\times 1.5 = 30\\) votes.  \nCandidate C: \\(100 - 20 - 30 = 50\\) votes.\n\n<answer>50</answer>",
+    "input_tokens": 133,
+    "output_tokens": 128,
+    "total_tokens": 261,
+    "reasoning_tokens": 62,
+    "calls": 1,
+    "latency_s": 0.8297967000398785,
+    "request_ids": [
+      "1a6a4f313e8845db9d6287fb3d153f48"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-3ef45170ca90fe6af4eb60dca95e4665f503a2bef07aee10b5fbf60074228c71",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "54",
+    "text": "Cold day: 1 mile = 16 minutes, so 3 miles = 3 × 16 = 48 minutes.\n\nHot day: 1 mile = 2 × 16 + 2 = 34 minutes, so 3 miles = 3 × 34 = 102 minutes.\n\nDifference: 102 − 48 = 54 minutes.\n\n<answer>54</answer>",
+    "input_tokens": 133,
+    "output_tokens": 195,
+    "total_tokens": 328,
+    "reasoning_tokens": 113,
+    "calls": 1,
+    "latency_s": 2.510467099957168,
+    "request_ids": [
+      "bea2dbe6cdbe4586abaf298613324e41"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-92e8af667512936fcbabb3da581f0e2f1d4dc144f18fbbafdd928b105577eb9a",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "70000",
+    "text": "Josh’s total cost: $80,000 + $50,000 = $130,000.\n\nA 150% increase on the $80,000 house value means the new value is:\n$80,000 × (1 + 1.50) = $200,000.\n\nProfit: $200,000 − $130,000 = $70,000.\n\n<answer>70000</answer>",
+    "input_tokens": 127,
+    "output_tokens": 312,
+    "total_tokens": 439,
+    "reasoning_tokens": 226,
+    "calls": 1,
+    "latency_s": 2.355368699878454,
+    "request_ids": [
+      "f90f2417c60a409ba1076fe4c5e215a4"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-a92d964081e8838257e39b9d1cce5bc012e34341777779b8c19ebfec8fed00f0",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "4",
+    "text": "Two bags hold \\(2 \\times 72 = 144\\) chips.\n\nAt 12 chips per square inch, the mosaic area is \\(144 \\div 12 = 12\\) square inches.\n\nWith a height of 3 inches, the length is \\(12 \\div 3 = 4\\) inches.\n\n<answer>4</answer>",
+    "input_tokens": 142,
+    "output_tokens": 146,
+    "total_tokens": 288,
+    "reasoning_tokens": 74,
+    "calls": 1,
+    "latency_s": 10.516206000000238,
+    "request_ids": [
+      "157a7a8ba6d04faa99dfd7acaea0affb"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-a376eaf1ac071f4ae3ebf7ca85c1c7e60b366bed5c07ce2f47e114bf997de5a2",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "120",
+    "text": "The cat runs at 15 ft/s and is 5 times faster than the turtle.\n\nTurtle speed = 15 ÷ 5 = 3 ft/s  \nDistance in 40 seconds = 3 × 40 = 120 feet\n\n<answer>120</answer>",
+    "input_tokens": 113,
+    "output_tokens": 160,
+    "total_tokens": 273,
+    "reasoning_tokens": 102,
+    "calls": 1,
+    "latency_s": 1.1204856999684125,
+    "request_ids": [
+      "66c1b5a49a754d23865dd9fa642c5a2b"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-395b8cbb919b451f02217b86a064fe80397f63e2ad63c17b77d78a6159967e57",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "255",
+    "text": "They hiked for 1.5 hours, so they drove for \\(6 - 1.5 = 4.5\\) hours.\n\nDriving distance: \\(50 \\times 4.5 = 225\\) miles.  \nHiking speed: \\(\\frac{50}{2} - 5 = 20\\) mph.  \nHiking distance: \\(20 \\times 1.5 = 30\\) miles.\n\nTotal distance: \\(225 + 30 = 255\\) miles.\n\n<answer>255</answer>",
+    "input_tokens": 144,
+    "output_tokens": 294,
+    "total_tokens": 438,
+    "reasoning_tokens": 184,
+    "calls": 1,
+    "latency_s": 1.6496401000767946,
+    "request_ids": [
+      "98e09142e7a74d4181c3942d1052fb0b"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-0dd088106fa5e58557f162180c064d4c6191ea82a5fced3deec4c7ebca9317b8",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "7",
+    "text": "20 popsicles cost \\(20 \\times 0.25 = 5\\) dollars.  \n4 ice cream bars cost \\(4 \\times 0.50 = 2\\) dollars.  \nTotal: \\(5 + 2 = 7\\) dollars.\n\n<answer>7</answer>",
+    "input_tokens": 116,
+    "output_tokens": 96,
+    "total_tokens": 212,
+    "reasoning_tokens": 35,
+    "calls": 1,
+    "latency_s": 0.9665961000137031,
+    "request_ids": [
+      "8ce8ee151c8b4bc3b0542d35501905d9"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-e457598102bb10cbe553a46ff317ed3717be6a5bca0c82d468d4de6302d9608a",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "36",
+    "text": "6 erasers cost \\(6 \\times 2 = 12\\).  \n8 pencils cost \\(8 \\times 3 = 24\\).  \nTotal: \\(12 + 24 = 36\\).\n\n<answer>36</answer>",
+    "input_tokens": 104,
+    "output_tokens": 78,
+    "total_tokens": 182,
+    "reasoning_tokens": 29,
+    "calls": 1,
+    "latency_s": 0.8945579000283033,
+    "request_ids": [
+      "5705f6b76b5247bea1fc575521a478f1"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-9247937e11e1adbd35c0c691925d865a30f9ac3f43d3921e4c38b42096a98a93",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "63",
+    "text": "Edgar’s brother eats \\( \\frac{1}{2} \\times 18 = 9 \\) pretzels per day.  \nIn a week: \\(9 \\times 7 = 63\\).\n\n<answer>63</answer>",
+    "input_tokens": 110,
+    "output_tokens": 90,
+    "total_tokens": 200,
+    "reasoning_tokens": 38,
+    "calls": 1,
+    "latency_s": 0.8910567997954786,
+    "request_ids": [
+      "8748e740f2814bc6a3d0aa3d57425a11"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-9a6fc10a5e6e7ade4a5c8010316fac1173ebd46932e8c8e46a9fc0e28fde1ef6",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "13",
+    "text": "Indras’ name has 6 letters.  \nHalf of 6 is 3.  \nHer sister’s name has 3 + 4 = 7 letters.  \nTotal letters: 6 + 7 = 13.\n\n<answer>13</answer>",
+    "input_tokens": 121,
+    "output_tokens": 152,
+    "total_tokens": 273,
+    "reasoning_tokens": 95,
+    "calls": 1,
+    "latency_s": 0.9246070999652147,
+    "request_ids": [
+      "1bfe5e281dae4e5dbabe68e87067fabd"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-6a89e1c16de9b2fd6c9d2a70a61d489889ca7bef3aaeab9fd9a1e2e8df37e5d7",
+    "action": "direct",
+    "correct": 1,
+    "prediction": "138",
+    "text": "<answer>138</answer>",
+    "input_tokens": 167,
+    "output_tokens": 162,
+    "total_tokens": 329,
+    "reasoning_tokens": 153,
+    "calls": 1,
+    "latency_s": 1.9074043999426067,
+    "request_ids": [
+      "e72553a626c64fa3b7dfb09d5d302231"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-18ff73ee52c7899a553d9e2580bb5879e25daf4c357a04ef6d80ae93fac40630",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "55",
+    "text": "Let the thingamabob’s speed be \\(T\\).\n\nWhatchamacallit: \\(11T = 121\\), so \\(T = 11\\).\n\nWhirligig: \\(5T = 5 \\times 11 = 55\\).\n\n<answer>55</answer>",
+    "input_tokens": 135,
+    "output_tokens": 247,
+    "total_tokens": 382,
+    "reasoning_tokens": 186,
+    "calls": 1,
+    "latency_s": 2.476510399952531,
+    "request_ids": [
+      "3ef8fd5156324a329c15744b0076133c"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-22634159e09042a54d536fad1492b76178be4441f550d36169f7fee59fe90965",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "319",
+    "text": "Email invitees: 100  \nTheir friends: 100 × 2 = 200  \nAdditional friends called: 10  \nSpouses: 8  \nAlex herself: 1  \n\nTotal seats: 100 + 200 + 10 + 8 + 1 = 319\n\n<answer>319</answer>",
+    "input_tokens": 158,
+    "output_tokens": 840,
+    "total_tokens": 998,
+    "reasoning_tokens": 772,
+    "calls": 1,
+    "latency_s": 4.1124449998606,
+    "request_ids": [
+      "104d53423b344babb595d6e9d14efb0f"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-2e86e88d07ed8afdc49bc4264097408cb3f31092110f6ee39068617968060b11",
+    "action": "reason",
+    "correct": 0,
+    "prediction": "900",
+    "text": "First $1000 commission: \\(1000 \\times 30\\% = 300\\)\n\nSales over $1000: \\(2500 - 1000 = 1500\\)\n\nAdditional commission on excess: \\(1500 \\times 10\\% = 150\\)\n\nBase commission on all sales: \\(2500 \\times 30\\% = 750\\)\n\nTotal earned: \\(750 + 150 = 900\\)\n\n<answer>900</answer>",
+    "input_tokens": 139,
+    "output_tokens": 395,
+    "total_tokens": 534,
+    "reasoning_tokens": 303,
+    "calls": 1,
+    "latency_s": 2.114043700043112,
+    "request_ids": [
+      "f038cb76f0f24ecf8c25b2195cfb21e3"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-792e326da61c548328a22ae42a9641539ff0bf9a7146ff263e698de717c2d9ba",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "14",
+    "text": "Glee club: \\(20 \\times 30\\% = 6\\) pizzas left.  \nFootball team: \\(40 \\times 20\\% = 8\\) pizzas left.  \nTotal left: \\(6 + 8 = 14\\).\n\n<answer>14</answer>",
+    "input_tokens": 119,
+    "output_tokens": 115,
+    "total_tokens": 234,
+    "reasoning_tokens": 55,
+    "calls": 1,
+    "latency_s": 0.8641001000069082,
+    "request_ids": [
+      "65b2169a8d2e463393f47c40a4a48a48"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-0e45a85a9072d45ebf4938532d30077b10837ba70930a9be9529005a449dc4a4",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "5",
+    "text": "Hamsters use \\(10 \\times 5 = 50\\) pieces.  \nRabbits use \\(20\\) pieces.  \nStraw for rats: \\(160 - 50 - 20 = 90\\) pieces.  \nNumber of rats: \\(90 \\div 6 = 15\\).  \nRats per cage: \\(15 \\div 3 = 5\\).\n\n<answer>5</answer>",
+    "input_tokens": 188,
+    "output_tokens": 271,
+    "total_tokens": 459,
+    "reasoning_tokens": 186,
+    "calls": 1,
+    "latency_s": 2.272833999944851,
+    "request_ids": [
+      "c3f7224abfbf44b09c6ea99b929725ea"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-24616b0b8499d0553801942ad476bff5a2b11b189089345c566b9282fe147c96",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "105",
+    "text": "Kory’s dog: 60 lb  \nElijah’s first dog: \\( \\frac14 \\times 60 = 15 \\) lb  \nElijah’s second dog: \\( \\frac12 \\times 60 = 30 \\) lb  \n\nTotal: \\(60 + 15 + 30 = 105\\) lb\n\n<answer>105</answer>",
+    "input_tokens": 137,
+    "output_tokens": 205,
+    "total_tokens": 342,
+    "reasoning_tokens": 128,
+    "calls": 1,
+    "latency_s": 1.4580542999319732,
+    "request_ids": [
+      "190c18bb9d1e4bf8b6d7dffe92dd2272"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-119c907a948cca3b614060853a7e357c2e9f3d1768677b3d272f1146f931476f",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "6",
+    "text": "15 gallons ÷ 5 containers = 3 gallons per container.  \nJosey needed \\( \\frac{1}{4} \\) of a container: \\(3 \\times \\frac{1}{4} = \\frac{3}{4}\\) gallon.  \nConvert to pints: \\( \\frac{3}{4} \\times 8 = 6\\) pints.\n\n<answer>6</answer>",
+    "input_tokens": 118,
+    "output_tokens": 158,
+    "total_tokens": 276,
+    "reasoning_tokens": 74,
+    "calls": 1,
+    "latency_s": 0.9160672000143677,
+    "request_ids": [
+      "86b31cfd71014f1c8a1b21dc024a9b38"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-3d9667e1c417aac0fd372ce631c82ca7ed1a85e20dda240a8fd8db79fef03110",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "1000",
+    "text": "Norman High School enrollment = 4000  \nButler High School enrollment = \\( \\frac{3}{4} \\times 4000 = 3000 \\)  \nDifference = \\(4000 - 3000 = 1000\\)\n\n<answer>1000</answer>",
+    "input_tokens": 138,
+    "output_tokens": 107,
+    "total_tokens": 245,
+    "reasoning_tokens": 48,
+    "calls": 1,
+    "latency_s": 0.7762837000191212,
+    "request_ids": [
+      "54ff6d95f15543d8a5bcdbcd63f40df8"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-8cf85820c5ee93bd323f88970a671ee704f7ab5d1cc4361856cc9a8119468425",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "80",
+    "text": "If \\(\\frac34\\) have a desktop, then \\(\\frac14\\) do not.\n\n\\[\n\\frac14 \\text{ of total} = 20\n\\]\n\n\\[\n\\text{Total} = 20 \\times 4 = 80\n\\]\n\n<answer>80</answer>",
+    "input_tokens": 116,
+    "output_tokens": 113,
+    "total_tokens": 229,
+    "reasoning_tokens": 54,
+    "calls": 1,
+    "latency_s": 1.6820666999556124,
+    "request_ids": [
+      "720e64b7804949799634d46f9f64e823"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-63e4bec05a1fdf580e89c2b1ec4986ca26251deca24ad4e4c56f0d6c46efc42b",
+    "action": "reason",
+    "correct": 0,
+    "prediction": "18",
+    "text": "First game: Sasha scored 14 points.  \nJulie scored 4 fewer: \\(14 - 4 = 10\\).  \nSecond game: Sasha scored 6 fewer than Julie’s first-game score: \\(10 - 6 = 4\\).  \nSasha’s total: \\(14 + 4 = 18\\).\n\n<answer>18</answer>",
+    "input_tokens": 181,
+    "output_tokens": 175,
+    "total_tokens": 356,
+    "reasoning_tokens": 97,
+    "calls": 1,
+    "latency_s": 1.7228274000808597,
+    "request_ids": [
+      "3fa34cbfc3dc4131b4c6e442ae7d496f"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-5c6a8bc8de8cdc56711e572a957bb92d060b3924ef8bfbcdaae2e0786c39b61d",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "320",
+    "text": "Initial cards: 20  \nFirst month collected: \\(3 \\times 20 = 60\\)  \nSecond month collected: \\(60 - 20 = 40\\)  \nThird month collected: \\(2 \\times (60 + 40) = 200\\)  \n\nTotal: \\(20 + 60 + 40 + 200 = 320\\)\n\n<answer>320</answer>",
+    "input_tokens": 154,
+    "output_tokens": 202,
+    "total_tokens": 356,
+    "reasoning_tokens": 122,
+    "calls": 1,
+    "latency_s": 1.1360553000122309,
+    "request_ids": [
+      "da3d4689ed1f468f93cbd8ef1d3c506b"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-2f4c58ac72a3c3a57cdd447c0fd061f22b9deb17226d7ddb870db15e3b94577b",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "168000",
+    "text": "May: \\(40 \\times 15 \\times 40 \\times 4 = 96{,}000\\)\n\nJune: \\(1/4\\) of 40 expired, so \\(40 \\times \\frac34 = 30\\) employees remain.  \n\\(30 \\times 15 \\times 40 \\times 4 = 72{,}000\\)\n\nTotal: \\(96{,}000 + 72{,}000 = 168{,}000\\)\n\n<answer>168000</answer>",
+    "input_tokens": 148,
+    "output_tokens": 401,
+    "total_tokens": 549,
+    "reasoning_tokens": 299,
+    "calls": 1,
+    "latency_s": 2.422792400000617,
+    "request_ids": [
+      "0cda9a30f3cf4851a114c17522ca04f1"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-2e8432c0efd916983f30dd4f6902e0b80772f59957d92138a56fda8496dece72",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "235",
+    "text": "Weekly cost:\n- Blouses: 5 × $5 = $25\n- Pants: 2 × $8 = $16\n- Skirt: 1 × $6 = $6\n\nTotal per week = $25 + $16 + $6 = $47  \nFor 5 weeks: 5 × $47 = $235\n\n<answer>235</answer>",
+    "input_tokens": 155,
+    "output_tokens": 140,
+    "total_tokens": 295,
+    "reasoning_tokens": 59,
+    "calls": 1,
+    "latency_s": 0.806836900068447,
+    "request_ids": [
+      "61b7d9588e2042568593692d1ae03dea"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-976e31a5dfba15b934265ba66a3c390ea4e48529c6c02eaf873a8ed3c9708b30",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "168",
+    "text": "Andrea apples = 52  \nJamal apples = 52 − 8 = 44  \nJamal bananas = 44 + 4 = 48  \nAndrea bananas = 48 ÷ 2 = 24  \n\nTotal fruits = 52 + 24 + 44 + 48 = 168\n\n<answer>168</answer>",
+    "input_tokens": 118,
+    "output_tokens": 217,
+    "total_tokens": 335,
+    "reasoning_tokens": 146,
+    "calls": 1,
+    "latency_s": 1.807727700099349,
+    "request_ids": [
+      "227405f0b0b344bf835e64dd77ca4fa2"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-c489c2c2a86f098db42235a1cc2171922953e349e156ef13993d8fdbd5f64ce5",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "4",
+    "text": "Mary has \\(6 \\times 8 = 48\\) cupcakes worth of sprinkles.\n\nEach pan holds 12 cupcakes, so she needs \\(48 \\div 12 = 4\\) pans.\n\n<answer>4</answer>",
+    "input_tokens": 134,
+    "output_tokens": 112,
+    "total_tokens": 246,
+    "reasoning_tokens": 63,
+    "calls": 1,
+    "latency_s": 0.7940839000511914,
+    "request_ids": [
+      "b9996359bc4949a19ef80874f32a34d2"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-9be85b5722054caf465cd2b26044e8aafab192412ef22e16441dbdd26140e10a",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "1",
+    "text": "Each box has \\(3 \\times 8 = 24\\) smores’ worth of graham crackers.\n\nTotal smores needed:\n- Kids: \\(9 \\times 2 = 18\\)\n- Adults: \\(6 \\times 1 = 6\\)\n- Total: \\(18 + 6 = 24\\)\n\nThey need exactly 1 box.\n\n<answer>1</answer>",
+    "input_tokens": 140,
+    "output_tokens": 164,
+    "total_tokens": 304,
+    "reasoning_tokens": 81,
+    "calls": 1,
+    "latency_s": 1.4353825999423862,
+    "request_ids": [
+      "2479cfaedcc24bcb8bc6c30c8121aebc"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-35441025b11ea2a3b9f1145699df974fc0c128ff838878369fe7c5e1d42ec5a7",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "6",
+    "text": "James runs \\(12 \\times 5 = 60\\) miles per week.  \nAt 10 miles per hour, time is \\(60 \\div 10 = 6\\) hours.\n\n<answer>6</answer>",
+    "input_tokens": 110,
+    "output_tokens": 99,
+    "total_tokens": 209,
+    "reasoning_tokens": 52,
+    "calls": 1,
+    "latency_s": 1.1682684000115842,
+    "request_ids": [
+      "cdd3469756af47f1af815d1dd26bc8fb"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-df7e67a952895583dfc94f905687418f03123f227dee5b2555f9eeb1fa73efd4",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "30",
+    "text": "Mason eats \\(4 \\times 5 = 20\\) carrots on weekdays and \\(5 \\times 2 = 10\\) carrots on the weekend.\n\nTotal: \\(20 + 10 = 30\\)\n\n<answer>30</answer>",
+    "input_tokens": 113,
+    "output_tokens": 87,
+    "total_tokens": 200,
+    "reasoning_tokens": 34,
+    "calls": 1,
+    "latency_s": 0.7941604999359697,
+    "request_ids": [
+      "d28ff4344e0b4052aa6bb599b5a5c5e2"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-347cdbcce5ae0edcce2483d1f6a1c203508c1e214a1ad957be6bb472ca894bf5",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "36",
+    "text": "4 regular gallons need \\(4 \\times 1 = 4\\) cups of juice.  \nThe extra gallon is twice as tart, so it needs \\(2\\) cups of juice.  \nTotal juice needed: \\(4 + 2 = 6\\) cups.  \nEach cup requires 6 lemons: \\(6 \\times 6 = 36\\).\n\n<answer>36</answer>",
+    "input_tokens": 177,
+    "output_tokens": 257,
+    "total_tokens": 434,
+    "reasoning_tokens": 176,
+    "calls": 1,
+    "latency_s": 2.5098133999854326,
+    "request_ids": [
+      "4f047f8638044ad2939dd5b4cd297344"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-ed4128cfa1c0840d708702853cdd34bfe369fc926b47dfbb677b552e23dd44b2",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "20",
+    "text": "Total daily feed needed: \\(20 \\times 3 = 60\\) cups.  \nFeed already given: \\(15 + 25 = 40\\) cups.  \nFinal meal needed: \\(60 - 40 = 20\\) cups.\n\n<answer>20</answer>",
+    "input_tokens": 185,
+    "output_tokens": 109,
+    "total_tokens": 294,
+    "reasoning_tokens": 51,
+    "calls": 1,
+    "latency_s": 0.8976443000137806,
+    "request_ids": [
+      "1721c6f8b80c489bac8576d49f8606c7"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-6301079130c7fbef1a817ab51219eaefd65b92aedb1bbfa2ab509c1f652f684b",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "10",
+    "text": "Week 1: 3 inches  \nWeek 2: doubled to 6 inches  \nWeek 3: grew 4 inches, so 6 + 4 = 10 inches\n\n<answer>10</answer>",
+    "input_tokens": 129,
+    "output_tokens": 77,
+    "total_tokens": 206,
+    "reasoning_tokens": 30,
+    "calls": 1,
+    "latency_s": 0.7789840002078563,
+    "request_ids": [
+      "4b792d740a8042788668d53e350c690e"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-3c4d4541a6d101cfc5dcc9c67e4add049a2df23e9a857547f51fc111c5bcdad0",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "9",
+    "text": "Bus trip: 6 days  \nCar trip: half of 6 = 3 days  \nTotal: 6 + 3 = 9 days\n\n<answer>9</answer>",
+    "input_tokens": 135,
+    "output_tokens": 87,
+    "total_tokens": 222,
+    "reasoning_tokens": 47,
+    "calls": 1,
+    "latency_s": 0.893746699905023,
+    "request_ids": [
+      "50ee4feb05e842eeaefc9e8a53692f2c"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-581561a6ad6f6037cec076ef6ebc6aa67e3c40ce8717fac43bb5cf4de402d61d",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "100",
+    "text": "10 acres × 5 tons/acre = 50 tons  \n50 tons × 2 barrels/ton = 100 barrels\n\n<answer>100</answer>",
+    "input_tokens": 126,
+    "output_tokens": 71,
+    "total_tokens": 197,
+    "reasoning_tokens": 36,
+    "calls": 1,
+    "latency_s": 0.8240440001245588,
+    "request_ids": [
+      "57cdc362f3794dcdb53d7268f68ff3e4"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-f3d2522713ade6e5aaf68de3225df40c4eac9ee7748deb9fff31c642f6fcc1d8",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "20",
+    "text": "20% of 50 microphones is \\(0.20 \\times 50 = 10\\) microphones left out.\n\nMicrophones arranged: \\(50 - 10 = 40\\)\n\nPairs arranged: \\(40 \\div 2 = 20\\)\n\n<answer>20</answer>",
+    "input_tokens": 141,
+    "output_tokens": 175,
+    "total_tokens": 316,
+    "reasoning_tokens": 115,
+    "calls": 1,
+    "latency_s": 1.0472555998712778,
+    "request_ids": [
+      "8b986dda0d3a4a899c330b057c8d9223"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-88d74ca01ed9de71ff5c731f51a136fc3f286b41463fd6f4db75da85261dabc9",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "43",
+    "text": "Red = 54  \nOrange = 2 × 54 = 108  \nYellow = 54 ÷ 2 = 27  \n\nTotal non-pink = 54 + 108 + 27 = 189  \nPink = 232 − 189 = 43\n\n<answer>43</answer>",
+    "input_tokens": 133,
+    "output_tokens": 142,
+    "total_tokens": 275,
+    "reasoning_tokens": 77,
+    "calls": 1,
+    "latency_s": 0.8929517997894436,
+    "request_ids": [
+      "6c66c326d16f4957b70e63dbf460610e"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-7ad5928a8a4264311619bbe2b3d7c541ce071cd13f4bfff12f2220863dd43928",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "230",
+    "text": "Each train covers:\n\n- Westward: 80 miles\n- Northward: 150 miles\n\nTotal distance covered = 80 + 150 = 230 miles per train.\n\n<answer>230</answer>",
+    "input_tokens": 127,
+    "output_tokens": 135,
+    "total_tokens": 262,
+    "reasoning_tokens": 90,
+    "calls": 1,
+    "latency_s": 0.9519803998991847,
+    "request_ids": [
+      "fbe9eac4adab421681f1cdb7f0d65e2e"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-53bdc46ac1c36913bee04b3b6c4be5ee4cba86de22f57458646b4da4777e5d6a",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "350",
+    "text": "Total width of windows: \\(5 \\times 35 = 175\\) inches.  \nFabric needed: \\(2 \\times 175 = 350\\) inches.\n\n<answer>350</answer>",
+    "input_tokens": 123,
+    "output_tokens": 98,
+    "total_tokens": 221,
+    "reasoning_tokens": 55,
+    "calls": 1,
+    "latency_s": 0.9059179001487792,
+    "request_ids": [
+      "18ec7947dd78484091a592008533eb34"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-3a50e2cc97cf84d3b477c3239cfe8fd9d3ac4ac18cdff021e908eb82c380804c",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "720",
+    "text": "First day: 8 hours  \nSecond day: \\(8 \\div 2 = 4\\) hours  \nTotal: \\(8 + 4 = 12\\) hours  \nIn minutes: \\(12 \\times 60 = 720\\)\n\n<answer>720</answer>",
+    "input_tokens": 140,
+    "output_tokens": 120,
+    "total_tokens": 260,
+    "reasoning_tokens": 63,
+    "calls": 1,
+    "latency_s": 7.407388299936429,
+    "request_ids": [
+      "f037c2f42c6f4650b885536da197dcfd"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-ddb7e65e9964ff36f9ec5e0abe07ac6afb0397e94228b884514cc771256f17e5",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "50",
+    "text": "Beach time = 40 minutes for 2 miles.\n\nSidewalk speed is twice beach speed, so the 1-mile sidewalk takes half the time it would take to walk 1 mile on the beach.\n\nBeach rate = 2 miles / 40 minutes = 1/20 mile per minute.  \nSidewalk rate = 1/10 mile per minute.  \nSidewalk time = 1 mile ÷ (1/10) = 10 minutes.\n\nTotal time = 40 + 10 = 50 minutes.\n\n<answer>50</answer>",
+    "input_tokens": 165,
+    "output_tokens": 240,
+    "total_tokens": 405,
+    "reasoning_tokens": 124,
+    "calls": 1,
+    "latency_s": 7.114089299924672,
+    "request_ids": [
+      "b4b2717b634a49be917fca1ea9f5f193"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-50d5ae937ecfea1ee7e265016e7da289d2afb626234b97de1c99b0c7d403bdd1",
+    "action": "direct",
+    "correct": 1,
+    "prediction": "374",
+    "text": "<answer>374</answer>",
+    "input_tokens": 208,
+    "output_tokens": 78,
+    "total_tokens": 286,
+    "reasoning_tokens": 69,
+    "calls": 1,
+    "latency_s": 5.623360599856824,
+    "request_ids": [
+      "cc4ef5efb523496fae88290c67a8f611"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-ce0fb1b2eade08ac351b0f051f6452f0988dee2eb2721744cb0859ce1c8bf7b2",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "30",
+    "text": "Mike is 24, so Martha is \\(24 - 4 = 20\\).  \nJeff is \\(20 + 10 = 30\\).\n\n<answer>30</answer>",
+    "input_tokens": 122,
+    "output_tokens": 88,
+    "total_tokens": 210,
+    "reasoning_tokens": 50,
+    "calls": 1,
+    "latency_s": 0.7371580998878926,
+    "request_ids": [
+      "560f54d57cbf4f298f4935c812e602be"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-aedae2c295349981075596c0d28beb5e83abb3f2d4d59ec76c7d8732c3df4d61",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "5",
+    "text": "Ana peels \\(60 \\div 3 = 20\\) oranges in an hour.  \nJane peels \\(60 \\div 4 = 15\\) oranges in an hour.  \nDifference: \\(20 - 15 = 5\\).\n\n<answer>5</answer>",
+    "input_tokens": 135,
+    "output_tokens": 187,
+    "total_tokens": 322,
+    "reasoning_tokens": 129,
+    "calls": 1,
+    "latency_s": 1.6644514999352396,
+    "request_ids": [
+      "c6b60c1657f2462f968f5abc54fee28c"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-8046e774f889119c950c1be0f33bfac03b16340371d8f396bf8b47a22d91499c",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "81",
+    "text": "Walter ate \\( \\frac{2}{5} \\times 60 = 24 \\) apples, leaving \\(60 - 24 = 36\\).\n\nHe gave his sister \\(25\\% \\times 36 = 9\\) apples, leaving \\(36 - 9 = 27\\).\n\nHe sold 27 apples at \\$3 each: \\(27 \\times 3 = 81\\).\n\n<answer>81</answer>",
+    "input_tokens": 129,
+    "output_tokens": 148,
+    "total_tokens": 277,
+    "reasoning_tokens": 62,
+    "calls": 1,
+    "latency_s": 1.5258788000792265,
+    "request_ids": [
+      "b57eeb456cba447aad295747cc58d86d"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-fa49606bae4ebb92f6429d7bd366a53f0490a7d09d7b08aa25ff637373434f99",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "15",
+    "text": "Bill’s father saw the comet at age 30.\n\nBill saw it the second time at \\(3 \\times 30 = 90\\) years old.\n\nSince Comet Halley appears every 75 years, Bill’s first sighting was:\n\n\\(90 - 75 = 15\\)\n\n<answer>15</answer>",
+    "input_tokens": 144,
+    "output_tokens": 175,
+    "total_tokens": 319,
+    "reasoning_tokens": 106,
+    "calls": 1,
+    "latency_s": 1.1751561998389661,
+    "request_ids": [
+      "28afdfebe9214ff18b1e63e3856efe63"
+    ],
+    "finish_reason": "stop"
+  },
+  {
+    "task_id": "gsm8k-cb3ade818942190d8edfaad4989b65306d76bb40076a9232379b954781abfd31",
+    "action": "reason",
+    "correct": 1,
+    "prediction": "300",
+    "text": "Sophia used 4 gallons to drive 100 miles, so her car gets:\n\n100 ÷ 4 = 25 miles per gallon\n\nWith a 12-gallon tank, she can drive:\n\n25 × 12 = 300 miles\n\n<answer>300</answer>",
+    "input_tokens": 168,
+    "output_tokens": 131,
+    "total_tokens": 299,
+    "reasoning_tokens": 73,
+    "calls": 1,
+    "latency_s": 0.8920758001040667,
+    "request_ids": [
+      "435cf92aaca2479994c8e7bcc74ac3e3"
+    ],
+    "finish_reason": "stop"
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-2f4c58ac72a3c3a57cdd447c0fd061f22b9deb17226d7ddb870db15e3b94577b",
+    "question": "Carolyn works for a delivery service company that hires on a contract basis. In May, they hired 40 employees, paying each employee $15 per hour for a 40-hour workweek. In June, 1/4 of the employees' contracts expired. Calculate the total amount of money the company paid to the employees in the two months.",
+    "answer": "168000",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "168000",
+      "text": "<answer>168000</answer>",
+      "input_tokens": 148,
+      "output_tokens": 486,
+      "total_tokens": 634,
+      "reasoning_tokens": 476,
+      "calls": 1,
+      "latency_s": 2.3679078000131994,
+      "request_ids": [
+        "40e8ddb5c5bf4bdebfaeb831ed9507d7"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "168000",
+      "text": "May: \\(40 \\times 15 \\times 40 \\times 4 = 96{,}000\\)\n\nJune: \\(1/4\\) of 40 expired, so \\(40 \\times \\frac34 = 30\\) employees remain.  \n\\(30 \\times 15 \\times 40 \\times 4 = 72{,}000\\)\n\nTotal: \\(96{,}000 + 72{,}000 = 168{,}000\\)\n\n<answer>168000</answer>",
+      "input_tokens": 148,
+      "output_tokens": 401,
+      "total_tokens": 549,
+      "reasoning_tokens": 299,
+      "calls": 1,
+      "latency_s": 2.422792400000617,
+      "request_ids": [
+        "0cda9a30f3cf4851a114c17522ca04f1"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "168000",
+      "text": "May pay: \\(40 \\times 15 \\times 40 \\times 4 = 96{,}000\\).  \nJune employees: \\(40 \\times \\frac34 = 30\\), pay: \\(30 \\times 15 \\times 40 \\times 4 = 72{,}000\\).  \nTotal: \\(96{,}000 + 72{,}000 = 168{,}000\\). The interpretation and arithmetic are consistent.\n\n<answer>168000</answer>",
+      "input_tokens": 436,
+      "output_tokens": 704,
+      "total_tokens": 1140,
+      "reasoning_tokens": 502,
+      "calls": 2,
+      "latency_s": 4.082195299910381,
+      "request_ids": [
+        "0cda9a30f3cf4851a114c17522ca04f1",
+        "a7d65b4ca46d4484b1c1cf88de9ba271"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7ad5928a8a4264311619bbe2b3d7c541ce071cd13f4bfff12f2220863dd43928",
+    "question": "Two trains leave San Rafael at the same time. They begin traveling westward, both traveling for 80 miles. The next day, they travel northwards, covering 150 miles. What's the distance covered by each train in the two days?",
+    "answer": "230",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "230",
+      "text": "<answer>230</answer>",
+      "input_tokens": 127,
+      "output_tokens": 83,
+      "total_tokens": 210,
+      "reasoning_tokens": 74,
+      "calls": 1,
+      "latency_s": 2.494959499919787,
+      "request_ids": [
+        "0fba013df0ec4dd3aa684f6c72a2bf0f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "230",
+      "text": "Each train covers:\n\n- Westward: 80 miles\n- Northward: 150 miles\n\nTotal distance covered = 80 + 150 = 230 miles per train.\n\n<answer>230</answer>",
+      "input_tokens": 127,
+      "output_tokens": 135,
+      "total_tokens": 262,
+      "reasoning_tokens": 90,
+      "calls": 1,
+      "latency_s": 0.9519803998991847,
+      "request_ids": [
+        "fbe9eac4adab421681f1cdb7f0d65e2e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "230",
+      "text": "The trains travel 80 miles westward and 150 miles northward, so total distance covered per train is \\(80 + 150 = 230\\) miles. The proposed solution is correct.\n\n<answer>230</answer>",
+      "input_tokens": 337,
+      "output_tokens": 263,
+      "total_tokens": 600,
+      "reasoning_tokens": 171,
+      "calls": 2,
+      "latency_s": 1.8367864000611007,
+      "request_ids": [
+        "fbe9eac4adab421681f1cdb7f0d65e2e",
+        "61db3308bc8e48dc863cec4b711279f7"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

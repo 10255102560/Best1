@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-22634159e09042a54d536fad1492b76178be4441f550d36169f7fee59fe90965",
+    "question": "Alex is getting ready to attend an event that she has hosted and wants to make sure that she has enough seats for everyone. She invites 100 people via email and each invited person says that they will also invite 2 of their friends. She then calls 10 of her friends to invite them too and 8 of them say they will be bringing their spouses. How many seats will Alex need?",
+    "answer": "319",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "319",
+      "text": "<answer>319</answer>",
+      "input_tokens": 158,
+      "output_tokens": 505,
+      "total_tokens": 663,
+      "reasoning_tokens": 496,
+      "calls": 1,
+      "latency_s": 3.328008000040427,
+      "request_ids": [
+        "82b7c24e581f49c4b3df07221a3bea9f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "319",
+      "text": "Email invitees: 100  \nTheir friends: 100 × 2 = 200  \nAdditional friends called: 10  \nSpouses: 8  \nAlex herself: 1  \n\nTotal seats: 100 + 200 + 10 + 8 + 1 = 319\n\n<answer>319</answer>",
+      "input_tokens": 158,
+      "output_tokens": 840,
+      "total_tokens": 998,
+      "reasoning_tokens": 772,
+      "calls": 1,
+      "latency_s": 4.1124449998606,
+      "request_ids": [
+        "104d53423b344babb595d6e9d14efb0f"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "319",
+      "text": "Counts are correct: 100 email invitees + 200 friends + 10 called friends + 8 spouses + Alex = 319.\n\n<answer>319</answer>",
+      "input_tokens": 422,
+      "output_tokens": 1553,
+      "total_tokens": 1975,
+      "reasoning_tokens": 1447,
+      "calls": 2,
+      "latency_s": 8.971451999852434,
+      "request_ids": [
+        "104d53423b344babb595d6e9d14efb0f",
+        "4389bc5279dd4fd38f0c750704cdb172"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

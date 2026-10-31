@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-df618d9f8760a83dbe8f2c628d08b4104823cef140d896d549dbebee472d5d89",
+    "question": "Four dogs sat in a line within the veterinarian's waiting room.  The first dog was the Affenpinscher, who weighed only 10 pounds.  Next to him sat a Dachshund, who weighed twice as much as the Affenpinscher.  Next to the Dachshund sat a Papillon, who weighed one-fourth as much as the Dachshund.  And at the end of the line sat a Mastiff, who weighed 44 times the weight of the Papillon.  How much did the Mastiff weigh, in pounds?",
+    "answer": "220",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "220",
+      "text": "<answer>220</answer>",
+      "input_tokens": 194,
+      "output_tokens": 59,
+      "total_tokens": 253,
+      "reasoning_tokens": 50,
+      "calls": 1,
+      "latency_s": 1.109631400089711,
+      "request_ids": [
+        "8b3150027f1a4298a321b0cea6dc8b36"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "220",
+      "text": "Affenpinscher: 10 lb  \nDachshund: \\(2 \\times 10 = 20\\) lb  \nPapillon: \\(\\frac{1}{4} \\times 20 = 5\\) lb  \nMastiff: \\(44 \\times 5 = 220\\) lb  \n\n<answer>220</answer>",
+      "input_tokens": 194,
+      "output_tokens": 127,
+      "total_tokens": 321,
+      "reasoning_tokens": 55,
+      "calls": 1,
+      "latency_s": 0.8210028999019414,
+      "request_ids": [
+        "bccb5c576e654a419eb592c0a62a0597"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "220",
+      "text": "Affenpinscher = 10 lb.  \nDachshund = 2 × 10 = 20 lb.  \nPapillon = 1/4 × 20 = 5 lb.  \nMastiff = 44 × 5 = 220 lb.  \nThe interpretation and arithmetic are correct.\n\n<answer>220</answer>",
+      "input_tokens": 498,
+      "output_tokens": 242,
+      "total_tokens": 740,
+      "reasoning_tokens": 96,
+      "calls": 2,
+      "latency_s": 1.9396186999510974,
+      "request_ids": [
+        "bccb5c576e654a419eb592c0a62a0597",
+        "c8328753ce8a43558f4734bdbb5da2d5"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

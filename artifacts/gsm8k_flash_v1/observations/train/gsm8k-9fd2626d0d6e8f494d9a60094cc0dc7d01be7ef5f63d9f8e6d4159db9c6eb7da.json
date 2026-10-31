@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-9fd2626d0d6e8f494d9a60094cc0dc7d01be7ef5f63d9f8e6d4159db9c6eb7da",
+    "question": "Bob gets paid $5 an hour for the regular hours he works and $6 an hour for any overtime hours he works. All hours over 40 in a week are considered overtime. If Bob works 44  hours in the first week and 48 hours in the second week, how much did he make?",
+    "answer": "472",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "472",
+      "text": "<answer>472</answer>",
+      "input_tokens": 141,
+      "output_tokens": 69,
+      "total_tokens": 210,
+      "reasoning_tokens": 60,
+      "calls": 1,
+      "latency_s": 0.6377529001329094,
+      "request_ids": [
+        "486f352a49d84416849cf39857ae7a6e"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "472",
+      "text": "Week 1: \\(40 \\times 5 + 4 \\times 6 = 200 + 24 = 224\\)\n\nWeek 2: \\(40 \\times 5 + 8 \\times 6 = 200 + 48 = 248\\)\n\nTotal: \\(224 + 248 = 472\\)\n\n<answer>472</answer>",
+      "input_tokens": 141,
+      "output_tokens": 150,
+      "total_tokens": 291,
+      "reasoning_tokens": 76,
+      "calls": 1,
+      "latency_s": 0.9426267000380903,
+      "request_ids": [
+        "27b32895232843708a8d70443bc4fd86"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "472",
+      "text": "Week 1: \\(40(5)+4(6)=200+24=224\\).  \nWeek 2: \\(40(5)+8(6)=200+48=248\\).  \nTotal: \\(224+248=472\\). The interpretation and arithmetic are correct.\n\n<answer>472</answer>",
+      "input_tokens": 394,
+      "output_tokens": 328,
+      "total_tokens": 722,
+      "reasoning_tokens": 189,
+      "calls": 2,
+      "latency_s": 2.1073837999720126,
+      "request_ids": [
+        "27b32895232843708a8d70443bc4fd86",
+        "03d4e8aa99ce4c81977c44f369541e97"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

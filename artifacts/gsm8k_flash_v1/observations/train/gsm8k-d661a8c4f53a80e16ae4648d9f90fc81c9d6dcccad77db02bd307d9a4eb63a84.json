@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-d661a8c4f53a80e16ae4648d9f90fc81c9d6dcccad77db02bd307d9a4eb63a84",
+    "question": "Of 96 oranges, half were ripe. If 1/4 of the ripe oranges were eaten and 1/8 of the unripe oranges were eaten, how many were left eaten in total?",
+    "answer": "78",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 0,
+      "prediction": "18",
+      "text": "<answer>18</answer>",
+      "input_tokens": 119,
+      "output_tokens": 85,
+      "total_tokens": 204,
+      "reasoning_tokens": 76,
+      "calls": 1,
+      "latency_s": 0.7662424000445753,
+      "request_ids": [
+        "af77e05aceb046b4ab612430fdfab7c8"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "78",
+      "text": "Half of 96 is 48, so there were 48 ripe and 48 unripe oranges.\n\n- Ripe eaten: \\(48 \\times \\frac14 = 12\\)\n- Unripe eaten: \\(48 \\times \\frac18 = 6\\)\n- Total eaten: \\(12 + 6 = 18\\)\n- Oranges left: \\(96 - 18 = 78\\)\n\n<answer>78</answer>",
+      "input_tokens": 119,
+      "output_tokens": 975,
+      "total_tokens": 1094,
+      "reasoning_tokens": 883,
+      "calls": 1,
+      "latency_s": 5.712915000040084,
+      "request_ids": [
+        "43c973e5a2a446e795afd59f378d7866"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "78",
+      "text": "Half of 96 is 48 ripe and 48 unripe.  \nEaten: \\(48/4=12\\) ripe and \\(48/8=6\\) unripe, total \\(18\\).  \nLeft: \\(96-18=78\\). The proposed solution is correct.\n\n<answer>78</answer>",
+      "input_tokens": 368,
+      "output_tokens": 1908,
+      "total_tokens": 2276,
+      "reasoning_tokens": 1750,
+      "calls": 2,
+      "latency_s": 9.799276900012046,
+      "request_ids": [
+        "43c973e5a2a446e795afd59f378d7866",
+        "42c0a9f87a80488abcc2c441567a7625"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

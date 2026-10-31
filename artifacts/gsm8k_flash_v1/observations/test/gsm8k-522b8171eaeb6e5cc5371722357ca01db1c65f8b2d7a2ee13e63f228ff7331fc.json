@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-522b8171eaeb6e5cc5371722357ca01db1c65f8b2d7a2ee13e63f228ff7331fc",
+    "question": "A three-toed sloth moves very slowly, and only eats when he is up in his tree.  For a meal of berries, it takes the sloth 4 hours to make the trip down the tree, pick up berries, and climb back up into his tree.  Assuming he picks the same number of berries on each trip, what is the least number of berries he can pick up per trip down to the ground if he wants to collect 24 berries in 8 hours?",
+    "answer": "12",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "<answer>12</answer>",
+      "input_tokens": 177,
+      "output_tokens": 463,
+      "total_tokens": 640,
+      "reasoning_tokens": 454,
+      "calls": 1,
+      "latency_s": 3.7403859000187367,
+      "request_ids": [
+        "0e016283a8c540e286603564499e5c3f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "8 hours ÷ 4 hours per trip = 2 trips  \n24 berries ÷ 2 trips = 12 berries per trip\n\n<answer>12</answer>",
+      "input_tokens": 177,
+      "output_tokens": 1069,
+      "total_tokens": 1246,
+      "reasoning_tokens": 1034,
+      "calls": 1,
+      "latency_s": 4.852331600151956,
+      "request_ids": [
+        "8309ebec5b0a40e7a8efc77422f27914"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "The sloth completes 8 ÷ 4 = 2 trips in 8 hours. To collect 24 berries equally over 2 trips, he needs 24 ÷ 2 = 12 berries per trip. The proposed solution is correct.\n\n<answer>12</answer>",
+      "input_tokens": 427,
+      "output_tokens": 1278,
+      "total_tokens": 1705,
+      "reasoning_tokens": 1185,
+      "calls": 2,
+      "latency_s": 6.278180800145492,
+      "request_ids": [
+        "8309ebec5b0a40e7a8efc77422f27914",
+        "c6d75b1f0f1747aa9329ce12bf0ef661"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

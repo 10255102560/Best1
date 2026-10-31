@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-c5914b7f4969c7e206c5453268bc7b9752a8534f91ff3c12f5771e4478b4b806",
+    "question": "Annabelle is saving for a phone that costs $400. She already has $80 in her savings. Her first job, where she earns $10 per hour, pays her for 20 hours of work. She is also paid for 15 hours of work at her second job, where she earns $5 an hour. In dollars, how much money does Annabelle still need to save?",
+    "answer": "45",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "45",
+      "text": "<answer>45</answer>",
+      "input_tokens": 157,
+      "output_tokens": 70,
+      "total_tokens": 227,
+      "reasoning_tokens": 61,
+      "calls": 1,
+      "latency_s": 0.9071776000782847,
+      "request_ids": [
+        "c564a96cb2d44157948f7f8fef8a3d63"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "45",
+      "text": "Phone cost: $400  \nSavings: $80  \nFirst job: 20 × $10 = $200  \nSecond job: 15 × $5 = $75  \n\nTotal saved: $80 + $200 + $75 = $355  \nStill needed: $400 − $355 = $45\n\n<answer>45</answer>",
+      "input_tokens": 157,
+      "output_tokens": 146,
+      "total_tokens": 303,
+      "reasoning_tokens": 74,
+      "calls": 1,
+      "latency_s": 0.9085559998638928,
+      "request_ids": [
+        "565f8f64992a46ecab52efeaaed91009"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "45",
+      "text": "Verification: Total available = $80 + (20 × $10) + (15 × $5) = $80 + $200 + $75 = $355. Remaining needed = $400 − $355 = $45. The proposed solution is correct.\n\n<answer>45</answer>",
+      "input_tokens": 424,
+      "output_tokens": 324,
+      "total_tokens": 748,
+      "reasoning_tokens": 189,
+      "calls": 2,
+      "latency_s": 2.442353499820456,
+      "request_ids": [
+        "565f8f64992a46ecab52efeaaed91009",
+        "7dfd2356163241ff9e8686de4a4d6d17"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

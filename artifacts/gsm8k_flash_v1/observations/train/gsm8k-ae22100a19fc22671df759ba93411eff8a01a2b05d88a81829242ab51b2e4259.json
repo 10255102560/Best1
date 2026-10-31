@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ae22100a19fc22671df759ba93411eff8a01a2b05d88a81829242ab51b2e4259",
+    "question": "Nina makes one-of-a-kind jewelry and sells it at a local boutique.  She charges $25.00 for her necklaces, $15.00 for bracelets and $10.00 for a pair of earrings.  Over the weekend, she sold 5 necklaces, 10 bracelets, 20 earrings, and received 2 orders for a complete jewelry ensemble that Nina charged $45.00 for.  How much money did she make over the weekend?",
+    "answer": "565",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "565",
+      "text": "<answer>565</answer>",
+      "input_tokens": 177,
+      "output_tokens": 80,
+      "total_tokens": 257,
+      "reasoning_tokens": 71,
+      "calls": 1,
+      "latency_s": 0.6489424000028521,
+      "request_ids": [
+        "b31aafd1bc344294a4b1658893b084df"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "565",
+      "text": "Necklaces: \\(5 \\times 25 = 125\\)  \nBracelets: \\(10 \\times 15 = 150\\)  \nEarrings: \\(20 \\times 10 = 200\\)  \nEnsembles: \\(2 \\times 45 = 90\\)  \n\nTotal: \\(125 + 150 + 200 + 90 = 565\\)\n\n<answer>565</answer>",
+      "input_tokens": 177,
+      "output_tokens": 167,
+      "total_tokens": 344,
+      "reasoning_tokens": 82,
+      "calls": 1,
+      "latency_s": 1.240373499924317,
+      "request_ids": [
+        "9ca3cbb5c5b04bffaa58d0f061b6197b"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 0,
+      "prediction": null,
+      "text": "",
+      "input_tokens": 477,
+      "output_tokens": 2215,
+      "total_tokens": 2692,
+      "reasoning_tokens": 2130,
+      "calls": 2,
+      "latency_s": 10.60779929975979,
+      "request_ids": [
+        "9ca3cbb5c5b04bffaa58d0f061b6197b",
+        "2a14aa74d178486eb97a8cf71a93adc4"
+      ],
+      "finish_reason": "length"
+    }
+  }
+}

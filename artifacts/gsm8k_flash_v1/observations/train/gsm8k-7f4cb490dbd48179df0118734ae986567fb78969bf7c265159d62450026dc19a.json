@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7f4cb490dbd48179df0118734ae986567fb78969bf7c265159d62450026dc19a",
+    "question": "Don buys recyclable bottles in a small town. Shop A normally sells him 150 bottles, shop B sells him 180 bottles and Shop C sells him the rest. How many bottles does Don buy from Shop C if he is capable of buying only 550 bottles?",
+    "answer": "220",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "220",
+      "text": "<answer>220</answer>",
+      "input_tokens": 132,
+      "output_tokens": 37,
+      "total_tokens": 169,
+      "reasoning_tokens": 28,
+      "calls": 1,
+      "latency_s": 2.8076082000043243,
+      "request_ids": [
+        "94131ade17654ad08dfb72ad616c9eb0"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "220",
+      "text": "Shop A + Shop B = 150 + 180 = 330 bottles.  \nShop C = 550 - 330 = 220 bottles.\n\n<answer>220</answer>",
+      "input_tokens": 132,
+      "output_tokens": 83,
+      "total_tokens": 215,
+      "reasoning_tokens": 44,
+      "calls": 1,
+      "latency_s": 1.4976298999972641,
+      "request_ids": [
+        "36d009bc9b7c45dc806c38904227f518"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "220",
+      "text": "Verification: 150 + 180 = 330; 550 − 330 = 220. The interpretation and arithmetic are correct.\n\n<answer>220</answer>",
+      "input_tokens": 341,
+      "output_tokens": 219,
+      "total_tokens": 560,
+      "reasoning_tokens": 143,
+      "calls": 2,
+      "latency_s": 2.4052182999439538,
+      "request_ids": [
+        "36d009bc9b7c45dc806c38904227f518",
+        "91badf07c9504476ab32430e35db6b9c"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

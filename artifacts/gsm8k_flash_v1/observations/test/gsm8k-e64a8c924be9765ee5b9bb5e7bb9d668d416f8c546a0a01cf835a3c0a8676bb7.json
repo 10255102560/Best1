@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-e64a8c924be9765ee5b9bb5e7bb9d668d416f8c546a0a01cf835a3c0a8676bb7",
+    "question": "Two track teams are competing against each other in a 4 by 400 meter relay; a race where each competing team has four members that each run 400 meters, or one lap, around a standard track.  One of the two teams is very well-rounded and each of their members will run their 400 meter leg in precisely 55 seconds.  The other team is less well-rounded; their first runner will run their 400 meter leg in 60 seconds then each subsequent runner will be 3 seconds faster than the previous runner.  Using this information, how many seconds will the faster team win by?",
+    "answer": "2",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "<answer>2</answer>",
+      "input_tokens": 202,
+      "output_tokens": 87,
+      "total_tokens": 289,
+      "reasoning_tokens": 78,
+      "calls": 1,
+      "latency_s": 1.5849228999577463,
+      "request_ids": [
+        "627e8eeeb3dc4bb3a4f05678f500b833"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "Team A total: \\(4 \\times 55 = 220\\) seconds.\n\nTeam B total: \\(60 + 57 + 54 + 51 = 222\\) seconds.\n\nWinning margin: \\(222 - 220 = 2\\) seconds.\n\n<answer>2</answer>",
+      "input_tokens": 202,
+      "output_tokens": 176,
+      "total_tokens": 378,
+      "reasoning_tokens": 115,
+      "calls": 1,
+      "latency_s": 2.5784251000732183,
+      "request_ids": [
+        "c30727c30ea24732a893aace4fa41c6a"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "Team A: \\(4 \\times 55 = 220\\) seconds.  \nTeam B: \\(60 + 57 + 54 + 51 = 222\\) seconds.  \nWinning margin: \\(222 - 220 = 2\\) seconds.\n\n<answer>2</answer>",
+      "input_tokens": 503,
+      "output_tokens": 307,
+      "total_tokens": 810,
+      "reasoning_tokens": 185,
+      "calls": 2,
+      "latency_s": 3.5360771999694407,
+      "request_ids": [
+        "c30727c30ea24732a893aace4fa41c6a",
+        "9e741a2a635e46529e4161b6541aa351"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

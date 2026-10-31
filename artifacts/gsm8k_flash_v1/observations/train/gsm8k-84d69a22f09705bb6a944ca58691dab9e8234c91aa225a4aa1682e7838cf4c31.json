@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-84d69a22f09705bb6a944ca58691dab9e8234c91aa225a4aa1682e7838cf4c31",
+    "question": "40% of the mosquitos in Jack's area are infected with malaria. 20% of the mosquitos are infected with Zika virus. Without a vaccine, the chances of getting infected with either virus after getting bitten by an infected mosquito are 50%. Jack is taking an experimental malaria vaccine that reduces the chances of getting infected after getting bitten by 50%. If Jack gets bitten by a random mosquito, what is the percentage chance he catches either Zika virus or malaria?",
+    "answer": "15",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 0,
+      "prediction": "20",
+      "text": "<answer>20</answer>",
+      "input_tokens": 174,
+      "output_tokens": 1119,
+      "total_tokens": 1293,
+      "reasoning_tokens": 1110,
+      "calls": 1,
+      "latency_s": 5.413906899979338,
+      "request_ids": [
+        "7f075e58ff0e4b0bad8aa39dd556837d"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 0,
+      "prediction": "20",
+      "text": "Malaria risk: \\(0.40 \\times 0.50 \\times 0.50 = 0.10 = 10\\%\\)\n\nZika risk: \\(0.20 \\times 0.50 = 0.10 = 10\\%\\)\n\nTotal chance of either: \\(10\\% + 10\\% = 20\\%\\)\n\n<answer>20</answer>",
+      "input_tokens": 174,
+      "output_tokens": 846,
+      "total_tokens": 1020,
+      "reasoning_tokens": 769,
+      "calls": 1,
+      "latency_s": 4.132373999804258,
+      "request_ids": [
+        "735fd557aec04f4ea7fcc91c4a98d568"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 0,
+      "prediction": "20",
+      "text": "Malaria risk: \\(0.40 \\times 0.50 \\times 0.50 = 0.10\\). Zika risk: \\(0.20 \\times 0.50 = 0.10\\). Total either risk: \\(0.10 + 0.10 = 0.20 = 20\\%\\). The arithmetic and requested percentage are correct under the intended separate-risk interpretation.\n\n<answer>20</answer>",
+      "input_tokens": 463,
+      "output_tokens": 2095,
+      "total_tokens": 2558,
+      "reasoning_tokens": 1927,
+      "calls": 2,
+      "latency_s": 10.453120499616489,
+      "request_ids": [
+        "735fd557aec04f4ea7fcc91c4a98d568",
+        "8dc6467a7adf45f2a4ef88993f507f4a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-8f14c99e512f47be6586053b235f9a71b15ce8f6a8da5ddc34fdd31f0868e6ab",
+    "question": "Amora, Lainey, and Collins wanted to share corn chips equally but then realized only two people would get an equal amount of corn chips, while the other person would receive 15 more corn chips than the number the others got. If Amora and Lainey got 70 corn chips each, how many corn chips were there altogether?",
+    "answer": "225",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "225",
+      "text": "<answer>225</answer>",
+      "input_tokens": 148,
+      "output_tokens": 81,
+      "total_tokens": 229,
+      "reasoning_tokens": 72,
+      "calls": 1,
+      "latency_s": 0.8990412000566721,
+      "request_ids": [
+        "17865fc79f9744edb296745a18f4a0da"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "225",
+      "text": "Amora and Lainey each got 70 chips.  \nCollins got 15 more than each of them: \\(70 + 15 = 85\\).  \nTotal: \\(70 + 70 + 85 = 225\\).\n\n<answer>225</answer>",
+      "input_tokens": 148,
+      "output_tokens": 168,
+      "total_tokens": 316,
+      "reasoning_tokens": 112,
+      "calls": 1,
+      "latency_s": 1.6927716999780387,
+      "request_ids": [
+        "d979bac1272e480fb7ea470ab8436cc0"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "225",
+      "text": "Amora and Lainey each received 70 chips. Collins received 15 more: \\(70+15=85\\). Total: \\(70+70+85=225\\). The interpretation and arithmetic are correct.\n\n<answer>225</answer>",
+      "input_tokens": 390,
+      "output_tokens": 497,
+      "total_tokens": 887,
+      "reasoning_tokens": 389,
+      "calls": 2,
+      "latency_s": 3.3311970999930054,
+      "request_ids": [
+        "d979bac1272e480fb7ea470ab8436cc0",
+        "cb5785ac66ef4201b8eeb8db1bbe512b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

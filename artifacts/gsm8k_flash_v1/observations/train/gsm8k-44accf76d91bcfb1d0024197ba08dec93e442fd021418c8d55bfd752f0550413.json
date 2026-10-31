@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-44accf76d91bcfb1d0024197ba08dec93e442fd021418c8d55bfd752f0550413",
+    "question": "John uses 5 liters of fuel per km to travel. How many liters of fuel should John plan to use if he plans to travel on two trips of 30 km and 20 km?",
+    "answer": "250",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "250",
+      "text": "<answer>250</answer>",
+      "input_tokens": 117,
+      "output_tokens": 52,
+      "total_tokens": 169,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 0.8417473998852074,
+      "request_ids": [
+        "977c8b0466fb4e1aadb393b2acdd1bd3"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "250",
+      "text": "Total distance = 30 km + 20 km = 50 km  \nFuel needed = 5 liters/km × 50 km = 250 liters\n\n<answer>250</answer>",
+      "input_tokens": 117,
+      "output_tokens": 96,
+      "total_tokens": 213,
+      "reasoning_tokens": 56,
+      "calls": 1,
+      "latency_s": 0.891808999935165,
+      "request_ids": [
+        "72e76cfe03394c88b32c1eb19d3a683a"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "250",
+      "text": "Total distance: 30 + 20 = 50 km.  \nFuel: 5 L/km × 50 km = 250 L.  \nThe proposed solution is correct.\n\n<answer>250</answer>",
+      "input_tokens": 312,
+      "output_tokens": 219,
+      "total_tokens": 531,
+      "reasoning_tokens": 134,
+      "calls": 2,
+      "latency_s": 1.781041600042954,
+      "request_ids": [
+        "72e76cfe03394c88b32c1eb19d3a683a",
+        "4e9a33e148cf416da46bae8e311beb6d"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

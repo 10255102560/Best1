@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-9a7d95af461725130bbc7cac77fb6a8b35d002d2c1ea6175bc385d403d4fe8c6",
+    "question": "New York recorded 5000 new coronavirus cases on a particular week. In the second week, half as many new coronaviruses cases as the first week was recorded by the state. In the third week, 2000 more cases were recorded in the state. What is the total number of recorded new coronaviruses in the state after the three weeks?",
+    "answer": "9500",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 0,
+      "prediction": "12000",
+      "text": "<answer>12000</answer>",
+      "input_tokens": 150,
+      "output_tokens": 618,
+      "total_tokens": 768,
+      "reasoning_tokens": 608,
+      "calls": 1,
+      "latency_s": 3.6234234001021832,
+      "request_ids": [
+        "15774a892fff4bc4b75a818debd82216"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 0,
+      "prediction": "12000",
+      "text": "Week 1: 5000 cases  \nWeek 2: \\(5000 \\div 2 = 2500\\) cases  \nWeek 3: \\(2500 + 2000 = 4500\\) cases  \n\nTotal: \\(5000 + 2500 + 4500 = 12000\\)\n\n<answer>12000</answer>",
+      "input_tokens": 150,
+      "output_tokens": 434,
+      "total_tokens": 584,
+      "reasoning_tokens": 361,
+      "calls": 1,
+      "latency_s": 2.510588499950245,
+      "request_ids": [
+        "0433d0fffd8f42bdafd55da764c133f6"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 0,
+      "prediction": "12000",
+      "text": "Week 2: \\(5000 \\div 2 = 2500\\).  \nWeek 3: \\(2500 + 2000 = 4500\\).  \nTotal: \\(5000 + 2500 + 4500 = 12000\\).  \nThe interpretation and arithmetic are correct.\n\n<answer>12000</answer>",
+      "input_tokens": 411,
+      "output_tokens": 741,
+      "total_tokens": 1152,
+      "reasoning_tokens": 598,
+      "calls": 2,
+      "latency_s": 4.236487299902365,
+      "request_ids": [
+        "0433d0fffd8f42bdafd55da764c133f6",
+        "ae0ae13db2554b4ba0adb1773670129e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

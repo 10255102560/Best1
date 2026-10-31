@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-6b01e183784606ceb2d571a7f817db55b87a7ec6044deb75da9eb08e7d49a92c",
+    "question": "If Billy and Jenny each order a $20 steak along with a $5 drink, how much will Billy have to pay in tips if he wants to cover 80% of a 20% tip for the two of them?",
+    "answer": "8",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "<answer>8</answer>",
+      "input_tokens": 124,
+      "output_tokens": 99,
+      "total_tokens": 223,
+      "reasoning_tokens": 90,
+      "calls": 1,
+      "latency_s": 0.8345287998672575,
+      "request_ids": [
+        "410429d855d54376ba5b97ade9a09045"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "Each person’s meal costs $20 + $5 = $25.  \nTogether: 2 × $25 = $50.  \n20% tip: 0.20 × $50 = $10.  \nBilly covers 80%: 0.80 × $10 = $8.\n\n<answer>8</answer>",
+      "input_tokens": 124,
+      "output_tokens": 140,
+      "total_tokens": 264,
+      "reasoning_tokens": 70,
+      "calls": 1,
+      "latency_s": 0.9280687000136822,
+      "request_ids": [
+        "db7df2dadf9e46af8efedc9ea742d840"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "Each meal: $20 + $5 = $25. Together: 2 × $25 = $50. 20% tip: $10. Billy covers 80%: 0.8 × $10 = $8. The proposed solution is correct.\n\n<answer>8</answer>",
+      "input_tokens": 356,
+      "output_tokens": 310,
+      "total_tokens": 666,
+      "reasoning_tokens": 177,
+      "calls": 2,
+      "latency_s": 2.006471399916336,
+      "request_ids": [
+        "db7df2dadf9e46af8efedc9ea742d840",
+        "35ac27496eb843c7ab9a5f5af65f9a6d"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-792e326da61c548328a22ae42a9641539ff0bf9a7146ff263e698de717c2d9ba",
+    "question": "The glee club ordered 20 pizzas and ate 70% of them. The football team ordered twice as many pizzas and ate 80% of them. How many pizzas are left?",
+    "answer": "14",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "<answer>14</answer>",
+      "input_tokens": 119,
+      "output_tokens": 67,
+      "total_tokens": 186,
+      "reasoning_tokens": 58,
+      "calls": 1,
+      "latency_s": 0.8647133000195026,
+      "request_ids": [
+        "aaa31c22f8c0449990c2a4e811bb400c"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "Glee club: \\(20 \\times 30\\% = 6\\) pizzas left.  \nFootball team: \\(40 \\times 20\\% = 8\\) pizzas left.  \nTotal left: \\(6 + 8 = 14\\).\n\n<answer>14</answer>",
+      "input_tokens": 119,
+      "output_tokens": 115,
+      "total_tokens": 234,
+      "reasoning_tokens": 55,
+      "calls": 1,
+      "latency_s": 0.8641001000069082,
+      "request_ids": [
+        "65b2169a8d2e463393f47c40a4a48a48"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "Glee club: \\(20 \\times 30\\% = 6\\) left.  \nFootball team: \\(40 \\times 20\\% = 8\\) left.  \nTotal left: \\(6 + 8 = 14\\). The proposed solution is correct.\n\n<answer>14</answer>",
+      "input_tokens": 336,
+      "output_tokens": 260,
+      "total_tokens": 596,
+      "reasoning_tokens": 138,
+      "calls": 2,
+      "latency_s": 1.8785540000535548,
+      "request_ids": [
+        "65b2169a8d2e463393f47c40a4a48a48",
+        "3d095d6d812445af8f90789069603184"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

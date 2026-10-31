@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-50d5ae937ecfea1ee7e265016e7da289d2afb626234b97de1c99b0c7d403bdd1",
+    "question": "A bird decides to leave her summer home in the north and travel to her winter home in the south.  To make the journey, the bird leaves her home flying in a southerly direction for 10 hours at a speed of 30 miles per hour.  Then, the bird turns direction and flies towards the north for 2 hours are a speed of 18 miles per hour.  Finally, the bird changes direction and flies toward the south for 5 hours at a speed of 22 miles per hour before landing at her southern home.  What is the distance, in miles, between the bird's northern and the southern homes?",
+    "answer": "374",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "374",
+      "text": "<answer>374</answer>",
+      "input_tokens": 208,
+      "output_tokens": 78,
+      "total_tokens": 286,
+      "reasoning_tokens": 69,
+      "calls": 1,
+      "latency_s": 5.623360599856824,
+      "request_ids": [
+        "cc4ef5efb523496fae88290c67a8f611"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "374",
+      "text": "The bird’s net southward distance is:\n\n- South: \\(10 \\times 30 = 300\\) miles  \n- North: \\(2 \\times 18 = 36\\) miles  \n- South: \\(5 \\times 22 = 110\\) miles  \n\nNet distance south: \\(300 - 36 + 110 = 374\\) miles.\n\n<answer>374</answer>",
+      "input_tokens": 208,
+      "output_tokens": 161,
+      "total_tokens": 369,
+      "reasoning_tokens": 79,
+      "calls": 1,
+      "latency_s": 1.4426406000275165,
+      "request_ids": [
+        "75b6cd22135d43dfb16f70251f7f35ff"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "374",
+      "text": "The net southward displacement is \\(300 - 36 + 110 = 374\\) miles, which is the distance between the two homes.\n\n<answer>374</answer>",
+      "input_tokens": 536,
+      "output_tokens": 302,
+      "total_tokens": 838,
+      "reasoning_tokens": 182,
+      "calls": 2,
+      "latency_s": 2.958663000026718,
+      "request_ids": [
+        "75b6cd22135d43dfb16f70251f7f35ff",
+        "da98ce24c6274cabb8ae4f70b3bc2547"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

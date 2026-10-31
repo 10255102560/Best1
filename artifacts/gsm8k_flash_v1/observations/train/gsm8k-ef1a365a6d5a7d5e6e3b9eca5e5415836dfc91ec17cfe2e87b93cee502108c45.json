@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ef1a365a6d5a7d5e6e3b9eca5e5415836dfc91ec17cfe2e87b93cee502108c45",
+    "question": "Hank reads the newspaper every morning, 5 days a week for 30 minutes.  He reads part of a novel every evening, 5 days a week, for 1 hour.  He doubles his reading time on Saturday and Sundays.  How many minutes does Hank spend reading in 1 week?",
+    "answer": "810",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "810",
+      "text": "<answer>810</answer>",
+      "input_tokens": 141,
+      "output_tokens": 548,
+      "total_tokens": 689,
+      "reasoning_tokens": 539,
+      "calls": 1,
+      "latency_s": 11.984594400040805,
+      "request_ids": [
+        "71a5ada03d8e4c80a3d98778c710f9ed"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "810",
+      "text": "Weekday reading per day: \\(30 + 60 = 90\\) minutes  \n5 weekdays: \\(90 \\times 5 = 450\\) minutes  \n\nWeekend reading per day (doubled): \\(90 \\times 2 = 180\\) minutes  \n2 weekend days: \\(180 \\times 2 = 360\\) minutes  \n\nTotal: \\(450 + 360 = 810\\) minutes\n\n<answer>810</answer>",
+      "input_tokens": 141,
+      "output_tokens": 784,
+      "total_tokens": 925,
+      "reasoning_tokens": 692,
+      "calls": 1,
+      "latency_s": 4.524574900045991,
+      "request_ids": [
+        "75bf58be134342c3a7acb3f5595e59e2"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "810",
+      "text": "Verification: Weekday total = (30 + 60) × 5 = 450 minutes. Weekend total = (90 × 2) × 2 = 360 minutes. Weekly total = 450 + 360 = 810 minutes. The interpretation and arithmetic are correct.\n\n<answer>810</answer>",
+      "input_tokens": 412,
+      "output_tokens": 1456,
+      "total_tokens": 1868,
+      "reasoning_tokens": 1297,
+      "calls": 2,
+      "latency_s": 8.672104000113904,
+      "request_ids": [
+        "75bf58be134342c3a7acb3f5595e59e2",
+        "587c9eb07dad4989ac0eb866ad44768a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

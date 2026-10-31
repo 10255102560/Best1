@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-26abc31422f0217acf02ebd3a9f8d37cce5b199fbace3905387dc699a75513e9",
+    "question": "Four people in a law firm are planning a party. Mary will buy a platter of pasta for $20 and a loaf of bread for $2. Elle and Andrea will split the cost for buying 4 cans of soda which cost $1.50 each, and chicken wings for $10. Joe will buy a cake that costs $5. How much more will Mary spend than the rest of the firm put together?",
+    "answer": "1",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "1",
+      "text": "<answer>1</answer>",
+      "input_tokens": 163,
+      "output_tokens": 194,
+      "total_tokens": 357,
+      "reasoning_tokens": 185,
+      "calls": 1,
+      "latency_s": 1.712939300108701,
+      "request_ids": [
+        "b18bed13e0ba4763bc54129a7b00d4fb"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "1",
+      "text": "Mary spends: $20 + $2 = $22.\n\nElle and Andrea together spend: 4 × $1.50 + $10 = $6 + $10 = $16.  \nJoe spends: $5.  \nRest of firm total: $16 + $5 = $21.\n\nDifference: $22 − $21 = $1.\n\n<answer>1</answer>",
+      "input_tokens": 163,
+      "output_tokens": 296,
+      "total_tokens": 459,
+      "reasoning_tokens": 216,
+      "calls": 1,
+      "latency_s": 1.815178700024262,
+      "request_ids": [
+        "9536e23f9026415db253418d4a9425d3"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "1",
+      "text": "Mary spends $22. The rest spend $6 + $10 + $5 = $21. Mary spends $1 more.\n\n<answer>1</answer>",
+      "input_tokens": 444,
+      "output_tokens": 413,
+      "total_tokens": 857,
+      "reasoning_tokens": 298,
+      "calls": 2,
+      "latency_s": 3.24605830013752,
+      "request_ids": [
+        "9536e23f9026415db253418d4a9425d3",
+        "7168b3dd017b45d58ac83e1c15706856"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

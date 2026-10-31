@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-3c4d4541a6d101cfc5dcc9c67e4add049a2df23e9a857547f51fc111c5bcdad0",
+    "question": "Andrew plans a road trip from New Jersey to Rochester. It takes 6 days to travel by bus and half as many days to travel by car from New Jersey to Rochester. How many days will he travel if he plans to go to Rochester by bus and return from Rochester by car?",
+    "answer": "9",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "9",
+      "text": "<answer>9</answer>",
+      "input_tokens": 135,
+      "output_tokens": 54,
+      "total_tokens": 189,
+      "reasoning_tokens": 45,
+      "calls": 1,
+      "latency_s": 0.8852936998009682,
+      "request_ids": [
+        "823136e4efe0456790e0bc3b0aa11702"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "9",
+      "text": "Bus trip: 6 days  \nCar trip: half of 6 = 3 days  \nTotal: 6 + 3 = 9 days\n\n<answer>9</answer>",
+      "input_tokens": 135,
+      "output_tokens": 87,
+      "total_tokens": 222,
+      "reasoning_tokens": 47,
+      "calls": 1,
+      "latency_s": 0.893746699905023,
+      "request_ids": [
+        "50ee4feb05e842eeaefc9e8a53692f2c"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "9",
+      "text": "Bus: 6 days. Car: half of 6 = 3 days. Total round trip: 6 + 3 = 9 days. The proposed solution is correct.\n\n<answer>9</answer>",
+      "input_tokens": 348,
+      "output_tokens": 199,
+      "total_tokens": 547,
+      "reasoning_tokens": 113,
+      "calls": 2,
+      "latency_s": 7.895344599848613,
+      "request_ids": [
+        "50ee4feb05e842eeaefc9e8a53692f2c",
+        "9e22c9c6174a487c88ebed485b851fb3"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

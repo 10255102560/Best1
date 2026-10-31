@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-b04ff52f75dfb4299706d07f7a0339f8c092361b937d71d9128db1ac027b13b3",
+    "question": "Jim is a maintenance worker at a pool. Every time someone jumps in the pool, they cause 400 ml of water to splash out and evaporate. Jim has to get everyone out of the pool, clean, and refill it when it gets below 80% full. If the pool holds 2000 L of water, how many times can people jump in the pool before Jim has to clean it?",
+    "answer": "1000",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "1000",
+      "text": "<answer>1000</answer>",
+      "input_tokens": 161,
+      "output_tokens": 226,
+      "total_tokens": 387,
+      "reasoning_tokens": 216,
+      "calls": 1,
+      "latency_s": 1.4398605998139828,
+      "request_ids": [
+        "8d2de1d732f449e398440477225954be"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "1000",
+      "text": "Pool capacity = 2000 L  \n80% of pool = 0.8 × 2000 = 1600 L  \nWater that can splash out before reaching 80% = 2000 − 1600 = 400 L  \nEach jump removes 400 mL = 0.4 L  \nNumber of jumps = 400 ÷ 0.4 = 1000  \n\nAt 1000 jumps, the pool is exactly 80% full, so Jim does not yet have to clean it.\n\n<answer>1000</answer>",
+      "input_tokens": 161,
+      "output_tokens": 676,
+      "total_tokens": 837,
+      "reasoning_tokens": 562,
+      "calls": 1,
+      "latency_s": 3.3732085002120584,
+      "request_ids": [
+        "db4e9eef8e1d4ffaa7484be6046cff04"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "1000",
+      "text": "Capacity: 2000 L. 80% threshold: 1600 L. Allowable loss before below threshold: 400 L. Each jump removes 0.4 L. \\(400 \\div 0.4 = 1000\\). At 1000 jumps the pool is exactly 80%, not below, so Jim does not yet clean; the next jump would trigger cleaning.\n\n<answer>1000</answer>",
+      "input_tokens": 474,
+      "output_tokens": 1595,
+      "total_tokens": 2069,
+      "reasoning_tokens": 1392,
+      "calls": 2,
+      "latency_s": 7.818355200113729,
+      "request_ids": [
+        "db4e9eef8e1d4ffaa7484be6046cff04",
+        "42817a93e1744355abfb69cac00626a9"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

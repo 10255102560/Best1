@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-15c3f1e0e40725bdb8314be4296dad4b11fcc272d1da3d6e5ddb67f805ba592b",
+    "question": "Megan is making food for a party.  She has to spend 20 minutes preparing one dish in the oven.  Each dish can feed 5 people.  She spends 2 hours preparing as many of these dishes as she can for the party.  How many people can she feed with these dishes?",
+    "answer": "30",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "<answer>30</answer>",
+      "input_tokens": 141,
+      "output_tokens": 77,
+      "total_tokens": 218,
+      "reasoning_tokens": 68,
+      "calls": 1,
+      "latency_s": 0.7428717000875622,
+      "request_ids": [
+        "fee498de3210476db380c27de878e672"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "2 hours = 120 minutes.  \n120 ÷ 20 = 6 dishes.  \n6 × 5 = 30 people.\n\n<answer>30</answer>",
+      "input_tokens": 141,
+      "output_tokens": 119,
+      "total_tokens": 260,
+      "reasoning_tokens": 83,
+      "calls": 1,
+      "latency_s": 9.40688810008578,
+      "request_ids": [
+        "0255a185a45b4c089b441a03aaf5cd1c"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "2 hours = 120 minutes. 120 ÷ 20 = 6 dishes. 6 × 5 = 30 people. The proposed solution is correct.\n\n<answer>30</answer>",
+      "input_tokens": 356,
+      "output_tokens": 228,
+      "total_tokens": 584,
+      "reasoning_tokens": 150,
+      "calls": 2,
+      "latency_s": 10.286178500158712,
+      "request_ids": [
+        "0255a185a45b4c089b441a03aaf5cd1c",
+        "756ba005f9724bb4931565362849bb5c"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

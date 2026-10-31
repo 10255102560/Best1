@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-b5afe73a2a0b3bc5fcf1654d7f16d888a9a76dd551c04a610df402ad72ec62b2",
+    "question": "Abie had 20 bags of chips. She gave 4 bags to her friend and bought another 6 bags of chips in the store. How many bags of chips does Abie have in the end?",
+    "answer": "22",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "22",
+      "text": "<answer>22</answer>",
+      "input_tokens": 120,
+      "output_tokens": 68,
+      "total_tokens": 188,
+      "reasoning_tokens": 59,
+      "calls": 1,
+      "latency_s": 0.7424538999330252,
+      "request_ids": [
+        "ab350103b2d44c1888191b77632700b6"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "22",
+      "text": "Abie starts with 20 bags.  \nShe gives away 4: 20 − 4 = 16.  \nShe buys 6 more: 16 + 6 = 22.\n\n<answer>22</answer>",
+      "input_tokens": 120,
+      "output_tokens": 84,
+      "total_tokens": 204,
+      "reasoning_tokens": 35,
+      "calls": 1,
+      "latency_s": 0.6943844999186695,
+      "request_ids": [
+        "591264d3716a46458d9fed11c04f0751"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "22",
+      "text": "Verified: 20 − 4 + 6 = 22. The proposed solution is correct.\n\n<answer>22</answer>",
+      "input_tokens": 327,
+      "output_tokens": 189,
+      "total_tokens": 516,
+      "reasoning_tokens": 111,
+      "calls": 2,
+      "latency_s": 1.4609763000626117,
+      "request_ids": [
+        "591264d3716a46458d9fed11c04f0751",
+        "66123ede5efb45c69433fafa55ddc34c"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

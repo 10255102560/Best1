@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-6a89e1c16de9b2fd6c9d2a70a61d489889ca7bef3aaeab9fd9a1e2e8df37e5d7",
+    "question": "Sean is practicing for his role in a theater production. He has to memorize his lines for two scenes and the lyrics to one solo song. His solo song has 54 lines in the lyrics. The first scene has twice the number of lines, but only a third of them are his lines. The second scene has six more lines than the song, and four-fifths of them are his. How many lines does Sean have to memorize?",
+    "answer": "138",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "138",
+      "text": "<answer>138</answer>",
+      "input_tokens": 167,
+      "output_tokens": 162,
+      "total_tokens": 329,
+      "reasoning_tokens": 153,
+      "calls": 1,
+      "latency_s": 1.9074043999426067,
+      "request_ids": [
+        "e72553a626c64fa3b7dfb09d5d302231"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "138",
+      "text": "Song: 54 lines  \nFirst scene: \\(2 \\times 54 = 108\\) total lines; his lines: \\(108 \\div 3 = 36\\)  \nSecond scene: \\(54 + 6 = 60\\) total lines; his lines: \\(\\frac{4}{5} \\times 60 = 48\\)\n\nTotal: \\(54 + 36 + 48 = 138\\)\n\n<answer>138</answer>",
+      "input_tokens": 167,
+      "output_tokens": 262,
+      "total_tokens": 429,
+      "reasoning_tokens": 170,
+      "calls": 1,
+      "latency_s": 1.5262488001026213,
+      "request_ids": [
+        "ba11d9c380554486b48086a21effc337"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "138",
+      "text": "Verification: Song = 54. First scene total = 2×54 = 108; his lines = 108/3 = 36. Second scene total = 54+6 = 60; his lines = 4/5×60 = 48. Total = 54+36+48 = 138. The interpretation and arithmetic are correct.\n\n<answer>138</answer>",
+      "input_tokens": 464,
+      "output_tokens": 500,
+      "total_tokens": 964,
+      "reasoning_tokens": 324,
+      "calls": 2,
+      "latency_s": 3.0383439001161605,
+      "request_ids": [
+        "ba11d9c380554486b48086a21effc337",
+        "879907c166a54d7d8b3e2789ef9fd4b1"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

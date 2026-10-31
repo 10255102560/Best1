@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-5b01f4e2dd87e9fba27cb31dd74b72ebcef5848cb063e48b15de0684a3c9a741",
+    "question": "Apple can run at a rate of 3 miles per hour. Mac can run at a rate of 4 miles per hour. In minutes, how much faster will Mac run a 24 mile race?",
+    "answer": "120",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "120",
+      "text": "<answer>120</answer>",
+      "input_tokens": 119,
+      "output_tokens": 76,
+      "total_tokens": 195,
+      "reasoning_tokens": 67,
+      "calls": 1,
+      "latency_s": 0.706733699887991,
+      "request_ids": [
+        "7926b2df032d42b9a931f1ae4b356ee9"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "120",
+      "text": "Apple: \\(24 \\div 3 = 8\\) hours \\(= 480\\) minutes  \nMac: \\(24 \\div 4 = 6\\) hours \\(= 360\\) minutes  \nDifference: \\(480 - 360 = 120\\) minutes\n\n<answer>120</answer>",
+      "input_tokens": 119,
+      "output_tokens": 150,
+      "total_tokens": 269,
+      "reasoning_tokens": 88,
+      "calls": 1,
+      "latency_s": 1.2713111001066864,
+      "request_ids": [
+        "fb0d81801994408b94a32f948eb31531"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "120",
+      "text": "Apple: 24 ÷ 3 = 8 hours = 480 minutes.  \nMac: 24 ÷ 4 = 6 hours = 360 minutes.  \nDifference: 480 − 360 = 120 minutes. The proposed solution is correct.\n\n<answer>120</answer>",
+      "input_tokens": 338,
+      "output_tokens": 286,
+      "total_tokens": 624,
+      "reasoning_tokens": 163,
+      "calls": 2,
+      "latency_s": 2.1993394002784044,
+      "request_ids": [
+        "fb0d81801994408b94a32f948eb31531",
+        "79aec8feb7cc449e92071117981fa0ec"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

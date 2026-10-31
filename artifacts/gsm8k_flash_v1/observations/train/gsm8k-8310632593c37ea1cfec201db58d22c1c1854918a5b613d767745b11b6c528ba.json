@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-8310632593c37ea1cfec201db58d22c1c1854918a5b613d767745b11b6c528ba",
+    "question": "During one game, a total of 50 people attended a baseball team’s games. Forty percent and thirty-four percent of the audiences are supporters of the first and second teams, respectively. How many people attended the game did not support either of the teams?",
+    "answer": "3",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 0,
+      "prediction": "13",
+      "text": "<answer>13</answer>",
+      "input_tokens": 130,
+      "output_tokens": 131,
+      "total_tokens": 261,
+      "reasoning_tokens": 122,
+      "calls": 1,
+      "latency_s": 0.9089923999272287,
+      "request_ids": [
+        "60e5377e554848578fe342d1dfcc91f7"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 0,
+      "prediction": "13",
+      "text": "Total attendees: 50  \nSupport first team: \\(40\\% \\times 50 = 20\\)  \nSupport second team: \\(34\\% \\times 50 = 17\\)  \nSupport neither: \\(50 - 20 - 17 = 13\\)\n\n<answer>13</answer>",
+      "input_tokens": 130,
+      "output_tokens": 188,
+      "total_tokens": 318,
+      "reasoning_tokens": 126,
+      "calls": 1,
+      "latency_s": 1.3254013999830931,
+      "request_ids": [
+        "652fd56cbc6c4e6087651400ef642a7c"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 0,
+      "prediction": "13",
+      "text": "The percentages sum to \\(40\\% + 34\\% = 74\\%\\), so \\(26\\%\\) supported neither.  \n\\(26\\% \\times 50 = 13\\). The proposed solution is correct.\n\n<answer>13</answer>",
+      "input_tokens": 360,
+      "output_tokens": 421,
+      "total_tokens": 781,
+      "reasoning_tokens": 309,
+      "calls": 2,
+      "latency_s": 2.665664700092748,
+      "request_ids": [
+        "652fd56cbc6c4e6087651400ef642a7c",
+        "f1b152eb001e4fc3b3e802c8ae5638d8"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

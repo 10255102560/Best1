@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-a34d602472ddbdfad9354e44fc8c65b131f35f7473503021bcf08bc98aeda3a2",
+    "question": "Larry cooked dumplings for a group of friends.  There are 8 males, including Larry, and 6 females among them. Each male ate 1 more dumpling than each female. How many dumplings did Larry cook if each female ate 3 dumplings and there were no leftovers?",
+    "answer": "50",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "<answer>50</answer>",
+      "input_tokens": 139,
+      "output_tokens": 79,
+      "total_tokens": 218,
+      "reasoning_tokens": 70,
+      "calls": 1,
+      "latency_s": 0.7224937998689711,
+      "request_ids": [
+        "34d42cc3ade54d229efeb64f387f6214"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "Each female ate 3 dumplings, so each male ate \\(3+1=4\\) dumplings.\n\nTotal dumplings:\n\\[\n8 \\times 4 + 6 \\times 3 = 32 + 18 = 50\n\\]\n\n<answer>50</answer>",
+      "input_tokens": 139,
+      "output_tokens": 170,
+      "total_tokens": 309,
+      "reasoning_tokens": 110,
+      "calls": 1,
+      "latency_s": 1.1566407999489456,
+      "request_ids": [
+        "bab830220b0145ddb037c09db10f0e06"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "Females: \\(6 \\times 3 = 18\\). Males: \\(8 \\times (3+1)=32\\). Total: \\(18+32=50\\). The proposed solution is correct.\n\n<answer>50</answer>",
+      "input_tokens": 376,
+      "output_tokens": 306,
+      "total_tokens": 682,
+      "reasoning_tokens": 195,
+      "calls": 2,
+      "latency_s": 2.207062599947676,
+      "request_ids": [
+        "bab830220b0145ddb037c09db10f0e06",
+        "5dc0a8e0fd9b4ef7aff1b7732c749f58"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

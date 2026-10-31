@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-502bdd9a83db080edfb74b432ed297e9cf6f19cdae6fded4a7ca61b8ed638b59",
+    "question": "It takes Polly 20 minutes to cook breakfast every day. She spends 5 minutes cooking lunch. She spends 10 minutes cooking dinner 4 days this week. The rest of the days she spends 30 minutes cooking dinner. How many minutes does Polly spend cooking this week?",
+    "answer": "305",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "305",
+      "text": "<answer>305</answer>",
+      "input_tokens": 134,
+      "output_tokens": 726,
+      "total_tokens": 860,
+      "reasoning_tokens": 717,
+      "calls": 1,
+      "latency_s": 3.1473652001004666,
+      "request_ids": [
+        "21227d7e835d416385d03e5473f9ad6e"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "305",
+      "text": "Breakfast: \\(20 \\times 7 = 140\\) minutes  \nLunch: \\(5 \\times 7 = 35\\) minutes  \nDinner: \\(4 \\times 10 + 3 \\times 30 = 40 + 90 = 130\\) minutes  \n\nTotal: \\(140 + 35 + 130 = 305\\) minutes\n\n<answer>305</answer>",
+      "input_tokens": 134,
+      "output_tokens": 273,
+      "total_tokens": 407,
+      "reasoning_tokens": 190,
+      "calls": 1,
+      "latency_s": 1.345992100192234,
+      "request_ids": [
+        "c6e21c86a6e24c8aaef7b04b627c3040"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "305",
+      "text": "Breakfast: \\(20 \\times 7 = 140\\)  \nLunch: \\(5 \\times 7 = 35\\)  \nDinner: \\(4 \\times 10 + 3 \\times 30 = 130\\)  \nTotal: \\(140 + 35 + 130 = 305\\)\n\n<answer>305</answer>",
+      "input_tokens": 389,
+      "output_tokens": 507,
+      "total_tokens": 896,
+      "reasoning_tokens": 352,
+      "calls": 2,
+      "latency_s": 2.7492772000841796,
+      "request_ids": [
+        "c6e21c86a6e24c8aaef7b04b627c3040",
+        "998951444cd94283a4138b1c0f7940a3"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

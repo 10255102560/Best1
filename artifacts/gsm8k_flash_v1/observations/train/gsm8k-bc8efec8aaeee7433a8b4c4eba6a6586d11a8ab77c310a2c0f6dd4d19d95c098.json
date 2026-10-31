@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-bc8efec8aaeee7433a8b4c4eba6a6586d11a8ab77c310a2c0f6dd4d19d95c098",
+    "question": "Josh and Anna were both born on August 17th, but in different years. To consolidate celebrations they also got married on August 17 when Josh turned 22. If today they're celebrating 30 years of marriage and their combined age is exactly 5 times what Josh's age was when they married, how old was Anna when they got married?",
+    "answer": "28",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "28",
+      "text": "<answer>28</answer>",
+      "input_tokens": 149,
+      "output_tokens": 182,
+      "total_tokens": 331,
+      "reasoning_tokens": 173,
+      "calls": 1,
+      "latency_s": 1.0890415001194924,
+      "request_ids": [
+        "1e5fe519e5f348ceb94d03a962993c70"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "28",
+      "text": "Josh was 22 when they married.  \nAfter 30 years, Josh is \\(22 + 30 = 52\\).\n\nTheir combined age today is \\(5 \\times 22 = 110\\).  \nSo Anna is \\(110 - 52 = 58\\) today.\n\nAnna was \\(58 - 30 = 28\\) when they married.\n\n<answer>28</answer>",
+      "input_tokens": 149,
+      "output_tokens": 360,
+      "total_tokens": 509,
+      "reasoning_tokens": 281,
+      "calls": 1,
+      "latency_s": 1.7795019000768661,
+      "request_ids": [
+        "867bb6cd81fe430b8e126b7b7e2942b7"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "28",
+      "text": "Josh was 22 at marriage, so today he is 52. Combined age today is \\(5 \\times 22 = 110\\), making Anna 58 today. At marriage, Anna was \\(58 - 30 = 28\\).\n\n<answer>28</answer>",
+      "input_tokens": 415,
+      "output_tokens": 592,
+      "total_tokens": 1007,
+      "reasoning_tokens": 456,
+      "calls": 2,
+      "latency_s": 3.794276700122282,
+      "request_ids": [
+        "867bb6cd81fe430b8e126b7b7e2942b7",
+        "5d8fd8f5652f4e14a94a49e0a1c7e4b2"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

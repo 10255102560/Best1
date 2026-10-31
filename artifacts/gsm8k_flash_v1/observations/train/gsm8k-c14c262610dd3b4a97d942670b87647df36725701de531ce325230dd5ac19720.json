@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-c14c262610dd3b4a97d942670b87647df36725701de531ce325230dd5ac19720",
+    "question": "5 squirrels collected 575 acorns. If each squirrel needs 130 acorns to get through the winter, how many more acorns does each squirrel need to collect?",
+    "answer": "15",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "<answer>15</answer>",
+      "input_tokens": 112,
+      "output_tokens": 90,
+      "total_tokens": 202,
+      "reasoning_tokens": 81,
+      "calls": 1,
+      "latency_s": 1.151405100012198,
+      "request_ids": [
+        "fb757e9b7d0348b6b710c1a71065cea6"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Total acorns needed: \\(5 \\times 130 = 650\\)\n\nShortfall: \\(650 - 575 = 75\\)\n\nMore per squirrel: \\(75 \\div 5 = 15\\)\n\n<answer>15</answer>",
+      "input_tokens": 112,
+      "output_tokens": 199,
+      "total_tokens": 311,
+      "reasoning_tokens": 149,
+      "calls": 1,
+      "latency_s": 1.2337335001211613,
+      "request_ids": [
+        "81976b92d8de47bc895937d31cbab455"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Total needed: \\(5 \\times 130 = 650\\).  \nShortfall: \\(650 - 575 = 75\\).  \nPer squirrel: \\(75 \\div 5 = 15\\).  \nThe proposed solution is correct.\n\n<answer>15</answer>",
+      "input_tokens": 312,
+      "output_tokens": 377,
+      "total_tokens": 689,
+      "reasoning_tokens": 271,
+      "calls": 2,
+      "latency_s": 4.583852000068873,
+      "request_ids": [
+        "81976b92d8de47bc895937d31cbab455",
+        "4c304d7d249f4961a91256d7499bcb46"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

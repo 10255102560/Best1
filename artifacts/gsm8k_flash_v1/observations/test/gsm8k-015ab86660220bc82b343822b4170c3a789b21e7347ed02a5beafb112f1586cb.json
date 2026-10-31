@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-015ab86660220bc82b343822b4170c3a789b21e7347ed02a5beafb112f1586cb",
+    "question": "If every second, a bubbling spring creates a new jellyfish, how many jellyfish would 5 springs working at the same rate create in 4 hours?",
+    "answer": "72000",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "72000",
+      "text": "<answer>72000</answer>",
+      "input_tokens": 110,
+      "output_tokens": 89,
+      "total_tokens": 199,
+      "reasoning_tokens": 79,
+      "calls": 1,
+      "latency_s": 0.9865858000703156,
+      "request_ids": [
+        "9a3831e023de4b57b0e7f139890bf4c4"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "72000",
+      "text": "Each spring creates 1 jellyfish per second.\n\n4 hours = \\(4 \\times 60 \\times 60 = 14{,}400\\) seconds.\n\n5 springs create:\n\\[\n5 \\times 14{,}400 = 72{,}000\n\\]\n\n<answer>72000</answer>",
+      "input_tokens": 110,
+      "output_tokens": 163,
+      "total_tokens": 273,
+      "reasoning_tokens": 99,
+      "calls": 1,
+      "latency_s": 0.9008567999117076,
+      "request_ids": [
+        "0a4d06d843cc45308f412bac12f146ed"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "72000",
+      "text": "Each spring creates 1 jellyfish per second.  \n4 hours = 14,400 seconds.  \n5 springs create \\(5 \\times 14{,}400 = 72{,}000\\) jellyfish.\n\n<answer>72000</answer>",
+      "input_tokens": 322,
+      "output_tokens": 319,
+      "total_tokens": 641,
+      "reasoning_tokens": 202,
+      "calls": 2,
+      "latency_s": 1.8473777999170125,
+      "request_ids": [
+        "0a4d06d843cc45308f412bac12f146ed",
+        "da4b9c17f8da464d9bade771edce9d84"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

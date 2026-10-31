@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-a73dd2097f0fa8fa815e660582d31c80e64a2cded69e916fc61e81cf29caa132",
+    "question": "Jenny buys 1 bag of cookies a week.  The bag has 36 cookies and she puts 4 cookies in her son's lunch box 5 days a week.  Her husband eats 1 cookie a day for 7 days.  Jenny eats the rest of the cookies.  How many cookies does Jenny eat?",
+    "answer": "9",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "9",
+      "text": "<answer>9</answer>",
+      "input_tokens": 145,
+      "output_tokens": 81,
+      "total_tokens": 226,
+      "reasoning_tokens": 72,
+      "calls": 1,
+      "latency_s": 0.7573543000034988,
+      "request_ids": [
+        "214c23e875dd492ab1f41cc11baba500"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "9",
+      "text": "Jenny buys 36 cookies per week.\n\n- Son eats: \\(4 \\times 5 = 20\\) cookies\n- Husband eats: \\(1 \\times 7 = 7\\) cookies\n- Total eaten by others: \\(20 + 7 = 27\\)\n\nJenny eats: \\(36 - 27 = 9\\)\n\n<answer>9</answer>",
+      "input_tokens": 145,
+      "output_tokens": 154,
+      "total_tokens": 299,
+      "reasoning_tokens": 76,
+      "calls": 1,
+      "latency_s": 0.9089885000139475,
+      "request_ids": [
+        "647e4fde12054d7d8f0e4612201999a9"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "9",
+      "text": "Verified: Son eats \\(4 \\times 5 = 20\\); husband eats \\(1 \\times 7 = 7\\); others total \\(27\\). Jenny eats \\(36 - 27 = 9\\).\n\n<answer>9</answer>",
+      "input_tokens": 406,
+      "output_tokens": 322,
+      "total_tokens": 728,
+      "reasoning_tokens": 193,
+      "calls": 2,
+      "latency_s": 2.1854279001709074,
+      "request_ids": [
+        "647e4fde12054d7d8f0e4612201999a9",
+        "4a6f8d517f8749f285e895f477e9a3fa"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

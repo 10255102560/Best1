@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-dc96f3a6bf1b82f904c8774e07f09e0ca0fe56826a0cbded0f86607b08b96f91",
+    "question": "Katina has $3000 in her savings account. If she removes $100 from the account every month, how much money will be remaining within the account after 2 years?",
+    "answer": "600",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "600",
+      "text": "<answer>600</answer>",
+      "input_tokens": 114,
+      "output_tokens": 43,
+      "total_tokens": 157,
+      "reasoning_tokens": 34,
+      "calls": 1,
+      "latency_s": 0.5248467000201344,
+      "request_ids": [
+        "4def4559318e4f9dad8b83d9a9f7e6db"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "600",
+      "text": "Katina removes $100 per month for 2 years:\n\n\\(2 \\text{ years} = 24 \\text{ months}\\)\n\nTotal removed: \\(100 \\times 24 = 2400\\)\n\nRemaining: \\(3000 - 2400 = 600\\)\n\n<answer>600</answer>",
+      "input_tokens": 114,
+      "output_tokens": 104,
+      "total_tokens": 218,
+      "reasoning_tokens": 40,
+      "calls": 1,
+      "latency_s": 0.8747694999910891,
+      "request_ids": [
+        "091211f69fd640719f1b5df54c36594b"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "600",
+      "text": "Verification: 2 years = 24 months; total removed = 100 × 24 = 2400; remaining = 3000 − 2400 = 600. The proposed solution is correct.\n\n<answer>600</answer>",
+      "input_tokens": 330,
+      "output_tokens": 245,
+      "total_tokens": 575,
+      "reasoning_tokens": 129,
+      "calls": 2,
+      "latency_s": 1.9676276999525726,
+      "request_ids": [
+        "091211f69fd640719f1b5df54c36594b",
+        "5faf04a7492a43ac90c0098af80f1f94"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-b3876ecfb6eaf39caf0d04e2c84a86c99ec66d9dadd1c32b3c3697e4a0f550d2",
+    "question": "McKenna has 34 stuffed animals. Kenley has twice as many as McKenna.  Tenly has 5 more than Kenley . How many stuffed animals do the three girls have in all?",
+    "answer": "175",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "175",
+      "text": "<answer>175</answer>",
+      "input_tokens": 120,
+      "output_tokens": 57,
+      "total_tokens": 177,
+      "reasoning_tokens": 48,
+      "calls": 1,
+      "latency_s": 1.4614552999846637,
+      "request_ids": [
+        "10849c4434c44b3e884dd1a881e16c1e"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "175",
+      "text": "McKenna: 34  \nKenley: 2 × 34 = 68  \nTenly: 68 + 5 = 73  \nTotal: 34 + 68 + 73 = 175\n\n<answer>175</answer>",
+      "input_tokens": 120,
+      "output_tokens": 103,
+      "total_tokens": 223,
+      "reasoning_tokens": 49,
+      "calls": 1,
+      "latency_s": 0.7675004999618977,
+      "request_ids": [
+        "3a5e57dca6b54aaa931da5e461893cf9"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "175",
+      "text": "McKenna: 34  \nKenley: 2 × 34 = 68  \nTenly: 68 + 5 = 73  \nTotal: 34 + 68 + 73 = 175  \nThe proposed solution is correct.\n\n<answer>175</answer>",
+      "input_tokens": 332,
+      "output_tokens": 236,
+      "total_tokens": 568,
+      "reasoning_tokens": 122,
+      "calls": 2,
+      "latency_s": 1.6889289000537246,
+      "request_ids": [
+        "3a5e57dca6b54aaa931da5e461893cf9",
+        "028c672ae9f44e82b74eb67003b7dc44"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-43186a75c84844cf0ba8c6508172567ffce92fb3523e198b0144e64b8d4df0f7",
+    "question": "Bert, Ernie, and Peggy collect stamps.  Bert has four times as many stamps as Ernie, but Ernie has three times as many stamps as Peggy.  If Peggy currently has 75 stamps in her collection, how many stamps does she need to add to her collection to have a collection as large as Bert's collection?",
+    "answer": "825",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "825",
+      "text": "<answer>825</answer>",
+      "input_tokens": 146,
+      "output_tokens": 51,
+      "total_tokens": 197,
+      "reasoning_tokens": 42,
+      "calls": 1,
+      "latency_s": 0.9057155000045896,
+      "request_ids": [
+        "f14e00a99e44486aa1fae3b2835f8fb3"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "825",
+      "text": "Peggy has 75 stamps.  \nErnie has \\(3 \\times 75 = 225\\) stamps.  \nBert has \\(4 \\times 225 = 900\\) stamps.  \nPeggy needs \\(900 - 75 = 825\\) more stamps.\n\n<answer>825</answer>",
+      "input_tokens": 146,
+      "output_tokens": 114,
+      "total_tokens": 260,
+      "reasoning_tokens": 49,
+      "calls": 1,
+      "latency_s": 0.8796551998239011,
+      "request_ids": [
+        "b8ab84b24bf648b0a1de1320d39e7869"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "825",
+      "text": "Peggy: 75  \nErnie: 3 × 75 = 225  \nBert: 4 × 225 = 900  \nAdditional stamps needed: 900 − 75 = 825  \n\n<answer>825</answer>",
+      "input_tokens": 395,
+      "output_tokens": 243,
+      "total_tokens": 638,
+      "reasoning_tokens": 126,
+      "calls": 2,
+      "latency_s": 1.7805827998090535,
+      "request_ids": [
+        "b8ab84b24bf648b0a1de1320d39e7869",
+        "876c078bac0841108e949eec781d9312"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

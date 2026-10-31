@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-2003ebf1160911ee528b3447ddc3b607cbc15536d91fa815b138cf33396bbd19",
+    "question": "The base of a hill located beside a river is 300m above the seabed. If this depth is a quarter of the vertical distance between the riverbed and the peak of the hill, how high is the hill?",
+    "answer": "900",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "900",
+      "text": "<answer>900</answer>",
+      "input_tokens": 123,
+      "output_tokens": 1177,
+      "total_tokens": 1300,
+      "reasoning_tokens": 1168,
+      "calls": 1,
+      "latency_s": 10.880445800023153,
+      "request_ids": [
+        "f77cbf6e8f334059b2414135c18dcd82"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "900",
+      "text": "The vertical distance from riverbed to peak is \\(4 \\times 300 = 1200\\) m.  \nThe hill’s height above its base is \\(1200 - 300 = 900\\) m.\n\n<answer>900</answer>",
+      "input_tokens": 123,
+      "output_tokens": 1181,
+      "total_tokens": 1304,
+      "reasoning_tokens": 1128,
+      "calls": 1,
+      "latency_s": 4.982668600045145,
+      "request_ids": [
+        "4ec973998ff94a3d9f331c91a3464de5"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "900",
+      "text": "The 300 m base height is one quarter of the riverbed-to-peak distance, so that distance is \\(4 \\times 300 = 1200\\) m. The hill’s height above its base is \\(1200 - 300 = 900\\) m. The proposed solution is correct.\n\n<answer>900</answer>",
+      "input_tokens": 337,
+      "output_tokens": 1736,
+      "total_tokens": 2073,
+      "reasoning_tokens": 1612,
+      "calls": 2,
+      "latency_s": 8.164083800045773,
+      "request_ids": [
+        "4ec973998ff94a3d9f331c91a3464de5",
+        "e5550be87fe74ac4a0203379fcc5d294"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

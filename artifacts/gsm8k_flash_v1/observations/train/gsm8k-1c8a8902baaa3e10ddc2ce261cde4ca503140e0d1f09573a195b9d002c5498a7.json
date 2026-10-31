@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-1c8a8902baaa3e10ddc2ce261cde4ca503140e0d1f09573a195b9d002c5498a7",
+    "question": "Mabel is counting sharks in the ocean. She knows that of the fish that she sees, 25% will be sharks and 75% will be another type of fish. On day one she counts 15 fish. On day 2 she counts three times as many. How many sharks did she count over those two days?",
+    "answer": "15",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "<answer>15</answer>",
+      "input_tokens": 145,
+      "output_tokens": 115,
+      "total_tokens": 260,
+      "reasoning_tokens": 106,
+      "calls": 1,
+      "latency_s": 0.8888215997722,
+      "request_ids": [
+        "8b7f4a0e13064cc8b91ac2dd632062cd"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Day 1: 15 fish  \nDay 2: \\(3 \\times 15 = 45\\) fish  \nTotal fish: \\(15 + 45 = 60\\)  \nSharks: \\(25\\% \\times 60 = 15\\)\n\n<answer>15</answer>",
+      "input_tokens": 145,
+      "output_tokens": 188,
+      "total_tokens": 333,
+      "reasoning_tokens": 128,
+      "calls": 1,
+      "latency_s": 1.2726360000669956,
+      "request_ids": [
+        "2bbdced337f44e2690f6028409bcdc77"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Verification: Day 1 = 15 fish; Day 2 = 3 × 15 = 45 fish; total = 60 fish. Sharks = 25% of 60 = 15. The proposed solution is correct.\n\n<answer>15</answer>",
+      "input_tokens": 388,
+      "output_tokens": 356,
+      "total_tokens": 744,
+      "reasoning_tokens": 238,
+      "calls": 2,
+      "latency_s": 2.398314699996263,
+      "request_ids": [
+        "2bbdced337f44e2690f6028409bcdc77",
+        "f66774f3d2974e54a25ed0c02099f69d"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

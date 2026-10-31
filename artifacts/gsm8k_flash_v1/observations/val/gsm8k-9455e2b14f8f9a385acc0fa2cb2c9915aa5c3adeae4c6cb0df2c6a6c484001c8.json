@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-9455e2b14f8f9a385acc0fa2cb2c9915aa5c3adeae4c6cb0df2c6a6c484001c8",
+    "question": "There's a sale at your favorite \"Any item $10\" retailer. If you buy 1 shirt you pay $10. If you buy 2, you get the second one at a 50% discount. If you buy 3, you get the third one at a 60% discount. How much money did you save if you bought 3 shirts?",
+    "answer": "11",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "11",
+      "text": "<answer>11</answer>",
+      "input_tokens": 153,
+      "output_tokens": 813,
+      "total_tokens": 966,
+      "reasoning_tokens": 804,
+      "calls": 1,
+      "latency_s": 4.8765543000772595,
+      "request_ids": [
+        "3deee88c648149d0aa74f035973cfb88"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "11",
+      "text": "3 shirts at full price would cost: \\(3 \\times \\$10 = \\$30\\)\n\nSale prices:\n- 1st shirt: \\$10\n- 2nd shirt: 50% off, so \\$5\n- 3rd shirt: 60% off, so \\$4\n\nTotal paid: \\(10 + 5 + 4 = \\$19\\)\n\nAmount saved: \\(30 - 19 = \\$11\\)\n\n<answer>11</answer>",
+      "input_tokens": 153,
+      "output_tokens": 270,
+      "total_tokens": 423,
+      "reasoning_tokens": 174,
+      "calls": 1,
+      "latency_s": 1.3149011000059545,
+      "request_ids": [
+        "fedee69ca24e4299bc72f1670a05eea5"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "11",
+      "text": "The interpretation is consistent: the 2nd shirt is 50% off ($5) and the 3rd is 60% off ($4). Total paid is $10 + $5 + $4 = $19, versus $30 full price, so savings are $11.\n\n<answer>11</answer>",
+      "input_tokens": 440,
+      "output_tokens": 501,
+      "total_tokens": 941,
+      "reasoning_tokens": 338,
+      "calls": 2,
+      "latency_s": 2.640346100088209,
+      "request_ids": [
+        "fedee69ca24e4299bc72f1670a05eea5",
+        "d4286238861243d59b2f3b5fc236c740"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

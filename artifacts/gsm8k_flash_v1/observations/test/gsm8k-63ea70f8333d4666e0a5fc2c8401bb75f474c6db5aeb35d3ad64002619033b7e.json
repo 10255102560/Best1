@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-63ea70f8333d4666e0a5fc2c8401bb75f474c6db5aeb35d3ad64002619033b7e",
+    "question": "Heather bought a jumbo bag of raisins with 27 cups of raisins in it. She wants to make oatmeal cookies, granola, and snack mix with the raisins. A batch of oatmeal cookies takes 3/4 of a cup of raisins. How many batches of oatmeal cookies can Heather make if she divides the bag of raisins equally among the cookies, granola, and snack mix?",
+    "answer": "12",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "<answer>12</answer>",
+      "input_tokens": 157,
+      "output_tokens": 77,
+      "total_tokens": 234,
+      "reasoning_tokens": 68,
+      "calls": 1,
+      "latency_s": 0.5948126001749188,
+      "request_ids": [
+        "dddfd9fca15c4b06a4b23b7cfb4844e5"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "Heather divides the raisins equally among 3 uses:\n\n\\(27 \\div 3 = 9\\) cups for oatmeal cookies.\n\nEach batch uses \\(\\frac{3}{4}\\) cup:\n\n\\(9 \\div \\frac{3}{4} = 9 \\times \\frac{4}{3} = 12\\)\n\n<answer>12</answer>",
+      "input_tokens": 157,
+      "output_tokens": 144,
+      "total_tokens": 301,
+      "reasoning_tokens": 70,
+      "calls": 1,
+      "latency_s": 0.8163122001569718,
+      "request_ids": [
+        "ea9aab78badf4b4c8d9936d8406e03e3"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "The raisins are divided equally among 3 uses: \\(27 \\div 3 = 9\\) cups for cookies.  \nEach batch uses \\(\\frac{3}{4}\\) cup, so \\(9 \\div \\frac{3}{4} = 12\\) batches.  \nThe proposed solution is correct.\n\n<answer>12</answer>",
+      "input_tokens": 426,
+      "output_tokens": 285,
+      "total_tokens": 711,
+      "reasoning_tokens": 140,
+      "calls": 2,
+      "latency_s": 2.470026600174606,
+      "request_ids": [
+        "ea9aab78badf4b4c8d9936d8406e03e3",
+        "909455357c0b44528fb3aed645c1987f"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

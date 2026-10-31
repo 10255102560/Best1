@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-9247937e11e1adbd35c0c691925d865a30f9ac3f43d3921e4c38b42096a98a93",
+    "question": "Edgar eats 18 pretzels a day. If his brother eats 1/2 as many, how many does his brother eat in a week?",
+    "answer": "63",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "63",
+      "text": "<answer>63</answer>",
+      "input_tokens": 110,
+      "output_tokens": 48,
+      "total_tokens": 158,
+      "reasoning_tokens": 39,
+      "calls": 1,
+      "latency_s": 0.8224206001032144,
+      "request_ids": [
+        "2766d2f177d749fa9a3307ae39e77ebd"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "63",
+      "text": "Edgar’s brother eats \\( \\frac{1}{2} \\times 18 = 9 \\) pretzels per day.  \nIn a week: \\(9 \\times 7 = 63\\).\n\n<answer>63</answer>",
+      "input_tokens": 110,
+      "output_tokens": 90,
+      "total_tokens": 200,
+      "reasoning_tokens": 38,
+      "calls": 1,
+      "latency_s": 0.8910567997954786,
+      "request_ids": [
+        "8748e740f2814bc6a3d0aa3d57425a11"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "63",
+      "text": "Verified: Brother eats \\( \\frac{1}{2}\\times18=9\\) pretzels/day; in 7 days, \\(9\\times7=63\\). Correct.\n\n<answer>63</answer>",
+      "input_tokens": 310,
+      "output_tokens": 212,
+      "total_tokens": 522,
+      "reasoning_tokens": 115,
+      "calls": 2,
+      "latency_s": 2.471326199825853,
+      "request_ids": [
+        "8748e740f2814bc6a3d0aa3d57425a11",
+        "119067f9d9044dce87d97c657f66b2ec"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

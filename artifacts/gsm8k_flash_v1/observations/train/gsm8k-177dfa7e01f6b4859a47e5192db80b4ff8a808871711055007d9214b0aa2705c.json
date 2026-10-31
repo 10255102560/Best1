@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-177dfa7e01f6b4859a47e5192db80b4ff8a808871711055007d9214b0aa2705c",
+    "question": "The bus driver drives an average of 2 hours each day, 5 days a week. From Monday to Wednesday he drove at an average speed of 12 kilometers per hour, and from Thursday to Friday at an average speed of 9 kilometers per hour. How many kilometers did the driver travel during these 5 days?",
+    "answer": "108",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "108",
+      "text": "<answer>108</answer>",
+      "input_tokens": 143,
+      "output_tokens": 80,
+      "total_tokens": 223,
+      "reasoning_tokens": 71,
+      "calls": 1,
+      "latency_s": 0.7557134001981467,
+      "request_ids": [
+        "38e556fd6ede404d82685239447dde70"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "108",
+      "text": "The driver travels 2 hours per day.\n\n- Monday to Wednesday: \\(3 \\times 2 \\times 12 = 72\\) km  \n- Thursday to Friday: \\(2 \\times 2 \\times 9 = 36\\) km  \n\nTotal distance: \\(72 + 36 = 108\\) km\n\n<answer>108</answer>",
+      "input_tokens": 143,
+      "output_tokens": 152,
+      "total_tokens": 295,
+      "reasoning_tokens": 78,
+      "calls": 1,
+      "latency_s": 0.8626848999410868,
+      "request_ids": [
+        "34413acb76e84ef1b5eb08b3520fe899"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "108",
+      "text": "Verified: \\(3 \\times 2 \\times 12 = 72\\) km and \\(2 \\times 2 \\times 9 = 36\\) km. Total \\(72 + 36 = 108\\) km.\n\n<answer>108</answer>",
+      "input_tokens": 398,
+      "output_tokens": 317,
+      "total_tokens": 715,
+      "reasoning_tokens": 188,
+      "calls": 2,
+      "latency_s": 1.9437798999715596,
+      "request_ids": [
+        "34413acb76e84ef1b5eb08b3520fe899",
+        "eee6876e31ac42ebab80c09190a3527b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

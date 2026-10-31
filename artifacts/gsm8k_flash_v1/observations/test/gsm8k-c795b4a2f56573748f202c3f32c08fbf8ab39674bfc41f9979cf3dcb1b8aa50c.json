@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-c795b4a2f56573748f202c3f32c08fbf8ab39674bfc41f9979cf3dcb1b8aa50c",
+    "question": "Bailey starts with a certain amount of money. Then she receives a weekly allowance of $5 for 8 weeks. At the end of the 8 weeks, if she has a total of $100, how much money did Bailey start with?",
+    "answer": "60",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "60",
+      "text": "<answer>60</answer>",
+      "input_tokens": 128,
+      "output_tokens": 43,
+      "total_tokens": 171,
+      "reasoning_tokens": 34,
+      "calls": 1,
+      "latency_s": 0.9031045001465827,
+      "request_ids": [
+        "e2e713fe836146cb83c9621016df1d57"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "60",
+      "text": "Bailey receives \\(5 \\times 8 = 40\\) dollars in allowance.\n\nStarting amount: \\(100 - 40 = 60\\).\n\n<answer>60</answer>",
+      "input_tokens": 128,
+      "output_tokens": 76,
+      "total_tokens": 204,
+      "reasoning_tokens": 38,
+      "calls": 1,
+      "latency_s": 1.070675500202924,
+      "request_ids": [
+        "b77c32e2d6b340cdb87c779f5207a071"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "60",
+      "text": "The allowance totals \\(5 \\times 8 = 40\\). Starting amount is \\(100 - 40 = 60\\). The proposed solution is correct.\n\n<answer>60</answer>",
+      "input_tokens": 332,
+      "output_tokens": 182,
+      "total_tokens": 514,
+      "reasoning_tokens": 104,
+      "calls": 2,
+      "latency_s": 1.9881791002117097,
+      "request_ids": [
+        "b77c32e2d6b340cdb87c779f5207a071",
+        "9b4fdba2f29c4a80a8f17f1efa31118e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-09c6d43b08bdd4a0c1e9969fd50d6de9ddcfb4d87695ab3b6923792552bea82b",
+    "question": "Janet bought some muffins at the bakery. Each muffin is 75 cents. Janet paid $20 and got $11 in change back. How many muffins did Janet buy?",
+    "answer": "12",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "<answer>12</answer>",
+      "input_tokens": 113,
+      "output_tokens": 50,
+      "total_tokens": 163,
+      "reasoning_tokens": 41,
+      "calls": 1,
+      "latency_s": 0.6840131999924779,
+      "request_ids": [
+        "8415ab9ec19d4486971510c49f0283f3"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "Janet spent: $20 - $11 = $9.  \nNumber of muffins: $9 ÷ $0.75 = 12.\n\n<answer>12</answer>",
+      "input_tokens": 113,
+      "output_tokens": 99,
+      "total_tokens": 212,
+      "reasoning_tokens": 61,
+      "calls": 1,
+      "latency_s": 1.2176248000469059,
+      "request_ids": [
+        "7ae4ee96e4614e93963fda69e23cdd53"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "Janet spent $20 − $11 = $9. At $0.75 per muffin, $9 ÷ $0.75 = 12 muffins. The proposed solution is correct.\n\n<answer>12</answer>",
+      "input_tokens": 302,
+      "output_tokens": 215,
+      "total_tokens": 517,
+      "reasoning_tokens": 130,
+      "calls": 2,
+      "latency_s": 2.1252771001309156,
+      "request_ids": [
+        "7ae4ee96e4614e93963fda69e23cdd53",
+        "dd991eb44b5d49e19762debd4217c371"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

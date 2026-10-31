@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-eb77ff962bfb26726053b5f9615c32531f669d4232f8ee78a5f995dc266fa6d2",
+    "question": "The pet store can buy a goldfish for $.25 and sell it for $.75. The owner plans to use the profits from goldfish sales to buy a new tank, which costs $100. After one week, he is 45% short of the price. How many goldfish did he sell that week?",
+    "answer": "110",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "110",
+      "text": "<answer>110</answer>",
+      "input_tokens": 142,
+      "output_tokens": 130,
+      "total_tokens": 272,
+      "reasoning_tokens": 121,
+      "calls": 1,
+      "latency_s": 2.0673640000168234,
+      "request_ids": [
+        "358d7d562c7f408fa7d8190851d23d45"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "110",
+      "text": "Profit per goldfish: \\(0.75 - 0.25 = 0.50\\)\n\nHe is 45% short of $100, so he has saved 55% of $100:\n\\[\n0.55 \\times 100 = 55\n\\]\n\nNumber of goldfish sold:\n\\[\n55 \\div 0.50 = 110\n\\]\n\n<answer>110</answer>",
+      "input_tokens": 142,
+      "output_tokens": 224,
+      "total_tokens": 366,
+      "reasoning_tokens": 140,
+      "calls": 1,
+      "latency_s": 1.6970955999568105,
+      "request_ids": [
+        "d868bb667b53427f97c1082f12f830de"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "110",
+      "text": "Profit per goldfish: \\(0.75 - 0.25 = 0.50\\).  \n45% short means he saved 55% of $100: \\(0.55 \\times 100 = 55\\).  \nGoldfish sold: \\(55 \\div 0.50 = 110\\).  \nThe interpretation and arithmetic are correct.\n\n<answer>110</answer>",
+      "input_tokens": 406,
+      "output_tokens": 451,
+      "total_tokens": 857,
+      "reasoning_tokens": 287,
+      "calls": 2,
+      "latency_s": 3.1006367998197675,
+      "request_ids": [
+        "d868bb667b53427f97c1082f12f830de",
+        "ef5c7567c1ca43cc8203e63498b58152"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

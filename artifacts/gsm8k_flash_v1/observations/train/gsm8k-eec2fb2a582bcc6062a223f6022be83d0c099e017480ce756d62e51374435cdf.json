@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-eec2fb2a582bcc6062a223f6022be83d0c099e017480ce756d62e51374435cdf",
+    "question": "Bella is making bracelets for her 6 friends. She needs 8 beads per bracelet. She has 36 beads. How many more beads does she need to make all six bracelets?",
+    "answer": "12",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "<answer>12</answer>",
+      "input_tokens": 118,
+      "output_tokens": 37,
+      "total_tokens": 155,
+      "reasoning_tokens": 28,
+      "calls": 1,
+      "latency_s": 0.5808934001252055,
+      "request_ids": [
+        "ebae0efe4b6947ab8f252ef508e58dfc"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "Bella needs \\(6 \\times 8 = 48\\) beads total.  \nShe has 36 beads, so she needs \\(48 - 36 = 12\\) more beads.\n\n<answer>12</answer>",
+      "input_tokens": 118,
+      "output_tokens": 105,
+      "total_tokens": 223,
+      "reasoning_tokens": 58,
+      "calls": 1,
+      "latency_s": 0.9055487001314759,
+      "request_ids": [
+        "0d1e2ed0d7ef4a08bde858a35870fd1e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "Total beads needed: \\(6 \\times 8 = 48\\).  \nBeads needed: \\(48 - 36 = 12\\).  \nThe proposed solution is correct.\n\n<answer>12</answer>",
+      "input_tokens": 321,
+      "output_tokens": 225,
+      "total_tokens": 546,
+      "reasoning_tokens": 133,
+      "calls": 2,
+      "latency_s": 1.7664777000900358,
+      "request_ids": [
+        "0d1e2ed0d7ef4a08bde858a35870fd1e",
+        "a8a4ade2fbf74090a7e44b817c6724f6"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

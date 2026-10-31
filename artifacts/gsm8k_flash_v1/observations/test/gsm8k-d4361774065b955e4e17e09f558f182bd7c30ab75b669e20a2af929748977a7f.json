@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-d4361774065b955e4e17e09f558f182bd7c30ab75b669e20a2af929748977a7f",
+    "question": "Henry and 3 of his friends order 7 pizzas for lunch. Each pizza is cut into 8 slices. If Henry and his friends want to share the pizzas equally, how many slices can each of them have?",
+    "answer": "14",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "<answer>14</answer>",
+      "input_tokens": 124,
+      "output_tokens": 56,
+      "total_tokens": 180,
+      "reasoning_tokens": 47,
+      "calls": 1,
+      "latency_s": 0.6042432000394911,
+      "request_ids": [
+        "937917ec6dbf4a069ac096d3a60bd4b4"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "Henry and 3 friends make 4 people total.\n\n7 pizzas × 8 slices = 56 slices  \n56 slices ÷ 4 people = 14 slices each\n\n<answer>14</answer>",
+      "input_tokens": 124,
+      "output_tokens": 93,
+      "total_tokens": 217,
+      "reasoning_tokens": 49,
+      "calls": 1,
+      "latency_s": 0.8302305999677628,
+      "request_ids": [
+        "e2906c05b32f4cb6955059cc4c7abc83"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "Henry plus 3 friends = 4 people.  \n7 pizzas × 8 slices = 56 slices.  \n56 ÷ 4 = 14 slices each. The proposed solution is correct.\n\n<answer>14</answer>",
+      "input_tokens": 330,
+      "output_tokens": 201,
+      "total_tokens": 531,
+      "reasoning_tokens": 108,
+      "calls": 2,
+      "latency_s": 1.7449670999776572,
+      "request_ids": [
+        "e2906c05b32f4cb6955059cc4c7abc83",
+        "c58cb9f81b944a59a94e36d509387d6d"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

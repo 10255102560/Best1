@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f5347c0a17bc34f97b1e4102ab5c5b584ab099a713a4578866ded36183bb7ca4",
+    "question": "Tom's ship can travel at 10 miles per hour.  He is sailing from 1 to 4 PM.  He then travels back at a rate of 6 mph.  How long does it take him to get back?",
+    "answer": "5",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "<answer>5</answer>",
+      "input_tokens": 126,
+      "output_tokens": 98,
+      "total_tokens": 224,
+      "reasoning_tokens": 89,
+      "calls": 1,
+      "latency_s": 1.1975201000459492,
+      "request_ids": [
+        "075b1aef6e64418994e4c9a5fb11b97b"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "From 1 PM to 4 PM is 3 hours.\n\nDistance traveled: \\(10 \\times 3 = 30\\) miles.\n\nReturn time at 6 mph: \\(30 \\div 6 = 5\\) hours.\n\n<answer>5</answer>",
+      "input_tokens": 126,
+      "output_tokens": 131,
+      "total_tokens": 257,
+      "reasoning_tokens": 75,
+      "calls": 1,
+      "latency_s": 1.579591799993068,
+      "request_ids": [
+        "1fae50e866ba49ae8a40b9c925e3e864"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "The trip out lasts 3 hours at 10 mph, covering 30 miles. Returning 30 miles at 6 mph takes \\(30 \\div 6 = 5\\) hours. The proposed solution is correct.\n\n<answer>5</answer>",
+      "input_tokens": 346,
+      "output_tokens": 253,
+      "total_tokens": 599,
+      "reasoning_tokens": 144,
+      "calls": 2,
+      "latency_s": 2.4203633000142872,
+      "request_ids": [
+        "1fae50e866ba49ae8a40b9c925e3e864",
+        "4af05d1416a0440fa1415f6be7e5f6cb"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

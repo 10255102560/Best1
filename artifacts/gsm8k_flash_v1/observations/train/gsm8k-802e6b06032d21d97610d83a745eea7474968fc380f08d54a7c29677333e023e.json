@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-802e6b06032d21d97610d83a745eea7474968fc380f08d54a7c29677333e023e",
+    "question": "Bronson decides to collect Oak Leaves from around his Neighborhood. He collects 12 on Thursday and 13 on Friday. 20% are Brown and 20% are Green. The rest are yellow. How many yellow leaves does he collect?",
+    "answer": "15",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "<answer>15</answer>",
+      "input_tokens": 128,
+      "output_tokens": 54,
+      "total_tokens": 182,
+      "reasoning_tokens": 45,
+      "calls": 1,
+      "latency_s": 0.7880613999441266,
+      "request_ids": [
+        "909315e826424484aaa089cf930031e2"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Bronson collects \\(12 + 13 = 25\\) leaves total.\n\nBrown: \\(20\\% \\times 25 = 5\\)  \nGreen: \\(20\\% \\times 25 = 5\\)\n\nYellow: \\(25 - 5 - 5 = 15\\)\n\n<answer>15</answer>",
+      "input_tokens": 128,
+      "output_tokens": 133,
+      "total_tokens": 261,
+      "reasoning_tokens": 67,
+      "calls": 1,
+      "latency_s": 1.5692956000566483,
+      "request_ids": [
+        "285ee941d3c3486189398ecd904e6f01"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Verified: Total leaves = 12 + 13 = 25. Brown and green are 20% each, so yellow is 60% of 25 = 15. The proposed solution is correct.\n\n<answer>15</answer>",
+      "input_tokens": 360,
+      "output_tokens": 269,
+      "total_tokens": 629,
+      "reasoning_tokens": 152,
+      "calls": 2,
+      "latency_s": 2.869948700070381,
+      "request_ids": [
+        "285ee941d3c3486189398ecd904e6f01",
+        "2fea5aed24d643beb8443eb5a2847944"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

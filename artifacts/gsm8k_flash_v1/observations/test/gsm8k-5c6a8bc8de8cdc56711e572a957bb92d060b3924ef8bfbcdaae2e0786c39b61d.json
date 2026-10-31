@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-5c6a8bc8de8cdc56711e572a957bb92d060b3924ef8bfbcdaae2e0786c39b61d",
+    "question": "Elaine initially had 20 Pokemon cards. After a month, she collected three times that number. In the second month, she collected 20 fewer cards than those she collected in the first month. In the third month, she collected twice the combined number of pokemon cards she collected in the first and second months. How many pokemon cards does she have now in total?",
+    "answer": "320",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "320",
+      "text": "<answer>320</answer>",
+      "input_tokens": 154,
+      "output_tokens": 129,
+      "total_tokens": 283,
+      "reasoning_tokens": 120,
+      "calls": 1,
+      "latency_s": 0.9166737999767065,
+      "request_ids": [
+        "9f1d90a92d9a4112912eb2353ebb4ba9"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "320",
+      "text": "Initial cards: 20  \nFirst month collected: \\(3 \\times 20 = 60\\)  \nSecond month collected: \\(60 - 20 = 40\\)  \nThird month collected: \\(2 \\times (60 + 40) = 200\\)  \n\nTotal: \\(20 + 60 + 40 + 200 = 320\\)\n\n<answer>320</answer>",
+      "input_tokens": 154,
+      "output_tokens": 202,
+      "total_tokens": 356,
+      "reasoning_tokens": 122,
+      "calls": 1,
+      "latency_s": 1.1360553000122309,
+      "request_ids": [
+        "da3d4689ed1f468f93cbd8ef1d3c506b"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "320",
+      "text": "Interpretation and arithmetic are correct: initial 20; first month 60; second 40; third 200; total 20 + 60 + 40 + 200 = 320.\n\n<answer>320</answer>",
+      "input_tokens": 426,
+      "output_tokens": 394,
+      "total_tokens": 820,
+      "reasoning_tokens": 265,
+      "calls": 2,
+      "latency_s": 2.5870397000107914,
+      "request_ids": [
+        "da3d4689ed1f468f93cbd8ef1d3c506b",
+        "7952b8a80ea9465fbf0d3db5ebf329d5"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-223e53e79df20bb591633f2f88f406af5eeacd37ad61089e96874aafea500fc4",
+    "question": "Lily has 5 lottery tickets to sell.  She sells the first ticket for $1.  She then sells each successive ticket for a dollar more than the previous ticket. She plans to keep a $4 profit and give the remaining money as the prize. How much money will the winner of the lottery receive?",
+    "answer": "11",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "11",
+      "text": "<answer>11</answer>",
+      "input_tokens": 142,
+      "output_tokens": 79,
+      "total_tokens": 221,
+      "reasoning_tokens": 70,
+      "calls": 1,
+      "latency_s": 0.9486807999201119,
+      "request_ids": [
+        "3cc7d14a45fb41c5b0deceb846233377"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "11",
+      "text": "Ticket prices: $1, $2, $3, $4, $5  \nTotal collected: \\(1+2+3+4+5=15\\)  \nPrize money: \\(15-4=11\\)\n\n<answer>11</answer>",
+      "input_tokens": 142,
+      "output_tokens": 140,
+      "total_tokens": 282,
+      "reasoning_tokens": 85,
+      "calls": 1,
+      "latency_s": 0.9372115000151098,
+      "request_ids": [
+        "943a93c0ad0f40fcab9a61f7453e7f77"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "11",
+      "text": "Ticket prices sum to \\(1+2+3+4+5=15\\). After keeping \\$4, prize is \\(15-4=11\\). The proposed solution is correct.\n\n<answer>11</answer>",
+      "input_tokens": 377,
+      "output_tokens": 259,
+      "total_tokens": 636,
+      "reasoning_tokens": 158,
+      "calls": 2,
+      "latency_s": 1.8185691002290696,
+      "request_ids": [
+        "943a93c0ad0f40fcab9a61f7453e7f77",
+        "cb4db436be574a69aca988d59d70a97b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

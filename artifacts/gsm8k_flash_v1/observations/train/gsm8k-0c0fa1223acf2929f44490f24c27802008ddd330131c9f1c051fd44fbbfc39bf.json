@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0c0fa1223acf2929f44490f24c27802008ddd330131c9f1c051fd44fbbfc39bf",
+    "question": "The chicken crossed the road to get to the other side twice for the thrill of it. The first time, it had to dodge 23 speeding cars. The second time, a person tried to catch it and accidentally pulled out twice as many feathers as the number of cars the chicken had dodged. The chicken had 5263 feathers before its thrill-seeking road crossings. How many feathers did it have afterward?",
+    "answer": "5217",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "5217",
+      "text": "<answer>5217</answer>",
+      "input_tokens": 161,
+      "output_tokens": 135,
+      "total_tokens": 296,
+      "reasoning_tokens": 125,
+      "calls": 1,
+      "latency_s": 0.9371557000558823,
+      "request_ids": [
+        "6facb3e6670c430fb2add2761c027cc1"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "5217",
+      "text": "The chicken dodged 23 cars, so the person pulled out \\(2 \\times 23 = 46\\) feathers.\n\nStarting feathers: 5263  \nRemaining feathers: \\(5263 - 46 = 5217\\)\n\n<answer>5217</answer>",
+      "input_tokens": 161,
+      "output_tokens": 198,
+      "total_tokens": 359,
+      "reasoning_tokens": 141,
+      "calls": 1,
+      "latency_s": 1.5779750000219792,
+      "request_ids": [
+        "70925c5afe8949de898d5752891c1830"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "5217",
+      "text": "The interpretation and arithmetic are correct: \\(2 \\times 23 = 46\\) feathers pulled out, and \\(5263 - 46 = 5217\\).\n\n<answer>5217</answer>",
+      "input_tokens": 417,
+      "output_tokens": 360,
+      "total_tokens": 777,
+      "reasoning_tokens": 260,
+      "calls": 2,
+      "latency_s": 3.0355506001506,
+      "request_ids": [
+        "70925c5afe8949de898d5752891c1830",
+        "c5b023be6cd14b82b0b7b7fa1938e42e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

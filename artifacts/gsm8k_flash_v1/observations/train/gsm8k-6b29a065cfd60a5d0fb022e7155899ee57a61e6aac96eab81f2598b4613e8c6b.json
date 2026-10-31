@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-6b29a065cfd60a5d0fb022e7155899ee57a61e6aac96eab81f2598b4613e8c6b",
+    "question": "Nine members of the crafts club are making 2 necklaces each. It takes 50 beads to make each necklace. How many beads will they need in all?",
+    "answer": "900",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "900",
+      "text": "<answer>900</answer>",
+      "input_tokens": 111,
+      "output_tokens": 42,
+      "total_tokens": 153,
+      "reasoning_tokens": 33,
+      "calls": 1,
+      "latency_s": 0.7342844000086188,
+      "request_ids": [
+        "09b76dcfa0864ea7b74a8a50af0fdec2"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "900",
+      "text": "9 members × 2 necklaces = 18 necklaces  \n18 necklaces × 50 beads = 900 beads\n\n<answer>900</answer>",
+      "input_tokens": 111,
+      "output_tokens": 66,
+      "total_tokens": 177,
+      "reasoning_tokens": 32,
+      "calls": 1,
+      "latency_s": 0.728103700093925,
+      "request_ids": [
+        "75a61a6d9e3547e2ae03901442c75987"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "900",
+      "text": "The interpretation and arithmetic are correct: 9 × 2 = 18 necklaces, and 18 × 50 = 900 beads.\n\n<answer>900</answer>",
+      "input_tokens": 294,
+      "output_tokens": 157,
+      "total_tokens": 451,
+      "reasoning_tokens": 85,
+      "calls": 2,
+      "latency_s": 1.9217292999383062,
+      "request_ids": [
+        "75a61a6d9e3547e2ae03901442c75987",
+        "749ec76640f04ee6937a79e971701c04"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

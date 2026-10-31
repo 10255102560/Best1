@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-76ce519d1ac0ef6634354d64a5b937a55848581b7b5f0153da65878788db969a",
+    "question": "April is donating plant pots to a local school for their new garden. They ask for 30 plant pots for the daisies, and twice as many for the roses. April had already bought 100 plant pots from the garden center before she knew how many she needed. How many plant pots does April have left over?",
+    "answer": "10",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "<answer>10</answer>",
+      "input_tokens": 143,
+      "output_tokens": 56,
+      "total_tokens": 199,
+      "reasoning_tokens": 47,
+      "calls": 1,
+      "latency_s": 0.8899702001363039,
+      "request_ids": [
+        "2ca341e90d164a89aa65f22e1789edd0"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "Daisies: 30 pots  \nRoses: \\(2 \\times 30 = 60\\) pots  \nTotal needed: \\(30 + 60 = 90\\) pots  \nLeft over: \\(100 - 90 = 10\\)\n\n<answer>10</answer>",
+      "input_tokens": 143,
+      "output_tokens": 128,
+      "total_tokens": 271,
+      "reasoning_tokens": 70,
+      "calls": 1,
+      "latency_s": 1.2179149999283254,
+      "request_ids": [
+        "f992f246bd8945279380f7bdb429ca66"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "Verified: 30 daisies + 60 roses = 90 needed; 100 − 90 = 10 left over.\n\n<answer>10</answer>",
+      "input_tokens": 382,
+      "output_tokens": 242,
+      "total_tokens": 624,
+      "reasoning_tokens": 148,
+      "calls": 2,
+      "latency_s": 2.1798566998913884,
+      "request_ids": [
+        "f992f246bd8945279380f7bdb429ca66",
+        "4195d2d55e674c24a5e16b8bc8131a51"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

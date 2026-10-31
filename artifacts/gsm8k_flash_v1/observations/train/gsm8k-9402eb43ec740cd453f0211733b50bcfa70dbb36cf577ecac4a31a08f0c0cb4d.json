@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-9402eb43ec740cd453f0211733b50bcfa70dbb36cf577ecac4a31a08f0c0cb4d",
+    "question": "John wants to start a zoo.  He has 15 snakes.  He has twice as many monkeys as he does snakes.  He has 5 fewer lions than he does monkeys.   John has 8 more pandas than he does lions.  John has 1/3 as many dogs as he does pandas.  How many total animals does John have?",
+    "answer": "114",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "114",
+      "text": "<answer>114</answer>",
+      "input_tokens": 152,
+      "output_tokens": 81,
+      "total_tokens": 233,
+      "reasoning_tokens": 72,
+      "calls": 1,
+      "latency_s": 1.0087691999506205,
+      "request_ids": [
+        "01825a06b49f4e2c9cc586f22f253326"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "114",
+      "text": "Snakes: 15  \nMonkeys: 2 × 15 = 30  \nLions: 30 − 5 = 25  \nPandas: 25 + 8 = 33  \nDogs: 33 ÷ 3 = 11  \n\nTotal: 15 + 30 + 25 + 33 + 11 = 114\n\n<answer>114</answer>",
+      "input_tokens": 152,
+      "output_tokens": 217,
+      "total_tokens": 369,
+      "reasoning_tokens": 134,
+      "calls": 1,
+      "latency_s": 1.267870700219646,
+      "request_ids": [
+        "23205f8e6cff4bd59f74f81040fd7b99"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "114",
+      "text": "Snakes: 15  \nMonkeys: 2 × 15 = 30  \nLions: 30 − 5 = 25  \nPandas: 25 + 8 = 33  \nDogs: 33 ÷ 3 = 11  \nTotal: 15 + 30 + 25 + 33 + 11 = 114  \n\n<answer>114</answer>",
+      "input_tokens": 425,
+      "output_tokens": 383,
+      "total_tokens": 808,
+      "reasoning_tokens": 217,
+      "calls": 2,
+      "latency_s": 2.3950076003093272,
+      "request_ids": [
+        "23205f8e6cff4bd59f74f81040fd7b99",
+        "84f84d2e13714ec09b6942833957b87b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-329ba6ef9541ba9279a148fe6b123ea05178961a91b2b49fdca07b4d811209a2",
+    "question": "A portable battery charger can fully charge a smartphone in 26 minutes or a tablet in 53 minutes. Ana charged her tablet fully and her phone halfway. How many minutes did it take?",
+    "answer": "66",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "66",
+      "text": "<answer>66</answer>",
+      "input_tokens": 116,
+      "output_tokens": 123,
+      "total_tokens": 239,
+      "reasoning_tokens": 114,
+      "calls": 1,
+      "latency_s": 0.8910363998729736,
+      "request_ids": [
+        "c89f620301c649508ad7207f180ff95a"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "66",
+      "text": "Tablet full charge: 53 minutes  \nPhone half charge: \\(26 \\div 2 = 13\\) minutes  \nTotal: \\(53 + 13 = 66\\) minutes\n\n<answer>66</answer>",
+      "input_tokens": 116,
+      "output_tokens": 290,
+      "total_tokens": 406,
+      "reasoning_tokens": 243,
+      "calls": 1,
+      "latency_s": 1.7069047999102622,
+      "request_ids": [
+        "01484a754b9b4342995c80862a0e1d47"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "66",
+      "text": "The tablet takes 53 minutes for a full charge. Half a phone charge takes \\(26 \\div 2 = 13\\) minutes. Total time: \\(53 + 13 = 66\\) minutes. The proposed solution is correct.\n\n<answer>66</answer>",
+      "input_tokens": 317,
+      "output_tokens": 455,
+      "total_tokens": 772,
+      "reasoning_tokens": 351,
+      "calls": 2,
+      "latency_s": 2.7332346998155117,
+      "request_ids": [
+        "01484a754b9b4342995c80862a0e1d47",
+        "8bf43dabb23a4a808000cab866ec487e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

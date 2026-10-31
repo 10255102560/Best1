@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-96bd30d8054bcdd47062e5c79ac61245bee8c7c568144536cab326d4a542a9b8",
+    "question": "John travels 150 miles in 2 hours.  The speed limit is 60 mph.  How many mph above the speed limit was he driving?",
+    "answer": "15",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "<answer>15</answer>",
+      "input_tokens": 109,
+      "output_tokens": 42,
+      "total_tokens": 151,
+      "reasoning_tokens": 33,
+      "calls": 1,
+      "latency_s": 0.51512819994241,
+      "request_ids": [
+        "9352e449587543a8966a6d3c4b5d42a3"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "John's speed: \\(150 \\div 2 = 75\\) mph.  \nAmount above speed limit: \\(75 - 60 = 15\\) mph.\n\n<answer>15</answer>",
+      "input_tokens": 109,
+      "output_tokens": 84,
+      "total_tokens": 193,
+      "reasoning_tokens": 42,
+      "calls": 1,
+      "latency_s": 0.7376714998390526,
+      "request_ids": [
+        "26742de340184ce481104c7890970f96"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "John’s speed is \\(150 \\div 2 = 75\\) mph.  \nHe was \\(75 - 60 = 15\\) mph above the speed limit.  \nThe proposed solution is correct.\n\n<answer>15</answer>",
+      "input_tokens": 298,
+      "output_tokens": 178,
+      "total_tokens": 476,
+      "reasoning_tokens": 85,
+      "calls": 2,
+      "latency_s": 1.6414704998023808,
+      "request_ids": [
+        "26742de340184ce481104c7890970f96",
+        "72d99e76d6c441efb6db3edba7a06e3f"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

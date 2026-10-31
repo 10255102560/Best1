@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-59fff92cd0086a1d8323064ea91f07c4028098812590435407eab62eaa057552",
+    "question": "Every 4 weeks, Helen hand washes her silk pillowcases.  It takes 30 minutes to hand wash all of them.  In 1 year, how much time does Helen spend hand washing her pillowcases?",
+    "answer": "390",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "390",
+      "text": "<answer>390</answer>",
+      "input_tokens": 122,
+      "output_tokens": 302,
+      "total_tokens": 424,
+      "reasoning_tokens": 293,
+      "calls": 1,
+      "latency_s": 1.6749935001134872,
+      "request_ids": [
+        "5c0a18cd2fdf41b0ba98736c33f5b202"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "390",
+      "text": "1 year = 52 weeks  \nNumber of washes = 52 ÷ 4 = 13  \nTotal time = 13 × 30 = 390 minutes  \n\n<answer>390</answer>",
+      "input_tokens": 122,
+      "output_tokens": 341,
+      "total_tokens": 463,
+      "reasoning_tokens": 299,
+      "calls": 1,
+      "latency_s": 1.922717599896714,
+      "request_ids": [
+        "6fc6a9c02e024d4593f173b8ef33b297"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "390",
+      "text": "Verification: 1 year ≈ 52 weeks; 52 ÷ 4 = 13 washes; 13 × 30 = 390 minutes. The interpretation and arithmetic are correct.\n\n<answer>390</answer>",
+      "input_tokens": 324,
+      "output_tokens": 531,
+      "total_tokens": 855,
+      "reasoning_tokens": 442,
+      "calls": 2,
+      "latency_s": 3.3264096998609602,
+      "request_ids": [
+        "6fc6a9c02e024d4593f173b8ef33b297",
+        "88bf05ed91414a22ab3ef3bc7fe18687"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

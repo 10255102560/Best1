@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-48a14de8bec9a95bdfb1311440a5dee74b4051b6d35fcead361f31bf6368f214",
+    "question": "Martin went to a store to buy a new television set. He decided to spend no more than $1,000 and the sales clerk offered him the TV for $100 less and an additional 20% off. How much lower was the price of the television than the amount Martin decided to spend?",
+    "answer": "280",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "280",
+      "text": "<answer>280</answer>",
+      "input_tokens": 138,
+      "output_tokens": 147,
+      "total_tokens": 285,
+      "reasoning_tokens": 138,
+      "calls": 1,
+      "latency_s": 2.0104638000484556,
+      "request_ids": [
+        "ed4b3b901ba94f8eaa46edf63e640370"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "280",
+      "text": "Martin’s maximum budget: $1,000  \nAfter $100 off: $1,000 − $100 = $900  \nAdditional 20% off: $900 × 0.80 = $720  \nAmount lower than budget: $1,000 − $720 = $280  \n\n<answer>280</answer>",
+      "input_tokens": 138,
+      "output_tokens": 231,
+      "total_tokens": 369,
+      "reasoning_tokens": 162,
+      "calls": 1,
+      "latency_s": 1.7552293001208454,
+      "request_ids": [
+        "01d6e15e4eca4f6c97959bccd08a939c"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "280",
+      "text": "The proposed interpretation and arithmetic are correct: $1,000 − $100 = $900; then 20% off gives $900 × 0.80 = $720. The price is $1,000 − $720 = $280 lower than the budget.\n\n<answer>280</answer>",
+      "input_tokens": 383,
+      "output_tokens": 857,
+      "total_tokens": 1240,
+      "reasoning_tokens": 725,
+      "calls": 2,
+      "latency_s": 4.520377900218591,
+      "request_ids": [
+        "01d6e15e4eca4f6c97959bccd08a939c",
+        "ded355e2d52b4c85b32b8c02c4f0d9b3"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

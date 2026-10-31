@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-3a50e2cc97cf84d3b477c3239cfe8fd9d3ac4ac18cdff021e908eb82c380804c",
+    "question": "Sandy walked from Holloway Shores to Sun Valley Shores for 8 hours on a particular day. She also walked half as many hours on the second day as she walked on the first day, to Hollock valley shores. Calculate the total time Sandy took to walk in the two days in minutes.",
+    "answer": "720",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "720",
+      "text": "<answer>720</answer>",
+      "input_tokens": 140,
+      "output_tokens": 55,
+      "total_tokens": 195,
+      "reasoning_tokens": 46,
+      "calls": 1,
+      "latency_s": 1.3639116000849754,
+      "request_ids": [
+        "96a0bea9c30049f387ac6297bdf434e9"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "720",
+      "text": "First day: 8 hours  \nSecond day: \\(8 \\div 2 = 4\\) hours  \nTotal: \\(8 + 4 = 12\\) hours  \nIn minutes: \\(12 \\times 60 = 720\\)\n\n<answer>720</answer>",
+      "input_tokens": 140,
+      "output_tokens": 120,
+      "total_tokens": 260,
+      "reasoning_tokens": 63,
+      "calls": 1,
+      "latency_s": 7.407388299936429,
+      "request_ids": [
+        "f037c2f42c6f4650b885536da197dcfd"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "720",
+      "text": "Verified: 8 hours + (8 ÷ 2) hours = 12 hours = 720 minutes.\n\n<answer>720</answer>",
+      "input_tokens": 375,
+      "output_tokens": 228,
+      "total_tokens": 603,
+      "reasoning_tokens": 140,
+      "calls": 2,
+      "latency_s": 8.322515700012445,
+      "request_ids": [
+        "f037c2f42c6f4650b885536da197dcfd",
+        "9faf6fcd582146e193ce3fb4cbc1e0b9"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

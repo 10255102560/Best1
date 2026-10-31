@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-793bc2727b13e3837b78901bfa0e1e764e57ac093c8eef8effbb426475ec6fae",
+    "question": "Jane, Kyla, and Anthony have summer jobs in a resort. Their task is to fold guests' towels. Jane can fold 3 towels in 5 minutes. Kyla can fold 5 towels in 10 minutes, and Anthony can fold 7 towels in 20 minutes. If they all fold towels together, how many towels can they fold in one hour?",
+    "answer": "87",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "87",
+      "text": "<answer>87</answer>",
+      "input_tokens": 153,
+      "output_tokens": 75,
+      "total_tokens": 228,
+      "reasoning_tokens": 66,
+      "calls": 1,
+      "latency_s": 0.7800598000176251,
+      "request_ids": [
+        "2cd49e6c09794761bfe3218d8fa06efb"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "87",
+      "text": "Jane: \\(3/5 = 0.6\\) towels/min  \nKyla: \\(5/10 = 0.5\\) towels/min  \nAnthony: \\(7/20 = 0.35\\) towels/min  \n\nTogether: \\(0.6 + 0.5 + 0.35 = 1.45\\) towels/min  \nIn 60 minutes: \\(1.45 \\times 60 = 87\\)\n\n<answer>87</answer>",
+      "input_tokens": 153,
+      "output_tokens": 166,
+      "total_tokens": 319,
+      "reasoning_tokens": 69,
+      "calls": 1,
+      "latency_s": 1.2713176000397652,
+      "request_ids": [
+        "f841f4ca363548dbb21a66a11af7e671"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "87",
+      "text": "Rates: Jane 0.6/min, Kyla 0.5/min, Anthony 0.35/min. Combined rate = 1.45 towels/min. In 60 minutes: \\(1.45 \\times 60 = 87\\). The proposed solution is correct.\n\n<answer>87</answer>",
+      "input_tokens": 441,
+      "output_tokens": 302,
+      "total_tokens": 743,
+      "reasoning_tokens": 138,
+      "calls": 2,
+      "latency_s": 2.2332381000742316,
+      "request_ids": [
+        "f841f4ca363548dbb21a66a11af7e671",
+        "881dd7399e774626978c5d33dcf88ca3"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

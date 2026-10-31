@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-17e2ab181c65ba6279bea813b437e6a7b073fe1935156d3b5950b4e8abbb9157",
+    "question": "Paul is at a train station and is waiting for his train. He isn't sure how long he needs to wait, but he knows that the fourth train scheduled to arrive at the station is the one he needs to get on. The first train is scheduled to arrive in 10 minutes, and this train will stay in the station for 20 minutes. The second train is to arrive half an hour after the first train leaves the station, and this second train will stay in the station for a quarter of the amount of time that the first train stayed in the station. The third train is to arrive an hour after the second train leaves the station, and this third train is to leave the station immediately after it arrives.  The fourth train will arrive 20 minutes after the third train leaves, and this is the train Paul will board.  In total, how long, in minutes, will Paul wait for his train?",
+    "answer": "145",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "145",
+      "text": "<answer>145</answer>",
+      "input_tokens": 263,
+      "output_tokens": 147,
+      "total_tokens": 410,
+      "reasoning_tokens": 138,
+      "calls": 1,
+      "latency_s": 0.9554337998852134,
+      "request_ids": [
+        "2259d8c0ed7440de822ec4500b242797"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "145",
+      "text": "- First train arrives at 10 minutes and leaves at \\(10 + 20 = 30\\) minutes.\n- Second train arrives \\(30\\) minutes later: \\(30 + 30 = 60\\) minutes.\n- It stays \\(20 \\div 4 = 5\\) minutes, leaving at \\(60 + 5 = 65\\) minutes.\n- Third train arrives \\(60\\) minutes later: \\(65 + 60 = 125\\) minutes, and leaves immediately.\n- Fourth train arrives \\(20\\) minutes later: \\(125 + 20 = 145\\) minutes.\n\n<answer>145</answer>",
+      "input_tokens": 263,
+      "output_tokens": 354,
+      "total_tokens": 617,
+      "reasoning_tokens": 228,
+      "calls": 1,
+      "latency_s": 1.8110427998472005,
+      "request_ids": [
+        "a317253598d34e9889e3b89c7295345a"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "145",
+      "text": "The timing is correct: first leaves at 30, second arrives at 60 and leaves at 65, third arrives at 125, and fourth arrives at 145. Paul waits 145 minutes.\n\n<answer>145</answer>",
+      "input_tokens": 690,
+      "output_tokens": 525,
+      "total_tokens": 1215,
+      "reasoning_tokens": 349,
+      "calls": 2,
+      "latency_s": 3.491761599900201,
+      "request_ids": [
+        "a317253598d34e9889e3b89c7295345a",
+        "8f752cc39da444ffa9f1fc5a664e205c"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

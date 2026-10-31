@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-423ef1ee5d153d430930ba72ac9f413fd0c90ac85ffab1c49484e14db029e2b0",
+    "question": "There are 180 students in ninth grade. 1/4 of them bombed their finals because they were going through difficult breakups. 1/3rd of the rest didn't show up to take the test, and another 20 got less than a D. How many students passed their finals?",
+    "answer": "70",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "70",
+      "text": "<answer>70</answer>",
+      "input_tokens": 140,
+      "output_tokens": 139,
+      "total_tokens": 279,
+      "reasoning_tokens": 130,
+      "calls": 1,
+      "latency_s": 1.6839431000407785,
+      "request_ids": [
+        "f97f3028b4dc43ac9649e940fdaf6a2f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "70",
+      "text": "1/4 of 180 = 45 bombed.  \nRemaining: 180 − 45 = 135.  \n1/3 of 135 = 45 didn’t show up.  \nAnother 20 got less than a D.  \n\nPassed: 180 − 45 − 45 − 20 = 70.\n\n<answer>70</answer>",
+      "input_tokens": 140,
+      "output_tokens": 198,
+      "total_tokens": 338,
+      "reasoning_tokens": 119,
+      "calls": 1,
+      "latency_s": 3.9127871999517083,
+      "request_ids": [
+        "3bf79d9a4ef940c9955e89a9fe0716b4"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "70",
+      "text": "1/4 of 180 = 45 bombed. Remaining = 135.  \n1/3 of 135 = 45 did not show. Remaining = 90.  \n20 got less than D. Remaining passed = 90 − 20 = 70.  \nThe proposed arithmetic and interpretation are consistent.\n\n<answer>70</answer>",
+      "input_tokens": 397,
+      "output_tokens": 546,
+      "total_tokens": 943,
+      "reasoning_tokens": 391,
+      "calls": 2,
+      "latency_s": 5.783793399808928,
+      "request_ids": [
+        "3bf79d9a4ef940c9955e89a9fe0716b4",
+        "07ca6d970c6b41638af646612aca227f"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

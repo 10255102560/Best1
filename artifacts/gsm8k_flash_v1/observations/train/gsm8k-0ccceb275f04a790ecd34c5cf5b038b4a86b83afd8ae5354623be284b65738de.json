@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0ccceb275f04a790ecd34c5cf5b038b4a86b83afd8ae5354623be284b65738de",
+    "question": "Rayden bought three times as many ducks as Lily from the market. He also bought four times as many geese as Lily. If Lily bought 20 ducks and 10 geese, how many more ducks and geese do Rayden have more than Lily altogether?",
+    "answer": "70",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "70",
+      "text": "<answer>70</answer>",
+      "input_tokens": 129,
+      "output_tokens": 135,
+      "total_tokens": 264,
+      "reasoning_tokens": 126,
+      "calls": 1,
+      "latency_s": 1.1048971000127494,
+      "request_ids": [
+        "4e34b78b6a734d36b34f569f06b63417"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "70",
+      "text": "Lily: 20 ducks + 10 geese = 30 birds  \nRayden: 3×20 = 60 ducks; 4×10 = 40 geese; total = 100 birds  \nDifference: 100 − 30 = 70\n\n<answer>70</answer>",
+      "input_tokens": 129,
+      "output_tokens": 182,
+      "total_tokens": 311,
+      "reasoning_tokens": 120,
+      "calls": 1,
+      "latency_s": 1.305000799940899,
+      "request_ids": [
+        "0711cfefb07b4fc49a2dd29554f84e8e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "70",
+      "text": "Lily has 20 + 10 = 30 birds. Rayden has 3×20 = 60 ducks and 4×10 = 40 geese, totaling 100 birds. Difference: 100 − 30 = 70. The proposed solution is correct.\n\n<answer>70</answer>",
+      "input_tokens": 358,
+      "output_tokens": 333,
+      "total_tokens": 691,
+      "reasoning_tokens": 206,
+      "calls": 2,
+      "latency_s": 3.0102478999178857,
+      "request_ids": [
+        "0711cfefb07b4fc49a2dd29554f84e8e",
+        "741ccd332f93410996daccf108036616"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

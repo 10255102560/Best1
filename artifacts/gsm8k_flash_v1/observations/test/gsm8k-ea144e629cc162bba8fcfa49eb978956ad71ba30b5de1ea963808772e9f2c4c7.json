@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ea144e629cc162bba8fcfa49eb978956ad71ba30b5de1ea963808772e9f2c4c7",
+    "question": "A hospital sees 500 people a day.  Each patient is seen for an average of 24 minutes.  The doctors charge $150 an hour to the hospital and the hospital charges the patients $200 an hour.  How much profit does the hospital make from these visits?",
+    "answer": "10000",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "10000",
+      "text": "<answer>10000</answer>",
+      "input_tokens": 134,
+      "output_tokens": 85,
+      "total_tokens": 219,
+      "reasoning_tokens": 75,
+      "calls": 1,
+      "latency_s": 0.6523357999976724,
+      "request_ids": [
+        "96c773d3bda4418a9f4dd5ab308232de"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "10000",
+      "text": "Total patient time: \\(500 \\times 24 = 12{,}000\\) minutes \\(= 200\\) hours.\n\nRevenue: \\(200 \\times 200 = \\$40{,}000\\)  \nDoctor cost: \\(200 \\times 150 = \\$30{,}000\\)  \nProfit: \\(40{,}000 - 30{,}000 = \\$10{,}000\\)\n\n<answer>10000</answer>",
+      "input_tokens": 134,
+      "output_tokens": 222,
+      "total_tokens": 356,
+      "reasoning_tokens": 134,
+      "calls": 1,
+      "latency_s": 1.1773058001417667,
+      "request_ids": [
+        "5cb900888f0b4642a21696cfb3a231e9"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "10000",
+      "text": "Total time: \\(500 \\times 24 = 12{,}000\\) minutes \\(= 200\\) hours.  \nRevenue: \\(200 \\times 200 = 40{,}000\\).  \nDoctor cost: \\(200 \\times 150 = 30{,}000\\).  \nProfit: \\(40{,}000 - 30{,}000 = 10{,}000\\).  \nThe proposed solution is correct.\n\n<answer>10000</answer>",
+      "input_tokens": 394,
+      "output_tokens": 408,
+      "total_tokens": 802,
+      "reasoning_tokens": 225,
+      "calls": 2,
+      "latency_s": 2.696384500246495,
+      "request_ids": [
+        "5cb900888f0b4642a21696cfb3a231e9",
+        "8e7acd24f58e4c88912416d29505aaec"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

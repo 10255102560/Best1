@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-fa49606bae4ebb92f6429d7bd366a53f0490a7d09d7b08aa25ff637373434f99",
+    "question": "Comet Halley orbits the sun every 75 years. Bill's dad saw the Comet when he was 30 years old. Bill saw the comet a second time when he was three times the age his father was when he saw the Comet. How old was Bill when he saw the Comet for the first time?",
+    "answer": "15",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "<answer>15</answer>",
+      "input_tokens": 144,
+      "output_tokens": 131,
+      "total_tokens": 275,
+      "reasoning_tokens": 122,
+      "calls": 1,
+      "latency_s": 1.2456941998098046,
+      "request_ids": [
+        "1c08cd29150e425ab56fc803adfe891b"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Bill’s father saw the comet at age 30.\n\nBill saw it the second time at \\(3 \\times 30 = 90\\) years old.\n\nSince Comet Halley appears every 75 years, Bill’s first sighting was:\n\n\\(90 - 75 = 15\\)\n\n<answer>15</answer>",
+      "input_tokens": 144,
+      "output_tokens": 175,
+      "total_tokens": 319,
+      "reasoning_tokens": 106,
+      "calls": 1,
+      "latency_s": 1.1751561998389661,
+      "request_ids": [
+        "28afdfebe9214ff18b1e63e3856efe63"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "The interpretation and arithmetic are correct: Bill’s second sighting was at \\(3 \\times 30 = 90\\) years old. Since sightings are 75 years apart, his first sighting was \\(90 - 75 = 15\\).\n\n<answer>15</answer>",
+      "input_tokens": 395,
+      "output_tokens": 655,
+      "total_tokens": 1050,
+      "reasoning_tokens": 527,
+      "calls": 2,
+      "latency_s": 3.8685858997050673,
+      "request_ids": [
+        "28afdfebe9214ff18b1e63e3856efe63",
+        "c0296e4d5a064a2cab831de1bcb1d1ce"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

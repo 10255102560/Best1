@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-2adae610d41d993d6191fbe7de5e80a2bebaf65dd4d1e0139b6ebc64ba1b25b6",
+    "question": "A tub of ice cream costing $13 is now sold at $11. A packet of milk was sold at a discount of $0.5. How much will you save if you buy 2 tubs of ice cream and 4 packets of milk?",
+    "answer": "6",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "<answer>6</answer>",
+      "input_tokens": 130,
+      "output_tokens": 69,
+      "total_tokens": 199,
+      "reasoning_tokens": 60,
+      "calls": 1,
+      "latency_s": 0.9857332000974566,
+      "request_ids": [
+        "3aabf4c1224040489191c37f2e743fe9"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "Ice cream savings: \\(2 \\times (13 - 11) = 2 \\times 2 = 4\\)\n\nMilk savings: \\(4 \\times 0.5 = 2\\)\n\nTotal savings: \\(4 + 2 = 6\\)\n\n<answer>6</answer>",
+      "input_tokens": 130,
+      "output_tokens": 128,
+      "total_tokens": 258,
+      "reasoning_tokens": 66,
+      "calls": 1,
+      "latency_s": 0.8920415998436511,
+      "request_ids": [
+        "670939497bd0476180ab73eb499cd81f"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "Verified: Ice cream savings \\(2 \\times (13-11)=4\\); milk savings \\(4 \\times 0.5=2\\); total \\(4+2=6\\). Correct.\n\n<answer>6</answer>",
+      "input_tokens": 360,
+      "output_tokens": 274,
+      "total_tokens": 634,
+      "reasoning_tokens": 164,
+      "calls": 2,
+      "latency_s": 3.4210983999073505,
+      "request_ids": [
+        "670939497bd0476180ab73eb499cd81f",
+        "70860c2f3aa945ec8886ecd124830f1a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

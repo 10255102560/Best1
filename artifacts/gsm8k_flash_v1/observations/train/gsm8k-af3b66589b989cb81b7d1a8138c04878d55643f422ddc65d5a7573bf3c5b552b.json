@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-af3b66589b989cb81b7d1a8138c04878d55643f422ddc65d5a7573bf3c5b552b",
+    "question": "Tom opens an amusement park.  It cost $100,000 to open initially.  It also cost 1% of that to run per day.  He sells 150  tickets a day for $10 each.  How long will it take to make back his money?",
+    "answer": "200",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "200",
+      "text": "<answer>200</answer>",
+      "input_tokens": 135,
+      "output_tokens": 95,
+      "total_tokens": 230,
+      "reasoning_tokens": 86,
+      "calls": 1,
+      "latency_s": 0.9084752001799643,
+      "request_ids": [
+        "99a5b8f10fe748538cd061129ad5fae6"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "200",
+      "text": "Initial cost: $100,000  \nDaily running cost: 1% of $100,000 = $1,000  \nDaily revenue: 150 × $10 = $1,500  \nDaily net profit: $1,500 − $1,000 = $500  \n\nTime to recover $100,000:  \n$100,000 ÷ $500 = 200 days\n\n<answer>200</answer>",
+      "input_tokens": 135,
+      "output_tokens": 200,
+      "total_tokens": 335,
+      "reasoning_tokens": 113,
+      "calls": 1,
+      "latency_s": 1.7002687000203878,
+      "request_ids": [
+        "6c1dd6811dc64055b829d567a21297a9"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "200",
+      "text": "Verification: Daily cost = 1% × $100,000 = $1,000. Daily revenue = 150 × $10 = $1,500. Net daily profit = $500. Break-even time = $100,000 ÷ $500 = 200 days. The proposed solution is correct.\n\n<answer>200</answer>",
+      "input_tokens": 395,
+      "output_tokens": 402,
+      "total_tokens": 797,
+      "reasoning_tokens": 243,
+      "calls": 2,
+      "latency_s": 6.202983400085941,
+      "request_ids": [
+        "6c1dd6811dc64055b829d567a21297a9",
+        "b9751031869d43e284efa3581b871f8d"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

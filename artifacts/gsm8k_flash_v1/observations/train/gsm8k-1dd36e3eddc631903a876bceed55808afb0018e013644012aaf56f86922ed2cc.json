@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-1dd36e3eddc631903a876bceed55808afb0018e013644012aaf56f86922ed2cc",
+    "question": "Micah, Dean, and Jake are all training for a marathon organized by a local NGO to support children in their town who have cancer. Micah runs 2/3 times as fast as Dean. It takes Jake 1/3 times more time to finish the marathon than it takes Mica. If Dean takes 9 hours, what's the total time the three take to complete the marathon?",
+    "answer": "23",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 0,
+      "prediction": "40.5",
+      "text": "<answer>40.5</answer>",
+      "input_tokens": 159,
+      "output_tokens": 329,
+      "total_tokens": 488,
+      "reasoning_tokens": 318,
+      "calls": 1,
+      "latency_s": 1.885800100164488,
+      "request_ids": [
+        "a66c5de8e04345e1bb6eaf391a2bc523"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 0,
+      "prediction": "40.5",
+      "text": "Dean’s time = 9 hours.\n\nMicah runs \\( \\frac{2}{3} \\) as fast as Dean, so Micah takes \\( \\frac{3}{2} \\) times as long:\n\\[\n9 \\times \\frac{3}{2} = 13.5 \\text{ hours}\n\\]\n\nJake takes \\( \\frac{1}{3} \\) more time than Micah, so:\n\\[\n13.5 \\times \\frac{4}{3} = 18 \\text{ hours}\n\\]\n\nTotal time:\n\\[\n9 + 13.5 + 18 = 40.5\n\\]\n\n<answer>40.5</answer>",
+      "input_tokens": 159,
+      "output_tokens": 448,
+      "total_tokens": 607,
+      "reasoning_tokens": 307,
+      "calls": 1,
+      "latency_s": 1.9090974000282586,
+      "request_ids": [
+        "8948e76b2c0341cd97d3cb5b4ac305ab"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 0,
+      "prediction": "40.5",
+      "text": "Dean: 9 hours.  \nMicah’s speed is \\(2/3\\) of Dean’s, so his time is \\(9 \\times 3/2 = 13.5\\) hours.  \nJake takes \\(1/3\\) more time than Micah: \\(13.5 \\times 4/3 = 18\\) hours.  \nTotal: \\(9 + 13.5 + 18 = 40.5\\).\n\n<answer>40.5</answer>",
+      "input_tokens": 497,
+      "output_tokens": 804,
+      "total_tokens": 1301,
+      "reasoning_tokens": 559,
+      "calls": 2,
+      "latency_s": 6.257451500045136,
+      "request_ids": [
+        "8948e76b2c0341cd97d3cb5b4ac305ab",
+        "0751c5ed2748464fba78fc5a933833b1"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

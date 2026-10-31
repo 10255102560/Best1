@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-fb9463d72ffbda23b80ee30cfb504000f0b654cedb3d4ba034c5a37c6e5ca8b9",
+    "question": "Emily bought 9 packs of candy necklaces to give her classmates at school for Valentine’s Day. Each pack had 8 candy necklaces in it. Emily opened one pack at a time. After her classmates took as many as they wanted, there were 40 candy necklaces left. How many packs did Emily open for her classmates?",
+    "answer": "4",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "<answer>4</answer>",
+      "input_tokens": 147,
+      "output_tokens": 559,
+      "total_tokens": 706,
+      "reasoning_tokens": 550,
+      "calls": 1,
+      "latency_s": 3.037069800077006,
+      "request_ids": [
+        "0528d89d6fa8482ab106e4ecf16a831b"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "Emily started with \\(9 \\times 8 = 72\\) candy necklaces.\n\nThere were 40 left, so \\(72 - 40 = 32\\) were taken.\n\nSince each opened pack has 8 necklaces, the number of packs opened is:\n\n\\[\n32 \\div 8 = 4\n\\]\n\n<answer>4</answer>",
+      "input_tokens": 147,
+      "output_tokens": 569,
+      "total_tokens": 716,
+      "reasoning_tokens": 495,
+      "calls": 1,
+      "latency_s": 10.173752600094303,
+      "request_ids": [
+        "c889c825f2fb4283aae5a5e3cfaefefd"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "Total: \\(9 \\times 8 = 72\\). Left: 40, so taken: \\(72 - 40 = 32\\). At 8 per pack, \\(32 \\div 8 = 4\\) packs opened. The arithmetic and requested quantity are correct.\n\n<answer>4</answer>",
+      "input_tokens": 406,
+      "output_tokens": 2196,
+      "total_tokens": 2602,
+      "reasoning_tokens": 2057,
+      "calls": 2,
+      "latency_s": 23.82444650004618,
+      "request_ids": [
+        "c889c825f2fb4283aae5a5e3cfaefefd",
+        "6672340bdf4b4badb9276d12e44c6938"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

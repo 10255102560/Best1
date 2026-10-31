@@ -1,0 +1,2 @@
+# Keep byte-level experiment fingerprints stable across Windows/Linux checkouts.
+* -text

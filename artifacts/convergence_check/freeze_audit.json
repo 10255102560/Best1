@@ -1,0 +1,7 @@
+{
+  "freeze_completed_at": "2026-10-31T08:47:09.295177+00:00",
+  "first_test_request_at": "2026-10-31T08:46:06.588598+00:00",
+  "frozen_before_test_requests": false,
+  "interpretation": "Test requests had already started before this freeze; cannot be labeled a confirmatory pre-test-frozen auxiliary check.",
+  "frozen_policy_sha256": "e8f38496d8a4f4e8382cec980c07a4e0a3bf8cd13d4bfdc1ec2c4399d9dda924"
+}

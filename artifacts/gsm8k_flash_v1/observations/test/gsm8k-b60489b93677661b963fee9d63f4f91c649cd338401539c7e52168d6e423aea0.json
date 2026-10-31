@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-b60489b93677661b963fee9d63f4f91c649cd338401539c7e52168d6e423aea0",
+    "question": "Wayne and Bernadette are movie stars heading to the premiere of their latest film. Bernadette wants to arrive 5 minutes before Wayne. Wayne is staying at a hotel close to the premiere theater, and Bernadette is staying at her high-rise apartment in the same city. The drive from Bernadette’s apartment takes four times as long as the drive from Wayne’s hotel. If it takes Wayne four minutes to be driven to the theater, how much earlier should Bernadette leave than Wayne to get to the theater first?",
+    "answer": "17",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "17",
+      "text": "<answer>17</answer>",
+      "input_tokens": 190,
+      "output_tokens": 129,
+      "total_tokens": 319,
+      "reasoning_tokens": 120,
+      "calls": 1,
+      "latency_s": 0.8539689001627266,
+      "request_ids": [
+        "36b55e97aa0940fa851b755d46b4a40f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "17",
+      "text": "Wayne’s drive: 4 minutes.  \nBernadette’s drive: \\(4 \\times 4 = 16\\) minutes.  \nTo arrive 5 minutes before Wayne, she must leave:\n\n\\[\n16 + 5 - 4 = 17\n\\]\n\n<answer>17</answer>",
+      "input_tokens": 190,
+      "output_tokens": 234,
+      "total_tokens": 424,
+      "reasoning_tokens": 168,
+      "calls": 1,
+      "latency_s": 1.2990131999831647,
+      "request_ids": [
+        "a06f4a4bc4a44bcbba0c6427f7bdebf6"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "17",
+      "text": "Wayne arrives 4 minutes after leaving. Bernadette must arrive 5 minutes earlier, at 1 minute before Wayne leaves. Her 16-minute drive means she must leave 17 minutes before Wayne. The proposed solution is correct.\n\n<answer>17</answer>",
+      "input_tokens": 484,
+      "output_tokens": 406,
+      "total_tokens": 890,
+      "reasoning_tokens": 283,
+      "calls": 2,
+      "latency_s": 4.177180900005624,
+      "request_ids": [
+        "a06f4a4bc4a44bcbba0c6427f7bdebf6",
+        "55bae206f4014e1d99d594d1eea7f192"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-6edbe8f433462868a73f3880baf50e6d8c7c4993ab0285194db44a740597bc3b",
+    "question": "Twenty tourists discovered 700 shells in a strip mall parking lot. They had divided into three groups, Alphas, The finders, and Gogetters to find as many shells as possible. If team Alphas found 40% of the shells, and team The finders found 60% of the remaining shells, how many shells did team Gogetters find?",
+    "answer": "168",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "168",
+      "text": "<answer>168</answer>",
+      "input_tokens": 151,
+      "output_tokens": 70,
+      "total_tokens": 221,
+      "reasoning_tokens": 61,
+      "calls": 1,
+      "latency_s": 0.9805018999613822,
+      "request_ids": [
+        "1f5697dc2acb42a39fa996d53d138e89"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "168",
+      "text": "Team Alphas found \\(40\\%\\) of 700:\n\\[\n0.40 \\times 700 = 280\n\\]\n\nRemaining shells:\n\\[\n700 - 280 = 420\n\\]\n\nTeam The finders found \\(60\\%\\) of the remaining:\n\\[\n0.60 \\times 420 = 252\n\\]\n\nTeam Gogetters found:\n\\[\n420 - 252 = 168\n\\]\n\n<answer>168</answer>",
+      "input_tokens": 151,
+      "output_tokens": 162,
+      "total_tokens": 313,
+      "reasoning_tokens": 71,
+      "calls": 1,
+      "latency_s": 2.737570600118488,
+      "request_ids": [
+        "18b871472b9e4d819eb805a587abdff6"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "168",
+      "text": "Verified: \\(0.40 \\times 700 = 280\\); remaining \\(420\\); The finders \\(0.60 \\times 420 = 252\\); Gogetters \\(420 - 252 = 168\\). Correct.\n\n<answer>168</answer>",
+      "input_tokens": 431,
+      "output_tokens": 327,
+      "total_tokens": 758,
+      "reasoning_tokens": 181,
+      "calls": 2,
+      "latency_s": 4.02850230014883,
+      "request_ids": [
+        "18b871472b9e4d819eb805a587abdff6",
+        "237c0147f20a413eb40a922e370514ef"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

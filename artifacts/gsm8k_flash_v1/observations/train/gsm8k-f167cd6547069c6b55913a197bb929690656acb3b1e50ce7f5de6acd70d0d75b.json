@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f167cd6547069c6b55913a197bb929690656acb3b1e50ce7f5de6acd70d0d75b",
+    "question": "Mary is trying to get Zoom set up for the first time. She spent 10 minutes downloading the Mac version, only to realize she needed the Windows version, which took three times as long to download. During her first call, the audio glitched twice for 4 minutes each time and the video glitched once for 6 minutes. She spent twice as long talking without glitches as with glitches. How much time did Mary spend downloading Zoom and talking total?",
+    "answer": "82",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "82",
+      "text": "<answer>82</answer>",
+      "input_tokens": 172,
+      "output_tokens": 238,
+      "total_tokens": 410,
+      "reasoning_tokens": 229,
+      "calls": 1,
+      "latency_s": 2.060682100011036,
+      "request_ids": [
+        "b6445e05c5884ee18cdfd4ea0c2dbc2b"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "82",
+      "text": "Mac download: 10 minutes  \nWindows download: \\(3 \\times 10 = 30\\) minutes  \nTotal downloading: \\(10 + 30 = 40\\) minutes  \n\nGlitch time: \\(2 \\times 4 + 6 = 8 + 6 = 14\\) minutes  \nTalking without glitches: \\(2 \\times 14 = 28\\) minutes  \nTotal talking: \\(14 + 28 = 42\\) minutes  \n\nTotal time: \\(40 + 42 = 82\\) minutes\n\n<answer>82</answer>",
+      "input_tokens": 172,
+      "output_tokens": 364,
+      "total_tokens": 536,
+      "reasoning_tokens": 248,
+      "calls": 1,
+      "latency_s": 1.8330050001386553,
+      "request_ids": [
+        "8bf6949e58f54308ad62301b2411592e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "82",
+      "text": "Mac download: 10 min; Windows: 3 × 10 = 30 min; total download = 40 min.  \nGlitch time: 2 × 4 + 6 = 14 min.  \nTalking without glitches: 2 × 14 = 28 min; total call time = 14 + 28 = 42 min.  \nTotal = 40 + 42 = 82 min.\n\n<answer>82</answer>",
+      "input_tokens": 498,
+      "output_tokens": 635,
+      "total_tokens": 1133,
+      "reasoning_tokens": 422,
+      "calls": 2,
+      "latency_s": 3.253856000257656,
+      "request_ids": [
+        "8bf6949e58f54308ad62301b2411592e",
+        "f66e6404fc8c47189d74cef96182d0cb"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

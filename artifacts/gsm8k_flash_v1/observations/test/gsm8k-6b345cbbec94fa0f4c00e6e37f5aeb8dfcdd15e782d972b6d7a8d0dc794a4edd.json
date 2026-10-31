@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-6b345cbbec94fa0f4c00e6e37f5aeb8dfcdd15e782d972b6d7a8d0dc794a4edd",
+    "question": "Sid traveled 110 miles in 2 hours. If Sid then traveled an additional 140 miles in 3 hours, what's the average speed he was traveling?",
+    "answer": "50",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "<answer>50</answer>",
+      "input_tokens": 112,
+      "output_tokens": 67,
+      "total_tokens": 179,
+      "reasoning_tokens": 58,
+      "calls": 1,
+      "latency_s": 0.6165467000100762,
+      "request_ids": [
+        "4565f75157164d02b2651f219378b61e"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "Total distance: \\(110 + 140 = 250\\) miles  \nTotal time: \\(2 + 3 = 5\\) hours  \nAverage speed: \\(250 \\div 5 = 50\\)\n\n<answer>50</answer>",
+      "input_tokens": 112,
+      "output_tokens": 99,
+      "total_tokens": 211,
+      "reasoning_tokens": 49,
+      "calls": 1,
+      "latency_s": 0.7104458000976592,
+      "request_ids": [
+        "2c644070c0a1451aa93b9b270061abc6"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "Verified: total distance \\(110+140=250\\) miles; total time \\(2+3=5\\) hours; average speed \\(250/5=50\\).\n\n<answer>50</answer>",
+      "input_tokens": 312,
+      "output_tokens": 234,
+      "total_tokens": 546,
+      "reasoning_tokens": 142,
+      "calls": 2,
+      "latency_s": 1.614574400242418,
+      "request_ids": [
+        "2c644070c0a1451aa93b9b270061abc6",
+        "f558fc2ede624ea9b8e6aab0b83deb20"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

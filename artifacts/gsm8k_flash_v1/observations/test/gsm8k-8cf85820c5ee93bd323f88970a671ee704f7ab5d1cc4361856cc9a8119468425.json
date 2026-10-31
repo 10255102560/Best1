@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-8cf85820c5ee93bd323f88970a671ee704f7ab5d1cc4361856cc9a8119468425",
+    "question": "At a certain grade level, three-fourths of students have a desktop computer at home. If 20 students do not have desktop computers, how many students are there at that grade level?",
+    "answer": "80",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "80",
+      "text": "<answer>80</answer>",
+      "input_tokens": 116,
+      "output_tokens": 51,
+      "total_tokens": 167,
+      "reasoning_tokens": 42,
+      "calls": 1,
+      "latency_s": 0.6489450000226498,
+      "request_ids": [
+        "3d69c04714154939834625a5372be61a"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "80",
+      "text": "If \\(\\frac34\\) have a desktop, then \\(\\frac14\\) do not.\n\n\\[\n\\frac14 \\text{ of total} = 20\n\\]\n\n\\[\n\\text{Total} = 20 \\times 4 = 80\n\\]\n\n<answer>80</answer>",
+      "input_tokens": 116,
+      "output_tokens": 113,
+      "total_tokens": 229,
+      "reasoning_tokens": 54,
+      "calls": 1,
+      "latency_s": 1.6820666999556124,
+      "request_ids": [
+        "720e64b7804949799634d46f9f64e823"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "80",
+      "text": "The interpretation is correct: the remaining \\(1/4\\) of students do not have desktops. Since \\(1/4\\) of the total is 20, the total is \\(20 \\times 4 = 80\\).\n\n<answer>80</answer>",
+      "input_tokens": 329,
+      "output_tokens": 232,
+      "total_tokens": 561,
+      "reasoning_tokens": 117,
+      "calls": 2,
+      "latency_s": 2.582584299845621,
+      "request_ids": [
+        "720e64b7804949799634d46f9f64e823",
+        "ef46876c0c434dbdb6953f112cf63b50"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

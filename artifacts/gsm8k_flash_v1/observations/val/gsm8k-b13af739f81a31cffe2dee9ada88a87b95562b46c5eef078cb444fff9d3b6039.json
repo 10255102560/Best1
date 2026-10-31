@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-b13af739f81a31cffe2dee9ada88a87b95562b46c5eef078cb444fff9d3b6039",
+    "question": "Johnny buys 15 packs of colored pencils for his class. Each pack has a red, yellow, and green pencil inside. When he gets home he notices that 3 of the packs have two extra red pencils inside. How many red colored pencils did Johnny buy?",
+    "answer": "21",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "21",
+      "text": "<answer>21</answer>",
+      "input_tokens": 132,
+      "output_tokens": 70,
+      "total_tokens": 202,
+      "reasoning_tokens": 61,
+      "calls": 1,
+      "latency_s": 1.09117990010418,
+      "request_ids": [
+        "ec340ca957e64e52bc9f4972d79c8e4a"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "21",
+      "text": "Each of the 15 packs has 1 red pencil: \\(15 \\times 1 = 15\\).\n\n3 packs have 2 extra red pencils each: \\(3 \\times 2 = 6\\).\n\nTotal red pencils: \\(15 + 6 = 21\\).\n\n<answer>21</answer>",
+      "input_tokens": 132,
+      "output_tokens": 151,
+      "total_tokens": 283,
+      "reasoning_tokens": 87,
+      "calls": 1,
+      "latency_s": 1.1349080000072718,
+      "request_ids": [
+        "95e77026e2a14703b4744dfc6c6448f8"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "21",
+      "text": "The interpretation and arithmetic are correct: 15 base red pencils plus 3 × 2 = 6 extra red pencils gives 21 total.\n\n<answer>21</answer>",
+      "input_tokens": 366,
+      "output_tokens": 272,
+      "total_tokens": 638,
+      "reasoning_tokens": 170,
+      "calls": 2,
+      "latency_s": 2.0023260000161827,
+      "request_ids": [
+        "95e77026e2a14703b4744dfc6c6448f8",
+        "2d2013fb812b468fa23c7a353d7dc0b0"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

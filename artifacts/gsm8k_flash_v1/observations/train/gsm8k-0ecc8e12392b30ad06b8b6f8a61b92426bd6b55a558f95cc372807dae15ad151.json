@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0ecc8e12392b30ad06b8b6f8a61b92426bd6b55a558f95cc372807dae15ad151",
+    "question": "10 boxes each contain 50 bottles of water.  Each bottle has a capacity of 12 liters and is filled up to 3/4 of its capacity.  How many liters of water altogether are contained within the bottles in the boxes?",
+    "answer": "4500",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "4500",
+      "text": "<answer>4500</answer>",
+      "input_tokens": 127,
+      "output_tokens": 53,
+      "total_tokens": 180,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 0.673553999979049,
+      "request_ids": [
+        "e6d89a314bc84d38851639880ceda0d1"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "4500",
+      "text": "10 boxes × 50 bottles = 500 bottles  \nEach bottle contains \\( \\frac{3}{4} \\times 12 = 9 \\) liters  \nTotal water = 500 × 9 = 4500 liters\n\n<answer>4500</answer>",
+      "input_tokens": 127,
+      "output_tokens": 110,
+      "total_tokens": 237,
+      "reasoning_tokens": 54,
+      "calls": 1,
+      "latency_s": 0.886883300030604,
+      "request_ids": [
+        "a50bebae3457448fa1f946281fb29190"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "4500",
+      "text": "Verification: \\(10 \\times 50 = 500\\) bottles. Each contains \\(\\frac{3}{4}\\times 12 = 9\\) liters. Total: \\(500 \\times 9 = 4500\\) liters. The proposed solution is correct.\n\n<answer>4500</answer>",
+      "input_tokens": 348,
+      "output_tokens": 244,
+      "total_tokens": 592,
+      "reasoning_tokens": 124,
+      "calls": 2,
+      "latency_s": 1.8760854001156986,
+      "request_ids": [
+        "a50bebae3457448fa1f946281fb29190",
+        "4f2ec616c0b443cc93fd81410629dd1c"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

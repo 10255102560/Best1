@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-9a2c9bf059d93ef84fd0b9e6873d9b65a5fa32ed13c0a193996396bf17f00fd5",
+    "question": "Charlie wants to sell beeswax candles.  For every pound of beeswax, he can make 10 tapered candles.  One pound of beeswax and the wicks cost $10.00 in supplies.   If he sells each candle for $2.00 each, what is his net profit if he makes and sells 20 candles?",
+    "answer": "20",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "<answer>20</answer>",
+      "input_tokens": 150,
+      "output_tokens": 107,
+      "total_tokens": 257,
+      "reasoning_tokens": 98,
+      "calls": 1,
+      "latency_s": 0.7248510997742414,
+      "request_ids": [
+        "0e3f90fe479f4a4eb1693a2cffe615b5"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "20 candles require \\(20 \\div 10 = 2\\) pounds of beeswax.\n\nSupplies cost: \\(2 \\times \\$10 = \\$20\\)\n\nRevenue: \\(20 \\times \\$2 = \\$40\\)\n\nNet profit: \\(\\$40 - \\$20 = \\$20\\)\n\n<answer>20</answer>",
+      "input_tokens": 150,
+      "output_tokens": 238,
+      "total_tokens": 388,
+      "reasoning_tokens": 171,
+      "calls": 1,
+      "latency_s": 1.2418353999964893,
+      "request_ids": [
+        "2b280074522341318fe2747cb2b6d820"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "Verified: 20 candles need 2 lb beeswax; supplies cost $20; revenue is $40; net profit is $20.\n\n<answer>20</answer>",
+      "input_tokens": 405,
+      "output_tokens": 393,
+      "total_tokens": 798,
+      "reasoning_tokens": 288,
+      "calls": 2,
+      "latency_s": 6.750384800136089,
+      "request_ids": [
+        "2b280074522341318fe2747cb2b6d820",
+        "af73900fa47a4f8b8c829f17553535f4"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

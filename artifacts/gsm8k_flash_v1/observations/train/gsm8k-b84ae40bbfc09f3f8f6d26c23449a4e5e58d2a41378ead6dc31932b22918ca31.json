@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-b84ae40bbfc09f3f8f6d26c23449a4e5e58d2a41378ead6dc31932b22918ca31",
+    "question": "Three plastic chairs cost as much as a portable table. Five plastic chairs cost $55. If Manny wants to buy one portable table and two chairs, how much will be left in his $100?",
+    "answer": "45",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "45",
+      "text": "<answer>45</answer>",
+      "input_tokens": 119,
+      "output_tokens": 65,
+      "total_tokens": 184,
+      "reasoning_tokens": 56,
+      "calls": 1,
+      "latency_s": 1.0089234998449683,
+      "request_ids": [
+        "b6c3aecdb0e640849453e2d16edf53c7"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "45",
+      "text": "5 chairs cost $55, so 1 chair costs $55 ÷ 5 = $11.\n\n3 chairs cost as much as 1 table: 3 × $11 = $33.\n\n1 table + 2 chairs cost $33 + 2 × $11 = $33 + $22 = $55.\n\nMoney left from $100: $100 − $55 = $45.\n\n<answer>45</answer>",
+      "input_tokens": 119,
+      "output_tokens": 157,
+      "total_tokens": 276,
+      "reasoning_tokens": 69,
+      "calls": 1,
+      "latency_s": 11.043115499895066,
+      "request_ids": [
+        "8cc5c64eaec54fe8b20b15436838ee93"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "45",
+      "text": "Verification: 1 chair = $55 ÷ 5 = $11. Table = 3 × $11 = $33. Table + 2 chairs = $33 + $22 = $55. Left from $100 = $100 − $55 = $45. The proposed solution is correct.\n\n<answer>45</answer>",
+      "input_tokens": 364,
+      "output_tokens": 318,
+      "total_tokens": 682,
+      "reasoning_tokens": 159,
+      "calls": 2,
+      "latency_s": 12.264135400066152,
+      "request_ids": [
+        "8cc5c64eaec54fe8b20b15436838ee93",
+        "743cb550d70a48f4a1200f5018428a80"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

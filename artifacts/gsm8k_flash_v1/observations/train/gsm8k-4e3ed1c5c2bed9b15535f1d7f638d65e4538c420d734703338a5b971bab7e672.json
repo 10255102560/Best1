@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-4e3ed1c5c2bed9b15535f1d7f638d65e4538c420d734703338a5b971bab7e672",
+    "question": "Taegan goes to a carnival where she wins tickets from each of the 5 carnival games and also finds 5 tickets on the floor. Each ticket is worth $3. In total, she has tickets that total a value of $30. If Taegan won an equal number of tickets from each of the games, how many tickets did she win from each game?",
+    "answer": "1",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "1",
+      "text": "<answer>1</answer>",
+      "input_tokens": 152,
+      "output_tokens": 77,
+      "total_tokens": 229,
+      "reasoning_tokens": 68,
+      "calls": 1,
+      "latency_s": 0.700075900182128,
+      "request_ids": [
+        "9b9256a44460411d8a014e1a57856ce4"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "1",
+      "text": "Total tickets = $30 ÷ $3 = 10 tickets.\n\nTickets found = 5, so tickets won = 10 − 5 = 5.\n\nTaegan won 5 tickets across 5 games, so per game: 5 ÷ 5 = 1.\n\n<answer>1</answer>",
+      "input_tokens": 152,
+      "output_tokens": 147,
+      "total_tokens": 299,
+      "reasoning_tokens": 81,
+      "calls": 1,
+      "latency_s": 0.9563312001992017,
+      "request_ids": [
+        "53fc7dd9b6a1472784bb311b1a0e07e5"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "1",
+      "text": "Total tickets: $30 ÷ $3 = 10. Minus 5 found = 5 won. Split equally across 5 games: 5 ÷ 5 = 1 per game. The proposed solution is correct.\n\n<answer>1</answer>",
+      "input_tokens": 408,
+      "output_tokens": 281,
+      "total_tokens": 689,
+      "reasoning_tokens": 160,
+      "calls": 2,
+      "latency_s": 1.9224530002102256,
+      "request_ids": [
+        "53fc7dd9b6a1472784bb311b1a0e07e5",
+        "fc6ed510072d49d194d7624250a01fa3"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

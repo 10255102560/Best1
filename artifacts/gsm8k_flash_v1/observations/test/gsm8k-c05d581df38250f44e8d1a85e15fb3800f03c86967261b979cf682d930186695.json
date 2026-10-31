@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-c05d581df38250f44e8d1a85e15fb3800f03c86967261b979cf682d930186695",
+    "question": "Lana is brewing cups of tea for her friends. She has 27 cups, and she divides these into 3 rows. In each row, she creates equal amounts of chamomile and mint tea cups. She then uses the remaining cups to brew a total of 15 cups of cinnamon tea. How many cups of mint tea are in each row?",
+    "answer": "2",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "<answer>2</answer>",
+      "input_tokens": 150,
+      "output_tokens": 395,
+      "total_tokens": 545,
+      "reasoning_tokens": 386,
+      "calls": 1,
+      "latency_s": 1.818944700062275,
+      "request_ids": [
+        "114274d224e444c8aad3cf163623c20b"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "Total cups for chamomile and mint: \\(27 - 15 = 12\\)\n\nCups per row: \\(12 \\div 3 = 4\\)\n\nMint tea per row (half of each row): \\(4 \\div 2 = 2\\)\n\n<answer>2</answer>",
+      "input_tokens": 150,
+      "output_tokens": 440,
+      "total_tokens": 590,
+      "reasoning_tokens": 377,
+      "calls": 1,
+      "latency_s": 3.328201700001955,
+      "request_ids": [
+        "3ee45e23188d4682a86f9c4fe7d92d97"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "The interpretation is consistent: 27 total cups minus 15 cinnamon cups leaves 12 cups for chamomile and mint. Divided equally across 3 rows gives 4 cups per row, and half mint gives 2 mint cups per row. Arithmetic is correct.\n\n<answer>2</answer>",
+      "input_tokens": 401,
+      "output_tokens": 787,
+      "total_tokens": 1188,
+      "reasoning_tokens": 662,
+      "calls": 2,
+      "latency_s": 5.851623900001869,
+      "request_ids": [
+        "3ee45e23188d4682a86f9c4fe7d92d97",
+        "b373e3dc196446a9b0fc32334cb4da82"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

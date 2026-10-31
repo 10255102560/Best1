@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f369237c904ac50a012948e3cdb48e2b647d0a8dbe97f910f50ce5e27c6f269f",
+    "question": "George has 45% more pears than bananas. If George has 200 bananas, how many fruits does George have?",
+    "answer": "490",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "490",
+      "text": "<answer>490</answer>",
+      "input_tokens": 103,
+      "output_tokens": 69,
+      "total_tokens": 172,
+      "reasoning_tokens": 60,
+      "calls": 1,
+      "latency_s": 0.8025372000411153,
+      "request_ids": [
+        "2b58fce22da045c3b7a8b4835b42febb"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "490",
+      "text": "George has 200 bananas.\n\nPears: \\(200 \\times 1.45 = 290\\)\n\nTotal fruits: \\(200 + 290 = 490\\)\n\n<answer>490</answer>",
+      "input_tokens": 103,
+      "output_tokens": 97,
+      "total_tokens": 200,
+      "reasoning_tokens": 55,
+      "calls": 1,
+      "latency_s": 0.8732956999447197,
+      "request_ids": [
+        "f3ca75db250a4439bd37de8b4c180917"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "490",
+      "text": "Bananas: 200. Pears: \\(200 \\times 1.45 = 290\\). Total: \\(200 + 290 = 490\\). The interpretation and arithmetic are correct.\n\n<answer>490</answer>",
+      "input_tokens": 286,
+      "output_tokens": 224,
+      "total_tokens": 510,
+      "reasoning_tokens": 134,
+      "calls": 2,
+      "latency_s": 1.7572310999967158,
+      "request_ids": [
+        "f3ca75db250a4439bd37de8b4c180917",
+        "3e49c84150c843e3a6cbeca6fe022950"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

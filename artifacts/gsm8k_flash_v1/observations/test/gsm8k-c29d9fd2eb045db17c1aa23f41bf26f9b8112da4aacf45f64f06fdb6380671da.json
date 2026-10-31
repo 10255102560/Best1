@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-c29d9fd2eb045db17c1aa23f41bf26f9b8112da4aacf45f64f06fdb6380671da",
+    "question": "John does 30 cycles of work a day.  Each cycle has 5 different tasks and each task pays $1.20.  How much does he make if he works a full 7 day week?",
+    "answer": "1260",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "1260",
+      "text": "<answer>1260</answer>",
+      "input_tokens": 121,
+      "output_tokens": 50,
+      "total_tokens": 171,
+      "reasoning_tokens": 40,
+      "calls": 1,
+      "latency_s": 0.9055567001923919,
+      "request_ids": [
+        "c67dea4e3b484ae6b6f7a81f39f8b80f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "1260",
+      "text": "John completes \\(30 \\times 5 = 150\\) tasks per day.  \nDaily pay: \\(150 \\times 1.20 = 180\\).  \nWeekly pay: \\(180 \\times 7 = 1260\\).\n\n<answer>1260</answer>",
+      "input_tokens": 121,
+      "output_tokens": 98,
+      "total_tokens": 219,
+      "reasoning_tokens": 41,
+      "calls": 1,
+      "latency_s": 0.8954480001702905,
+      "request_ids": [
+        "f0c0f06132bf4c04bd11ce81d040b076"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "1260",
+      "text": "Verified: \\(30 \\times 5 \\times 1.20 \\times 7 = 1260\\). The proposed solution is correct.\n\n<answer>1260</answer>",
+      "input_tokens": 337,
+      "output_tokens": 236,
+      "total_tokens": 573,
+      "reasoning_tokens": 140,
+      "calls": 2,
+      "latency_s": 1.914894200162962,
+      "request_ids": [
+        "f0c0f06132bf4c04bd11ce81d040b076",
+        "36c2f3018ba14034a272361f0e727928"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

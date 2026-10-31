@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-23f4a4818a4254f2c5e676bfc637458264cc67f411304f1c7de0eec5c3f87655",
+    "question": "There are 4,000 jelly beans in a jar. If three fourths of the jelly beans are red, and one quarter of the red jelly beans are coconut flavored, how many jelly beans are coconut flavored?",
+    "answer": "750",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "750",
+      "text": "<answer>750</answer>",
+      "input_tokens": 123,
+      "output_tokens": 55,
+      "total_tokens": 178,
+      "reasoning_tokens": 46,
+      "calls": 1,
+      "latency_s": 0.596697699977085,
+      "request_ids": [
+        "b494f368f43341a0b22ffe99621411f0"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "750",
+      "text": "Red jelly beans: \\(4000 \\times \\frac{3}{4} = 3000\\)\n\nCoconut-flavored red jelly beans: \\(3000 \\times \\frac{1}{4} = 750\\)\n\n<answer>750</answer>",
+      "input_tokens": 123,
+      "output_tokens": 123,
+      "total_tokens": 246,
+      "reasoning_tokens": 68,
+      "calls": 1,
+      "latency_s": 0.8891332999337465,
+      "request_ids": [
+        "092f678653754415ab8a48d4dca2dd60"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "750",
+      "text": "Red jelly beans: \\(4000 \\times \\frac34 = 3000\\).  \nCoconut-flavored: \\(3000 \\times \\frac14 = 750\\).  \nThe arithmetic and requested quantity are correct.\n\n<answer>750</answer>",
+      "input_tokens": 339,
+      "output_tokens": 433,
+      "total_tokens": 772,
+      "reasoning_tokens": 324,
+      "calls": 2,
+      "latency_s": 3.163555399980396,
+      "request_ids": [
+        "092f678653754415ab8a48d4dca2dd60",
+        "fbc29aa4b615421e9b0aea15222beae6"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

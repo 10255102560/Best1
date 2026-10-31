@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f746ebf1df21f6f01b75082e21e4d07f9df647bbd066bc65f2e65c85917c12d7",
+    "question": "Leila buys 3 cucumbers from the market. Cucumbers are $2 each. Jack buys 5 tomatoes from the grocery store.  Tomatoes are $1 each. Chase buys 1 head of lettuce from the farmer’s market.  Lettuce cost $3 each. Together, how much did the three of them spend to make a salad for the potluck?",
+    "answer": "14",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "<answer>14</answer>",
+      "input_tokens": 153,
+      "output_tokens": 54,
+      "total_tokens": 207,
+      "reasoning_tokens": 45,
+      "calls": 1,
+      "latency_s": 0.6282078998629004,
+      "request_ids": [
+        "ee30905b93fe492693d4494e79e47b82"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "Leila: \\(3 \\times 2 = 6\\)  \nJack: \\(5 \\times 1 = 5\\)  \nChase: \\(1 \\times 3 = 3\\)  \n\nTotal: \\(6 + 5 + 3 = 14\\)\n\n<answer>14</answer>",
+      "input_tokens": 153,
+      "output_tokens": 121,
+      "total_tokens": 274,
+      "reasoning_tokens": 57,
+      "calls": 1,
+      "latency_s": 0.9196060998365283,
+      "request_ids": [
+        "27c6fd68fcfb4ea48b424f064888d92b"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "Leila: 3 × $2 = $6  \nJack: 5 × $1 = $5  \nChase: 1 × $3 = $3  \nTotal: 6 + 5 + 3 = 14. The proposed solution is correct.\n\n<answer>14</answer>",
+      "input_tokens": 408,
+      "output_tokens": 255,
+      "total_tokens": 663,
+      "reasoning_tokens": 127,
+      "calls": 2,
+      "latency_s": 1.8353557998780161,
+      "request_ids": [
+        "27c6fd68fcfb4ea48b424f064888d92b",
+        "1a56bea4b63b4c9e91ec7bc6ed734edf"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

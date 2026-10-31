@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f42bf80670176ce906bb59d0659a798cf8336d432fc82316cd20f2a13fdad81f",
+    "question": "An old pirate wants to leave his treasure on an island. He has 3500 gold coins. He wants to spread this equally across 5 chests. Additionally, he will put a total of 500 silver coins and twice as many bronze coins as silver, all distributed equally across the chests. How many coins in total will be in each chest?",
+    "answer": "1000",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "1000",
+      "text": "<answer>1000</answer>",
+      "input_tokens": 150,
+      "output_tokens": 82,
+      "total_tokens": 232,
+      "reasoning_tokens": 72,
+      "calls": 1,
+      "latency_s": 0.7921176000963897,
+      "request_ids": [
+        "0b157aab8d2d4db2ad1b1f1e626658cc"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "1000",
+      "text": "Gold per chest: 3500 ÷ 5 = 700  \nSilver per chest: 500 ÷ 5 = 100  \nBronze total: 2 × 500 = 1000, so per chest: 1000 ÷ 5 = 200  \n\nTotal per chest: 700 + 100 + 200 = 1000\n\n<answer>1000</answer>",
+      "input_tokens": 150,
+      "output_tokens": 170,
+      "total_tokens": 320,
+      "reasoning_tokens": 88,
+      "calls": 1,
+      "latency_s": 0.9493174999952316,
+      "request_ids": [
+        "aacf9938387b4042bbe2619c1026d6d4"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "1000",
+      "text": "Gold per chest: 3500 ÷ 5 = 700.  \nSilver per chest: 500 ÷ 5 = 100.  \nBronze total: 2 × 500 = 1000, per chest: 1000 ÷ 5 = 200.  \nTotal per chest: 700 + 100 + 200 = 1000. The proposed solution is correct.\n\n<answer>1000</answer>",
+      "input_tokens": 420,
+      "output_tokens": 348,
+      "total_tokens": 768,
+      "reasoning_tokens": 176,
+      "calls": 2,
+      "latency_s": 2.245809999993071,
+      "request_ids": [
+        "aacf9938387b4042bbe2619c1026d6d4",
+        "4622fb6375d34b9b88059f427534948a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

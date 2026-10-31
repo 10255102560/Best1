@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-c58e956d278bcf292d460de10259aaeac7276d0c5c5aff14513021dbb773ea27",
+    "question": "Ruby was going to order pizza for dinner.  Her son would only eat pepperoni pizza.  Her daughter would only eat sausage.  Ruby and her husband wanted black olive and mushroom pizza.  To make life easy, Ruby decided to order an entire pizza for each of her children and she would split one with her husband.  The pizza restaurant charged $10.00 per pizza and $1.00 per topping.  She also needed to add a $5.00 tip.  Including tip, how much would the pizza order cost?",
+    "answer": "39",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "39",
+      "text": "<answer>39</answer>",
+      "input_tokens": 188,
+      "output_tokens": 156,
+      "total_tokens": 344,
+      "reasoning_tokens": 147,
+      "calls": 1,
+      "latency_s": 1.0344821999315172,
+      "request_ids": [
+        "663baeb8b71243bd941e995050833e23"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "39",
+      "text": "3 pizzas × $10 = $30  \nToppings: pepperoni (1) + sausage (1) + black olive and mushroom (2) = 4 toppings × $1 = $4  \nTip = $5  \nTotal = $30 + $4 + $5 = $39\n\n<answer>39</answer>",
+      "input_tokens": 188,
+      "output_tokens": 267,
+      "total_tokens": 455,
+      "reasoning_tokens": 197,
+      "calls": 1,
+      "latency_s": 1.2635807001497597,
+      "request_ids": [
+        "0988e9e3e0bb4cfb8f63c44437c0aa8c"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "39",
+      "text": "Correct: 3 pizzas ($30) + 4 total toppings ($4) + $5 tip = $39.\n\n<answer>39</answer>",
+      "input_tokens": 484,
+      "output_tokens": 418,
+      "total_tokens": 902,
+      "reasoning_tokens": 314,
+      "calls": 2,
+      "latency_s": 2.3221354000270367,
+      "request_ids": [
+        "0988e9e3e0bb4cfb8f63c44437c0aa8c",
+        "223b993b39a94b5daab479605b914b22"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

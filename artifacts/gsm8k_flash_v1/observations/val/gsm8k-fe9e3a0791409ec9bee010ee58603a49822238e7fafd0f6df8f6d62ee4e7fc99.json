@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-fe9e3a0791409ec9bee010ee58603a49822238e7fafd0f6df8f6d62ee4e7fc99",
+    "question": "New York is two-thirds as populated as all of New England. If New England has 2100000 people, calculate the combined population of both states.",
+    "answer": "3500000",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "3500000",
+      "text": "<answer>3500000</answer>",
+      "input_tokens": 109,
+      "output_tokens": 124,
+      "total_tokens": 233,
+      "reasoning_tokens": 113,
+      "calls": 1,
+      "latency_s": 0.9552396000362933,
+      "request_ids": [
+        "96ceaa608c35424cb99b9ea88848b74d"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "3500000",
+      "text": "New York population = \\( \\frac{2}{3} \\times 2{,}100{,}000 = 1{,}400{,}000 \\)\n\nCombined population = \\(2{,}100{,}000 + 1{,}400{,}000 = 3{,}500{,}000\\)\n\n<answer>3500000</answer>",
+      "input_tokens": 109,
+      "output_tokens": 188,
+      "total_tokens": 297,
+      "reasoning_tokens": 113,
+      "calls": 1,
+      "latency_s": 1.115619600052014,
+      "request_ids": [
+        "2a8ee2ffb666427b922259665aa370be"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "3500000",
+      "text": "New York population: \\( \\frac{2}{3} \\times 2{,}100{,}000 = 1{,}400{,}000\\).  \nCombined population: \\(2{,}100{,}000 + 1{,}400{,}000 = 3{,}500{,}000\\).  \nThe proposed solution is correct.\n\n<answer>3500000</answer>",
+      "input_tokens": 331,
+      "output_tokens": 368,
+      "total_tokens": 699,
+      "reasoning_tokens": 211,
+      "calls": 2,
+      "latency_s": 2.932130499975756,
+      "request_ids": [
+        "2a8ee2ffb666427b922259665aa370be",
+        "978e2509b4944e8ca23b78007e9ad8fe"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0dd088106fa5e58557f162180c064d4c6191ea82a5fced3deec4c7ebca9317b8",
+    "question": "Peter purchased 20 popsicles at $0.25 each. He also purchased 4 ice cream bars at $0.50 each. How much did he pay in total in dollars?",
+    "answer": "7",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "7",
+      "text": "<answer>7</answer>",
+      "input_tokens": 116,
+      "output_tokens": 47,
+      "total_tokens": 163,
+      "reasoning_tokens": 38,
+      "calls": 1,
+      "latency_s": 0.9203400001861155,
+      "request_ids": [
+        "1d10b1416585445ab98dc8f131d37ead"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "7",
+      "text": "20 popsicles cost \\(20 \\times 0.25 = 5\\) dollars.  \n4 ice cream bars cost \\(4 \\times 0.50 = 2\\) dollars.  \nTotal: \\(5 + 2 = 7\\) dollars.\n\n<answer>7</answer>",
+      "input_tokens": 116,
+      "output_tokens": 96,
+      "total_tokens": 212,
+      "reasoning_tokens": 35,
+      "calls": 1,
+      "latency_s": 0.9665961000137031,
+      "request_ids": [
+        "8ce8ee151c8b4bc3b0542d35501905d9"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "7",
+      "text": "20 × $0.25 = $5.00; 4 × $0.50 = $2.00; total = $7.00. The proposed solution is correct.\n\n<answer>7</answer>",
+      "input_tokens": 331,
+      "output_tokens": 198,
+      "total_tokens": 529,
+      "reasoning_tokens": 90,
+      "calls": 2,
+      "latency_s": 1.701383100124076,
+      "request_ids": [
+        "8ce8ee151c8b4bc3b0542d35501905d9",
+        "56d50f334f594209b9b529c56660bbcd"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

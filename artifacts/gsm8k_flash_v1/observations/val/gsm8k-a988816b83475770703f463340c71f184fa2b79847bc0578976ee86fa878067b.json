@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-a988816b83475770703f463340c71f184fa2b79847bc0578976ee86fa878067b",
+    "question": "Tom is binge-watching a show on Netflix. The show has 90 episodes, each one of which is 20 minutes long because there are no commercials. If Tom can spend two hours a day watching the show, how many days will it take him to finish watching the show?",
+    "answer": "15",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "<answer>15</answer>",
+      "input_tokens": 135,
+      "output_tokens": 50,
+      "total_tokens": 185,
+      "reasoning_tokens": 41,
+      "calls": 1,
+      "latency_s": 0.9500109998043627,
+      "request_ids": [
+        "ce7431190eaf43a3b9be3771b61d1b24"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "The show is \\(90 \\times 20 = 1800\\) minutes long.  \nTom watches \\(2 \\times 60 = 120\\) minutes per day.  \nSo it takes \\(1800 \\div 120 = 15\\) days.\n\n<answer>15</answer>",
+      "input_tokens": 135,
+      "output_tokens": 103,
+      "total_tokens": 238,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 0.8589374998118728,
+      "request_ids": [
+        "c885d8a2a1e142e79b6396abf400b719"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "The total watch time is \\(90 \\times 20 = 1800\\) minutes. Tom watches \\(2 \\times 60 = 120\\) minutes per day. Thus, \\(1800 \\div 120 = 15\\) days. The interpretation and arithmetic are correct.\n\n<answer>15</answer>",
+      "input_tokens": 368,
+      "output_tokens": 213,
+      "total_tokens": 581,
+      "reasoning_tokens": 88,
+      "calls": 2,
+      "latency_s": 1.634485699934885,
+      "request_ids": [
+        "c885d8a2a1e142e79b6396abf400b719",
+        "6182bcecae3f4e23aa2170f6bf1b842f"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

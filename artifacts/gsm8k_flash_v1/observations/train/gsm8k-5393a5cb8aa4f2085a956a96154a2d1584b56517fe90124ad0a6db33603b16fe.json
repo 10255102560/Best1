@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-5393a5cb8aa4f2085a956a96154a2d1584b56517fe90124ad0a6db33603b16fe",
+    "question": "Corna wants to buy a shirt. The store buys the shirt for $20, but charges 30% for profit. However, the shirt is on sale for 50% off the selling price. What is the price now?",
+    "answer": "13",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "13",
+      "text": "<answer>13</answer>",
+      "input_tokens": 125,
+      "output_tokens": 60,
+      "total_tokens": 185,
+      "reasoning_tokens": 51,
+      "calls": 1,
+      "latency_s": 0.710733300074935,
+      "request_ids": [
+        "597bfbf8b83b49349f6a7386a48a6478"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "13",
+      "text": "Store cost: $20  \nSelling price with 30% profit: \\(20 \\times 1.30 = 26\\)  \nSale price at 50% off: \\(26 \\times 0.50 = 13\\)\n\n<answer>13</answer>",
+      "input_tokens": 125,
+      "output_tokens": 113,
+      "total_tokens": 238,
+      "reasoning_tokens": 56,
+      "calls": 1,
+      "latency_s": 0.811239599948749,
+      "request_ids": [
+        "c17b3159682f4b26b93867089841d2f9"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "13",
+      "text": "The 30% profit gives a selling price of \\(20 \\times 1.30 = 26\\).  \nA 50% discount makes the sale price \\(26 \\times 0.50 = 13\\).  \nThe interpretation and arithmetic are correct.\n\n<answer>13</answer>",
+      "input_tokens": 345,
+      "output_tokens": 244,
+      "total_tokens": 589,
+      "reasoning_tokens": 126,
+      "calls": 2,
+      "latency_s": 1.8532660999335349,
+      "request_ids": [
+        "c17b3159682f4b26b93867089841d2f9",
+        "42f7d09a38e4448981d069d2604ea053"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

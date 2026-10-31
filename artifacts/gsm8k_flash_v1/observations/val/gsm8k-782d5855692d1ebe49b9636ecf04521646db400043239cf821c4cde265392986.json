@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-782d5855692d1ebe49b9636ecf04521646db400043239cf821c4cde265392986",
+    "question": "A company has 200 employees.  60% of the employees drive to work.  Of the employees who don't drive to work, half take public transportation. How many more employees drive to work than take public transportation?",
+    "answer": "40",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 0,
+      "prediction": "80",
+      "text": "<answer>80</answer>",
+      "input_tokens": 123,
+      "output_tokens": 59,
+      "total_tokens": 182,
+      "reasoning_tokens": 50,
+      "calls": 1,
+      "latency_s": 0.739852299913764,
+      "request_ids": [
+        "ea7fa8c406df4a81bc20b914f56fd0a0"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 0,
+      "prediction": "80",
+      "text": "60% of 200 = 120 employees drive to work.  \nEmployees who don’t drive = 200 − 120 = 80.  \nHalf take public transportation = 80 ÷ 2 = 40.  \nDifference = 120 − 40 = 80.\n\n<answer>80</answer>",
+      "input_tokens": 123,
+      "output_tokens": 116,
+      "total_tokens": 239,
+      "reasoning_tokens": 50,
+      "calls": 1,
+      "latency_s": 0.7510955999605358,
+      "request_ids": [
+        "40fcbcfedcf9468ab566df7c85d5e247"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 0,
+      "prediction": "80",
+      "text": "The proposed solution is correct: 120 drive, 40 take public transportation, and 120 − 40 = 80.\n\n<answer>80</answer>",
+      "input_tokens": 350,
+      "output_tokens": 234,
+      "total_tokens": 584,
+      "reasoning_tokens": 133,
+      "calls": 2,
+      "latency_s": 1.616208199877292,
+      "request_ids": [
+        "40fcbcfedcf9468ab566df7c85d5e247",
+        "8b226793662d46719053241457a3b5e9"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

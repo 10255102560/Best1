@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-6d5c6aa35d5799929e7595b615efed1c86015c2a2c6abdd97131fb1f68a4833b",
+    "question": "John decides to buy a month's supply of dog treats.  He gives his dog 2 treats a day and they cost $.1 each.  How much does he spend on the treats if the month is 30 days long?",
+    "answer": "6",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "<answer>6</answer>",
+      "input_tokens": 125,
+      "output_tokens": 42,
+      "total_tokens": 167,
+      "reasoning_tokens": 33,
+      "calls": 1,
+      "latency_s": 0.6054407998453826,
+      "request_ids": [
+        "1e076d62567849f0b08cc71826c52206"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "John gives his dog \\(2 \\times 30 = 60\\) treats in the month.\n\nAt $0.10 each: \\(60 \\times 0.10 = 6\\).\n\n<answer>6</answer>",
+      "input_tokens": 125,
+      "output_tokens": 89,
+      "total_tokens": 214,
+      "reasoning_tokens": 42,
+      "calls": 1,
+      "latency_s": 0.7193613001145422,
+      "request_ids": [
+        "baf1e6efb3654238bab3649afcd083c9"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "The solution correctly computes 60 treats over 30 days and multiplies by $0.10 per treat to get $6.\n\n<answer>6</answer>",
+      "input_tokens": 335,
+      "output_tokens": 198,
+      "total_tokens": 533,
+      "reasoning_tokens": 116,
+      "calls": 2,
+      "latency_s": 1.8547954999376088,
+      "request_ids": [
+        "baf1e6efb3654238bab3649afcd083c9",
+        "54f00ec83a7941c18476c4cae5ff32b0"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-2c2325f52ce69361c492b6fe1f76ee3f4914eb39f8396bd06cffce451f1709f4",
+    "question": "Mary was working on a research paper and already had borrowed 5 books from the library.  3 books weren't helpful so she returned those and checked out 5 more books.  3 days later, she went back to the library and returned 2 of those books and checked out 7 more books.  How many books does Mary currently have checked out of the library?",
+    "answer": "12",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "<answer>12</answer>",
+      "input_tokens": 154,
+      "output_tokens": 96,
+      "total_tokens": 250,
+      "reasoning_tokens": 87,
+      "calls": 1,
+      "latency_s": 0.7468824000097811,
+      "request_ids": [
+        "0400f30de63d496d92f8022a15dd68dc"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "Mary starts with 5 books.\n\n- Returns 3: \\(5 - 3 = 2\\)\n- Checks out 5 more: \\(2 + 5 = 7\\)\n- Returns 2: \\(7 - 2 = 5\\)\n- Checks out 7 more: \\(5 + 7 = 12\\)\n\n<answer>12</answer>",
+      "input_tokens": 154,
+      "output_tokens": 183,
+      "total_tokens": 337,
+      "reasoning_tokens": 104,
+      "calls": 1,
+      "latency_s": 19.002154499990866,
+      "request_ids": [
+        "f3359367567d49488f70e5b1a872d8c8"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "The arithmetic is correct: \\(5 - 3 + 5 - 2 + 7 = 12\\).\n\n<answer>12</answer>",
+      "input_tokens": 425,
+      "output_tokens": 321,
+      "total_tokens": 746,
+      "reasoning_tokens": 210,
+      "calls": 2,
+      "latency_s": 19.884815300116315,
+      "request_ids": [
+        "f3359367567d49488f70e5b1a872d8c8",
+        "e17b1f2760b24d6cb17d45acda9d0a1e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

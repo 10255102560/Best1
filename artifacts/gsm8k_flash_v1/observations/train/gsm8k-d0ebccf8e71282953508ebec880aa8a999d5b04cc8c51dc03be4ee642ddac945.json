@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-d0ebccf8e71282953508ebec880aa8a999d5b04cc8c51dc03be4ee642ddac945",
+    "question": "There were 80 people at a football game on Saturday. On Monday, 20 fewer people were at the football game. On Wednesday, 50 more people were at the game than on Monday. On Friday, there were the same number of people as on Saturday and Monday combined. If their expected total audience at the football game for a week is 350, how many more people attended the games than they had expected?",
+    "answer": "40",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "40",
+      "text": "<answer>40</answer>",
+      "input_tokens": 163,
+      "output_tokens": 115,
+      "total_tokens": 278,
+      "reasoning_tokens": 106,
+      "calls": 1,
+      "latency_s": 0.9152673999778926,
+      "request_ids": [
+        "a5f8504f1097445eb2173fd0d9237b68"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "40",
+      "text": "Saturday: 80  \nMonday: 80 − 20 = 60  \nWednesday: 60 + 50 = 110  \nFriday: 80 + 60 = 140  \n\nTotal attendance: 80 + 60 + 110 + 140 = 390  \nExpected: 350  \nDifference: 390 − 350 = 40  \n\n<answer>40</answer>",
+      "input_tokens": 163,
+      "output_tokens": 216,
+      "total_tokens": 379,
+      "reasoning_tokens": 135,
+      "calls": 1,
+      "latency_s": 1.5750776000786573,
+      "request_ids": [
+        "89c593739faf4abca2c67020a726d576"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "40",
+      "text": "Verification: Saturday 80; Monday 60; Wednesday 110; Friday 140. Total = 390. Expected = 350. Difference = 40. The interpretation and arithmetic are correct.\n\n<answer>40</answer>",
+      "input_tokens": 445,
+      "output_tokens": 373,
+      "total_tokens": 818,
+      "reasoning_tokens": 242,
+      "calls": 2,
+      "latency_s": 11.26503110001795,
+      "request_ids": [
+        "89c593739faf4abca2c67020a726d576",
+        "6f83728379a143bcb1c183871c14a4b6"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

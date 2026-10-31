@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7d1c135b0f6a57ec349fcd28a4697b58a78f5a0a928b53384023a99906b8c0dc",
+    "question": "Mariah’s grandma was teaching her to knit. Mariah used 1/4 of a skein of yarn. Her grandma used 1/2 of a skein of yarn. There are 364 yards in a skein of yarn. How many yards of yarn did they use altogether?",
+    "answer": "273",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "273",
+      "text": "<answer>273</answer>",
+      "input_tokens": 139,
+      "output_tokens": 75,
+      "total_tokens": 214,
+      "reasoning_tokens": 66,
+      "calls": 1,
+      "latency_s": 1.2017752998508513,
+      "request_ids": [
+        "3683f246e2014a4fbec5f17f879754d8"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "273",
+      "text": "Mariah and her grandma used:\n\n\\[\n\\frac14 + \\frac12 = \\frac14 + \\frac24 = \\frac34\n\\]\n\nof a skein.\n\n\\[\n364 \\times \\frac34 = 273\n\\]\n\n<answer>273</answer>",
+      "input_tokens": 139,
+      "output_tokens": 113,
+      "total_tokens": 252,
+      "reasoning_tokens": 57,
+      "calls": 1,
+      "latency_s": 0.8770216000266373,
+      "request_ids": [
+        "2f18ed6f7e7f45f2a571203b0b549c64"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "273",
+      "text": "Verified: \\(1/4 + 1/2 = 3/4\\) skein, and \\(364 \\times 3/4 = 273\\) yards.\n\n<answer>273</answer>",
+      "input_tokens": 372,
+      "output_tokens": 245,
+      "total_tokens": 617,
+      "reasoning_tokens": 145,
+      "calls": 2,
+      "latency_s": 2.15164120006375,
+      "request_ids": [
+        "2f18ed6f7e7f45f2a571203b0b549c64",
+        "c6c8fcd1701a40a5a25bf91462f6257b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

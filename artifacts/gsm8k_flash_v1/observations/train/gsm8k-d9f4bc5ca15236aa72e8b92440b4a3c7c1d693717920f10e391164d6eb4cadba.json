@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-d9f4bc5ca15236aa72e8b92440b4a3c7c1d693717920f10e391164d6eb4cadba",
+    "question": "A pack of pretzels costs $4, while a pack of chips is 75% more expensive. Maciek went and bought two packets of chips and two packets of pretzels. How much did he pay for his purchases?",
+    "answer": "22",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "22",
+      "text": "<answer>22</answer>",
+      "input_tokens": 126,
+      "output_tokens": 67,
+      "total_tokens": 193,
+      "reasoning_tokens": 58,
+      "calls": 1,
+      "latency_s": 0.5585940000601113,
+      "request_ids": [
+        "0e6471a4cfab413da725301210190830"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "22",
+      "text": "Pretzels: $4 each  \nChips: 75% more than $4 = $4 + $3 = $7 each  \n\nTotal: \\(2 \\times 7 + 2 \\times 4 = 14 + 8 = 22\\)\n\n<answer>22</answer>",
+      "input_tokens": 126,
+      "output_tokens": 123,
+      "total_tokens": 249,
+      "reasoning_tokens": 60,
+      "calls": 1,
+      "latency_s": 0.9757334000896662,
+      "request_ids": [
+        "f78c44e18b7b406388bb8f98def5f3cb"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "22",
+      "text": "Chips cost \\(4 \\times 1.75 = 7\\) each. Total: \\(2(7)+2(4)=14+8=22\\). Correct.\n\n<answer>22</answer>",
+      "input_tokens": 353,
+      "output_tokens": 275,
+      "total_tokens": 628,
+      "reasoning_tokens": 167,
+      "calls": 2,
+      "latency_s": 2.0248871000949293,
+      "request_ids": [
+        "f78c44e18b7b406388bb8f98def5f3cb",
+        "cc9f8af1b694417da418378c30390020"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

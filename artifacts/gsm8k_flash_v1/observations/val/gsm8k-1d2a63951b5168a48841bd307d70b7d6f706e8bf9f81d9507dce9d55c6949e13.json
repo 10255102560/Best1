@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-1d2a63951b5168a48841bd307d70b7d6f706e8bf9f81d9507dce9d55c6949e13",
+    "question": "Sandi had $600. She spent half of it at a farmer’s market. Gillian spent $150 more than three times Sandi's total. What is the total that Gillian spent at the farmer’s market?",
+    "answer": "1050",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "1050",
+      "text": "<answer>1050</answer>",
+      "input_tokens": 125,
+      "output_tokens": 101,
+      "total_tokens": 226,
+      "reasoning_tokens": 91,
+      "calls": 1,
+      "latency_s": 3.1668755998834968,
+      "request_ids": [
+        "24e371778293417aa793226ab4a89d06"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "1050",
+      "text": "Sandi spent half of $600:\n\n\\(600 \\div 2 = 300\\)\n\nGillian spent $150 more than three times Sandi’s total:\n\n\\(3 \\times 300 + 150 = 900 + 150 = 1050\\)\n\n<answer>1050</answer>",
+      "input_tokens": 125,
+      "output_tokens": 135,
+      "total_tokens": 260,
+      "reasoning_tokens": 72,
+      "calls": 1,
+      "latency_s": 1.4754354998003691,
+      "request_ids": [
+        "3887bab8133b4562b36a2f5c81af6aab"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "1050",
+      "text": "Sandi spent \\(600 \\div 2 = 300\\).  \nGillian spent \\(3 \\times 300 + 150 = 1050\\).  \nThe interpretation and arithmetic are correct.\n\n<answer>1050</answer>",
+      "input_tokens": 351,
+      "output_tokens": 300,
+      "total_tokens": 651,
+      "reasoning_tokens": 188,
+      "calls": 2,
+      "latency_s": 2.484680699650198,
+      "request_ids": [
+        "3887bab8133b4562b36a2f5c81af6aab",
+        "0ce0866a66ee46559fe3f0dc2af7a38f"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

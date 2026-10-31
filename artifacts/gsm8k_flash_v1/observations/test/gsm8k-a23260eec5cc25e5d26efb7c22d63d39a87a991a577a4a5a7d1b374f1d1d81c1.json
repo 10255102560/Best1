@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-a23260eec5cc25e5d26efb7c22d63d39a87a991a577a4a5a7d1b374f1d1d81c1",
+    "question": "Prince Thaddeus slew 100 dragons with his mighty sword, while Prince Arthur, using a spear, slew three quarters as many dragons as Prince Thaddeus.  Using a rusty iron axe, Prince Walter slew twice as many dragons as Prince Arthur.  But Prince Bruce, having forgot his sword at home, slew one-fifth as many dragons as Prince Walter using a nail file.  How many Dragons has Prince Bruce slain?",
+    "answer": "30",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "<answer>30</answer>",
+      "input_tokens": 166,
+      "output_tokens": 57,
+      "total_tokens": 223,
+      "reasoning_tokens": 48,
+      "calls": 1,
+      "latency_s": 0.9863837999291718,
+      "request_ids": [
+        "4b2edc574621437f9494aaa0b736f5f5"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "Prince Thaddeus: 100 dragons  \nPrince Arthur: \\( \\frac{3}{4} \\times 100 = 75 \\)  \nPrince Walter: \\(2 \\times 75 = 150\\)  \nPrince Bruce: \\( \\frac{1}{5} \\times 150 = 30\\)\n\n<answer>30</answer>",
+      "input_tokens": 166,
+      "output_tokens": 123,
+      "total_tokens": 289,
+      "reasoning_tokens": 51,
+      "calls": 1,
+      "latency_s": 0.8386892999988049,
+      "request_ids": [
+        "21dc8019cd314abdaf7381c576141985"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "Verification: Arthur = 3/4 × 100 = 75; Walter = 2 × 75 = 150; Bruce = 1/5 × 150 = 30. The proposed solution is correct.\n\n<answer>30</answer>",
+      "input_tokens": 442,
+      "output_tokens": 248,
+      "total_tokens": 690,
+      "reasoning_tokens": 121,
+      "calls": 2,
+      "latency_s": 1.689075900008902,
+      "request_ids": [
+        "21dc8019cd314abdaf7381c576141985",
+        "ecc6ef17c01a4fe79554e20ed612e33a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

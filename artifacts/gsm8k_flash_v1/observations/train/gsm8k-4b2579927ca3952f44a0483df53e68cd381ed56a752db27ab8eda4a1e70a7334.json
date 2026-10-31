@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-4b2579927ca3952f44a0483df53e68cd381ed56a752db27ab8eda4a1e70a7334",
+    "question": "During a commercial break in the Super Bowl, there were three 5-minute commercials and eleven 2-minute commercials. How many minutes was the commercial break?",
+    "answer": "37",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "37",
+      "text": "<answer>37</answer>",
+      "input_tokens": 109,
+      "output_tokens": 44,
+      "total_tokens": 153,
+      "reasoning_tokens": 35,
+      "calls": 1,
+      "latency_s": 0.4995050998404622,
+      "request_ids": [
+        "6a8e7ec94a934053a2503695c42a6e57"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "37",
+      "text": "Three 5-minute commercials: \\(3 \\times 5 = 15\\) minutes  \nEleven 2-minute commercials: \\(11 \\times 2 = 22\\) minutes  \nTotal: \\(15 + 22 = 37\\) minutes\n\n<answer>37</answer>",
+      "input_tokens": 109,
+      "output_tokens": 90,
+      "total_tokens": 199,
+      "reasoning_tokens": 31,
+      "calls": 1,
+      "latency_s": 0.7260749000124633,
+      "request_ids": [
+        "9c4f20eda0554b868ec8c82749f2c742"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "37",
+      "text": "The interpretation and arithmetic are correct: \\(3 \\times 5 = 15\\), \\(11 \\times 2 = 22\\), and \\(15 + 22 = 37\\) minutes.\n\n<answer>37</answer>",
+      "input_tokens": 315,
+      "output_tokens": 180,
+      "total_tokens": 495,
+      "reasoning_tokens": 73,
+      "calls": 2,
+      "latency_s": 1.5868136000353843,
+      "request_ids": [
+        "9c4f20eda0554b868ec8c82749f2c742",
+        "78a3896305944b6c908d45f051b85a78"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

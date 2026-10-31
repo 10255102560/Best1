@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-95be86c829d3ab0a2af31a6e23f9b44d57092ffadfc4c4dcf13215310fb1f87b",
+    "question": "Ellis is going to take a road trip with her family. First, she needs to figure out how many bottles of water she should bring for everyone. There will be four people total: Ellis, her mother, her sister, and her aunt. They will be on the road to their destination for 8 hours and drive 8 hours to return home. Every hour each person will want to drink 1/2 a bottle of water. How many water bottles will Ellis' family need total?",
+    "answer": "32",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "<answer>32</answer>",
+      "input_tokens": 178,
+      "output_tokens": 64,
+      "total_tokens": 242,
+      "reasoning_tokens": 55,
+      "calls": 1,
+      "latency_s": 0.63099590013735,
+      "request_ids": [
+        "3b613d49595b49c4a3becc44e2de1913"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "Total driving time: \\(8 + 8 = 16\\) hours  \nWater per person: \\(16 \\times \\frac{1}{2} = 8\\) bottles  \nFor 4 people: \\(4 \\times 8 = 32\\) bottles\n\n<answer>32</answer>",
+      "input_tokens": 178,
+      "output_tokens": 131,
+      "total_tokens": 309,
+      "reasoning_tokens": 69,
+      "calls": 1,
+      "latency_s": 0.7919256000313908,
+      "request_ids": [
+        "adaf7660665745cfb764a0ea851febdf"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "The total driving time is \\(8+8=16\\) hours. Each person drinks \\(16 \\times \\frac{1}{2}=8\\) bottles. For 4 people, \\(4 \\times 8=32\\) bottles. The proposed solution is correct.\n\n<answer>32</answer>",
+      "input_tokens": 456,
+      "output_tokens": 264,
+      "total_tokens": 720,
+      "reasoning_tokens": 139,
+      "calls": 2,
+      "latency_s": 1.968388200039044,
+      "request_ids": [
+        "adaf7660665745cfb764a0ea851febdf",
+        "01c2177322884cc68315c300eb23db2e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

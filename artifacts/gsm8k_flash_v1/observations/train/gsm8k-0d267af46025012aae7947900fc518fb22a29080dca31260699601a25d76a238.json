@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0d267af46025012aae7947900fc518fb22a29080dca31260699601a25d76a238",
+    "question": "Melissa wants to make some dresses to sell at the upcoming festival. She has 56 square meters of fabric to make them. She knows that each dress takes 4 square meters of fabric and 3 hours to make. How many hours does she have to work?",
+    "answer": "42",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "42",
+      "text": "<answer>42</answer>",
+      "input_tokens": 132,
+      "output_tokens": 48,
+      "total_tokens": 180,
+      "reasoning_tokens": 39,
+      "calls": 1,
+      "latency_s": 0.8507436998188496,
+      "request_ids": [
+        "c277be91383a47a6b1df3b441c34a6eb"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "42",
+      "text": "Melissa can make \\(56 \\div 4 = 14\\) dresses.  \nTotal time: \\(14 \\times 3 = 42\\) hours.\n\n<answer>42</answer>",
+      "input_tokens": 132,
+      "output_tokens": 81,
+      "total_tokens": 213,
+      "reasoning_tokens": 40,
+      "calls": 1,
+      "latency_s": 0.841969900066033,
+      "request_ids": [
+        "7385e25bd14d4e0f99e9be956795a9c5"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "42",
+      "text": "The fabric makes \\(56 \\div 4 = 14\\) dresses. At 3 hours each, the total time is \\(14 \\times 3 = 42\\) hours. The proposed solution is correct.\n\n<answer>42</answer>",
+      "input_tokens": 343,
+      "output_tokens": 181,
+      "total_tokens": 524,
+      "reasoning_tokens": 88,
+      "calls": 2,
+      "latency_s": 1.8080991001334041,
+      "request_ids": [
+        "7385e25bd14d4e0f99e9be956795a9c5",
+        "1dd60400675745d08b57c524f6aa3855"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

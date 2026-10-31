@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-88d74ca01ed9de71ff5c731f51a136fc3f286b41463fd6f4db75da85261dabc9",
+    "question": "A large bag of Starbursts candy has 232 pieces of individually wrapped candies.  If this bag has 54 red candies, twice that amount of orange candies and half as many yellow candies as red candies, how many candies are pink?",
+    "answer": "43",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "43",
+      "text": "<answer>43</answer>",
+      "input_tokens": 133,
+      "output_tokens": 93,
+      "total_tokens": 226,
+      "reasoning_tokens": 84,
+      "calls": 1,
+      "latency_s": 0.9324624000582844,
+      "request_ids": [
+        "0fd9c2c6e8e049a39faebfcd745e09b0"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "43",
+      "text": "Red = 54  \nOrange = 2 × 54 = 108  \nYellow = 54 ÷ 2 = 27  \n\nTotal non-pink = 54 + 108 + 27 = 189  \nPink = 232 − 189 = 43\n\n<answer>43</answer>",
+      "input_tokens": 133,
+      "output_tokens": 142,
+      "total_tokens": 275,
+      "reasoning_tokens": 77,
+      "calls": 1,
+      "latency_s": 0.8929517997894436,
+      "request_ids": [
+        "6c66c326d16f4957b70e63dbf460610e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "43",
+      "text": "Red = 54; orange = 108; yellow = 27. Non-pink total = 189. Pink = 232 − 189 = 43. The proposed solution is correct.\n\n<answer>43</answer>",
+      "input_tokens": 369,
+      "output_tokens": 268,
+      "total_tokens": 637,
+      "reasoning_tokens": 154,
+      "calls": 2,
+      "latency_s": 4.193381399614736,
+      "request_ids": [
+        "6c66c326d16f4957b70e63dbf460610e",
+        "a6607a9f207e49dda98997595cc22d9b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

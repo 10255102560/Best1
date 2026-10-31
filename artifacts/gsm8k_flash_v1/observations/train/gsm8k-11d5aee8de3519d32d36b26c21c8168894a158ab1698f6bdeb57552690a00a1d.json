@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-11d5aee8de3519d32d36b26c21c8168894a158ab1698f6bdeb57552690a00a1d",
+    "question": "Mr. Sanchez found out that 40% of his Grade 5  students got a final grade below B. How many of his students got a final grade of B and above if he has 60 students in Grade 5?",
+    "answer": "36",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "36",
+      "text": "<answer>36</answer>",
+      "input_tokens": 125,
+      "output_tokens": 52,
+      "total_tokens": 177,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 0.6437934001442045,
+      "request_ids": [
+        "1eabb0b2a121415bb614003af743bab0"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "36",
+      "text": "40% got below B, so 100% − 40% = 60% got B and above.\n\n60% of 60 students = 0.60 × 60 = 36 students.\n\n<answer>36</answer>",
+      "input_tokens": 125,
+      "output_tokens": 96,
+      "total_tokens": 221,
+      "reasoning_tokens": 45,
+      "calls": 1,
+      "latency_s": 1.8156793999951333,
+      "request_ids": [
+        "5e6a7c4e887a48af97cd0bcc1da6162a"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "36",
+      "text": "The interpretation and arithmetic are correct: 60% of 60 students is 36.\n\n<answer>36</answer>",
+      "input_tokens": 339,
+      "output_tokens": 185,
+      "total_tokens": 524,
+      "reasoning_tokens": 107,
+      "calls": 2,
+      "latency_s": 2.6479050000198185,
+      "request_ids": [
+        "5e6a7c4e887a48af97cd0bcc1da6162a",
+        "1de44b447989453b9682154c90f51432"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

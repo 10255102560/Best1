@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ae36664dc501756c5e434af983cced02f62a42c381f533b3f117c3d0ecfb13da",
+    "question": "CJ, KJ, and AJ collect stamps.  CJ has 5 more than twice the number of stamps that KJ has, and KJ has half as many as AJ.  If the three boys have 930 stamps all together, how many stamps does AJ have?",
+    "answer": "370",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "370",
+      "text": "<answer>370</answer>",
+      "input_tokens": 132,
+      "output_tokens": 88,
+      "total_tokens": 220,
+      "reasoning_tokens": 79,
+      "calls": 1,
+      "latency_s": 2.0271394001320004,
+      "request_ids": [
+        "19708eda31d346f1b98db218fbf9e7f5"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "370",
+      "text": "Let KJ have \\(K\\) stamps. Then:\n\n- CJ: \\(2K + 5\\)\n- AJ: \\(2K\\)\n\nTotal:\n\\[\n(2K+5)+K+2K=930\n\\]\n\\[\n5K+5=930\n\\]\n\\[\n5K=925 \\Rightarrow K=185\n\\]\n\nAJ has:\n\\[\n2K=2(185)=370\n\\]\n\n<answer>370</answer>",
+      "input_tokens": 132,
+      "output_tokens": 225,
+      "total_tokens": 357,
+      "reasoning_tokens": 130,
+      "calls": 1,
+      "latency_s": 1.492033600108698,
+      "request_ids": [
+        "8631a8def98f41d499195d64e38b7987"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "370",
+      "text": "Let KJ have \\(K\\) stamps. Then AJ has \\(2K\\), and CJ has \\(2K+5\\).  \nTotal: \\((2K+5)+K+2K=930 \\Rightarrow 5K=925 \\Rightarrow K=185\\).  \nThus AJ has \\(2(185)=370\\). The proposed solution is correct.\n\n<answer>370</answer>",
+      "input_tokens": 397,
+      "output_tokens": 391,
+      "total_tokens": 788,
+      "reasoning_tokens": 218,
+      "calls": 2,
+      "latency_s": 3.05826500011608,
+      "request_ids": [
+        "8631a8def98f41d499195d64e38b7987",
+        "5a30f45b9594494ba87677d4c2a9b726"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

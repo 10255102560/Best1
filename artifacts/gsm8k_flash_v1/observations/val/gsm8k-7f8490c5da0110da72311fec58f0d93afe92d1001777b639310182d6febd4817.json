@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7f8490c5da0110da72311fec58f0d93afe92d1001777b639310182d6febd4817",
+    "question": "Chad sandwiches 2 crackers with a scoop of peanut butter.  He has 5 of these crackers a night before bed.  A box of crackers has 4 sleeves with each sleeve holding 28 crackers.  How many nights will 5 boxes of crackers last him?",
+    "answer": "56",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "56",
+      "text": "<answer>56</answer>",
+      "input_tokens": 134,
+      "output_tokens": 720,
+      "total_tokens": 854,
+      "reasoning_tokens": 711,
+      "calls": 1,
+      "latency_s": 5.140724700177088,
+      "request_ids": [
+        "b8b7564bbc054ff48b61f1b81a3f6fce"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "56",
+      "text": "1 box = 4 × 28 = 112 crackers  \n5 boxes = 5 × 112 = 560 crackers  \n\nEach night: 5 sandwiches × 2 crackers = 10 crackers  \nNights = 560 ÷ 10 = 56\n\n<answer>56</answer>",
+      "input_tokens": 134,
+      "output_tokens": 500,
+      "total_tokens": 634,
+      "reasoning_tokens": 438,
+      "calls": 1,
+      "latency_s": 2.4071278001647443,
+      "request_ids": [
+        "bdd344cc01ca4f8d84a3fa7e8e1c74a2"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "56",
+      "text": "Interpretation: 5 cracker sandwiches per night, each using 2 crackers.  \n5 boxes = 5 × 4 × 28 = 560 crackers.  \nPer night = 5 × 2 = 10 crackers.  \n560 ÷ 10 = 56 nights. Arithmetic is correct.\n\n<answer>56</answer>",
+      "input_tokens": 368,
+      "output_tokens": 1468,
+      "total_tokens": 1836,
+      "reasoning_tokens": 1335,
+      "calls": 2,
+      "latency_s": 6.893518200144172,
+      "request_ids": [
+        "bdd344cc01ca4f8d84a3fa7e8e1c74a2",
+        "028b139a29af401d876e246a3cf5fd84"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

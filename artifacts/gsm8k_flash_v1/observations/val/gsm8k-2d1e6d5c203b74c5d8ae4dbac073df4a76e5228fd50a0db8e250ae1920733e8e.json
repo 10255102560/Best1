@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-2d1e6d5c203b74c5d8ae4dbac073df4a76e5228fd50a0db8e250ae1920733e8e",
+    "question": "Uncle Jude baked 256 cookies. He gave 15 cookies to Tim, 23 cookies to Mike, kept some in the fridge and gave the rest to Anna. How many cookies did he put in the fridge if he gave twice as many cookies as he gave Tim to Anna?",
+    "answer": "188",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "188",
+      "text": "<answer>188</answer>",
+      "input_tokens": 135,
+      "output_tokens": 86,
+      "total_tokens": 221,
+      "reasoning_tokens": 77,
+      "calls": 1,
+      "latency_s": 0.887350199976936,
+      "request_ids": [
+        "4099b688883e4a199e3e1f5cf49c096f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "188",
+      "text": "Tim: 15 cookies  \nMike: 23 cookies  \nAnna: \\(2 \\times 15 = 30\\) cookies  \n\nTotal given away: \\(15 + 23 + 30 = 68\\)  \nCookies in fridge: \\(256 - 68 = 188\\)\n\n<answer>188</answer>",
+      "input_tokens": 135,
+      "output_tokens": 174,
+      "total_tokens": 309,
+      "reasoning_tokens": 108,
+      "calls": 1,
+      "latency_s": 0.9787636999972165,
+      "request_ids": [
+        "505bd6dd31214a8aab90a323412de263"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "188",
+      "text": "Tim = 15, Mike = 23, Anna = 2 × 15 = 30.  \nTotal not in fridge = 15 + 23 + 30 = 68.  \nFridge = 256 − 68 = 188.  \n<answer>188</answer>",
+      "input_tokens": 374,
+      "output_tokens": 388,
+      "total_tokens": 762,
+      "reasoning_tokens": 260,
+      "calls": 2,
+      "latency_s": 2.350668700179085,
+      "request_ids": [
+        "505bd6dd31214a8aab90a323412de263",
+        "050c02f598b54dbb96af22ad2572a71b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

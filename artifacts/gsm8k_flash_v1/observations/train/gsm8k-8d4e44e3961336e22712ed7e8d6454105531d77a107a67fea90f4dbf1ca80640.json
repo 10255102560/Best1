@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-8d4e44e3961336e22712ed7e8d6454105531d77a107a67fea90f4dbf1ca80640",
+    "question": "Frank invites his friends over to play video games. He bakes a pan of brownies before he arrives. He cuts 6 even columns and 3 even rows into the pan of brownies. If there are 6 people, including Frank, in total, how many brownies can they each eat?",
+    "answer": "3",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "<answer>3</answer>",
+      "input_tokens": 140,
+      "output_tokens": 60,
+      "total_tokens": 200,
+      "reasoning_tokens": 51,
+      "calls": 1,
+      "latency_s": 0.9067398000042886,
+      "request_ids": [
+        "d37ee088cd7b48908cd5aa7bec80bed9"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "The brownies are cut into \\(6 \\times 3 = 18\\) pieces.  \nThere are 6 people total, so each can eat \\(18 \\div 6 = 3\\) brownies.\n\n<answer>3</answer>",
+      "input_tokens": 140,
+      "output_tokens": 113,
+      "total_tokens": 253,
+      "reasoning_tokens": 61,
+      "calls": 1,
+      "latency_s": 0.9141929999459535,
+      "request_ids": [
+        "ac63d35550664dcd9f9427f819aafdb5"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "The pan is cut into \\(6 \\times 3 = 18\\) equal brownies. Divided among 6 people, each gets \\(18 \\div 6 = 3\\).\n\n<answer>3</answer>",
+      "input_tokens": 370,
+      "output_tokens": 251,
+      "total_tokens": 621,
+      "reasoning_tokens": 153,
+      "calls": 2,
+      "latency_s": 3.0724068998824805,
+      "request_ids": [
+        "ac63d35550664dcd9f9427f819aafdb5",
+        "34e35bc0e4f14a45abcd2d032c58d8a6"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

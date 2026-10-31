@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-5e358a41566ee6587e5efc0532ebeafcfefdf5e5c9603bed442b989add97374f",
+    "question": "It takes 50 large jelly beans to fill up a large drinking glass.  It takes half that amount to fill up a small drinking glass.  If there are 5 large drinking glasses and 3 small ones, how many jellybeans will it take to fill them up?",
+    "answer": "325",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "325",
+      "text": "<answer>325</answer>",
+      "input_tokens": 134,
+      "output_tokens": 59,
+      "total_tokens": 193,
+      "reasoning_tokens": 50,
+      "calls": 1,
+      "latency_s": 0.8360592999961227,
+      "request_ids": [
+        "c099edb6fc204fe3bd476ad860f2827d"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "325",
+      "text": "Large glasses: \\(5 \\times 50 = 250\\)\n\nSmall glasses: \\(3 \\times 25 = 75\\)\n\nTotal: \\(250 + 75 = 325\\)\n\n<answer>325</answer>",
+      "input_tokens": 134,
+      "output_tokens": 91,
+      "total_tokens": 225,
+      "reasoning_tokens": 45,
+      "calls": 1,
+      "latency_s": 1.006780100055039,
+      "request_ids": [
+        "f65d55b0e1814bf8b3955a07e04b7b09"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "325",
+      "text": "Verified: small glass needs \\(50/2=25\\) jelly beans. Total \\(5(50)+3(25)=250+75=325\\).\n\n<answer>325</answer>",
+      "input_tokens": 352,
+      "output_tokens": 225,
+      "total_tokens": 577,
+      "reasoning_tokens": 139,
+      "calls": 2,
+      "latency_s": 1.912205500062555,
+      "request_ids": [
+        "f65d55b0e1814bf8b3955a07e04b7b09",
+        "3228de412359409295e7544b6aa8b3fe"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

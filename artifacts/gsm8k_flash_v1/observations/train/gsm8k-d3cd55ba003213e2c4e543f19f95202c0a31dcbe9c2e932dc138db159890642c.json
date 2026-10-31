@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-d3cd55ba003213e2c4e543f19f95202c0a31dcbe9c2e932dc138db159890642c",
+    "question": "The gauge on a water tank shows that the tank is 1/3 full of water. To fill the tank, 16 gallons of water are added. How many gallons of water does the tank hold when full?",
+    "answer": "24",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "24",
+      "text": "<answer>24</answer>",
+      "input_tokens": 122,
+      "output_tokens": 58,
+      "total_tokens": 180,
+      "reasoning_tokens": 49,
+      "calls": 1,
+      "latency_s": 0.7620755000971258,
+      "request_ids": [
+        "ff2086ace7b0476a96c69d3a13404617"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "24",
+      "text": "The tank is \\( \\frac{1}{3} \\) full, so the remaining empty portion is \\( \\frac{2}{3} \\).\n\n\\[\n\\frac{2}{3} \\text{ of capacity} = 16\n\\]\n\n\\[\n\\text{Full capacity} = 16 \\times \\frac{3}{2} = 24\n\\]\n\n<answer>24</answer>",
+      "input_tokens": 122,
+      "output_tokens": 144,
+      "total_tokens": 266,
+      "reasoning_tokens": 62,
+      "calls": 1,
+      "latency_s": 1.6370540000498295,
+      "request_ids": [
+        "7659bc8ae736463b93cfcbac0544bd1a"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "24",
+      "text": "The tank is \\(1/3\\) full, so \\(2/3\\) of its capacity equals 16 gallons. Thus full capacity is \\(16 \\times \\frac{3}{2}=24\\). The proposed solution is correct.\n\n<answer>24</answer>",
+      "input_tokens": 364,
+      "output_tokens": 294,
+      "total_tokens": 658,
+      "reasoning_tokens": 156,
+      "calls": 2,
+      "latency_s": 7.377242499962449,
+      "request_ids": [
+        "7659bc8ae736463b93cfcbac0544bd1a",
+        "c416b87783fc4faea3e2ac5cfa870030"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

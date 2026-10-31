@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-962ed36159d1c4e82e0bca167ceb3fc2444fe5aca00faddfd0792a456143f37d",
+    "question": "To heat during the winter, Ali ordered 850 kilos of coal. The coal is delivered in 50 kg bags, costing $18 per unit. How much does his order cost?",
+    "answer": "306",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "306",
+      "text": "<answer>306</answer>",
+      "input_tokens": 116,
+      "output_tokens": 42,
+      "total_tokens": 158,
+      "reasoning_tokens": 33,
+      "calls": 1,
+      "latency_s": 0.7708599001634866,
+      "request_ids": [
+        "7497dd22377141389e8dc6da48dab7af"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "306",
+      "text": "850 kg ÷ 50 kg per bag = 17 bags  \n17 bags × $18 per bag = $306\n\n<answer>306</answer>",
+      "input_tokens": 116,
+      "output_tokens": 65,
+      "total_tokens": 181,
+      "reasoning_tokens": 32,
+      "calls": 1,
+      "latency_s": 0.873977400129661,
+      "request_ids": [
+        "90389650d7b44df9acaf7813b671f097"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "306",
+      "text": "850 ÷ 50 = 17 bags; 17 × 18 = 306. The proposed solution is correct.\n\n<answer>306</answer>",
+      "input_tokens": 303,
+      "output_tokens": 178,
+      "total_tokens": 481,
+      "reasoning_tokens": 112,
+      "calls": 2,
+      "latency_s": 1.7708795000799,
+      "request_ids": [
+        "90389650d7b44df9acaf7813b671f097",
+        "c1256ff913654e4092268895f2f56830"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

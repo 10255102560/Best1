@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7aa62685482c5b7d97193b2449294f48e01ee3247c0c2c4e39f68ea8b16a958f",
+    "question": "The number of students in a school hall was 1000. The hall had 3 entrances A, B, and C which also served as the exits. If after a meeting 30% of the students went out of the building through exit A, 3/5 of the remaining went out through exit B, and the rest went out through exit C, calculate the number of students who went out through exit C.",
+    "answer": "280",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "280",
+      "text": "<answer>280</answer>",
+      "input_tokens": 164,
+      "output_tokens": 69,
+      "total_tokens": 233,
+      "reasoning_tokens": 60,
+      "calls": 1,
+      "latency_s": 0.5636771998833865,
+      "request_ids": [
+        "a51a636bbec749159a2f37d73f78df8c"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "280",
+      "text": "30% of 1000 went through A: \\(0.30 \\times 1000 = 300\\)\n\nRemaining: \\(1000 - 300 = 700\\)\n\nThrough B: \\(\\frac{3}{5} \\times 700 = 420\\)\n\nThrough C: \\(700 - 420 = 280\\)\n\n<answer>280</answer>",
+      "input_tokens": 164,
+      "output_tokens": 141,
+      "total_tokens": 305,
+      "reasoning_tokens": 66,
+      "calls": 1,
+      "latency_s": 1.0122313001193106,
+      "request_ids": [
+        "e2821f1088484f6bb0a6a1c97fcd30be"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "280",
+      "text": "A: 30% of 1000 = 300. Remaining = 700. B: 3/5 of 700 = 420. C: 700 − 420 = 280. The proposed solution is correct.\n\n<answer>280</answer>",
+      "input_tokens": 441,
+      "output_tokens": 272,
+      "total_tokens": 713,
+      "reasoning_tokens": 139,
+      "calls": 2,
+      "latency_s": 1.8523191001731902,
+      "request_ids": [
+        "e2821f1088484f6bb0a6a1c97fcd30be",
+        "946d2f082262489581dda87bdb28abfb"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

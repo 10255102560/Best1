@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ad8fc3e3549f9716b73c9d547a3702463b1076f4abc8c1cb42464666081ad82e",
+    "question": "A pet store currently has 5 dogs, 2 cats, and 10 birds. How many legs in total do the pets in the store have?",
+    "answer": "48",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "48",
+      "text": "<answer>48</answer>",
+      "input_tokens": 109,
+      "output_tokens": 50,
+      "total_tokens": 159,
+      "reasoning_tokens": 41,
+      "calls": 1,
+      "latency_s": 0.6728920000605285,
+      "request_ids": [
+        "545ba978c4eb4d9aa1cc934b7fac92e5"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "48",
+      "text": "Dogs: \\(5 \\times 4 = 20\\) legs  \nCats: \\(2 \\times 4 = 8\\) legs  \nBirds: \\(10 \\times 2 = 20\\) legs  \n\nTotal: \\(20 + 8 + 20 = 48\\)\n\n<answer>48</answer>",
+      "input_tokens": 109,
+      "output_tokens": 121,
+      "total_tokens": 230,
+      "reasoning_tokens": 53,
+      "calls": 1,
+      "latency_s": 0.8633751999586821,
+      "request_ids": [
+        "2c9c986b80e84abd92e9fc94f2b20324"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "48",
+      "text": "Dogs: 5 × 4 = 20 legs  \nCats: 2 × 4 = 8 legs  \nBirds: 10 × 2 = 20 legs  \nTotal: 20 + 8 + 20 = 48 legs. The proposed solution is correct.\n\n<answer>48</answer>",
+      "input_tokens": 324,
+      "output_tokens": 256,
+      "total_tokens": 580,
+      "reasoning_tokens": 119,
+      "calls": 2,
+      "latency_s": 1.996035800082609,
+      "request_ids": [
+        "2c9c986b80e84abd92e9fc94f2b20324",
+        "fbbe79a14ed84deba02875af55003576"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

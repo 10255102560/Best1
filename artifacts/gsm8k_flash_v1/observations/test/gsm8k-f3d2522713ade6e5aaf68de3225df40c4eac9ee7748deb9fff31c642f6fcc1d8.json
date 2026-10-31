@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f3d2522713ade6e5aaf68de3225df40c4eac9ee7748deb9fff31c642f6fcc1d8",
+    "question": "A singer has 50 microphones that he wants to arrange in pairs on a stage. While making the arrangement, he realizes that 20% of the microphones won't find any space to fit in after arranging the rest in pairs. How many pairs of microphones was he able to arrange on the stage?",
+    "answer": "20",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "<answer>20</answer>",
+      "input_tokens": 141,
+      "output_tokens": 67,
+      "total_tokens": 208,
+      "reasoning_tokens": 58,
+      "calls": 1,
+      "latency_s": 0.7158529001753777,
+      "request_ids": [
+        "fafb5dfe2de64a73862735d81a78438d"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "20% of 50 microphones is \\(0.20 \\times 50 = 10\\) microphones left out.\n\nMicrophones arranged: \\(50 - 10 = 40\\)\n\nPairs arranged: \\(40 \\div 2 = 20\\)\n\n<answer>20</answer>",
+      "input_tokens": 141,
+      "output_tokens": 175,
+      "total_tokens": 316,
+      "reasoning_tokens": 115,
+      "calls": 1,
+      "latency_s": 1.0472555998712778,
+      "request_ids": [
+        "8b986dda0d3a4a899c330b057c8d9223"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "20% of 50 is 10 left out. Remaining microphones: 50 − 10 = 40. Pairs: 40 ÷ 2 = 20. The proposed solution is correct.\n\n<answer>20</answer>",
+      "input_tokens": 380,
+      "output_tokens": 312,
+      "total_tokens": 692,
+      "reasoning_tokens": 200,
+      "calls": 2,
+      "latency_s": 10.33764039981179,
+      "request_ids": [
+        "8b986dda0d3a4a899c330b057c8d9223",
+        "50d7ded4736c40d7a04a41c9c566f671"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

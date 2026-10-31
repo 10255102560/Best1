@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-337a0db3199099629e51d189c5f73a160aa32e85c8f641ebaecf351e56147e87",
+    "question": "For his 30th birthday, Elvira chose a new computer with many accessories as a gift. She has a budget of €1500 donated by her whole family and thinks that she will be able to keep a little money to afford a garment. She goes to a computer store and chooses a machine that costs €1090 with a screen, keyboard and mouse. She also takes a scanner for €157, a CD burner worth €74 and a printer for €102. How much money will she have left for her clothing?",
+    "answer": "77",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "77",
+      "text": "<answer>77</answer>",
+      "input_tokens": 185,
+      "output_tokens": 74,
+      "total_tokens": 259,
+      "reasoning_tokens": 65,
+      "calls": 1,
+      "latency_s": 0.923872800078243,
+      "request_ids": [
+        "85edf2ce3db740ae94e7d64148195e26"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "77",
+      "text": "Total spent: €1090 + €157 + €74 + €102 = €1423  \nMoney left: €1500 − €1423 = €77\n\n<answer>77</answer>",
+      "input_tokens": 185,
+      "output_tokens": 126,
+      "total_tokens": 311,
+      "reasoning_tokens": 83,
+      "calls": 1,
+      "latency_s": 1.787806099979207,
+      "request_ids": [
+        "6021212176db47558297b855deadbfbc"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "77",
+      "text": "The total cost is €1090 + €157 + €74 + €102 = €1423.  \nMoney left from €1500 is €1500 − €1423 = €77. The proposed solution is correct.\n\n<answer>77</answer>",
+      "input_tokens": 451,
+      "output_tokens": 245,
+      "total_tokens": 696,
+      "reasoning_tokens": 147,
+      "calls": 2,
+      "latency_s": 2.635657500009984,
+      "request_ids": [
+        "6021212176db47558297b855deadbfbc",
+        "0748875c2e8f4ae5a744cb216acea7c3"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

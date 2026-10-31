@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-1934da231dbb8b6d0ae0b1e261e4e3b9c7b8d4a16d8de582a2115f1e376c0764",
+    "question": "When Jason plays the video game, Duty for Ashes, his mission to slay the dragon hoard requires that he fire his weapon on average every 15 seconds.   And each time he fires his weapon, his power-fire setting allows him to shoot a flame for 5 seconds.  On average, how many seconds per minute does Jason shoot flames at the dragon hoard?",
+    "answer": "20",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "<answer>20</answer>",
+      "input_tokens": 155,
+      "output_tokens": 101,
+      "total_tokens": 256,
+      "reasoning_tokens": 92,
+      "calls": 1,
+      "latency_s": 1.4148319999221712,
+      "request_ids": [
+        "916b751bb873429b8de6f87876640f49"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "Jason fires once every 15 seconds, so in 60 seconds he fires:\n\n60 ÷ 15 = 4 times\n\nEach time, he shoots flames for 5 seconds:\n\n4 × 5 = 20 seconds\n\n<answer>20</answer>",
+      "input_tokens": 155,
+      "output_tokens": 144,
+      "total_tokens": 299,
+      "reasoning_tokens": 90,
+      "calls": 1,
+      "latency_s": 1.4338825000450015,
+      "request_ids": [
+        "8b749d210e0143bc90c9036977484cf0"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "The rate is 60 ÷ 15 = 4 shots per minute, and 4 × 5 = 20 seconds of flames per minute. The proposed solution is correct.\n\n<answer>20</answer>",
+      "input_tokens": 402,
+      "output_tokens": 264,
+      "total_tokens": 666,
+      "reasoning_tokens": 165,
+      "calls": 2,
+      "latency_s": 2.406160400249064,
+      "request_ids": [
+        "8b749d210e0143bc90c9036977484cf0",
+        "8ab2c72bb8ad4c378cd447785477d0ea"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

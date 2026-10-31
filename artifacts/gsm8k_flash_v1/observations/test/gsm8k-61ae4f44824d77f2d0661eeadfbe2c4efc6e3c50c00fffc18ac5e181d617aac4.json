@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-61ae4f44824d77f2d0661eeadfbe2c4efc6e3c50c00fffc18ac5e181d617aac4",
+    "question": "If Martin eats Cheerios every day for breakfast, he'll lose 1.25 pounds/week. If he eats donuts every day for breakfast, he'll gain 1.75 pounds/week. What will be the difference in his weight at the end of 5 weeks between the two breakfast options?",
+    "answer": "15",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "<answer>15</answer>",
+      "input_tokens": 140,
+      "output_tokens": 71,
+      "total_tokens": 211,
+      "reasoning_tokens": 62,
+      "calls": 1,
+      "latency_s": 0.6822493001818657,
+      "request_ids": [
+        "110cca9f9fb54aeb882fc1aa21cb5e7b"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Cheerios: \\(1.25 \\times 5 = 6.25\\) pounds lost.  \nDonuts: \\(1.75 \\times 5 = 8.75\\) pounds gained.  \nDifference: \\(8.75 + 6.25 = 15\\) pounds.\n\n<answer>15</answer>",
+      "input_tokens": 140,
+      "output_tokens": 153,
+      "total_tokens": 293,
+      "reasoning_tokens": 84,
+      "calls": 1,
+      "latency_s": 0.9066870999522507,
+      "request_ids": [
+        "c05fa0b7e35a4f7599cc038a8512ea9d"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Cheerios: \\(1.25 \\times 5 = 6.25\\) lb lost, so weight change is \\(-6.25\\) lb.  \nDonuts: \\(1.75 \\times 5 = 8.75\\) lb gained, so weight change is \\(+8.75\\) lb.  \nDifference: \\(8.75 - (-6.25) = 15\\) lb. The proposed solution is correct.\n\n<answer>15</answer>",
+      "input_tokens": 387,
+      "output_tokens": 333,
+      "total_tokens": 720,
+      "reasoning_tokens": 166,
+      "calls": 2,
+      "latency_s": 2.010768599808216,
+      "request_ids": [
+        "c05fa0b7e35a4f7599cc038a8512ea9d",
+        "b2755e2ba01c4cdebaa65ede947b3d7f"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

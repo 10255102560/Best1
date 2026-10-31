@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0e5674e4d7115ea814703a118d31223ae6b0506c731a42e6966fb1f471723501",
+    "question": "Bethany can run 10 laps on the track in one hour.  Trey can run 4 more laps than Bethany.  Shaelyn can run half as many laps as Trey.  Quinn can run 2 fewer laps than Shaelyn.  How many more laps can Bethany run compared to Quinn?",
+    "answer": "5",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "<answer>5</answer>",
+      "input_tokens": 143,
+      "output_tokens": 79,
+      "total_tokens": 222,
+      "reasoning_tokens": 70,
+      "calls": 1,
+      "latency_s": 0.8610767999198288,
+      "request_ids": [
+        "6d8aa3b2a78649d198a0607f13d4daa4"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Bethany: 10 laps  \nTrey: 10 + 4 = 14 laps  \nShaelyn: 14 ÷ 2 = 7 laps  \nQuinn: 7 − 2 = 5 laps  \nDifference: 10 − 5 = 5\n\n<answer>5</answer>",
+      "input_tokens": 143,
+      "output_tokens": 148,
+      "total_tokens": 291,
+      "reasoning_tokens": 82,
+      "calls": 1,
+      "latency_s": 0.8809563999529928,
+      "request_ids": [
+        "82f0ca2e2840473abb74b9a575d102ee"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Verification: Bethany = 10; Trey = 14; Shaelyn = 7; Quinn = 5. Difference = 10 − 5 = 5. Correct.\n\n<answer>5</answer>",
+      "input_tokens": 390,
+      "output_tokens": 311,
+      "total_tokens": 701,
+      "reasoning_tokens": 197,
+      "calls": 2,
+      "latency_s": 2.5151066000107676,
+      "request_ids": [
+        "82f0ca2e2840473abb74b9a575d102ee",
+        "9309bbd74ef34446a19f59a4d55cfad1"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-1e14fd22fbdb93811153fffab038c5da9bec33d9ed817c1984f828a1f17d8ec8",
+    "question": "Leif’s apple tree has 14 apples and his orange tree has 2 dozen oranges.  How many more oranges does he have than apples?",
+    "answer": "10",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "<answer>10</answer>",
+      "input_tokens": 109,
+      "output_tokens": 52,
+      "total_tokens": 161,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 0.511277100071311,
+      "request_ids": [
+        "06223b7360e449dda605a823567cf3b3"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "2 dozen oranges = 2 × 12 = 24 oranges  \n24 − 14 = 10\n\n<answer>10</answer>",
+      "input_tokens": 109,
+      "output_tokens": 97,
+      "total_tokens": 206,
+      "reasoning_tokens": 66,
+      "calls": 1,
+      "latency_s": 1.4214630001224577,
+      "request_ids": [
+        "cbf08b051be9448dbfd0c21e5eec02df"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "2 dozen = 24 oranges. Difference: 24 − 14 = 10. The proposed solution is correct.\n\n<answer>10</answer>",
+      "input_tokens": 287,
+      "output_tokens": 196,
+      "total_tokens": 483,
+      "reasoning_tokens": 132,
+      "calls": 2,
+      "latency_s": 2.3717487000394613,
+      "request_ids": [
+        "cbf08b051be9448dbfd0c21e5eec02df",
+        "0667a204e6464017a797c938c3b7a523"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

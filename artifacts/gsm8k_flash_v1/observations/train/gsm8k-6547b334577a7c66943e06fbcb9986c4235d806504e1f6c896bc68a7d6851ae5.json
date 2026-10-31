@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-6547b334577a7c66943e06fbcb9986c4235d806504e1f6c896bc68a7d6851ae5",
+    "question": "Arnold owns three cars. The first car averages 50 miles per gallon of gas. The second car averages 10 miles per gallon of gas. And the third car averages 15 miles per gallon of gas. He splits his 450-mile monthly driving mileage equally amongst his three cars.  If gas costs $2 per gallon, how much does he spend on gas each month?",
+    "answer": "56",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "56",
+      "text": "<answer>56</answer>",
+      "input_tokens": 155,
+      "output_tokens": 93,
+      "total_tokens": 248,
+      "reasoning_tokens": 84,
+      "calls": 1,
+      "latency_s": 0.8022255001123995,
+      "request_ids": [
+        "525394217fbb4f21857c6df0eb60c3b8"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "56",
+      "text": "Each car is driven \\(450 \\div 3 = 150\\) miles per month.\n\nGas used:\n- First car: \\(150 \\div 50 = 3\\) gallons\n- Second car: \\(150 \\div 10 = 15\\) gallons\n- Third car: \\(150 \\div 15 = 10\\) gallons\n\nTotal gas: \\(3 + 15 + 10 = 28\\) gallons  \nMonthly cost: \\(28 \\times 2 = 56\\)\n\n<answer>56</answer>",
+      "input_tokens": 155,
+      "output_tokens": 199,
+      "total_tokens": 354,
+      "reasoning_tokens": 91,
+      "calls": 1,
+      "latency_s": 1.4450621998403221,
+      "request_ids": [
+        "ffd8aeaf7575442a9e2dbf4fa726cf35"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "56",
+      "text": "Each car drives \\(450/3=150\\) miles.  \nGas used: \\(150/50=3\\), \\(150/10=15\\), \\(150/15=10\\), totaling \\(28\\) gallons.  \nCost: \\(28 \\times 2 = 56\\).\n\n<answer>56</answer>",
+      "input_tokens": 456,
+      "output_tokens": 355,
+      "total_tokens": 811,
+      "reasoning_tokens": 182,
+      "calls": 2,
+      "latency_s": 2.51130159990862,
+      "request_ids": [
+        "ffd8aeaf7575442a9e2dbf4fa726cf35",
+        "919283cd062e4490a9359891db3e00f3"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

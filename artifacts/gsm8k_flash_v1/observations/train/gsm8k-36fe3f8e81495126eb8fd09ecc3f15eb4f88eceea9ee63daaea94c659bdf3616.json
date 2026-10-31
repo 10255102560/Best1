@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-36fe3f8e81495126eb8fd09ecc3f15eb4f88eceea9ee63daaea94c659bdf3616",
+    "question": "A tomato plant has 100 tomatoes. Jane picks 1/4 of that number for use in their house. After a week, she goes back and picks 20 more tomatoes, and the following week picks twice that number. What's the total number of fruits remaining on the tomato plant?",
+    "answer": "15",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "<answer>15</answer>",
+      "input_tokens": 137,
+      "output_tokens": 86,
+      "total_tokens": 223,
+      "reasoning_tokens": 77,
+      "calls": 1,
+      "latency_s": 7.106453800108284,
+      "request_ids": [
+        "31f36579e4234bcf82bb5f7c941fa862"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Jane first picks \\( \\frac{1}{4} \\times 100 = 25 \\) tomatoes.  \nRemaining: \\(100 - 25 = 75\\).  \nShe then picks 20 more: \\(75 - 20 = 55\\).  \nNext, she picks twice 20, which is 40: \\(55 - 40 = 15\\).\n\n<answer>15</answer>",
+      "input_tokens": 137,
+      "output_tokens": 222,
+      "total_tokens": 359,
+      "reasoning_tokens": 139,
+      "calls": 1,
+      "latency_s": 1.4314021000172943,
+      "request_ids": [
+        "3b11051a94c143edabf2499f153560d5"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Jane picks 25, then 20, then twice 20 = 40. Total picked: 25 + 20 + 40 = 85. Remaining: 100 − 85 = 15. The proposed solution is correct.\n\n<answer>15</answer>",
+      "input_tokens": 395,
+      "output_tokens": 385,
+      "total_tokens": 780,
+      "reasoning_tokens": 243,
+      "calls": 2,
+      "latency_s": 2.5365665000863373,
+      "request_ids": [
+        "3b11051a94c143edabf2499f153560d5",
+        "590345fb2e704c4d9ff4a3adbe7240a9"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-cbcb7e8d298529f34dd3f1d73eaa35974a5ede1d5c8a6da285f367b1e25542a4",
+    "question": "An aqua park charges $12 admission and $6 for a tour. A group of 10 people goes to the aquarium and takes the tour; while a group of 5 people only goes to the aquarium. How much does the aqua park earn?",
+    "answer": "240",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "240",
+      "text": "<answer>240</answer>",
+      "input_tokens": 130,
+      "output_tokens": 77,
+      "total_tokens": 207,
+      "reasoning_tokens": 68,
+      "calls": 1,
+      "latency_s": 0.6595451000612229,
+      "request_ids": [
+        "437852a0ecb5414ebd7c30bc870742d2"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "240",
+      "text": "Group of 10 with tour: \\(10 \\times (12 + 6) = 10 \\times 18 = 180\\)\n\nGroup of 5 admission only: \\(5 \\times 12 = 60\\)\n\nTotal: \\(180 + 60 = 240\\)\n\n<answer>240</answer>",
+      "input_tokens": 130,
+      "output_tokens": 150,
+      "total_tokens": 280,
+      "reasoning_tokens": 85,
+      "calls": 1,
+      "latency_s": 0.9193983001168817,
+      "request_ids": [
+        "cded97279d1e48829e8caff570f22e8c"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "240",
+      "text": "Verification: 10 people with admission and tour pay \\(10(12+6)=180\\). 5 people with admission only pay \\(5(12)=60\\). Total \\(180+60=240\\). The interpretation and arithmetic are correct.\n\n<answer>240</answer>",
+      "input_tokens": 363,
+      "output_tokens": 316,
+      "total_tokens": 679,
+      "reasoning_tokens": 193,
+      "calls": 2,
+      "latency_s": 1.9176266002468765,
+      "request_ids": [
+        "cded97279d1e48829e8caff570f22e8c",
+        "f03eaa02c2db4d69a36411d72598218e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

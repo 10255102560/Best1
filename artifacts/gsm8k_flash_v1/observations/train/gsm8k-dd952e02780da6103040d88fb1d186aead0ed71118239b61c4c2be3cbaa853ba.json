@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-dd952e02780da6103040d88fb1d186aead0ed71118239b61c4c2be3cbaa853ba",
+    "question": "Bart fills out surveys to earn money. He receives $0.2 for every question he answers in the survey. Each survey has 10 questions. On Monday he finished 3 surveys, and on Tuesday 4 surveys. How much money did he earn during these two days?",
+    "answer": "14",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "<answer>14</answer>",
+      "input_tokens": 134,
+      "output_tokens": 68,
+      "total_tokens": 202,
+      "reasoning_tokens": 59,
+      "calls": 1,
+      "latency_s": 0.6666814999189228,
+      "request_ids": [
+        "ccddcbeb50444533a0f6df14e5cbd91e"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "Each survey earns \\(10 \\times 0.2 = 2\\) dollars.\n\nMonday: \\(3 \\times 2 = 6\\) dollars  \nTuesday: \\(4 \\times 2 = 8\\) dollars  \nTotal: \\(6 + 8 = 14\\) dollars\n\n<answer>14</answer>",
+      "input_tokens": 134,
+      "output_tokens": 110,
+      "total_tokens": 244,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 0.7497288999147713,
+      "request_ids": [
+        "113116e4da7344d58a3655d4f84151f9"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "Verified: Each survey earns \\(10 \\times 0.2 = 2\\). Total surveys: \\(3+4=7\\). Earnings: \\(7 \\times 2 = 14\\).\n\n<answer>14</answer>",
+      "input_tokens": 373,
+      "output_tokens": 222,
+      "total_tokens": 595,
+      "reasoning_tokens": 107,
+      "calls": 2,
+      "latency_s": 1.5849955999292433,
+      "request_ids": [
+        "113116e4da7344d58a3655d4f84151f9",
+        "70def32d594344089376bd942465b242"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ca27ac4611d796fc951e867217c5aadaf33133ee57834559eccc3c055a783c00",
+    "question": "Mr. Maximilian has a rental building that he collects rent from every month. The number of units in the building is 100. If the building is 3/4 occupied for a whole year, and each resident of the building pays a rent of $400, calculate the amount of money Mr. Maximilian receives in that year.",
+    "answer": "360000",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "360000",
+      "text": "<answer>360000</answer>",
+      "input_tokens": 146,
+      "output_tokens": 74,
+      "total_tokens": 220,
+      "reasoning_tokens": 64,
+      "calls": 1,
+      "latency_s": 0.8527525998651981,
+      "request_ids": [
+        "882787e49084437a8df7846fefd1e6a8"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "360000",
+      "text": "Number of occupied units: \\(100 \\times \\frac{3}{4} = 75\\)\n\nMonthly rent collected: \\(75 \\times 400 = 30{,}000\\)\n\nYearly rent collected: \\(30{,}000 \\times 12 = 360{,}000\\)\n\n<answer>360000</answer>",
+      "input_tokens": 146,
+      "output_tokens": 162,
+      "total_tokens": 308,
+      "reasoning_tokens": 94,
+      "calls": 1,
+      "latency_s": 0.9552768000867218,
+      "request_ids": [
+        "461b6c4483b542f0a882b1de7a688bca"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "360000",
+      "text": "Occupied units: \\(100 \\times \\frac{3}{4}=75\\).  \nMonthly rent: \\(75 \\times 400=30{,}000\\).  \nYearly rent: \\(30{,}000 \\times 12=360{,}000\\).  \nThe interpretation and arithmetic are correct.\n\n<answer>360000</answer>",
+      "input_tokens": 398,
+      "output_tokens": 358,
+      "total_tokens": 756,
+      "reasoning_tokens": 219,
+      "calls": 2,
+      "latency_s": 2.437548500020057,
+      "request_ids": [
+        "461b6c4483b542f0a882b1de7a688bca",
+        "0c9a1ce01dbf4563b8f420d8dbd3751a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

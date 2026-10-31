@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-e457598102bb10cbe553a46ff317ed3717be6a5bca0c82d468d4de6302d9608a",
+    "question": "An eraser costs $2 and a pencil costs $3. How much do 6 erasers and 8 pencils cost?",
+    "answer": "36",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "36",
+      "text": "<answer>36</answer>",
+      "input_tokens": 104,
+      "output_tokens": 41,
+      "total_tokens": 145,
+      "reasoning_tokens": 32,
+      "calls": 1,
+      "latency_s": 0.46053739986382425,
+      "request_ids": [
+        "9389a75d03e84dc6a45fea6e5b67fbb9"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "36",
+      "text": "6 erasers cost \\(6 \\times 2 = 12\\).  \n8 pencils cost \\(8 \\times 3 = 24\\).  \nTotal: \\(12 + 24 = 36\\).\n\n<answer>36</answer>",
+      "input_tokens": 104,
+      "output_tokens": 78,
+      "total_tokens": 182,
+      "reasoning_tokens": 29,
+      "calls": 1,
+      "latency_s": 0.8945579000283033,
+      "request_ids": [
+        "5705f6b76b5247bea1fc575521a478f1"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "36",
+      "text": "6 × $2 = $12; 8 × $3 = $24; total = $36. The proposed solution is correct.\n\n<answer>36</answer>",
+      "input_tokens": 295,
+      "output_tokens": 175,
+      "total_tokens": 470,
+      "reasoning_tokens": 89,
+      "calls": 2,
+      "latency_s": 2.1383976000361145,
+      "request_ids": [
+        "5705f6b76b5247bea1fc575521a478f1",
+        "a813bcf45f5e44228e24f06fb62379c8"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

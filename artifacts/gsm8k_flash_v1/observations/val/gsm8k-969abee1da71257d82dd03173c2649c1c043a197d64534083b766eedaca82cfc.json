@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-969abee1da71257d82dd03173c2649c1c043a197d64534083b766eedaca82cfc",
+    "question": "Gilbert, the bearded dragon, eats 4 crickets per week when the temperature averages 90 degrees F per day, but he eats twice as many crickets per week when the temperature averages 100 degrees F.  How many crickets will he eat over 15 weeks if the temperature averages 90 degrees F for 80% of the time, and 100 degrees F for the remainder of the time?",
+    "answer": "72",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "72",
+      "text": "<answer>72</answer>",
+      "input_tokens": 162,
+      "output_tokens": 113,
+      "total_tokens": 275,
+      "reasoning_tokens": 104,
+      "calls": 1,
+      "latency_s": 1.1076558001805097,
+      "request_ids": [
+        "7ab263bd406c4e2cbf1289f4328ab85e"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "72",
+      "text": "At 90°F: 4 crickets/week  \nAt 100°F: 8 crickets/week  \n\n15 weeks: 80% at 90°F = 12 weeks, 20% at 100°F = 3 weeks  \n\nTotal = \\(12 \\times 4 + 3 \\times 8 = 48 + 24 = 72\\)\n\n<answer>72</answer>",
+      "input_tokens": 162,
+      "output_tokens": 183,
+      "total_tokens": 345,
+      "reasoning_tokens": 96,
+      "calls": 1,
+      "latency_s": 1.3083432998973876,
+      "request_ids": [
+        "956f4abb913e49a59f23fb1a0d4f2d27"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "72",
+      "text": "The interpretation and arithmetic are correct: 12 weeks at 4 crickets/week plus 3 weeks at 8 crickets/week gives \\(48 + 24 = 72\\).\n\n<answer>72</answer>",
+      "input_tokens": 449,
+      "output_tokens": 315,
+      "total_tokens": 764,
+      "reasoning_tokens": 183,
+      "calls": 2,
+      "latency_s": 2.7057727999053895,
+      "request_ids": [
+        "956f4abb913e49a59f23fb1a0d4f2d27",
+        "7de2bafb03c448078f9df718a82605fc"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

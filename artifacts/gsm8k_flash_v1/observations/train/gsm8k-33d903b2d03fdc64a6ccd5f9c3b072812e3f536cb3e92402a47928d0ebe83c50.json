@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-33d903b2d03fdc64a6ccd5f9c3b072812e3f536cb3e92402a47928d0ebe83c50",
+    "question": "Rachel and Sara want to attend a beauty and modeling contest. They both want to buy new pairs of shoes and dresses. Sara buys a pair of shoes which costs $50 and a dress which costs $200. How much should Rachel budget if she wants to spend twice as much as what Sara spent on the pair of shoes and dress?",
+    "answer": "500",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "500",
+      "text": "<answer>500</answer>",
+      "input_tokens": 145,
+      "output_tokens": 55,
+      "total_tokens": 200,
+      "reasoning_tokens": 46,
+      "calls": 1,
+      "latency_s": 0.889130299910903,
+      "request_ids": [
+        "03bea1316cc44aa1adcd8966edcc928b"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "500",
+      "text": "Sara spent \\(50 + 200 = 250\\).\n\nRachel wants to spend twice that amount: \\(2 \\times 250 = 500\\).\n\n<answer>500</answer>",
+      "input_tokens": 145,
+      "output_tokens": 107,
+      "total_tokens": 252,
+      "reasoning_tokens": 68,
+      "calls": 1,
+      "latency_s": 0.9798622999805957,
+      "request_ids": [
+        "16443b77204a45cfbabd7c850a51e83f"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "500",
+      "text": "Sara’s total: \\(50 + 200 = 250\\).  \nRachel’s budget: \\(2 \\times 250 = 500\\).  \nThe interpretation and arithmetic are correct.\n\n<answer>500</answer>",
+      "input_tokens": 367,
+      "output_tokens": 237,
+      "total_tokens": 604,
+      "reasoning_tokens": 150,
+      "calls": 2,
+      "latency_s": 1.8962239001411945,
+      "request_ids": [
+        "16443b77204a45cfbabd7c850a51e83f",
+        "3b2f001ac463484d9ec331748d074c68"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

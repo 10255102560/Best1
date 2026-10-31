@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-6e9654b8a3d78196e2eab9b7f08b466ec14750a182f518c9c44ae0351a8ea298",
+    "question": "Two companies A and B, are selling bottled milk. Company A sells a big bottle for $4 and Company B sells a big bottle for $3.5. Company A was able to sell 300 and company B 350 big bottles of milk. How much more money did one company make from the other?",
+    "answer": "25",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "25",
+      "text": "<answer>25</answer>",
+      "input_tokens": 141,
+      "output_tokens": 72,
+      "total_tokens": 213,
+      "reasoning_tokens": 63,
+      "calls": 1,
+      "latency_s": 0.7314870001282543,
+      "request_ids": [
+        "2c99147bb4914775b70396ae743623b1"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "25",
+      "text": "Company A: \\(4 \\times 300 = 1200\\)  \nCompany B: \\(3.5 \\times 350 = 1225\\)  \nDifference: \\(1225 - 1200 = 25\\)\n\n<answer>25</answer>",
+      "input_tokens": 141,
+      "output_tokens": 124,
+      "total_tokens": 265,
+      "reasoning_tokens": 70,
+      "calls": 1,
+      "latency_s": 1.2564856000244617,
+      "request_ids": [
+        "b0fbb80937c744318d57612d70b27421"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "25",
+      "text": "Company A: \\(4 \\times 300 = 1200\\)  \nCompany B: \\(3.5 \\times 350 = 1225\\)  \nDifference: \\(1225 - 1200 = 25\\)\n\n<answer>25</answer>",
+      "input_tokens": 374,
+      "output_tokens": 259,
+      "total_tokens": 633,
+      "reasoning_tokens": 151,
+      "calls": 2,
+      "latency_s": 2.1433353000320494,
+      "request_ids": [
+        "b0fbb80937c744318d57612d70b27421",
+        "dc026c307c634faf8067d218061d6c9f"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

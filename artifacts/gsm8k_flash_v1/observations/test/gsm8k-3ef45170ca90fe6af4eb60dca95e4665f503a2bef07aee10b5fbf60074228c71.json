@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-3ef45170ca90fe6af4eb60dca95e4665f503a2bef07aee10b5fbf60074228c71",
+    "question": "When the water is cold Ray swims a mile in 16 minutes. When the water is warm Ray swims a mile in 2 minutes more than twice as long. How much longer does Ray take to swim 3 miles on a hot day than a cold day?",
+    "answer": "54",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "54",
+      "text": "<answer>54</answer>",
+      "input_tokens": 133,
+      "output_tokens": 119,
+      "total_tokens": 252,
+      "reasoning_tokens": 110,
+      "calls": 1,
+      "latency_s": 0.8995580999180675,
+      "request_ids": [
+        "2e75b6793c1d44199115dc2e18413038"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "54",
+      "text": "Cold day: 1 mile = 16 minutes, so 3 miles = 3 × 16 = 48 minutes.\n\nHot day: 1 mile = 2 × 16 + 2 = 34 minutes, so 3 miles = 3 × 34 = 102 minutes.\n\nDifference: 102 − 48 = 54 minutes.\n\n<answer>54</answer>",
+      "input_tokens": 133,
+      "output_tokens": 195,
+      "total_tokens": 328,
+      "reasoning_tokens": 113,
+      "calls": 1,
+      "latency_s": 2.510467099957168,
+      "request_ids": [
+        "bea2dbe6cdbe4586abaf298613324e41"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "54",
+      "text": "Cold: 3 miles = 3 × 16 = 48 min.  \nWarm: 1 mile = 2 × 16 + 2 = 34 min, so 3 miles = 102 min.  \nDifference = 102 − 48 = 54 min. The proposed solution is correct.\n\n<answer>54</answer>",
+      "input_tokens": 386,
+      "output_tokens": 364,
+      "total_tokens": 750,
+      "reasoning_tokens": 208,
+      "calls": 2,
+      "latency_s": 4.0966021998319775,
+      "request_ids": [
+        "bea2dbe6cdbe4586abaf298613324e41",
+        "9d23604d344348a0adc4a2f3e65df391"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

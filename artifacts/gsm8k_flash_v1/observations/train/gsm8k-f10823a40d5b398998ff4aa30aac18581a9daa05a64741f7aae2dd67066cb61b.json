@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f10823a40d5b398998ff4aa30aac18581a9daa05a64741f7aae2dd67066cb61b",
+    "question": "Jason's dog has a tail that's half the length of its body, and a head that's 1/6 the length of its body. If the dog is 30 inches long overall, how long is its tail?",
+    "answer": "9",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "9",
+      "text": "<answer>9</answer>",
+      "input_tokens": 124,
+      "output_tokens": 105,
+      "total_tokens": 229,
+      "reasoning_tokens": 96,
+      "calls": 1,
+      "latency_s": 0.8145424001850188,
+      "request_ids": [
+        "14d21c64abd54c1893ec31a63a13ff47"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "9",
+      "text": "Let the body length be \\(b\\).\n\n- Tail: \\(\\frac{b}{2}\\)\n- Head: \\(\\frac{b}{6}\\)\n- Overall length: \\(b + \\frac{b}{2} + \\frac{b}{6} = 30\\)\n\n\\[\n\\frac{5b}{3}=30 \\Rightarrow b=18\n\\]\n\nTail length:\n\n\\[\n\\frac{18}{2}=9\n\\]\n\n<answer>9</answer>",
+      "input_tokens": 124,
+      "output_tokens": 190,
+      "total_tokens": 314,
+      "reasoning_tokens": 98,
+      "calls": 1,
+      "latency_s": 1.1749049997888505,
+      "request_ids": [
+        "310d0fb2f2be46e586e8e96bc3ed187b"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "9",
+      "text": "The interpretation and arithmetic are correct: \\(b+\\frac b2+\\frac b6=30\\) gives \\(b=18\\), so the tail is \\(\\frac{18}{2}=9\\) inches.\n\n<answer>9</answer>",
+      "input_tokens": 378,
+      "output_tokens": 346,
+      "total_tokens": 724,
+      "reasoning_tokens": 204,
+      "calls": 2,
+      "latency_s": 2.145993599900976,
+      "request_ids": [
+        "310d0fb2f2be46e586e8e96bc3ed187b",
+        "2a3477dffe124ac2aeba87908611991a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

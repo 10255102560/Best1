@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-c9c57de6a9eacb46f24528c38b18697bab77b65ad502879c87461c932c3a6cc6",
+    "question": "Joe played catch with Derek and Tammy. He caught the ball 23 times. Derek made four less than double the catches Joe did. Tammy caught the ball sixteen more than a third of the times Derek did. How many times did Tammy catch the ball?",
+    "answer": "30",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "<answer>30</answer>",
+      "input_tokens": 132,
+      "output_tokens": 83,
+      "total_tokens": 215,
+      "reasoning_tokens": 74,
+      "calls": 1,
+      "latency_s": 0.8095305999740958,
+      "request_ids": [
+        "02ec228a2a3c474e96a188b72f291bc7"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "Joe caught 23 times.\n\nDerek: \\(2 \\times 23 - 4 = 46 - 4 = 42\\)\n\nTammy: \\(\\frac{1}{3} \\times 42 + 16 = 14 + 16 = 30\\)\n\n<answer>30</answer>",
+      "input_tokens": 132,
+      "output_tokens": 142,
+      "total_tokens": 274,
+      "reasoning_tokens": 78,
+      "calls": 1,
+      "latency_s": 1.3868805000092834,
+      "request_ids": [
+        "4dc6ec6d00fa4ec09d0809a55b45990b"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "Joe: 23. Derek: \\(2(23)-4=42\\). Tammy: \\(\\frac{42}{3}+16=14+16=30\\). The proposed solution is correct.\n\n<answer>30</answer>",
+      "input_tokens": 366,
+      "output_tokens": 277,
+      "total_tokens": 643,
+      "reasoning_tokens": 164,
+      "calls": 2,
+      "latency_s": 2.839846600079909,
+      "request_ids": [
+        "4dc6ec6d00fa4ec09d0809a55b45990b",
+        "2530d9bcd6864dc99093cbba75485975"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

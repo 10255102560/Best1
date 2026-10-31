@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-070a9000d8f3f68ddcc98f43e6f66ce9c7a636deadbb5ef16d48616414756e12",
+    "question": "Carolyn is planning out her final essay. The introduction will be 450 words, the conclusion will be triple the length of the introduction, and each of the four body sections will be the same length. If her essay has to be 5000 words total, how long is each section?",
+    "answer": "800",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "800",
+      "text": "<answer>800</answer>",
+      "input_tokens": 137,
+      "output_tokens": 80,
+      "total_tokens": 217,
+      "reasoning_tokens": 71,
+      "calls": 1,
+      "latency_s": 0.8460725001059473,
+      "request_ids": [
+        "f2a9d7e59a164bc789a1a85bb9101ae1"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "800",
+      "text": "Introduction: 450 words  \nConclusion: \\(3 \\times 450 = 1350\\) words  \nTotal for intro and conclusion: \\(450 + 1350 = 1800\\) words  \nRemaining for body sections: \\(5000 - 1800 = 3200\\) words  \nEach of 4 sections: \\(3200 \\div 4 = 800\\) words\n\n<answer>800</answer>",
+      "input_tokens": 137,
+      "output_tokens": 166,
+      "total_tokens": 303,
+      "reasoning_tokens": 78,
+      "calls": 1,
+      "latency_s": 1.5753408998716623,
+      "request_ids": [
+        "f8b39e74df284a649259c8bdcfb8358d"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "800",
+      "text": "Verified: \\(450 + 3(450) = 1800\\); \\(5000 - 1800 = 3200\\); \\(3200 \\div 4 = 800\\). The proposed solution is correct.\n\n<answer>800</answer>",
+      "input_tokens": 400,
+      "output_tokens": 307,
+      "total_tokens": 707,
+      "reasoning_tokens": 166,
+      "calls": 2,
+      "latency_s": 2.7118563998956233,
+      "request_ids": [
+        "f8b39e74df284a649259c8bdcfb8358d",
+        "206c1463420e41e3a920e7d5b87cdff9"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

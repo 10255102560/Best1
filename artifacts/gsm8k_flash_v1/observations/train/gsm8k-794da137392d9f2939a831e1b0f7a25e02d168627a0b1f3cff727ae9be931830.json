@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-794da137392d9f2939a831e1b0f7a25e02d168627a0b1f3cff727ae9be931830",
+    "question": "A housewife goes to the market. She spent 2/3 of her $150. How much does she have left?",
+    "answer": "50",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "<answer>50</answer>",
+      "input_tokens": 104,
+      "output_tokens": 41,
+      "total_tokens": 145,
+      "reasoning_tokens": 32,
+      "calls": 1,
+      "latency_s": 0.9321615998633206,
+      "request_ids": [
+        "adb0877db179431494cc8f624ff1ef14"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "She spent \\( \\frac{2}{3} \\times 150 = 100 \\).\n\nMoney left: \\(150 - 100 = 50\\).\n\n<answer>50</answer>",
+      "input_tokens": 104,
+      "output_tokens": 87,
+      "total_tokens": 191,
+      "reasoning_tokens": 47,
+      "calls": 1,
+      "latency_s": 0.9291946000885218,
+      "request_ids": [
+        "a667c6021bc64336aea223bb8b72f857"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "Spent: \\( \\frac{2}{3} \\times 150 = 100 \\). Left: \\(150 - 100 = 50\\). Correct.\n\n<answer>50</answer>",
+      "input_tokens": 286,
+      "output_tokens": 200,
+      "total_tokens": 486,
+      "reasoning_tokens": 118,
+      "calls": 2,
+      "latency_s": 1.823995300102979,
+      "request_ids": [
+        "a667c6021bc64336aea223bb8b72f857",
+        "48fad41724b24421a6b42dba934e7ea0"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

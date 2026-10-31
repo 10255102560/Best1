@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ceb39fd64d4c7ba749980b9e6c68099a2fa1e8b43a5846f518e8109f8ee68dd0",
+    "question": "A pet shop had 6 cages of rodents. 3 of the cages have 10 hamsters and the other 3 have 5 guinea pigs. How many rodents did the pet shop have in total?",
+    "answer": "45",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "45",
+      "text": "<answer>45</answer>",
+      "input_tokens": 120,
+      "output_tokens": 46,
+      "total_tokens": 166,
+      "reasoning_tokens": 37,
+      "calls": 1,
+      "latency_s": 0.5490079999435693,
+      "request_ids": [
+        "77cf2b082e974404a8406f7497087649"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "45",
+      "text": "3 cages × 10 hamsters = 30 hamsters  \n3 cages × 5 guinea pigs = 15 guinea pigs  \nTotal = 30 + 15 = 45 rodents\n\n<answer>45</answer>",
+      "input_tokens": 120,
+      "output_tokens": 104,
+      "total_tokens": 224,
+      "reasoning_tokens": 57,
+      "calls": 1,
+      "latency_s": 0.7994534000754356,
+      "request_ids": [
+        "09777eedf38c4656b8c6d42a47fcf958"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "45",
+      "text": "Verified: \\(3 \\times 10 = 30\\) hamsters and \\(3 \\times 5 = 15\\) guinea pigs. Total rodents: \\(30 + 15 = 45\\). The proposed solution is correct.\n\n<answer>45</answer>",
+      "input_tokens": 325,
+      "output_tokens": 253,
+      "total_tokens": 578,
+      "reasoning_tokens": 151,
+      "calls": 2,
+      "latency_s": 2.9952258998528123,
+      "request_ids": [
+        "09777eedf38c4656b8c6d42a47fcf958",
+        "848fcf82a9f04a9394739d3a30adccf4"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

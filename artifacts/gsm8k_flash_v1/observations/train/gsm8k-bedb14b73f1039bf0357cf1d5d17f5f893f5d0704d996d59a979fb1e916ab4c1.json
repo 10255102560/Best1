@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-bedb14b73f1039bf0357cf1d5d17f5f893f5d0704d996d59a979fb1e916ab4c1",
+    "question": "On Thursday Walmart sold 210 pounds of ground beef. On Friday they sold twice that amount. On Saturday they only sold 150 pounds.  What was the average amount of beef sold per day?",
+    "answer": "260",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "260",
+      "text": "<answer>260</answer>",
+      "input_tokens": 118,
+      "output_tokens": 52,
+      "total_tokens": 170,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 0.7552910998929292,
+      "request_ids": [
+        "9f757b2cc97a4a2dabca5fd7d1789e75"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "260",
+      "text": "Thursday: 210 pounds  \nFriday: 2 × 210 = 420 pounds  \nSaturday: 150 pounds  \n\nTotal: 210 + 420 + 150 = 780 pounds  \nAverage per day: 780 ÷ 3 = 260 pounds\n\n<answer>260</answer>",
+      "input_tokens": 118,
+      "output_tokens": 120,
+      "total_tokens": 238,
+      "reasoning_tokens": 58,
+      "calls": 1,
+      "latency_s": 8.370284999953583,
+      "request_ids": [
+        "a4c3ad7e3f6043d5a850750e54e4d846"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "260",
+      "text": "Verified: Total = 210 + 420 + 150 = 780 pounds. Average over 3 days = 780 ÷ 3 = 260 pounds. The proposed solution is correct.\n\n<answer>260</answer>",
+      "input_tokens": 336,
+      "output_tokens": 257,
+      "total_tokens": 593,
+      "reasoning_tokens": 147,
+      "calls": 2,
+      "latency_s": 9.26190899987705,
+      "request_ids": [
+        "a4c3ad7e3f6043d5a850750e54e4d846",
+        "2817f8289a2f43b68269480d57739305"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

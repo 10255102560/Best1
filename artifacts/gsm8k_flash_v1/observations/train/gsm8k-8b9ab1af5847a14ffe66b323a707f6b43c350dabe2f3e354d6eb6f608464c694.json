@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-8b9ab1af5847a14ffe66b323a707f6b43c350dabe2f3e354d6eb6f608464c694",
+    "question": "Five friends eat at a fast-food chain and order the following: 5 pieces of hamburger that cost $3 each; 4 sets of French fries that cost $1.20; 5 cups of soda that cost $0.5 each; and 1 platter of spaghetti that cost $2.7. How much will each of them pay if they will split the bill equally?",
+    "answer": "5",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "<answer>5</answer>",
+      "input_tokens": 158,
+      "output_tokens": 113,
+      "total_tokens": 271,
+      "reasoning_tokens": 104,
+      "calls": 1,
+      "latency_s": 0.9618930998258293,
+      "request_ids": [
+        "97883eae11cd447cb20788eebaab5188"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Hamburgers: \\(5 \\times 3 = 15\\)  \nFrench fries: \\(4 \\times 1.20 = 4.80\\)  \nSodas: \\(5 \\times 0.50 = 2.50\\)  \nSpaghetti: \\(2.70\\)\n\nTotal: \\(15 + 4.80 + 2.50 + 2.70 = 25\\)\n\nEach pays: \\(25 \\div 5 = 5\\)\n\n<answer>5</answer>",
+      "input_tokens": 158,
+      "output_tokens": 233,
+      "total_tokens": 391,
+      "reasoning_tokens": 127,
+      "calls": 1,
+      "latency_s": 1.6314797000959516,
+      "request_ids": [
+        "67e89099c6bf4af98c43112c1e58a085"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Verification: Total cost = \\(5(3)+4(1.20)+5(0.50)+2.70=15+4.80+2.50+2.70=25\\). Split equally among 5 friends: \\(25/5=5\\). The proposed solution is correct.\n\n<answer>5</answer>",
+      "input_tokens": 460,
+      "output_tokens": 471,
+      "total_tokens": 931,
+      "reasoning_tokens": 293,
+      "calls": 2,
+      "latency_s": 4.052263300167397,
+      "request_ids": [
+        "67e89099c6bf4af98c43112c1e58a085",
+        "46f4428a4f484e67b06a6398dceabe88"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

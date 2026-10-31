@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-3f3ac89c0ca7ebb081af5e9ee0958b0eee7d118460b5be0f6122a7c9f52a2cbf",
+    "question": "Two cars are driving on a highway.  The first car is traveling at an average speed of 60 miles per hour when the second car passes it at an average speed of 70 miles per hour.  If both cars continue on the highway at the same speed, how many miles will separate them after 2 hours?",
+    "answer": "20",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "<answer>20</answer>",
+      "input_tokens": 143,
+      "output_tokens": 62,
+      "total_tokens": 205,
+      "reasoning_tokens": 53,
+      "calls": 1,
+      "latency_s": 0.7613796999212354,
+      "request_ids": [
+        "519855bb4b264c31918a4ee0ddb33745"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "The second car gains on the first at:\n\n\\(70 - 60 = 10\\) miles per hour\n\nAfter 2 hours, the distance between them is:\n\n\\(10 \\times 2 = 20\\) miles\n\n<answer>20</answer>",
+      "input_tokens": 143,
+      "output_tokens": 96,
+      "total_tokens": 239,
+      "reasoning_tokens": 42,
+      "calls": 1,
+      "latency_s": 0.9776177001185715,
+      "request_ids": [
+        "ab399e14a17c43d29ce45c9bb47035cf"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "The relative speed is \\(70-60=10\\) mph. In 2 hours, the separation is \\(10 \\times 2=20\\) miles. The proposed solution is correct.\n\n<answer>20</answer>",
+      "input_tokens": 378,
+      "output_tokens": 208,
+      "total_tokens": 586,
+      "reasoning_tokens": 107,
+      "calls": 2,
+      "latency_s": 1.8438142002560198,
+      "request_ids": [
+        "ab399e14a17c43d29ce45c9bb47035cf",
+        "1fc572e37f014f71b631d2964ec699b1"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-2e48e96ab901b97b6e29619ff089c048039dd030a7a4e54929e27779f15ad46b",
+    "question": "Charley has a bag that contains 51 white beads and 90 black beads. He reaches in the bag and pulls out 1/6 of the black beads and a third of the white beads. How many beads in total did Charley pull out?",
+    "answer": "32",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "<answer>32</answer>",
+      "input_tokens": 130,
+      "output_tokens": 47,
+      "total_tokens": 177,
+      "reasoning_tokens": 38,
+      "calls": 1,
+      "latency_s": 0.6186011999379843,
+      "request_ids": [
+        "3fde9215d47a41a1880d2a62ef240be5"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "Black beads pulled: \\(90 \\times \\frac{1}{6} = 15\\)\n\nWhite beads pulled: \\(51 \\times \\frac{1}{3} = 17\\)\n\nTotal pulled: \\(15 + 17 = 32\\)\n\n<answer>32</answer>",
+      "input_tokens": 130,
+      "output_tokens": 103,
+      "total_tokens": 233,
+      "reasoning_tokens": 44,
+      "calls": 1,
+      "latency_s": 0.8369537000544369,
+      "request_ids": [
+        "1f181c6a0ae84d66a08693c35baa4c1b"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "Black: \\(90 \\times \\frac{1}{6}=15\\). White: \\(51 \\times \\frac{1}{3}=17\\). Total: \\(15+17=32\\). The proposed solution is correct.\n\n<answer>32</answer>",
+      "input_tokens": 357,
+      "output_tokens": 230,
+      "total_tokens": 587,
+      "reasoning_tokens": 117,
+      "calls": 2,
+      "latency_s": 1.7691226999741048,
+      "request_ids": [
+        "1f181c6a0ae84d66a08693c35baa4c1b",
+        "49eee717e9e04e4f955cd5ccc43dce49"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

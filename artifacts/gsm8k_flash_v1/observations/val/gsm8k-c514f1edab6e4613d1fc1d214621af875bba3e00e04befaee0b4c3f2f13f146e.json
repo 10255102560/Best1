@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-c514f1edab6e4613d1fc1d214621af875bba3e00e04befaee0b4c3f2f13f146e",
+    "question": "Brittany, Alex, and Jamy all share 600 marbles divided between them in the ratio 3:5:7. If Brittany gives Alex half of her marbles, what's the total number of marbles that Alex has?",
+    "answer": "260",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "260",
+      "text": "<answer>260</answer>",
+      "input_tokens": 125,
+      "output_tokens": 82,
+      "total_tokens": 207,
+      "reasoning_tokens": 73,
+      "calls": 1,
+      "latency_s": 1.1165907001122832,
+      "request_ids": [
+        "e11ee501650a47f695c867f86a00f06f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "260",
+      "text": "Total ratio parts: \\(3+5+7=15\\).  \nEach part: \\(600 \\div 15 = 40\\).  \nBrittany has \\(3 \\times 40 = 120\\) marbles.  \nAlex has \\(5 \\times 40 = 200\\) marbles.  \nBrittany gives Alex half of hers: \\(120 \\div 2 = 60\\).  \nAlex then has \\(200 + 60 = 260\\).\n\n<answer>260</answer>",
+      "input_tokens": 125,
+      "output_tokens": 180,
+      "total_tokens": 305,
+      "reasoning_tokens": 79,
+      "calls": 1,
+      "latency_s": 8.886441099923104,
+      "request_ids": [
+        "69c81fe86cb14f6780200d2e2d0ea2dd"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "260",
+      "text": "Verification: Ratio parts sum to 15; each part is 40. Brittany has 120, Alex has 200. Brittany gives Alex 60, so Alex has 200 + 60 = 260. The proposed solution is correct.\n\n<answer>260</answer>",
+      "input_tokens": 389,
+      "output_tokens": 330,
+      "total_tokens": 719,
+      "reasoning_tokens": 170,
+      "calls": 2,
+      "latency_s": 10.324683899758384,
+      "request_ids": [
+        "69c81fe86cb14f6780200d2e2d0ea2dd",
+        "4ad45b69a5e14d04b1afc2c337724eda"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

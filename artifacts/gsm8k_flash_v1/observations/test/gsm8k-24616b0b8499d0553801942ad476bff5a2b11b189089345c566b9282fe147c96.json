@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-24616b0b8499d0553801942ad476bff5a2b11b189089345c566b9282fe147c96",
+    "question": "Elijah has one dog that is one-fourth the weight of Kory’s dog and another dog that is half the weight of Kory’s dog. If Kory’s dog is 60 pounds, how much do Elijah and Kory’s dogs weigh altogether, in pounds?",
+    "answer": "105",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "105",
+      "text": "<answer>105</answer>",
+      "input_tokens": 137,
+      "output_tokens": 78,
+      "total_tokens": 215,
+      "reasoning_tokens": 69,
+      "calls": 1,
+      "latency_s": 0.6982162001077086,
+      "request_ids": [
+        "8fe1adfc19a542d9b0c2075cd00835fe"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "105",
+      "text": "Kory’s dog: 60 lb  \nElijah’s first dog: \\( \\frac14 \\times 60 = 15 \\) lb  \nElijah’s second dog: \\( \\frac12 \\times 60 = 30 \\) lb  \n\nTotal: \\(60 + 15 + 30 = 105\\) lb\n\n<answer>105</answer>",
+      "input_tokens": 137,
+      "output_tokens": 205,
+      "total_tokens": 342,
+      "reasoning_tokens": 128,
+      "calls": 1,
+      "latency_s": 1.4580542999319732,
+      "request_ids": [
+        "190c18bb9d1e4bf8b6d7dffe92dd2272"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "105",
+      "text": "Kory’s dog = 60 lb.  \nElijah’s dogs = 15 lb and 30 lb.  \nTotal = 60 + 15 + 30 = 105 lb. The proposed solution is correct.\n\n<answer>105</answer>",
+      "input_tokens": 389,
+      "output_tokens": 379,
+      "total_tokens": 768,
+      "reasoning_tokens": 246,
+      "calls": 2,
+      "latency_s": 2.630252300063148,
+      "request_ids": [
+        "190c18bb9d1e4bf8b6d7dffe92dd2272",
+        "ce02ef65c6da4a13a1414cd18acef8e1"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

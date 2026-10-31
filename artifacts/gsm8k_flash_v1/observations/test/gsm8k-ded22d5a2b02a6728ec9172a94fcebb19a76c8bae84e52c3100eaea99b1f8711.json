@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ded22d5a2b02a6728ec9172a94fcebb19a76c8bae84e52c3100eaea99b1f8711",
+    "question": "Brianne and Ashley make greek orange pie. Ashley brought five boxes with ten oranges in each box, while Brianne brought 20 more oranges than Ashley. If one greek orange pie needs three oranges, how many greek orange pies can they make?",
+    "answer": "40",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "40",
+      "text": "<answer>40</answer>",
+      "input_tokens": 130,
+      "output_tokens": 59,
+      "total_tokens": 189,
+      "reasoning_tokens": 50,
+      "calls": 1,
+      "latency_s": 0.8938853000290692,
+      "request_ids": [
+        "857667bd65b84e75bf66d5d296f17aac"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "40",
+      "text": "Ashley brought \\(5 \\times 10 = 50\\) oranges.  \nBrianne brought \\(50 + 20 = 70\\) oranges.  \nTotal oranges: \\(50 + 70 = 120\\).  \nPies: \\(120 \\div 3 = 40\\).\n\n<answer>40</answer>",
+      "input_tokens": 130,
+      "output_tokens": 120,
+      "total_tokens": 250,
+      "reasoning_tokens": 54,
+      "calls": 1,
+      "latency_s": 4.751872200053185,
+      "request_ids": [
+        "91c88c994f3a4087bf4c3c13b1a5c789"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "40",
+      "text": "Verified: Ashley has \\(5 \\times 10 = 50\\) oranges; Brianne has \\(50 + 20 = 70\\); total \\(120\\); pies \\(120 \\div 3 = 40\\). The proposed solution is correct.\n\n<answer>40</answer>",
+      "input_tokens": 364,
+      "output_tokens": 267,
+      "total_tokens": 631,
+      "reasoning_tokens": 143,
+      "calls": 2,
+      "latency_s": 5.904024600051343,
+      "request_ids": [
+        "91c88c994f3a4087bf4c3c13b1a5c789",
+        "2ee9131d48e84e36a55d059cf2aeaf7b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

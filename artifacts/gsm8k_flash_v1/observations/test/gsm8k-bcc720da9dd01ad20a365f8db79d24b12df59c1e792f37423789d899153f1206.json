@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-bcc720da9dd01ad20a365f8db79d24b12df59c1e792f37423789d899153f1206",
+    "question": "James loves to go swimming and has to swim across a 20-mile lake.  He can swim at a pace of 2 miles per hour.  He swims 60% of the distance.  After that, he stops on an island and rests for half as long as the swimming time.  He then finishes the remaining distance while going half the speed.  How long did it take him to get across the lake?",
+    "answer": "17",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "17",
+      "text": "<answer>17</answer>",
+      "input_tokens": 165,
+      "output_tokens": 190,
+      "total_tokens": 355,
+      "reasoning_tokens": 181,
+      "calls": 1,
+      "latency_s": 1.1999621000140905,
+      "request_ids": [
+        "eaa64701d8cf4e708a7b88175f522a0f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "17",
+      "text": "James swims 60% of 20 miles:\n\n- Distance swum first: \\(0.6 \\times 20 = 12\\) miles\n- Time at 2 mph: \\(12 \\div 2 = 6\\) hours\n- Rest time: half of 6 = 3 hours\n- Remaining distance: \\(20 - 12 = 8\\) miles\n- Speed is half of 2 mph = 1 mph\n- Time for remaining distance: \\(8 \\div 1 = 8\\) hours\n\nTotal time: \\(6 + 3 + 8 = 17\\) hours\n\n<answer>17</answer>",
+      "input_tokens": 165,
+      "output_tokens": 262,
+      "total_tokens": 427,
+      "reasoning_tokens": 126,
+      "calls": 1,
+      "latency_s": 1.305267499992624,
+      "request_ids": [
+        "8c1d91ba08d048a388f0eeb37f4f9327"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "17",
+      "text": "First leg: \\(0.6 \\times 20 = 12\\) miles at 2 mph → \\(12/2 = 6\\) hours.  \nRest: half of 6 = 3 hours.  \nRemaining: \\(20-12=8\\) miles at half speed \\(=1\\) mph → 8 hours.  \nTotal: \\(6+3+8=17\\) hours.\n\n<answer>17</answer>",
+      "input_tokens": 504,
+      "output_tokens": 523,
+      "total_tokens": 1027,
+      "reasoning_tokens": 296,
+      "calls": 2,
+      "latency_s": 2.9127827000338584,
+      "request_ids": [
+        "8c1d91ba08d048a388f0eeb37f4f9327",
+        "153e9b90e185414da288db429fda324b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

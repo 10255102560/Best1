@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7f2446ea03108344e2185a86e89c3e1d871d28a5a0738585e7db7924def7b9b0",
+    "question": "A monkey swings from branch to branch at an average distance of 1.2 meters per second. How far will a monkey swing in meters if it consistently swings from branches for 30 minutes?",
+    "answer": "2160",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "2160",
+      "text": "<answer>2160</answer>",
+      "input_tokens": 117,
+      "output_tokens": 64,
+      "total_tokens": 181,
+      "reasoning_tokens": 54,
+      "calls": 1,
+      "latency_s": 0.5670400001108646,
+      "request_ids": [
+        "6ea742d5b2da46fd9ddd86e1aa712072"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "2160",
+      "text": "30 minutes = 30 × 60 = 1800 seconds  \nDistance = 1.2 × 1800 = 2160 meters\n\n<answer>2160</answer>",
+      "input_tokens": 117,
+      "output_tokens": 97,
+      "total_tokens": 214,
+      "reasoning_tokens": 57,
+      "calls": 1,
+      "latency_s": 0.7806783998385072,
+      "request_ids": [
+        "6e90aba6bc9843ca9e72f3e6e29c0fa9"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "2160",
+      "text": "The speed is 1.2 m/s, and 30 minutes = 1800 seconds. Distance = 1.2 × 1800 = 2160 meters. The proposed solution is correct.\n\n<answer>2160</answer>",
+      "input_tokens": 312,
+      "output_tokens": 225,
+      "total_tokens": 537,
+      "reasoning_tokens": 133,
+      "calls": 2,
+      "latency_s": 2.8821207999717444,
+      "request_ids": [
+        "6e90aba6bc9843ca9e72f3e6e29c0fa9",
+        "d84d302d3b8f48da9f92de5dabe99912"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-b11b56a423ba220e96b19cac692b6e312f1f219f840d8b50717ba96469152621",
+    "question": "Rory makes a cake that weighs 20 ounces. She cuts into 8 pieces. Rory and her mom each have a piece. How much does the remaining cake weigh?",
+    "answer": "15",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "<answer>15</answer>",
+      "input_tokens": 113,
+      "output_tokens": 71,
+      "total_tokens": 184,
+      "reasoning_tokens": 62,
+      "calls": 1,
+      "latency_s": 0.8823661999776959,
+      "request_ids": [
+        "993fad8282294a669f4d096a5c4eaca6"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "The cake is cut into 8 equal pieces, so each piece weighs:\n\n20 ÷ 8 = 2.5 ounces\n\nRory and her mom eat 2 pieces:\n\n2 × 2.5 = 5 ounces\n\nRemaining cake:\n\n20 − 5 = 15 ounces\n\n<answer>15</answer>",
+      "input_tokens": 113,
+      "output_tokens": 126,
+      "total_tokens": 239,
+      "reasoning_tokens": 57,
+      "calls": 1,
+      "latency_s": 0.866290400037542,
+      "request_ids": [
+        "ea819fc75046443e9741ac107f968bc4"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Verified: 8 equal pieces of 20 oz are 2.5 oz each. Two pieces eaten = 5 oz. Remaining = 20 − 5 = 15 oz.\n\n<answer>15</answer>",
+      "input_tokens": 333,
+      "output_tokens": 276,
+      "total_tokens": 609,
+      "reasoning_tokens": 159,
+      "calls": 2,
+      "latency_s": 1.952694300096482,
+      "request_ids": [
+        "ea819fc75046443e9741ac107f968bc4",
+        "e67fa8ced61041019a933af51a369fd2"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

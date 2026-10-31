@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-4e65f5645e63494b8d8a114771b4edb5f18ac47ea6d291a2b1d4638844aecf6c",
+    "question": "I run 12 miles in 90 minutes. What is my average speed in miles per hour?",
+    "answer": "8",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "<answer>8</answer>",
+      "input_tokens": 98,
+      "output_tokens": 44,
+      "total_tokens": 142,
+      "reasoning_tokens": 35,
+      "calls": 1,
+      "latency_s": 0.7798037000466138,
+      "request_ids": [
+        "bf3a92f74f2d4deea79d9b82fdafab62"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "90 minutes = 1.5 hours.  \nAverage speed = 12 miles ÷ 1.5 hours = 8 miles per hour.\n\n<answer>8</answer>",
+      "input_tokens": 98,
+      "output_tokens": 85,
+      "total_tokens": 183,
+      "reasoning_tokens": 47,
+      "calls": 1,
+      "latency_s": 0.7507632998749614,
+      "request_ids": [
+        "d5757940b5ed472da2f9e24729332139"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "90 minutes = 1.5 hours. 12 ÷ 1.5 = 8 miles per hour. The proposed solution is correct.\n\n<answer>8</answer>",
+      "input_tokens": 272,
+      "output_tokens": 160,
+      "total_tokens": 432,
+      "reasoning_tokens": 84,
+      "calls": 2,
+      "latency_s": 1.5501546999439597,
+      "request_ids": [
+        "d5757940b5ed472da2f9e24729332139",
+        "2691967d2c1d499f9bfe2dc7ed1af51d"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

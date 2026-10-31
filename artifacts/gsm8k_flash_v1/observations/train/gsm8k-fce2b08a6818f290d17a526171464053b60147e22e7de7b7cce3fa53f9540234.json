@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-fce2b08a6818f290d17a526171464053b60147e22e7de7b7cce3fa53f9540234",
+    "question": "Lars owns a bakeshop. She can bake 10 loaves of bread within an hour and 30 baguettes every 2 hours. If she bakes 6 hours a day, how many breads does she makes?",
+    "answer": "150",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "150",
+      "text": "<answer>150</answer>",
+      "input_tokens": 127,
+      "output_tokens": 107,
+      "total_tokens": 234,
+      "reasoning_tokens": 98,
+      "calls": 1,
+      "latency_s": 0.8971367001067847,
+      "request_ids": [
+        "de4bbf64d30646e08d00a6aead8425d4"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "150",
+      "text": "Loaves per day: \\(10 \\times 6 = 60\\)\n\nBaguettes per day: \\(30 \\times \\frac{6}{2} = 30 \\times 3 = 90\\)\n\nTotal breads: \\(60 + 90 = 150\\)\n\n<answer>150</answer>",
+      "input_tokens": 127,
+      "output_tokens": 172,
+      "total_tokens": 299,
+      "reasoning_tokens": 107,
+      "calls": 1,
+      "latency_s": 1.209497099975124,
+      "request_ids": [
+        "567cd70013274675a67ad4a8caa3fe00"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "150",
+      "text": "Rates: 10 loaves/hour × 6 = 60 loaves; 30 baguettes/2 hours × 3 = 90 baguettes. Total = 60 + 90 = 150. Arithmetic and requested total are consistent with the intended interpretation.\n\n<answer>150</answer>",
+      "input_tokens": 357,
+      "output_tokens": 760,
+      "total_tokens": 1117,
+      "reasoning_tokens": 629,
+      "calls": 2,
+      "latency_s": 4.339497399982065,
+      "request_ids": [
+        "567cd70013274675a67ad4a8caa3fe00",
+        "d6c6007d94f64a1c838ae2a552a8dba4"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

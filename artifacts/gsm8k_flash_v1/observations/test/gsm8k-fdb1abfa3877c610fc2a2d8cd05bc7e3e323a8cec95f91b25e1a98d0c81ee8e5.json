@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-fdb1abfa3877c610fc2a2d8cd05bc7e3e323a8cec95f91b25e1a98d0c81ee8e5",
+    "question": "Peter plans to go to the movies this week. He always gets a ticket for $7 and popcorn for $7. If he has 42 dollars for the week, how many times can he go to the movies?",
+    "answer": "3",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "<answer>3</answer>",
+      "input_tokens": 122,
+      "output_tokens": 43,
+      "total_tokens": 165,
+      "reasoning_tokens": 34,
+      "calls": 1,
+      "latency_s": 1.0742516000755131,
+      "request_ids": [
+        "fdba2d6a8b984838bbe8de33d3d6c190"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "Each movie trip costs $7 + $7 = $14.  \n$42 ÷ $14 = 3.\n\n<answer>3</answer>",
+      "input_tokens": 122,
+      "output_tokens": 71,
+      "total_tokens": 193,
+      "reasoning_tokens": 39,
+      "calls": 1,
+      "latency_s": 0.6437864999752492,
+      "request_ids": [
+        "340ef52285ee4e68b71534db50ae6052"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "Each trip costs $7 + $7 = $14. With $42, he can go $42 ÷ $14 = 3 times. The proposed solution is correct.\n\n<answer>3</answer>",
+      "input_tokens": 314,
+      "output_tokens": 184,
+      "total_tokens": 498,
+      "reasoning_tokens": 108,
+      "calls": 2,
+      "latency_s": 1.5249115000478923,
+      "request_ids": [
+        "340ef52285ee4e68b71534db50ae6052",
+        "54f9d5e5c5ff4780b292f6c0488af19d"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

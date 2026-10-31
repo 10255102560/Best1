@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-bdfad0cd75e37d1730bae6e34e9f9770b471e7c9db79077457fa8b88644521f1",
+    "question": "4 friends are running a 4 x 100 relay race.  Mary ran first and took twice as long as Susan.  Susan ran second and she took 10 seconds longer than Jen.  Jen ran third and finished in 30 seconds.  Tiffany ran the last leg and finished in 7 seconds less than Mary.  How many seconds did it take the team to finish the race?",
+    "answer": "223",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "223",
+      "text": "<answer>223</answer>",
+      "input_tokens": 158,
+      "output_tokens": 106,
+      "total_tokens": 264,
+      "reasoning_tokens": 97,
+      "calls": 1,
+      "latency_s": 1.3445921000093222,
+      "request_ids": [
+        "522562efd45347a0a2b4565ab06377dc"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "223",
+      "text": "Jen = 30 seconds  \nSusan = 30 + 10 = 40 seconds  \nMary = 2 × 40 = 80 seconds  \nTiffany = 80 − 7 = 73 seconds  \n\nTotal = 80 + 40 + 30 + 73 = 223 seconds\n\n<answer>223</answer>",
+      "input_tokens": 158,
+      "output_tokens": 232,
+      "total_tokens": 390,
+      "reasoning_tokens": 162,
+      "calls": 1,
+      "latency_s": 1.550966699840501,
+      "request_ids": [
+        "e0649a52210f491786693c7ee5ef1629"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "223",
+      "text": "Jen = 30 s; Susan = 30 + 10 = 40 s; Mary = 2 × 40 = 80 s; Tiffany = 80 − 7 = 73 s. Total = 80 + 40 + 30 + 73 = 223 s. The proposed solution is correct.\n\n<answer>223</answer>",
+      "input_tokens": 424,
+      "output_tokens": 436,
+      "total_tokens": 860,
+      "reasoning_tokens": 291,
+      "calls": 2,
+      "latency_s": 3.5244689998216927,
+      "request_ids": [
+        "e0649a52210f491786693c7ee5ef1629",
+        "3947c95097de402db064872659ae2ffe"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ed4128cfa1c0840d708702853cdd34bfe369fc926b47dfbb677b552e23dd44b2",
+    "question": "Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, containing seeds, mealworms and vegetables to help keep them healthy.  She gives the chickens their feed in three separate meals. In the morning, she gives her flock of chickens 15 cups of feed.  In the afternoon, she gives her chickens another 25 cups of feed.  How many cups of feed does she need to give her chickens in the final meal of the day if the size of Wendi's flock is 20 chickens?",
+    "answer": "20",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "<answer>20</answer>",
+      "input_tokens": 185,
+      "output_tokens": 67,
+      "total_tokens": 252,
+      "reasoning_tokens": 58,
+      "calls": 1,
+      "latency_s": 0.896374300122261,
+      "request_ids": [
+        "4434175f8c0440b181aabcb7617573a3"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "Total daily feed needed: \\(20 \\times 3 = 60\\) cups.  \nFeed already given: \\(15 + 25 = 40\\) cups.  \nFinal meal needed: \\(60 - 40 = 20\\) cups.\n\n<answer>20</answer>",
+      "input_tokens": 185,
+      "output_tokens": 109,
+      "total_tokens": 294,
+      "reasoning_tokens": 51,
+      "calls": 1,
+      "latency_s": 0.8976443000137806,
+      "request_ids": [
+        "1721c6f8b80c489bac8576d49f8606c7"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "The daily total is \\(20 \\times 3 = 60\\) cups. Already given: \\(15 + 25 = 40\\) cups. Final meal: \\(60 - 40 = 20\\) cups. The proposed solution is correct.\n\n<answer>20</answer>",
+      "input_tokens": 466,
+      "output_tokens": 239,
+      "total_tokens": 705,
+      "reasoning_tokens": 122,
+      "calls": 2,
+      "latency_s": 1.8274747999385,
+      "request_ids": [
+        "1721c6f8b80c489bac8576d49f8606c7",
+        "6d7c6da17a004cbfac1f922d5cf39172"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

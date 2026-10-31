@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-a376eaf1ac071f4ae3ebf7ca85c1c7e60b366bed5c07ce2f47e114bf997de5a2",
+    "question": "Martha's cat is 5 times faster than her turtle. If the cat can run 15 feet/second, how many feet can her turtle crawl in 40 seconds?",
+    "answer": "120",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "120",
+      "text": "<answer>120</answer>",
+      "input_tokens": 113,
+      "output_tokens": 63,
+      "total_tokens": 176,
+      "reasoning_tokens": 54,
+      "calls": 1,
+      "latency_s": 0.9341700000222772,
+      "request_ids": [
+        "bb40a6d3f134496a9c0959f4bcda92d7"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "120",
+      "text": "The cat runs at 15 ft/s and is 5 times faster than the turtle.\n\nTurtle speed = 15 ÷ 5 = 3 ft/s  \nDistance in 40 seconds = 3 × 40 = 120 feet\n\n<answer>120</answer>",
+      "input_tokens": 113,
+      "output_tokens": 160,
+      "total_tokens": 273,
+      "reasoning_tokens": 102,
+      "calls": 1,
+      "latency_s": 1.1204856999684125,
+      "request_ids": [
+        "66c1b5a49a754d23865dd9fa642c5a2b"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "120",
+      "text": "The cat is 15 ft/s and 5 times as fast as the turtle, so turtle speed is 15 ÷ 5 = 3 ft/s. In 40 seconds, the turtle crawls 3 × 40 = 120 feet. The proposed solution is correct.\n\n<answer>120</answer>",
+      "input_tokens": 322,
+      "output_tokens": 312,
+      "total_tokens": 634,
+      "reasoning_tokens": 188,
+      "calls": 2,
+      "latency_s": 2.8547191999386996,
+      "request_ids": [
+        "66c1b5a49a754d23865dd9fa642c5a2b",
+        "c9de859f31064607915be603fd7dda8d"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

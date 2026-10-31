@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-c489c2c2a86f098db42235a1cc2171922953e349e156ef13993d8fdbd5f64ce5",
+    "question": "Mary has 6 jars of sprinkles in her pantry. Each jar of sprinkles can decorate 8 cupcakes. Mary wants to bake enough cupcakes to use up all of her sprinkles. If each pan holds 12 cupcakes, how many pans worth of cupcakes should she bake?",
+    "answer": "4",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "<answer>4</answer>",
+      "input_tokens": 134,
+      "output_tokens": 55,
+      "total_tokens": 189,
+      "reasoning_tokens": 46,
+      "calls": 1,
+      "latency_s": 0.8598542001564056,
+      "request_ids": [
+        "a1ee95ccd96e470297698fae7c0611f9"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "Mary has \\(6 \\times 8 = 48\\) cupcakes worth of sprinkles.\n\nEach pan holds 12 cupcakes, so she needs \\(48 \\div 12 = 4\\) pans.\n\n<answer>4</answer>",
+      "input_tokens": 134,
+      "output_tokens": 112,
+      "total_tokens": 246,
+      "reasoning_tokens": 63,
+      "calls": 1,
+      "latency_s": 0.7940839000511914,
+      "request_ids": [
+        "b9996359bc4949a19ef80874f32a34d2"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "The calculation is correct: \\(6 \\times 8 = 48\\) cupcakes, and \\(48 \\div 12 = 4\\) pans.\n\n<answer>4</answer>",
+      "input_tokens": 355,
+      "output_tokens": 220,
+      "total_tokens": 575,
+      "reasoning_tokens": 132,
+      "calls": 2,
+      "latency_s": 1.685184400063008,
+      "request_ids": [
+        "b9996359bc4949a19ef80874f32a34d2",
+        "60d7e0dc7b494231812a409f1ba4eb18"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

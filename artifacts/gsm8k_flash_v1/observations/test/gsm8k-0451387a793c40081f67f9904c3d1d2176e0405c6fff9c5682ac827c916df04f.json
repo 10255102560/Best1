@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0451387a793c40081f67f9904c3d1d2176e0405c6fff9c5682ac827c916df04f",
+    "question": "A landscaping company is delivering flagstones to a customer’s yard. Each flagstone weighs 75 pounds. If the delivery trucks can carry a total weight of 2000 pounds, how many trucks will be needed to transport 80 flagstones in one trip?",
+    "answer": "3",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "<answer>3</answer>",
+      "input_tokens": 131,
+      "output_tokens": 49,
+      "total_tokens": 180,
+      "reasoning_tokens": 40,
+      "calls": 1,
+      "latency_s": 1.4138341001234949,
+      "request_ids": [
+        "1fb73107708d4884a5f7c8acceaaef03"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "Total weight: \\(80 \\times 75 = 6000\\) pounds.  \nTrucks needed: \\(6000 \\div 2000 = 3\\).\n\n<answer>3</answer>",
+      "input_tokens": 131,
+      "output_tokens": 102,
+      "total_tokens": 233,
+      "reasoning_tokens": 59,
+      "calls": 1,
+      "latency_s": 0.9060344998724759,
+      "request_ids": [
+        "2eccc0526f17478eab3767b7a6d9bd6f"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "Total weight is \\(80 \\times 75 = 6000\\) pounds. At 2000 pounds per truck, \\(6000 \\div 2000 = 3\\) trucks are needed.\n\n<answer>3</answer>",
+      "input_tokens": 343,
+      "output_tokens": 195,
+      "total_tokens": 538,
+      "reasoning_tokens": 103,
+      "calls": 2,
+      "latency_s": 1.8042538999579847,
+      "request_ids": [
+        "2eccc0526f17478eab3767b7a6d9bd6f",
+        "da1baa2378534e718ffd8041d6f65c8a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

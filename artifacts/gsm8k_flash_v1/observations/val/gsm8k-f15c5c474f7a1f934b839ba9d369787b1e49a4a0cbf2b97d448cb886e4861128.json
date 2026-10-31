@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f15c5c474f7a1f934b839ba9d369787b1e49a4a0cbf2b97d448cb886e4861128",
+    "question": "Mike began to train to play basketball every day for a tournament. One day he plays a maximum of 2 hours. After a week of training, he increased the maximum time to 3 hours. How many hours did Mike train during the first two weeks?",
+    "answer": "35",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "35",
+      "text": "<answer>35</answer>",
+      "input_tokens": 130,
+      "output_tokens": 120,
+      "total_tokens": 250,
+      "reasoning_tokens": 111,
+      "calls": 1,
+      "latency_s": 0.885513300076127,
+      "request_ids": [
+        "46c0147d84fd4d3c877f26fa1ee92119"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "35",
+      "text": "First week: \\(7 \\times 2 = 14\\) hours  \nSecond week: \\(7 \\times 3 = 21\\) hours  \nTotal: \\(14 + 21 = 35\\) hours\n\n<answer>35</answer>",
+      "input_tokens": 130,
+      "output_tokens": 181,
+      "total_tokens": 311,
+      "reasoning_tokens": 129,
+      "calls": 1,
+      "latency_s": 1.1330899999011308,
+      "request_ids": [
+        "a4ca4b16f4d24293917b0c29c27edd65"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "35",
+      "text": "The interpretation assumes Mike trains the maximum time each day. First week: \\(7 \\times 2 = 14\\) hours. Second week: \\(7 \\times 3 = 21\\) hours. Total: \\(14 + 21 = 35\\) hours. The arithmetic is correct.\n\n<answer>35</answer>",
+      "input_tokens": 350,
+      "output_tokens": 368,
+      "total_tokens": 718,
+      "reasoning_tokens": 248,
+      "calls": 2,
+      "latency_s": 2.333796099992469,
+      "request_ids": [
+        "a4ca4b16f4d24293917b0c29c27edd65",
+        "01453341d5d640749bef0d23921d31a6"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

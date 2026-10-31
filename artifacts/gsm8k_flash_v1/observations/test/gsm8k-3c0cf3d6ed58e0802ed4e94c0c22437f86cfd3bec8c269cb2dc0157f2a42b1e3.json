@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-3c0cf3d6ed58e0802ed4e94c0c22437f86cfd3bec8c269cb2dc0157f2a42b1e3",
+    "question": "Johnny's dad brought him to watch some horse racing and his dad bet money. On the first race, he lost $5. On the second race, he won $1 more than twice the amount he previously lost. On the third race, he lost 1.5 times as much as he won in the second race. How much did he lose on average that day?",
+    "answer": "3",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 0,
+      "prediction": "3.5",
+      "text": "<answer>3.5</answer>",
+      "input_tokens": 155,
+      "output_tokens": 249,
+      "total_tokens": 404,
+      "reasoning_tokens": 238,
+      "calls": 1,
+      "latency_s": 1.7155023000668734,
+      "request_ids": [
+        "1a489e811ecd4b13ac6effb1983badbe"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 0,
+      "prediction": "3.5",
+      "text": "First race: lost $5.  \nSecond race: won \\(2 \\times 5 + 1 = 11\\).  \nThird race: lost \\(1.5 \\times 11 = 16.5\\).\n\nNet result: \\(-5 + 11 - 16.5 = -10.5\\), so he lost $10.50 total.  \nAverage loss per race: \\(10.5 \\div 3 = 3.5\\).\n\n<answer>3.5</answer>",
+      "input_tokens": 155,
+      "output_tokens": 637,
+      "total_tokens": 792,
+      "reasoning_tokens": 534,
+      "calls": 1,
+      "latency_s": 3.064978600014001,
+      "request_ids": [
+        "f2409dd823634eca8005db25cdae7d22"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 0,
+      "prediction": "3.5",
+      "text": "First race: −5. Second race: +11. Third race: −16.5. Net: −10.5. Average per race: 10.5 ÷ 3 = 3.5. The proposed solution is correct.\n\n<answer>3.5</answer>",
+      "input_tokens": 451,
+      "output_tokens": 828,
+      "total_tokens": 1279,
+      "reasoning_tokens": 664,
+      "calls": 2,
+      "latency_s": 4.278369500068948,
+      "request_ids": [
+        "f2409dd823634eca8005db25cdae7d22",
+        "230d6ee046e443dd958818b9259ede24"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

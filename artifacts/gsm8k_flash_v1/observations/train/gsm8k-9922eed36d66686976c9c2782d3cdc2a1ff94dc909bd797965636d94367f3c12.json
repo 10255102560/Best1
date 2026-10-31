@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-9922eed36d66686976c9c2782d3cdc2a1ff94dc909bd797965636d94367f3c12",
+    "question": "For the gala luncheon planning committee, Margaret wants to serve chicken salad sandwiches using mini croissants.  She wants there to be enough food that each person on the committee can have 2 sandwiches each.  Her bakery offers 12 minis croissants for $8.00.  There are 24 people on the committee. How much will she spend on croissants?",
+    "answer": "32",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "<answer>32</answer>",
+      "input_tokens": 158,
+      "output_tokens": 101,
+      "total_tokens": 259,
+      "reasoning_tokens": 92,
+      "calls": 1,
+      "latency_s": 0.8487591999582946,
+      "request_ids": [
+        "7a0fe48696a848dfa45df2610879789a"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "24 people × 2 sandwiches = 48 mini croissants.  \n48 ÷ 12 = 4 packs.  \n4 × $8.00 = $32.00.\n\n<answer>32</answer>",
+      "input_tokens": 158,
+      "output_tokens": 105,
+      "total_tokens": 263,
+      "reasoning_tokens": 59,
+      "calls": 1,
+      "latency_s": 0.8392864000052214,
+      "request_ids": [
+        "833ce93306794701ae3f1a3b7788a46e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "24 × 2 = 48 croissants; 48 ÷ 12 = 4 packs; 4 × $8 = $32. The proposed solution is correct.\n\n<answer>32</answer>",
+      "input_tokens": 400,
+      "output_tokens": 253,
+      "total_tokens": 653,
+      "reasoning_tokens": 162,
+      "calls": 2,
+      "latency_s": 1.9130933999549598,
+      "request_ids": [
+        "833ce93306794701ae3f1a3b7788a46e",
+        "a0017134f73440a48cdc2efc68e69ee7"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

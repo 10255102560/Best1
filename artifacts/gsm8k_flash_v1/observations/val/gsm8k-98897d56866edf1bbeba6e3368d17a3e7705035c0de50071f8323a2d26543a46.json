@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-98897d56866edf1bbeba6e3368d17a3e7705035c0de50071f8323a2d26543a46",
+    "question": "Shawna has 7 acorns. Sheila has 5 times as many acorns as Shawna, but 3 fewer acorns than Danny. How many acorns do they have altogether?",
+    "answer": "80",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "80",
+      "text": "<answer>80</answer>",
+      "input_tokens": 118,
+      "output_tokens": 64,
+      "total_tokens": 182,
+      "reasoning_tokens": 55,
+      "calls": 1,
+      "latency_s": 0.7989454998169094,
+      "request_ids": [
+        "cca28163822248b89ca6202c85e9a520"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "80",
+      "text": "Shawna: 7  \nSheila: \\(5 \\times 7 = 35\\)  \nDanny: \\(35 + 3 = 38\\)  \nTotal: \\(7 + 35 + 38 = 80\\)\n\n<answer>80</answer>",
+      "input_tokens": 118,
+      "output_tokens": 112,
+      "total_tokens": 230,
+      "reasoning_tokens": 55,
+      "calls": 1,
+      "latency_s": 7.5764391999691725,
+      "request_ids": [
+        "df1fbc6b03fd480bbd258f71d5aa7cc9"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "80",
+      "text": "Shawna = 7; Sheila = 5 × 7 = 35; Danny = 35 + 3 = 38. Total = 7 + 35 + 38 = 80. The proposed solution is correct.\n\n<answer>80</answer>",
+      "input_tokens": 331,
+      "output_tokens": 258,
+      "total_tokens": 589,
+      "reasoning_tokens": 143,
+      "calls": 2,
+      "latency_s": 8.441228699870408,
+      "request_ids": [
+        "df1fbc6b03fd480bbd258f71d5aa7cc9",
+        "090fd96b3604473eb3ccd557b77a6f1f"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-a177996821d5d14dd71eee63815edffabaf95de19d0c0099d14c19f67a09c89c",
+    "question": "In Fifi's closet, she hangs all of her clothes on colored plastic hangers.  She has clothes hanging on 7 pink hangers, 4 green hangers, one less blue hanger than there are green hangers, and one less yellow hanger than there are blue hangers.  What is the total number of colored hangers in Fifi's closet?",
+    "answer": "16",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "16",
+      "text": "<answer>16</answer>",
+      "input_tokens": 155,
+      "output_tokens": 59,
+      "total_tokens": 214,
+      "reasoning_tokens": 50,
+      "calls": 1,
+      "latency_s": 0.6239521000534296,
+      "request_ids": [
+        "d127d894daa14a39aa6035b240fa9c52"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "16",
+      "text": "Pink: 7  \nGreen: 4  \nBlue: 4 − 1 = 3  \nYellow: 3 − 1 = 2  \n\nTotal: 7 + 4 + 3 + 2 = 16\n\n<answer>16</answer>",
+      "input_tokens": 155,
+      "output_tokens": 125,
+      "total_tokens": 280,
+      "reasoning_tokens": 66,
+      "calls": 1,
+      "latency_s": 0.8646555000450462,
+      "request_ids": [
+        "a67c6bd5adfb46c8bc2a9482ca08062b"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "16",
+      "text": "Pink = 7, Green = 4, Blue = 4 − 1 = 3, Yellow = 3 − 1 = 2. Total = 7 + 4 + 3 + 2 = 16. The proposed solution is correct.\n\n<answer>16</answer>",
+      "input_tokens": 407,
+      "output_tokens": 268,
+      "total_tokens": 675,
+      "reasoning_tokens": 144,
+      "calls": 2,
+      "latency_s": 1.861187200061977,
+      "request_ids": [
+        "a67c6bd5adfb46c8bc2a9482ca08062b",
+        "9587e051863d4254bed0d5c2f9645213"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-6f902cedcd73196b96ccac135e5072847d8e1104ea04bcfcb7d0201cf98f6f10",
+    "question": "It takes Jennifer 20 minutes to groom each of her 2 long hair dachshunds.  If she grooms her dogs every day, how many hours does she spend grooming her dogs in 30 days?",
+    "answer": "20",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "<answer>20</answer>",
+      "input_tokens": 122,
+      "output_tokens": 46,
+      "total_tokens": 168,
+      "reasoning_tokens": 37,
+      "calls": 1,
+      "latency_s": 1.404663800029084,
+      "request_ids": [
+        "319d8114330f4d769da4e34c3989c392"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "Jennifer spends \\(20 \\times 2 = 40\\) minutes grooming per day.\n\nIn 30 days: \\(40 \\times 30 = 1200\\) minutes.\n\n\\(1200 \\div 60 = 20\\) hours.\n\n<answer>20</answer>",
+      "input_tokens": 122,
+      "output_tokens": 100,
+      "total_tokens": 222,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 4.813070399919525,
+      "request_ids": [
+        "779e290eadc8425d89853b16f3c20a2e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "Verified: \\(20 \\times 2 \\times 30 = 1200\\) minutes, and \\(1200 \\div 60 = 20\\) hours. The proposed solution is correct.\n\n<answer>20</answer>",
+      "input_tokens": 339,
+      "output_tokens": 226,
+      "total_tokens": 565,
+      "reasoning_tokens": 121,
+      "calls": 2,
+      "latency_s": 5.738785199820995,
+      "request_ids": [
+        "779e290eadc8425d89853b16f3c20a2e",
+        "1f5497e6f1d54544868259780e87e51b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

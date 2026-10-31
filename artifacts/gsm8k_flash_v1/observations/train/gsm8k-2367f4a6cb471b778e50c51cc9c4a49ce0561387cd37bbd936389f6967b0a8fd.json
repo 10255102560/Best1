@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-2367f4a6cb471b778e50c51cc9c4a49ce0561387cd37bbd936389f6967b0a8fd",
+    "question": "Of the 100 soccer balls that Nova went to inflate, 40 percent had holes in them and could not inflate, while 20% of the remaining balls were overinflated and exploded. How many balls were inflated successfully and could be used?",
+    "answer": "48",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "48",
+      "text": "<answer>48</answer>",
+      "input_tokens": 130,
+      "output_tokens": 68,
+      "total_tokens": 198,
+      "reasoning_tokens": 59,
+      "calls": 1,
+      "latency_s": 0.5684444999787956,
+      "request_ids": [
+        "754cb166ef2e4b3da153314429305820"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "48",
+      "text": "40% of 100 = 40 balls had holes.  \nRemaining balls = 100 − 40 = 60.  \n20% of 60 = 12 exploded.  \nSuccessful balls = 60 − 12 = 48.\n\n<answer>48</answer>",
+      "input_tokens": 130,
+      "output_tokens": 115,
+      "total_tokens": 245,
+      "reasoning_tokens": 56,
+      "calls": 1,
+      "latency_s": 0.8277980999555439,
+      "request_ids": [
+        "580ecc67ebfe4b09abc4d0983862d70a"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "48",
+      "text": "40% of 100 = 40 unusable due to holes. Remaining = 60. 20% of 60 = 12 exploded. Successful = 60 − 12 = 48. The interpretation and arithmetic are correct.\n\n<answer>48</answer>",
+      "input_tokens": 357,
+      "output_tokens": 313,
+      "total_tokens": 670,
+      "reasoning_tokens": 196,
+      "calls": 2,
+      "latency_s": 2.525389599846676,
+      "request_ids": [
+        "580ecc67ebfe4b09abc4d0983862d70a",
+        "39ae91686761484eb757da43ce2c341e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

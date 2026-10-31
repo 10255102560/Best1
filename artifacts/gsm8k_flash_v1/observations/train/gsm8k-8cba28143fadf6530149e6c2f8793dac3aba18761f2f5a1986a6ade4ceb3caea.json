@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-8cba28143fadf6530149e6c2f8793dac3aba18761f2f5a1986a6ade4ceb3caea",
+    "question": "Steve has decided to become a baker. On Mondays, Wednesdays and Fridays, he bakes apple pies. On Tuesdays and Thursdays, he bakes cherry pies. If he bakes 12 pies per day, how many more apple pies does he bake than cherry pies in one week?",
+    "answer": "12",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "<answer>12</answer>",
+      "input_tokens": 142,
+      "output_tokens": 50,
+      "total_tokens": 192,
+      "reasoning_tokens": 41,
+      "calls": 1,
+      "latency_s": 1.33216130011715,
+      "request_ids": [
+        "58182c5aad824686a85b255668eab302"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "Steve bakes apple pies on 3 days: \\(3 \\times 12 = 36\\)  \nHe bakes cherry pies on 2 days: \\(2 \\times 12 = 24\\)  \nDifference: \\(36 - 24 = 12\\)\n\n<answer>12</answer>",
+      "input_tokens": 142,
+      "output_tokens": 110,
+      "total_tokens": 252,
+      "reasoning_tokens": 48,
+      "calls": 1,
+      "latency_s": 0.739657900063321,
+      "request_ids": [
+        "4e91b5fcb84048388c879ac3d92220b4"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "Verified: Apple pies = 3 × 12 = 36; cherry pies = 2 × 12 = 24; difference = 12. The proposed solution is correct.\n\n<answer>12</answer>",
+      "input_tokens": 384,
+      "output_tokens": 252,
+      "total_tokens": 636,
+      "reasoning_tokens": 144,
+      "calls": 2,
+      "latency_s": 1.8194588001351804,
+      "request_ids": [
+        "4e91b5fcb84048388c879ac3d92220b4",
+        "7e755984ba39435191ab9aaa8c81dd3d"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

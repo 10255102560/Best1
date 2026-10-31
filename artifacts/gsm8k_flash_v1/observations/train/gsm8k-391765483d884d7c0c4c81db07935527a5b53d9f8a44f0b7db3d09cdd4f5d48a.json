@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-391765483d884d7c0c4c81db07935527a5b53d9f8a44f0b7db3d09cdd4f5d48a",
+    "question": "Ice cream costs $2.00 and toppings cost $0.50 per topping. How much does a sundae with 10 toppings cost?",
+    "answer": "7",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "7",
+      "text": "<answer>7</answer>",
+      "input_tokens": 107,
+      "output_tokens": 69,
+      "total_tokens": 176,
+      "reasoning_tokens": 60,
+      "calls": 1,
+      "latency_s": 1.7102881001774222,
+      "request_ids": [
+        "e07c3153832f41508004b7d7af47ef91"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "7",
+      "text": "Ice cream: $2.00  \nToppings: 10 × $0.50 = $5.00  \nTotal: $2.00 + $5.00 = $7.00\n\n<answer>7</answer>",
+      "input_tokens": 107,
+      "output_tokens": 109,
+      "total_tokens": 216,
+      "reasoning_tokens": 59,
+      "calls": 1,
+      "latency_s": 0.902071800082922,
+      "request_ids": [
+        "240aab1f2b5e4392a441de2cb0c4a0d2"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "7",
+      "text": "Ice cream $2.00 + 10 toppings × $0.50 = $2.00 + $5.00 = $7.00. The proposed solution is correct.\n\n<answer>7</answer>",
+      "input_tokens": 302,
+      "output_tokens": 195,
+      "total_tokens": 497,
+      "reasoning_tokens": 99,
+      "calls": 2,
+      "latency_s": 1.8008773000910878,
+      "request_ids": [
+        "240aab1f2b5e4392a441de2cb0c4a0d2",
+        "c3897e16c7a243d187ebe9b5eef31052"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

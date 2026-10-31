@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-3eca32ab0e062da3f6606451f8cae4260989490ec6e3d3afab347b0f54db1e06",
+    "question": "Harly's animal shelter has 80 dogs. She adopts out 40% of them but then has to take back 5 because of personality conflicts with other dogs in their adopted homes. How many dogs does she have now?",
+    "answer": "53",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "53",
+      "text": "<answer>53</answer>",
+      "input_tokens": 124,
+      "output_tokens": 52,
+      "total_tokens": 176,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 0.7966106000822037,
+      "request_ids": [
+        "48cee760f928428d8cfa31e2379fc45b"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "53",
+      "text": "40% of 80 = 32 dogs adopted out.  \nDogs remaining: 80 − 32 = 48.  \nTake back 5 dogs: 48 + 5 = 53.\n\n<answer>53</answer>",
+      "input_tokens": 124,
+      "output_tokens": 95,
+      "total_tokens": 219,
+      "reasoning_tokens": 44,
+      "calls": 1,
+      "latency_s": 0.7594395000487566,
+      "request_ids": [
+        "177c34b23583416e95b541021f9f3000"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "53",
+      "text": "Verified: 40% of 80 is 32 adopted out, leaving 48. Taking back 5 gives 48 + 5 = 53.\n\n<answer>53</answer>",
+      "input_tokens": 337,
+      "output_tokens": 221,
+      "total_tokens": 558,
+      "reasoning_tokens": 129,
+      "calls": 2,
+      "latency_s": 2.2834791000932455,
+      "request_ids": [
+        "177c34b23583416e95b541021f9f3000",
+        "798f1f7348a54027b610d80734b5f44d"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

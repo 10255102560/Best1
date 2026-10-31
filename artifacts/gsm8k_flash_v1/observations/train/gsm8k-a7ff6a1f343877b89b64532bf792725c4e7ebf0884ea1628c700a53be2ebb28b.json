@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-a7ff6a1f343877b89b64532bf792725c4e7ebf0884ea1628c700a53be2ebb28b",
+    "question": "June found 2 birds nest with 5 eggs each in 1 tree and 1 nest with 3 eggs in another tree.  There was also a nest with 4 eggs in her front yard.  How many birds eggs did she find?",
+    "answer": "17",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "17",
+      "text": "<answer>17</answer>",
+      "input_tokens": 129,
+      "output_tokens": 50,
+      "total_tokens": 179,
+      "reasoning_tokens": 41,
+      "calls": 1,
+      "latency_s": 0.8378435999620706,
+      "request_ids": [
+        "94a938bd55f84071837507ecea0cce6f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "17",
+      "text": "2 nests × 5 eggs = 10 eggs  \n1 nest × 3 eggs = 3 eggs  \n1 nest × 4 eggs = 4 eggs  \n\nTotal: 10 + 3 + 4 = 17\n\n<answer>17</answer>",
+      "input_tokens": 129,
+      "output_tokens": 117,
+      "total_tokens": 246,
+      "reasoning_tokens": 61,
+      "calls": 1,
+      "latency_s": 0.899685800075531,
+      "request_ids": [
+        "7f144f81e4904f249d08990795c77f47"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "17",
+      "text": "Verified: 2 nests × 5 eggs = 10; plus 3 eggs; plus 4 eggs = 17 total. Arithmetic and interpretation are correct.\n\n<answer>17</answer>",
+      "input_tokens": 352,
+      "output_tokens": 280,
+      "total_tokens": 632,
+      "reasoning_tokens": 182,
+      "calls": 2,
+      "latency_s": 1.8718221001327038,
+      "request_ids": [
+        "7f144f81e4904f249d08990795c77f47",
+        "2f8e08ae202e412c937029444f584322"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

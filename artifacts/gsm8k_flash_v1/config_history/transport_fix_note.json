@@ -1,0 +1,6 @@
+{
+  "reason": "HTTP429 requires global pacing; provider length/null content must retain billed tokens and score incorrect",
+  "changed": "client transport pacing and metered empty completion handling only",
+  "prompts_dataset_policy_hyperparameters": "unchanged",
+  "before_any_training_or_final_test": true
+}

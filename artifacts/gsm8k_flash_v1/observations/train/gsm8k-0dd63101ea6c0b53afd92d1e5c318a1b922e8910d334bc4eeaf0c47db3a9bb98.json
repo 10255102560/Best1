@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0dd63101ea6c0b53afd92d1e5c318a1b922e8910d334bc4eeaf0c47db3a9bb98",
+    "question": "Thomas, Toby, and Rebecca worked a total of 157 hours in one week.  Thomas worked x hours.  Toby worked 10 hours less than twice what Thomas worked, and Rebecca worked 8 hours less than Toby.  How many hours did Rebecca work?",
+    "answer": "56",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "56",
+      "text": "<answer>56</answer>",
+      "input_tokens": 132,
+      "output_tokens": 98,
+      "total_tokens": 230,
+      "reasoning_tokens": 89,
+      "calls": 1,
+      "latency_s": 1.0008851999882609,
+      "request_ids": [
+        "25556f3bde724c2782513df161adaf74"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "56",
+      "text": "Thomas = x  \nToby = 2x − 10  \nRebecca = (2x − 10) − 8 = 2x − 18  \n\nTotal:  \nx + (2x − 10) + (2x − 18) = 157  \n5x − 28 = 157  \n5x = 185  \nx = 37  \n\nRebecca: 2(37) − 18 = 74 − 18 = 56\n\n<answer>56</answer>",
+      "input_tokens": 132,
+      "output_tokens": 209,
+      "total_tokens": 341,
+      "reasoning_tokens": 98,
+      "calls": 1,
+      "latency_s": 1.571193299954757,
+      "request_ids": [
+        "c2c78548051c46019bb649b5f8c2b9e1"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "56",
+      "text": "Thomas = 37, Toby = 2(37) − 10 = 64, Rebecca = 64 − 8 = 56. Total = 37 + 64 + 56 = 157. The proposed solution is correct.\n\n<answer>56</answer>",
+      "input_tokens": 413,
+      "output_tokens": 413,
+      "total_tokens": 826,
+      "reasoning_tokens": 243,
+      "calls": 2,
+      "latency_s": 2.8502617997583,
+      "request_ids": [
+        "c2c78548051c46019bb649b5f8c2b9e1",
+        "08f40ce87c9349a2b99ab84fa634fabc"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

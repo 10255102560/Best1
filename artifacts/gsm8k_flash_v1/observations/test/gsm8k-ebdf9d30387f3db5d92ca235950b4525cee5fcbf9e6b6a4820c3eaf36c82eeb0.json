@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ebdf9d30387f3db5d92ca235950b4525cee5fcbf9e6b6a4820c3eaf36c82eeb0",
+    "question": "Well's mother sells watermelons, peppers, and oranges at the local store. A watermelon costs three times what each pepper costs. An orange costs 5 less than what a watermelon cost. Dillon is sent to the store to buy 4 watermelons, 20 peppers, and 10 oranges. What's the total amount of money he will spend if each pepper costs 15$?",
+    "answer": "880",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "880",
+      "text": "<answer>880</answer>",
+      "input_tokens": 158,
+      "output_tokens": 74,
+      "total_tokens": 232,
+      "reasoning_tokens": 65,
+      "calls": 1,
+      "latency_s": 0.9152126000262797,
+      "request_ids": [
+        "3317702a99a64ce3afba5e279a907451"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "880",
+      "text": "Each pepper costs $15.\n\n- Watermelon: \\(3 \\times 15 = 45\\)\n- Orange: \\(45 - 5 = 40\\)\n\nTotal cost:\n- 4 watermelons: \\(4 \\times 45 = 180\\)\n- 20 peppers: \\(20 \\times 15 = 300\\)\n- 10 oranges: \\(10 \\times 40 = 400\\)\n\nTotal: \\(180 + 300 + 400 = 880\\)\n\n<answer>880</answer>",
+      "input_tokens": 158,
+      "output_tokens": 181,
+      "total_tokens": 339,
+      "reasoning_tokens": 73,
+      "calls": 1,
+      "latency_s": 1.7130275000818074,
+      "request_ids": [
+        "ff004e81ec7c41b4bdc51924ffa328fd"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "880",
+      "text": "Pepper = $15; watermelon = 3×15 = $45; orange = 45−5 = $40.  \nTotal = 4(45) + 20(15) + 10(40) = 180 + 300 + 400 = 880. Correct.\n\n<answer>880</answer>",
+      "input_tokens": 462,
+      "output_tokens": 330,
+      "total_tokens": 792,
+      "reasoning_tokens": 152,
+      "calls": 2,
+      "latency_s": 2.665028699906543,
+      "request_ids": [
+        "ff004e81ec7c41b4bdc51924ffa328fd",
+        "f97397699d154a9e9a15d7f56fffa603"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

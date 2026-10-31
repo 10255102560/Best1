@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7f8708e061916b29b4626068219f88e3732e1ff136166e383f11b38ddfdc8b4e",
+    "question": "Zeke's baseball team has 7 more players than Carlton's. If Carlton's team has 13 players, how many players are there in both teams combined?",
+    "answer": "33",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "33",
+      "text": "<answer>33</answer>",
+      "input_tokens": 111,
+      "output_tokens": 41,
+      "total_tokens": 152,
+      "reasoning_tokens": 32,
+      "calls": 1,
+      "latency_s": 1.6106453998945653,
+      "request_ids": [
+        "d685d1ef66bb4e9c8dfd0b7c6e99b8b6"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "33",
+      "text": "Carlton’s team: 13 players  \nZeke’s team: 13 + 7 = 20 players  \nCombined: 13 + 20 = 33 players\n\n<answer>33</answer>",
+      "input_tokens": 111,
+      "output_tokens": 89,
+      "total_tokens": 200,
+      "reasoning_tokens": 41,
+      "calls": 1,
+      "latency_s": 2.95907840016298,
+      "request_ids": [
+        "d505b57c4f4148f7882243384f577df2"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "33",
+      "text": "Carlton has 13. Zeke has 13 + 7 = 20. Combined: 13 + 20 = 33. The proposed solution is correct.\n\n<answer>33</answer>",
+      "input_tokens": 308,
+      "output_tokens": 189,
+      "total_tokens": 497,
+      "reasoning_tokens": 97,
+      "calls": 2,
+      "latency_s": 10.938449500128627,
+      "request_ids": [
+        "d505b57c4f4148f7882243384f577df2",
+        "2e57399ad3fd4876a3397225762e6204"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

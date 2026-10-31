@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-8a35f8003090dafaeb4f173ac43cb1059581f552e66f61078d844fdf50b3a826",
+    "question": "Morisette and Kael were asked to bring fruits. Morisette brought 5 apples and 8 oranges, while Kael brought twice the amount of apples and half the number of oranges than Morisette. How many fruits do they have in total?",
+    "answer": "27",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "27",
+      "text": "<answer>27</answer>",
+      "input_tokens": 131,
+      "output_tokens": 97,
+      "total_tokens": 228,
+      "reasoning_tokens": 88,
+      "calls": 1,
+      "latency_s": 2.985611099982634,
+      "request_ids": [
+        "bf6800b164ae4b2aa75fac9e55e831ed"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "27",
+      "text": "Morisette: 5 apples + 8 oranges = 13 fruits  \nKael: twice apples = 10 apples; half oranges = 4 oranges → 14 fruits  \nTotal: 13 + 14 = 27\n\n<answer>27</answer>",
+      "input_tokens": 131,
+      "output_tokens": 155,
+      "total_tokens": 286,
+      "reasoning_tokens": 98,
+      "calls": 1,
+      "latency_s": 0.8435287000611424,
+      "request_ids": [
+        "a27792c53aae47839869fcdea4f8076d"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "27",
+      "text": "Verified: Kael has 10 apples and 4 oranges, totaling 14 fruits. Morisette has 13 fruits. Total = 13 + 14 = 27.\n\n<answer>27</answer>",
+      "input_tokens": 357,
+      "output_tokens": 305,
+      "total_tokens": 662,
+      "reasoning_tokens": 202,
+      "calls": 2,
+      "latency_s": 1.7527447000611573,
+      "request_ids": [
+        "a27792c53aae47839869fcdea4f8076d",
+        "b69ccf0e62774625a99158646d49dbc2"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

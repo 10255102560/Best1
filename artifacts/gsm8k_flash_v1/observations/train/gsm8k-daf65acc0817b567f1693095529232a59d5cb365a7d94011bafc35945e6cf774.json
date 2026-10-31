@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-daf65acc0817b567f1693095529232a59d5cb365a7d94011bafc35945e6cf774",
+    "question": "Amanda and her family are going to re-paint all the walls inside their house. Before they get started they want to divide up the work. Since all the rooms in the house have different numbers and sizes of walls in them, they figure the fairest way to divide up the work is to count all the walls in the house and assign an equal number to each person. There are 5 people in Amanda's family, including herself. There are 9 rooms in the house. 5 of the rooms have 4 walls each. The other 4 rooms each have 5 walls each. To be fair, how many walls should each person in Amanda's family paint?",
+    "answer": "8",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "<answer>8</answer>",
+      "input_tokens": 215,
+      "output_tokens": 54,
+      "total_tokens": 269,
+      "reasoning_tokens": 45,
+      "calls": 1,
+      "latency_s": 0.6679381998255849,
+      "request_ids": [
+        "855d0815138044bdb25712219e23df56"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "5 rooms × 4 walls = 20 walls  \n4 rooms × 5 walls = 20 walls  \nTotal walls = 20 + 20 = 40  \n40 walls ÷ 5 people = 8 walls per person\n\n<answer>8</answer>",
+      "input_tokens": 215,
+      "output_tokens": 110,
+      "total_tokens": 325,
+      "reasoning_tokens": 54,
+      "calls": 1,
+      "latency_s": 0.7783364001661539,
+      "request_ids": [
+        "cf8be234309a494c9a2e7d4b43503c60"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "Total walls: \\(5 \\times 4 + 4 \\times 5 = 20 + 20 = 40\\).  \nPer person: \\(40 \\div 5 = 8\\). The proposed solution is correct.\n\n<answer>8</answer>",
+      "input_tokens": 524,
+      "output_tokens": 242,
+      "total_tokens": 766,
+      "reasoning_tokens": 131,
+      "calls": 2,
+      "latency_s": 1.668710700236261,
+      "request_ids": [
+        "cf8be234309a494c9a2e7d4b43503c60",
+        "fef59608008b430ea80597bf42465c3a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-76dcf3ba8159230fc0e873b4e1351237b9a7adc46506fb82c7a4e4dcff61509a",
+    "question": "It was Trevor's job to collect fresh eggs from the family's 4 chickens every morning.   He got 4 eggs from Gertrude and 3 eggs from Blanche.  Nancy laid 2 eggs as did Martha.  On the way, he dropped 2 eggs.  How many eggs did Trevor have left?",
+    "answer": "9",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "9",
+      "text": "<answer>9</answer>",
+      "input_tokens": 143,
+      "output_tokens": 44,
+      "total_tokens": 187,
+      "reasoning_tokens": 35,
+      "calls": 1,
+      "latency_s": 0.9434647001326084,
+      "request_ids": [
+        "d7d6ab3c8b794687a77a049fcdb66260"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "9",
+      "text": "Trevor collected \\(4 + 3 + 2 + 2 = 11\\) eggs.  \nAfter dropping 2 eggs: \\(11 - 2 = 9\\).\n\n<answer>9</answer>",
+      "input_tokens": 143,
+      "output_tokens": 101,
+      "total_tokens": 244,
+      "reasoning_tokens": 56,
+      "calls": 1,
+      "latency_s": 0.7645288000348955,
+      "request_ids": [
+        "9e042e4abf1947b488a0a2c33dfe12bd"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "9",
+      "text": "Verified: \\(4+3+2+2=11\\) eggs collected; \\(11-2=9\\) left. The proposed solution is correct.\n\n<answer>9</answer>",
+      "input_tokens": 369,
+      "output_tokens": 229,
+      "total_tokens": 598,
+      "reasoning_tokens": 144,
+      "calls": 2,
+      "latency_s": 1.6217723998706788,
+      "request_ids": [
+        "9e042e4abf1947b488a0a2c33dfe12bd",
+        "f118bc165195489ca817b9f66aa80abf"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

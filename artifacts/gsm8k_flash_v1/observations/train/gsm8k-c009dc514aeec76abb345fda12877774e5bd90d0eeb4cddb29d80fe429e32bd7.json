@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-c009dc514aeec76abb345fda12877774e5bd90d0eeb4cddb29d80fe429e32bd7",
+    "question": "A busy restaurant is counting how many customers they had during that Friday to try to predict how many they might get on Saturday. During breakfast, they had 73 customers. During lunch, they had 127 customers. During dinner, they had 87 customers. If they predict they'll get twice the amount of customers on Saturday as they had on Friday, how many customers do they predict they will get?",
+    "answer": "574",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "574",
+      "text": "<answer>574</answer>",
+      "input_tokens": 159,
+      "output_tokens": 40,
+      "total_tokens": 199,
+      "reasoning_tokens": 31,
+      "calls": 1,
+      "latency_s": 0.813085800036788,
+      "request_ids": [
+        "ad7917b3ffa54f368b0e90d20e426242"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "574",
+      "text": "Friday total: 73 + 127 + 87 = 287 customers.  \nSaturday prediction: 287 × 2 = 574 customers.\n\n<answer>574</answer>",
+      "input_tokens": 159,
+      "output_tokens": 78,
+      "total_tokens": 237,
+      "reasoning_tokens": 39,
+      "calls": 1,
+      "latency_s": 1.0353890000842512,
+      "request_ids": [
+        "d146d616fe8847d4b1d379934eb4fdaa"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "574",
+      "text": "Friday total: 73 + 127 + 87 = 287. Saturday prediction: 287 × 2 = 574. The proposed solution is correct.\n\n<answer>574</answer>",
+      "input_tokens": 395,
+      "output_tokens": 179,
+      "total_tokens": 574,
+      "reasoning_tokens": 98,
+      "calls": 2,
+      "latency_s": 2.2198463000822812,
+      "request_ids": [
+        "d146d616fe8847d4b1d379934eb4fdaa",
+        "24ce5a233cb54dfa80f9ded778628726"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

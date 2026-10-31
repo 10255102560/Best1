@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-386174e764f90521b21bc04c8fd653e5a6eacd583b838b09db2deeebaa9e1850",
+    "question": "Clayton plays basketball on a team. He has played three games so far. In the first game, he scored 10 points. In the second game, he scored 14 points. In the third game, he scored 6 points. In the fourth game, he scored the average of his points from the first three games.  How many total points did Clayton score during the first four games?",
+    "answer": "40",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "40",
+      "text": "<answer>40</answer>",
+      "input_tokens": 159,
+      "output_tokens": 66,
+      "total_tokens": 225,
+      "reasoning_tokens": 57,
+      "calls": 1,
+      "latency_s": 0.5416719000786543,
+      "request_ids": [
+        "d3ff5c911c104967bd96b6a897540e02"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "40",
+      "text": "First three games total: \\(10 + 14 + 6 = 30\\)  \nAverage: \\(30 \\div 3 = 10\\)  \nFourth game: 10 points  \nTotal: \\(10 + 14 + 6 + 10 = 40\\)\n\n<answer>40</answer>",
+      "input_tokens": 159,
+      "output_tokens": 126,
+      "total_tokens": 285,
+      "reasoning_tokens": 62,
+      "calls": 1,
+      "latency_s": 1.6223361999727786,
+      "request_ids": [
+        "d05aa43147944ff391ba92016d8951ff"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "40",
+      "text": "The first three games total \\(10+14+6=30\\), so the average is \\(30/3=10\\). The fourth game is 10 points, making the four-game total \\(30+10=40\\). The proposed solution is correct.\n\n<answer>40</answer>",
+      "input_tokens": 420,
+      "output_tokens": 281,
+      "total_tokens": 701,
+      "reasoning_tokens": 157,
+      "calls": 2,
+      "latency_s": 3.1034488000441343,
+      "request_ids": [
+        "d05aa43147944ff391ba92016d8951ff",
+        "41c0eed1a86a44a3bef31197cd4de314"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

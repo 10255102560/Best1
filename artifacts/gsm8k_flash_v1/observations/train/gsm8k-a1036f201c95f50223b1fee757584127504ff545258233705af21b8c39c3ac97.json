@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-a1036f201c95f50223b1fee757584127504ff545258233705af21b8c39c3ac97",
+    "question": "Jennifer's boyfriend left 5 texts about the grocery shopping, 5 times more texts asking why she wasn't responding, and a number of texts equal to 10% of all the texts he sent previously saying he was calling the police. How many texts did he send total?",
+    "answer": "33",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "33",
+      "text": "<answer>33</answer>",
+      "input_tokens": 134,
+      "output_tokens": 239,
+      "total_tokens": 373,
+      "reasoning_tokens": 230,
+      "calls": 1,
+      "latency_s": 1.815627400064841,
+      "request_ids": [
+        "9c1472c2c628455fb78fa3123d6e0e90"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "33",
+      "text": "Grocery texts: 5  \nResponding texts: \\(5 \\times 5 = 25\\)  \nPreviously sent total: \\(5 + 25 = 30\\)  \nPolice texts: \\(10\\% \\times 30 = 3\\)  \nTotal: \\(5 + 25 + 3 = 33\\)\n\n<answer>33</answer>",
+      "input_tokens": 134,
+      "output_tokens": 328,
+      "total_tokens": 462,
+      "reasoning_tokens": 253,
+      "calls": 1,
+      "latency_s": 1.6706352001056075,
+      "request_ids": [
+        "e2f3ac7ede0242a2a56f6ab0e300fb63"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "33",
+      "text": "The interpretation and arithmetic are consistent: grocery texts = 5, responding texts = 5 × 5 = 25, previous total = 30, police texts = 10% of 30 = 3, total = 5 + 25 + 3 = 33.\n\n<answer>33</answer>",
+      "input_tokens": 381,
+      "output_tokens": 556,
+      "total_tokens": 937,
+      "reasoning_tokens": 414,
+      "calls": 2,
+      "latency_s": 3.386606000130996,
+      "request_ids": [
+        "e2f3ac7ede0242a2a56f6ab0e300fb63",
+        "caee6f1bbbd4411c9647f11a4db7c1e7"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

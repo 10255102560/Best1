@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-aedae2c295349981075596c0d28beb5e83abb3f2d4d59ec76c7d8732c3df4d61",
+    "question": "There are some oranges in a basket. Ana spends 3 minutes peeling an orange and Jane spends 4 minutes doing the same. If Ana and Jane start picking oranges from this basket to peel at the same time, how many more oranges will Ana have peeled than Jane after an hour?",
+    "answer": "5",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "<answer>5</answer>",
+      "input_tokens": 135,
+      "output_tokens": 127,
+      "total_tokens": 262,
+      "reasoning_tokens": 118,
+      "calls": 1,
+      "latency_s": 1.0450445997994393,
+      "request_ids": [
+        "1da99a5171944796b7867cd72e033771"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Ana peels \\(60 \\div 3 = 20\\) oranges in an hour.  \nJane peels \\(60 \\div 4 = 15\\) oranges in an hour.  \nDifference: \\(20 - 15 = 5\\).\n\n<answer>5</answer>",
+      "input_tokens": 135,
+      "output_tokens": 187,
+      "total_tokens": 322,
+      "reasoning_tokens": 129,
+      "calls": 1,
+      "latency_s": 1.6644514999352396,
+      "request_ids": [
+        "c6b60c1657f2462f968f5abc54fee28c"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Ana peels \\(60/3=20\\) oranges per hour. Jane peels \\(60/4=15\\) oranges per hour. Difference: \\(20-15=5\\). The proposed solution is correct.\n\n<answer>5</answer>",
+      "input_tokens": 366,
+      "output_tokens": 338,
+      "total_tokens": 704,
+      "reasoning_tokens": 228,
+      "calls": 2,
+      "latency_s": 2.8881594999693334,
+      "request_ids": [
+        "c6b60c1657f2462f968f5abc54fee28c",
+        "13235e79eceb4a338cdf774a31cd4a9f"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

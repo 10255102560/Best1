@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7a48eba2fe0c038b1870fb0de71face16f5f981ea91fb07e116a0727e4395708",
+    "question": "John watches a TV show and they announce they are going to do 1 more season.  Each season is 22 episodes except for the last season which is 4 episodes longer.  There were 9 seasons before the announcement.  If each episode is .5 hours how long will it take to watch them all after the last season finishes?",
+    "answer": "112",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "112",
+      "text": "<answer>112</answer>",
+      "input_tokens": 148,
+      "output_tokens": 195,
+      "total_tokens": 343,
+      "reasoning_tokens": 186,
+      "calls": 1,
+      "latency_s": 1.1197748999111354,
+      "request_ids": [
+        "2cc78f001e0844be9a3fe4c08cbf9d07"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "112",
+      "text": "There are \\(9 + 1 = 10\\) seasons total.\n\nThe first 9 seasons have \\(9 \\times 22 = 198\\) episodes.  \nThe last season has \\(22 + 4 = 26\\) episodes.  \nTotal episodes: \\(198 + 26 = 224\\).\n\nAt 0.5 hours per episode:  \n\\(224 \\times 0.5 = 112\\) hours.\n\n<answer>112</answer>",
+      "input_tokens": 148,
+      "output_tokens": 371,
+      "total_tokens": 519,
+      "reasoning_tokens": 277,
+      "calls": 1,
+      "latency_s": 1.6981153001543134,
+      "request_ids": [
+        "9087e83afd9e449994410c82c23f2f34"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "112",
+      "text": "The interpretation and arithmetic are correct: 10 total seasons, \\(9 \\times 22 + 26 = 224\\) episodes, and \\(224 \\times 0.5 = 112\\) hours.\n\n<answer>112</answer>",
+      "input_tokens": 428,
+      "output_tokens": 672,
+      "total_tokens": 1100,
+      "reasoning_tokens": 527,
+      "calls": 2,
+      "latency_s": 3.6413168001454324,
+      "request_ids": [
+        "9087e83afd9e449994410c82c23f2f34",
+        "06cadd6254044f05b1a1a2b8435e63de"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ddb7e65e9964ff36f9ec5e0abe07ac6afb0397e94228b884514cc771256f17e5",
+    "question": "Grandma walks 3 miles every day on her favorite walking trail, which includes 2 miles of walking on the beach and 1 mile of walking on the sidewalk.  On the sidewalk, Grandma walks at twice the rate of speed that she does on the beach.  If 40 minutes of her walk is spent on the beach, how long does it take for her to complete the entire 3-mile walk, in minutes?",
+    "answer": "50",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "<answer>50</answer>",
+      "input_tokens": 165,
+      "output_tokens": 131,
+      "total_tokens": 296,
+      "reasoning_tokens": 122,
+      "calls": 1,
+      "latency_s": 1.2601393000222743,
+      "request_ids": [
+        "b14433f9d8cc4b5bbb07d30745189f36"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "Beach time = 40 minutes for 2 miles.\n\nSidewalk speed is twice beach speed, so the 1-mile sidewalk takes half the time it would take to walk 1 mile on the beach.\n\nBeach rate = 2 miles / 40 minutes = 1/20 mile per minute.  \nSidewalk rate = 1/10 mile per minute.  \nSidewalk time = 1 mile ÷ (1/10) = 10 minutes.\n\nTotal time = 40 + 10 = 50 minutes.\n\n<answer>50</answer>",
+      "input_tokens": 165,
+      "output_tokens": 240,
+      "total_tokens": 405,
+      "reasoning_tokens": 124,
+      "calls": 1,
+      "latency_s": 7.114089299924672,
+      "request_ids": [
+        "b4b2717b634a49be917fca1ea9f5f193"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "Beach: 2 miles in 40 minutes → rate = 1/20 mi/min.  \nSidewalk speed is twice as fast → 1/10 mi/min, so 1 mile takes 10 minutes.  \nTotal time = 40 + 10 = 50 minutes. The solution is correct.\n\n<answer>50</answer>",
+      "input_tokens": 484,
+      "output_tokens": 432,
+      "total_tokens": 916,
+      "reasoning_tokens": 243,
+      "calls": 2,
+      "latency_s": 8.822398499818519,
+      "request_ids": [
+        "b4b2717b634a49be917fca1ea9f5f193",
+        "f567c0f1fbed4d4c9c417f231ecbe62b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

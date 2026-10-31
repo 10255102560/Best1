@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7e9fef216b4cdafe18fd5eee0524b131f87f872f451cee5077838757f0b7a61c",
+    "question": "A movie theater company is advertising a deal of a movie ticket, a bucket of popcorn, a drink, and a box of candy for $20. Normally, a movie ticket costs $8, a bucket of popcorn costs three dollars less, a drink costs a dollar more than popcorn, and a candy costs half as much as a drink. How many dollars does the deal save a customer who buys a ticket, popcorn, drink, and candy normally?",
+    "answer": "2",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "<answer>2</answer>",
+      "input_tokens": 168,
+      "output_tokens": 124,
+      "total_tokens": 292,
+      "reasoning_tokens": 115,
+      "calls": 1,
+      "latency_s": 0.829593800008297,
+      "request_ids": [
+        "802c5eac3b2049bda4c216daeec95c01"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "Ticket: $8  \nPopcorn: $8 - $3 = $5  \nDrink: $5 + $1 = $6  \nCandy: $6 ÷ 2 = $3  \n\nNormal total: $8 + $5 + $6 + $3 = $22  \nDeal price: $20  \nSavings: $22 - $20 = $2  \n\n<answer>2</answer>",
+      "input_tokens": 168,
+      "output_tokens": 235,
+      "total_tokens": 403,
+      "reasoning_tokens": 148,
+      "calls": 1,
+      "latency_s": 1.6768256998620927,
+      "request_ids": [
+        "7c2f04392910417aab7327c36dc0698a"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "Ticket $8, popcorn $5, drink $6, candy $3. Normal total = $22. Deal = $20. Savings = $2. The proposed solution is correct.\n\n<answer>2</answer>",
+      "input_tokens": 461,
+      "output_tokens": 382,
+      "total_tokens": 843,
+      "reasoning_tokens": 248,
+      "calls": 2,
+      "latency_s": 2.624299799790606,
+      "request_ids": [
+        "7c2f04392910417aab7327c36dc0698a",
+        "a3222da7096d4dccb62b4f474ff90e70"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

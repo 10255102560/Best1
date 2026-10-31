@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-4d13c42364a29411b62df16664c132bc31937b73dd63fefbbd9e1c6b7f250b85",
+    "question": "Ivan had $10 and spent 1/5 of it on cupcakes. He then spent some money on a milkshake and had only $3 left. How much is the milkshake?",
+    "answer": "5",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "<answer>5</answer>",
+      "input_tokens": 121,
+      "output_tokens": 73,
+      "total_tokens": 194,
+      "reasoning_tokens": 64,
+      "calls": 1,
+      "latency_s": 1.0642256001010537,
+      "request_ids": [
+        "a376ee5e351b445aa02856b7cc87b9d5"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Ivan spent \\( \\frac{1}{5} \\times 10 = 2 \\) on cupcakes, leaving \\(10 - 2 = 8\\).\n\nAfter buying the milkshake, he had $3 left, so the milkshake cost \\(8 - 3 = 5\\).\n\n<answer>5</answer>",
+      "input_tokens": 121,
+      "output_tokens": 135,
+      "total_tokens": 256,
+      "reasoning_tokens": 64,
+      "calls": 1,
+      "latency_s": 1.140148299979046,
+      "request_ids": [
+        "a9ce276887854e8aa0d0af6134479654"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Cupcakes cost \\( \\frac{1}{5} \\times 10 = 2 \\), leaving \\(8\\). Milkshake cost \\(8 - 3 = 5\\). The proposed solution is correct.\n\n<answer>5</answer>",
+      "input_tokens": 351,
+      "output_tokens": 286,
+      "total_tokens": 637,
+      "reasoning_tokens": 160,
+      "calls": 2,
+      "latency_s": 2.3542958998586982,
+      "request_ids": [
+        "a9ce276887854e8aa0d0af6134479654",
+        "df7a8d90805a492890b70a959483c299"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

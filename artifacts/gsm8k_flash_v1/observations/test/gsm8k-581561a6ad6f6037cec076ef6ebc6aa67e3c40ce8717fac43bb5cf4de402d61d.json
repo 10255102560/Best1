@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-581561a6ad6f6037cec076ef6ebc6aa67e3c40ce8717fac43bb5cf4de402d61d",
+    "question": "Josie grows grapes on her 10-acre farm.  Each acre produces 5 tons of grapes per year, and each ton of grapes makes 2 barrels of wine.  How many barrels of wine does her farm produce per year?",
+    "answer": "100",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "100",
+      "text": "<answer>100</answer>",
+      "input_tokens": 126,
+      "output_tokens": 43,
+      "total_tokens": 169,
+      "reasoning_tokens": 34,
+      "calls": 1,
+      "latency_s": 0.9044895998667926,
+      "request_ids": [
+        "a0c8cea56c7843c09ada89a42341b9b1"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "100",
+      "text": "10 acres × 5 tons/acre = 50 tons  \n50 tons × 2 barrels/ton = 100 barrels\n\n<answer>100</answer>",
+      "input_tokens": 126,
+      "output_tokens": 71,
+      "total_tokens": 197,
+      "reasoning_tokens": 36,
+      "calls": 1,
+      "latency_s": 0.8240440001245588,
+      "request_ids": [
+        "57cdc362f3794dcdb53d7268f68ff3e4"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "100",
+      "text": "The interpretation and arithmetic are correct: 10 × 5 = 50 tons, and 50 × 2 = 100 barrels per year.\n\n<answer>100</answer>",
+      "input_tokens": 325,
+      "output_tokens": 164,
+      "total_tokens": 489,
+      "reasoning_tokens": 90,
+      "calls": 2,
+      "latency_s": 1.6743387002497911,
+      "request_ids": [
+        "57cdc362f3794dcdb53d7268f68ff3e4",
+        "e621710eb13745ab959e225ba07abada"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

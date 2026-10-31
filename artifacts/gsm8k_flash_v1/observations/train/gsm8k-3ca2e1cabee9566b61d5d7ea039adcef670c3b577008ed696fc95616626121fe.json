@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-3ca2e1cabee9566b61d5d7ea039adcef670c3b577008ed696fc95616626121fe",
+    "question": "Chris has twelve marbles, and Ryan has twenty-eight marbles. If they put marbles together in a pile and then each takes away 1/4 of marbles from the pile, calculate the number of marbles remaining in the pile.",
+    "answer": "20",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "<answer>20</answer>",
+      "input_tokens": 123,
+      "output_tokens": 183,
+      "total_tokens": 306,
+      "reasoning_tokens": 174,
+      "calls": 1,
+      "latency_s": 1.3569946999195963,
+      "request_ids": [
+        "73b12621c2ab40a09f094c0125efa382"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "Chris and Ryan have \\(12 + 28 = 40\\) marbles total.\n\nEach takes away \\( \\frac{1}{4} \\) of the pile, so together they take away:\n\\[\n\\frac{1}{4} + \\frac{1}{4} = \\frac{1}{2}\n\\]\nof the marbles.\n\nRemaining:\n\\[\n40 \\times \\frac{1}{2} = 20\n\\]\n\n<answer>20</answer>",
+      "input_tokens": 123,
+      "output_tokens": 317,
+      "total_tokens": 440,
+      "reasoning_tokens": 220,
+      "calls": 1,
+      "latency_s": 1.611407999880612,
+      "request_ids": [
+        "5807779f41d14b59ad45da5dee654119"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "Total marbles: \\(12+28=40\\).  \nEach takes \\(\\frac14\\) of the pile, so together they take \\(\\frac12\\) of 40, leaving \\(40 \\times \\frac12=20\\).  \nThe proposed solution is correct.\n\n<answer>20</answer>",
+      "input_tokens": 381,
+      "output_tokens": 545,
+      "total_tokens": 926,
+      "reasoning_tokens": 388,
+      "calls": 2,
+      "latency_s": 3.4495514996815473,
+      "request_ids": [
+        "5807779f41d14b59ad45da5dee654119",
+        "21d2e00caed04487864d5ae67f81934a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

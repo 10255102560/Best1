@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-bb2b6666ea1c56ff0a42f5f907c57f43318a71c8c86ab71eb5112e0580e61816",
+    "question": "Bubbles collects stuffed animals. She has three stuffed puppies, five stuffed koalas, two stuffed zebras and four stuffed frogs. If she wants to buy enough stuffed goats, such that the percentage of stuffed goats is 30% of all of her stuffed animals, how many stuffed goats should she buy?",
+    "answer": "6",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "<answer>6</answer>",
+      "input_tokens": 140,
+      "output_tokens": 89,
+      "total_tokens": 229,
+      "reasoning_tokens": 80,
+      "calls": 1,
+      "latency_s": 0.6906584999524057,
+      "request_ids": [
+        "857bab41814b4b7698ac4f71f5f18cfe"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "Current stuffed animals: \\(3+5+2+4=14\\).\n\nLet \\(x\\) be the number of stuffed goats.  \n\\[\n\\frac{x}{14+x}=0.30=\\frac{3}{10}\n\\]\n\\[\n10x=3(14+x)=42+3x\n\\]\n\\[\n7x=42 \\Rightarrow x=6\n\\]\n\n<answer>6</answer>",
+      "input_tokens": 140,
+      "output_tokens": 175,
+      "total_tokens": 315,
+      "reasoning_tokens": 89,
+      "calls": 1,
+      "latency_s": 1.1597879000473768,
+      "request_ids": [
+        "34aba7d673d54b4fa4a5d7597d4fa5f5"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "Current total: \\(3+5+2+4=14\\).  \nWith \\(x\\) goats: \\(\\frac{x}{14+x}=0.30\\).  \nSolving gives \\(10x=42+3x\\), so \\(7x=42\\), \\(x=6\\).  \nCheck: \\(6/(14+6)=6/20=30\\%\\). Correct.\n\n<answer>6</answer>",
+      "input_tokens": 404,
+      "output_tokens": 372,
+      "total_tokens": 776,
+      "reasoning_tokens": 202,
+      "calls": 2,
+      "latency_s": 2.3375548999756575,
+      "request_ids": [
+        "34aba7d673d54b4fa4a5d7597d4fa5f5",
+        "c164c38bf48c44c88cab1819ad5cf16b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

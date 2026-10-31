@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-69fb8fcf37a63730a7c889187ba4b036fea60c1c437a45f2ac83783a79a767ba",
+    "question": "Brianne saves $10 in January. Each month, she saves twice as much as her previous month's savings. How much will she save in May?",
+    "answer": "160",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "160",
+      "text": "<answer>160</answer>",
+      "input_tokens": 109,
+      "output_tokens": 49,
+      "total_tokens": 158,
+      "reasoning_tokens": 40,
+      "calls": 1,
+      "latency_s": 0.7026380999013782,
+      "request_ids": [
+        "e0b3f90a173640f796cbdb4ab59867d2"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "160",
+      "text": "January: $10  \nFebruary: $10 × 2 = $20  \nMarch: $20 × 2 = $40  \nApril: $40 × 2 = $80  \nMay: $80 × 2 = $160  \n\n<answer>160</answer>",
+      "input_tokens": 109,
+      "output_tokens": 102,
+      "total_tokens": 211,
+      "reasoning_tokens": 44,
+      "calls": 1,
+      "latency_s": 1.3571643999312073,
+      "request_ids": [
+        "4ba0401435f04ac09ebc8f5e92e5dd28"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "160",
+      "text": "January $10, doubling each month: February $20, March $40, April $80, May $160. The proposed solution is correct.\n\n<answer>160</answer>",
+      "input_tokens": 314,
+      "output_tokens": 212,
+      "total_tokens": 526,
+      "reasoning_tokens": 115,
+      "calls": 2,
+      "latency_s": 2.7774910000152886,
+      "request_ids": [
+        "4ba0401435f04ac09ebc8f5e92e5dd28",
+        "ab2016bbf6b94f7e8155e38e63732035"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

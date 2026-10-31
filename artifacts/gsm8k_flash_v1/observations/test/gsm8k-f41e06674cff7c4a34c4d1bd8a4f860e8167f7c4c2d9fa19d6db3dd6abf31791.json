@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f41e06674cff7c4a34c4d1bd8a4f860e8167f7c4c2d9fa19d6db3dd6abf31791",
+    "question": "Alfie, the albatross, flies 400 kilometers every day.  If the circumference of the earth is 40,000 kilometers, how many days will it take Alfie to fly a distance equal to half of the way around the earth?",
+    "answer": "50",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "<answer>50</answer>",
+      "input_tokens": 130,
+      "output_tokens": 46,
+      "total_tokens": 176,
+      "reasoning_tokens": 37,
+      "calls": 1,
+      "latency_s": 0.8845265998970717,
+      "request_ids": [
+        "75ddd773d5a7402d96827e08095894ea"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "Half the Earth’s circumference is \\(40{,}000 \\div 2 = 20{,}000\\) km.  \nAt 400 km per day: \\(20{,}000 \\div 400 = 50\\) days.\n\n<answer>50</answer>",
+      "input_tokens": 130,
+      "output_tokens": 102,
+      "total_tokens": 232,
+      "reasoning_tokens": 45,
+      "calls": 1,
+      "latency_s": 1.4567513999063522,
+      "request_ids": [
+        "1d9fb58cd3d947c78512503830462a92"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "50",
+      "text": "Half of 40,000 km is 20,000 km. At 400 km/day, \\(20{,}000 \\div 400 = 50\\) days. The proposed solution is correct.\n\n<answer>50</answer>",
+      "input_tokens": 355,
+      "output_tokens": 235,
+      "total_tokens": 590,
+      "reasoning_tokens": 128,
+      "calls": 2,
+      "latency_s": 2.443149299826473,
+      "request_ids": [
+        "1d9fb58cd3d947c78512503830462a92",
+        "f9e4ed1cb51d4f968d35d79f4e712b2c"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-ea0d2074e76b76a1d590696d0e79ff9e2d8d308e9a90bb85ddaec425892f37ff",
+    "question": "Adam has 50 balls. 20 balls are red, 10 are blue, and the rest are either pink or orange. If there are 3 times as many pink as orange balls, how many orange balls are there?",
+    "answer": "5",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "<answer>5</answer>",
+      "input_tokens": 124,
+      "output_tokens": 59,
+      "total_tokens": 183,
+      "reasoning_tokens": 50,
+      "calls": 1,
+      "latency_s": 0.7395254999864846,
+      "request_ids": [
+        "29194901261e492d94d9faef8bb0a458"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Red and blue balls: \\(20 + 10 = 30\\)\n\nRemaining pink or orange: \\(50 - 30 = 20\\)\n\nLet orange balls be \\(x\\). Then pink balls are \\(3x\\):\n\\[\nx + 3x = 20 \\Rightarrow 4x = 20 \\Rightarrow x = 5\n\\]\n\n<answer>5</answer>",
+      "input_tokens": 124,
+      "output_tokens": 137,
+      "total_tokens": 261,
+      "reasoning_tokens": 57,
+      "calls": 1,
+      "latency_s": 1.635570599930361,
+      "request_ids": [
+        "c45ee4f8cce2441dae626b49e8ca49f8"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Verification: 20 red + 10 blue = 30, leaving 20 pink/orange. With pink = 3× orange, let orange = x, so 4x = 20, x = 5. Correct.\n\n<answer>5</answer>",
+      "input_tokens": 366,
+      "output_tokens": 257,
+      "total_tokens": 623,
+      "reasoning_tokens": 119,
+      "calls": 2,
+      "latency_s": 2.4630575999617577,
+      "request_ids": [
+        "c45ee4f8cce2441dae626b49e8ca49f8",
+        "3a683a5e872b4db788bc563cf3acd798"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-696fcc179d5a96071d3733299af98663ed93aba4bf6d36872dff131a1810ab32",
+    "question": "After uploading her video to Youtube, Kallie received 4000 views on the first day. When she checked her channel 4 days later, she realized that the number of views had increased by a number ten times more than the views on the first day. If 50000 more people viewed the video after another two days, determine the number of views the video had gained on Youtube?",
+    "answer": "94000",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "94000",
+      "text": "<answer>94000</answer>",
+      "input_tokens": 156,
+      "output_tokens": 500,
+      "total_tokens": 656,
+      "reasoning_tokens": 490,
+      "calls": 1,
+      "latency_s": 2.209375499980524,
+      "request_ids": [
+        "73065bd3527a49c3ba678ff00ffd418c"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "94000",
+      "text": "First day views: 4000  \nIncrease after 4 days: \\(10 \\times 4000 = 40000\\)  \nViews after 4 days: \\(4000 + 40000 = 44000\\)  \nAdditional views after 2 more days: 50000  \nTotal views: \\(44000 + 50000 = 94000\\)\n\n<answer>94000</answer>",
+      "input_tokens": 156,
+      "output_tokens": 680,
+      "total_tokens": 836,
+      "reasoning_tokens": 597,
+      "calls": 1,
+      "latency_s": 3.054483799962327,
+      "request_ids": [
+        "c94881498e01464db22eec94f575307e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "94000",
+      "text": "The interpretation and arithmetic are consistent: initial 4,000; increase after 4 days is \\(10 \\times 4{,}000 = 40{,}000\\); total then 44,000; plus 50,000 gives 94,000 total views.\n\n<answer>94000</answer>",
+      "input_tokens": 433,
+      "output_tokens": 992,
+      "total_tokens": 1425,
+      "reasoning_tokens": 844,
+      "calls": 2,
+      "latency_s": 4.941516699967906,
+      "request_ids": [
+        "c94881498e01464db22eec94f575307e",
+        "f3fbd981a0604708b13ea18902201ffd"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

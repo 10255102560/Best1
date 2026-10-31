@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-a5fdce1e53e8dd0cf47737bb77fb0b24ad5f215920c228a83e67f6742d41774f",
+    "question": "Darla needs to pay $4/watt of electricity for 300 watts of electricity, plus a $150 late fee. How much does she pay in total?",
+    "answer": "1350",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "1350",
+      "text": "<answer>1350</answer>",
+      "input_tokens": 111,
+      "output_tokens": 42,
+      "total_tokens": 153,
+      "reasoning_tokens": 32,
+      "calls": 1,
+      "latency_s": 0.7171643001493067,
+      "request_ids": [
+        "b02a8daca0c74d419cf67a1bfac28cd9"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "1350",
+      "text": "Electricity cost: \\(4 \\times 300 = 1200\\)\n\nAdd late fee: \\(1200 + 150 = 1350\\)\n\n<answer>1350</answer>",
+      "input_tokens": 111,
+      "output_tokens": 87,
+      "total_tokens": 198,
+      "reasoning_tokens": 47,
+      "calls": 1,
+      "latency_s": 0.9034780999645591,
+      "request_ids": [
+        "ce84a58fbfd24ee296d163dcd295b886"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "1350",
+      "text": "The calculation is correct: \\(4 \\times 300 = 1200\\), and \\(1200 + 150 = 1350\\).\n\n<answer>1350</answer>",
+      "input_tokens": 300,
+      "output_tokens": 179,
+      "total_tokens": 479,
+      "reasoning_tokens": 101,
+      "calls": 2,
+      "latency_s": 1.7112666999455541,
+      "request_ids": [
+        "ce84a58fbfd24ee296d163dcd295b886",
+        "ea34d6a0bbe14960be0c2c0c600e68c8"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

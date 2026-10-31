@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-66b265771aea61422de682c2e1853095b9725b8a8582b4ea40fec8d2a7ab3ab6",
+    "question": "Amy biked 12 miles yesterday. If she biked 3 miles less than twice as far as yesterday, how many miles did she bike in total in the two days?",
+    "answer": "33",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "33",
+      "text": "<answer>33</answer>",
+      "input_tokens": 114,
+      "output_tokens": 93,
+      "total_tokens": 207,
+      "reasoning_tokens": 84,
+      "calls": 1,
+      "latency_s": 0.7956476998515427,
+      "request_ids": [
+        "251b2a2460d2407f9cc7cc6322747f05"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "33",
+      "text": "Yesterday: 12 miles  \nToday: \\(2 \\times 12 - 3 = 24 - 3 = 21\\) miles  \nTotal: \\(12 + 21 = 33\\) miles\n\n<answer>33</answer>",
+      "input_tokens": 114,
+      "output_tokens": 141,
+      "total_tokens": 255,
+      "reasoning_tokens": 90,
+      "calls": 1,
+      "latency_s": 0.8336352000478655,
+      "request_ids": [
+        "85ea2f15fc5f4c938f482a6f340b05af"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "33",
+      "text": "Interpretation: Today she biked \\(2 \\times 12 - 3 = 21\\) miles. Total: \\(12 + 21 = 33\\). Arithmetic is correct.\n\n<answer>33</answer>",
+      "input_tokens": 317,
+      "output_tokens": 305,
+      "total_tokens": 622,
+      "reasoning_tokens": 208,
+      "calls": 2,
+      "latency_s": 2.1004699000623077,
+      "request_ids": [
+        "85ea2f15fc5f4c938f482a6f340b05af",
+        "81995ed2952445929e608fb87607bbd5"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

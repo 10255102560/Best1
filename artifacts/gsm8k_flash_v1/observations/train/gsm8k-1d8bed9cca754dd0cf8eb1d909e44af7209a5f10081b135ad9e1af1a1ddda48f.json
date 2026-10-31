@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-1d8bed9cca754dd0cf8eb1d909e44af7209a5f10081b135ad9e1af1a1ddda48f",
+    "question": "Brady will make $450 more in a year than Dwayne. If Dwayne makes $1,500 in a year, how much will Brady and Dwayne make combined in a year?",
+    "answer": "3450",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "3450",
+      "text": "<answer>3450</answer>",
+      "input_tokens": 120,
+      "output_tokens": 46,
+      "total_tokens": 166,
+      "reasoning_tokens": 36,
+      "calls": 1,
+      "latency_s": 1.1306934000458568,
+      "request_ids": [
+        "c95cf40da8f242a2a43626fa40aaaddf"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "3450",
+      "text": "Dwayne makes $1,500.  \nBrady makes $1,500 + $450 = $1,950.  \nCombined: $1,500 + $1,950 = $3,450.\n\n<answer>3450</answer>",
+      "input_tokens": 120,
+      "output_tokens": 101,
+      "total_tokens": 221,
+      "reasoning_tokens": 46,
+      "calls": 1,
+      "latency_s": 1.4785166000947356,
+      "request_ids": [
+        "c761a306538b4f0385138c3372ef1712"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "3450",
+      "text": "Verified: Brady earns 1,500 + 450 = 1,950. Combined: 1,500 + 1,950 = 3,450. The proposed solution is correct.\n\n<answer>3450</answer>",
+      "input_tokens": 333,
+      "output_tokens": 221,
+      "total_tokens": 554,
+      "reasoning_tokens": 116,
+      "calls": 2,
+      "latency_s": 2.7063340002205223,
+      "request_ids": [
+        "c761a306538b4f0385138c3372ef1712",
+        "6b9556de62bb4dc386c929425cb910b8"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

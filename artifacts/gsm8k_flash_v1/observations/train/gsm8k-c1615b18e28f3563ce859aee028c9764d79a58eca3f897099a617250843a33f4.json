@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-c1615b18e28f3563ce859aee028c9764d79a58eca3f897099a617250843a33f4",
+    "question": "A library cabinet houses five ancient scrolls. The first scroll is 4080 years old. If each scroll is older than the last by half as many years as the last scroll’s age, how old is the fifth scroll?",
+    "answer": "20655",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "20655",
+      "text": "<answer>20655</answer>",
+      "input_tokens": 125,
+      "output_tokens": 142,
+      "total_tokens": 267,
+      "reasoning_tokens": 132,
+      "calls": 1,
+      "latency_s": 1.2458687999751419,
+      "request_ids": [
+        "ce044769eca9494a952227f9592b667c"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "20655",
+      "text": "Let the first scroll’s age be \\(4080\\).\n\nEach next scroll is older by half the previous scroll’s age, so multiply by \\(1.5=\\frac{3}{2}\\) each time.\n\n\\[\na_5 = 4080\\left(\\frac{3}{2}\\right)^4\n= 4080 \\cdot \\frac{81}{16}\n= 20655\n\\]\n\n<answer>20655</answer>",
+      "input_tokens": 125,
+      "output_tokens": 328,
+      "total_tokens": 453,
+      "reasoning_tokens": 235,
+      "calls": 1,
+      "latency_s": 1.5359054000582546,
+      "request_ids": [
+        "8dff150d4a20463faecd471c60617664"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "20655",
+      "text": "The interpretation and arithmetic are correct: each age is multiplied by \\(3/2\\), so the fifth is \\(4080(3/2)^4=20655\\).\n\n<answer>20655</answer>",
+      "input_tokens": 381,
+      "output_tokens": 472,
+      "total_tokens": 853,
+      "reasoning_tokens": 335,
+      "calls": 2,
+      "latency_s": 5.373861900065094,
+      "request_ids": [
+        "8dff150d4a20463faecd471c60617664",
+        "2ffd5e66b8584b14a630054a0018d73c"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

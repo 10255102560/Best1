@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-b6b8f93dab138a193cb4aa56850a4f38d5d4eb8c0f3b7f931349f77fe3d217e9",
+    "question": "There are 40 ducks in a pond.  50 percent of the ducks are Muscovy and 30 percent of the Muscovies are female.  How many female Muscovy ducks there?",
+    "answer": "6",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "<answer>6</answer>",
+      "input_tokens": 119,
+      "output_tokens": 59,
+      "total_tokens": 178,
+      "reasoning_tokens": 50,
+      "calls": 1,
+      "latency_s": 0.8989800999406725,
+      "request_ids": [
+        "f04b328cb9124f7cb522db9ec018d1d5"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "50% of 40 ducks are Muscovy: \\(0.5 \\times 40 = 20\\)\n\n30% of those are female: \\(0.3 \\times 20 = 6\\)\n\n<answer>6</answer>",
+      "input_tokens": 119,
+      "output_tokens": 103,
+      "total_tokens": 222,
+      "reasoning_tokens": 52,
+      "calls": 1,
+      "latency_s": 0.7590743000619113,
+      "request_ids": [
+        "ee64c55a50194abfa0bfa5496b19dd31"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "The interpretation and arithmetic are correct: \\(0.5 \\times 40 = 20\\) Muscovy ducks, and \\(0.3 \\times 20 = 6\\) female Muscovy ducks.\n\n<answer>6</answer>",
+      "input_tokens": 327,
+      "output_tokens": 222,
+      "total_tokens": 549,
+      "reasoning_tokens": 119,
+      "calls": 2,
+      "latency_s": 2.377507100114599,
+      "request_ids": [
+        "ee64c55a50194abfa0bfa5496b19dd31",
+        "9248428d531f4dc69249e105a98811e5"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

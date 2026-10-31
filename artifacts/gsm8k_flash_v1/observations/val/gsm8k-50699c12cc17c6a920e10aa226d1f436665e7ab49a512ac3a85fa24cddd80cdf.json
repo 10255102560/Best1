@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-50699c12cc17c6a920e10aa226d1f436665e7ab49a512ac3a85fa24cddd80cdf",
+    "question": "Madison makes 30 paper boats and sets them afloat. 20% are eaten by fish and Madison shoots two of the others with flaming arrows. How many boats are left?",
+    "answer": "22",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "22",
+      "text": "<answer>22</answer>",
+      "input_tokens": 115,
+      "output_tokens": 54,
+      "total_tokens": 169,
+      "reasoning_tokens": 45,
+      "calls": 1,
+      "latency_s": 1.6642653001472354,
+      "request_ids": [
+        "e57d70f982594633b72b5883c9da5a01"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "22",
+      "text": "20% of 30 = 6 boats eaten.  \n30 − 6 = 24 boats remain.  \n24 − 2 = 22 boats left.\n\n<answer>22</answer>",
+      "input_tokens": 115,
+      "output_tokens": 114,
+      "total_tokens": 229,
+      "reasoning_tokens": 72,
+      "calls": 1,
+      "latency_s": 0.915430799825117,
+      "request_ids": [
+        "052a9d0b52244098b63844d06132613d"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "22",
+      "text": "20% of 30 is 6, leaving 24. Shooting 2 more leaves 22. The proposed solution is correct.\n\n<answer>22</answer>",
+      "input_tokens": 310,
+      "output_tokens": 222,
+      "total_tokens": 532,
+      "reasoning_tokens": 144,
+      "calls": 2,
+      "latency_s": 1.8229241997469217,
+      "request_ids": [
+        "052a9d0b52244098b63844d06132613d",
+        "507038ee892848849a2efe852459589e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

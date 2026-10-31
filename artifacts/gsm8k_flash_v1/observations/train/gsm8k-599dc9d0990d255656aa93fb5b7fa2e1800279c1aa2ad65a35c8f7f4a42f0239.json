@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-599dc9d0990d255656aa93fb5b7fa2e1800279c1aa2ad65a35c8f7f4a42f0239",
+    "question": "On a particular week, Fatima's restaurant served 25 people food and drinks, and 3/5 of that number came to buy coffee. How many people did not buy coffee in the restaurant?",
+    "answer": "10",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "<answer>10</answer>",
+      "input_tokens": 119,
+      "output_tokens": 79,
+      "total_tokens": 198,
+      "reasoning_tokens": 70,
+      "calls": 1,
+      "latency_s": 0.8866661000065506,
+      "request_ids": [
+        "eefa6a7afe8847c7b3ab16222435ef8f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "Total people = 25  \nCoffee buyers = \\( \\frac{3}{5} \\times 25 = 15 \\)  \nDid not buy coffee = \\(25 - 15 = 10\\)\n\n<answer>10</answer>",
+      "input_tokens": 119,
+      "output_tokens": 123,
+      "total_tokens": 242,
+      "reasoning_tokens": 74,
+      "calls": 1,
+      "latency_s": 0.9093977001029998,
+      "request_ids": [
+        "e8b4390da58d4917b12ec9ddedd26fe8"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "Total = 25; coffee buyers = 3/5 × 25 = 15; non-coffee buyers = 25 − 15 = 10. The proposed solution is correct.\n\n<answer>10</answer>",
+      "input_tokens": 325,
+      "output_tokens": 261,
+      "total_tokens": 586,
+      "reasoning_tokens": 164,
+      "calls": 2,
+      "latency_s": 2.515580000123009,
+      "request_ids": [
+        "e8b4390da58d4917b12ec9ddedd26fe8",
+        "7f4470a4f95f4b86a29adaf71ce5fabc"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

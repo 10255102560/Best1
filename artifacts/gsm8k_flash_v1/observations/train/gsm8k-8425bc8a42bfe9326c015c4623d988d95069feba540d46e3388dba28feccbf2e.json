@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-8425bc8a42bfe9326c015c4623d988d95069feba540d46e3388dba28feccbf2e",
+    "question": "In a 5-day Fishing competition, Jackson was able to reel a total of 6 fishes per day, Jonah was able to reel 4 fishes per day and George was able to reel 8 fishes per day. How many fishes were they able to catch throughout the competition if they are on the same team?",
+    "answer": "90",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "90",
+      "text": "<answer>90</answer>",
+      "input_tokens": 141,
+      "output_tokens": 65,
+      "total_tokens": 206,
+      "reasoning_tokens": 56,
+      "calls": 1,
+      "latency_s": 0.7321369999554008,
+      "request_ids": [
+        "7fe5749eb8964343b9c5606a9ab8a09f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "90",
+      "text": "Jackson: \\(6 \\times 5 = 30\\)  \nJonah: \\(4 \\times 5 = 20\\)  \nGeorge: \\(8 \\times 5 = 40\\)  \n\nTotal: \\(30 + 20 + 40 = 90\\)\n\n<answer>90</answer>",
+      "input_tokens": 141,
+      "output_tokens": 128,
+      "total_tokens": 269,
+      "reasoning_tokens": 65,
+      "calls": 1,
+      "latency_s": 1.5504991000052541,
+      "request_ids": [
+        "54932ec616ae43df8b7ad35c8e06e74f"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "90",
+      "text": "Rates sum to \\(6+4+8=18\\) fish/day. Over 5 days: \\(18 \\times 5=90\\). The proposed solution is correct.\n\n<answer>90</answer>",
+      "input_tokens": 383,
+      "output_tokens": 291,
+      "total_tokens": 674,
+      "reasoning_tokens": 183,
+      "calls": 2,
+      "latency_s": 2.5488478001207113,
+      "request_ids": [
+        "54932ec616ae43df8b7ad35c8e06e74f",
+        "1558fa1ab9bf44568f129ba5d28b4a19"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

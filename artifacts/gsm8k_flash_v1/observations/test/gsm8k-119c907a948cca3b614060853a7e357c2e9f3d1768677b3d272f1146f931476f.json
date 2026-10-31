@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-119c907a948cca3b614060853a7e357c2e9f3d1768677b3d272f1146f931476f",
+    "question": "15 gallons of gas were equally divided into 5 different containers. Josey needed 1/4 of a container to run her lawnmower. How many pints of gasoline did Josey need?",
+    "answer": "6",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "<answer>6</answer>",
+      "input_tokens": 118,
+      "output_tokens": 81,
+      "total_tokens": 199,
+      "reasoning_tokens": 72,
+      "calls": 1,
+      "latency_s": 0.7755416999571025,
+      "request_ids": [
+        "b19303bfc78f4dea8f9846faea8258bc"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "15 gallons ÷ 5 containers = 3 gallons per container.  \nJosey needed \\( \\frac{1}{4} \\) of a container: \\(3 \\times \\frac{1}{4} = \\frac{3}{4}\\) gallon.  \nConvert to pints: \\( \\frac{3}{4} \\times 8 = 6\\) pints.\n\n<answer>6</answer>",
+      "input_tokens": 118,
+      "output_tokens": 158,
+      "total_tokens": 276,
+      "reasoning_tokens": 74,
+      "calls": 1,
+      "latency_s": 0.9160672000143677,
+      "request_ids": [
+        "86b31cfd71014f1c8a1b21dc024a9b38"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "The solution correctly computes 3 gallons per container, then \\( \\frac14 \\times 3 = \\frac34 \\) gallon, which equals \\( \\frac34 \\times 8 = 6 \\) pints.\n\n<answer>6</answer>",
+      "input_tokens": 358,
+      "output_tokens": 283,
+      "total_tokens": 641,
+      "reasoning_tokens": 148,
+      "calls": 2,
+      "latency_s": 1.831207900075242,
+      "request_ids": [
+        "86b31cfd71014f1c8a1b21dc024a9b38",
+        "309cb07e5cab4725bcb1490939edc473"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

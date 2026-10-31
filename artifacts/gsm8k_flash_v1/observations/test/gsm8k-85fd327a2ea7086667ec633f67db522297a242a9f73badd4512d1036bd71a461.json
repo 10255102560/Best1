@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-85fd327a2ea7086667ec633f67db522297a242a9f73badd4512d1036bd71a461",
+    "question": "Colby works for a manufacturing company in the packaging division.  He gets paid $0.20 for every package he completes. If he completes 10 less than 50 packages per hour, how much money, in dollars, does he earn in a typical eight-hour workday?",
+    "answer": "64",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "64",
+      "text": "<answer>64</answer>",
+      "input_tokens": 135,
+      "output_tokens": 61,
+      "total_tokens": 196,
+      "reasoning_tokens": 52,
+      "calls": 1,
+      "latency_s": 1.1217561000958085,
+      "request_ids": [
+        "7fd5957d57ca45a989c0d30aaf8f3535"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "64",
+      "text": "He completes \\(50 - 10 = 40\\) packages per hour.\n\nEarnings per hour: \\(40 \\times 0.20 = 8\\) dollars.\n\nIn an 8-hour day: \\(8 \\times 8 = 64\\) dollars.\n\n<answer>64</answer>",
+      "input_tokens": 135,
+      "output_tokens": 134,
+      "total_tokens": 269,
+      "reasoning_tokens": 72,
+      "calls": 1,
+      "latency_s": 1.0846138000488281,
+      "request_ids": [
+        "b2ec8124eae245eaaec72989ee3cac21"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "64",
+      "text": "The interpretation and arithmetic are correct: 50 − 10 = 40 packages/hour; 40 × $0.20 = $8/hour; $8 × 8 = $64/day.\n\n<answer>64</answer>",
+      "input_tokens": 370,
+      "output_tokens": 254,
+      "total_tokens": 624,
+      "reasoning_tokens": 143,
+      "calls": 2,
+      "latency_s": 2.7029865998774767,
+      "request_ids": [
+        "b2ec8124eae245eaaec72989ee3cac21",
+        "3abc2fdf06f0447ab85317eab3de4c04"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

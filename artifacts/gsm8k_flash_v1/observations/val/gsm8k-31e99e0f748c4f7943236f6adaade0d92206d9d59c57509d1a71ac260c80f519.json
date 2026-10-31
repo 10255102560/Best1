@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-31e99e0f748c4f7943236f6adaade0d92206d9d59c57509d1a71ac260c80f519",
+    "question": "At Sunshine Orchard, there are 12 more than three times the number of pumpkins at Moonglow Orchard. If Moonglow Orchard has 14 pumpkins how many are there at Sunshine Orchard?",
+    "answer": "54",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "54",
+      "text": "<answer>54</answer>",
+      "input_tokens": 123,
+      "output_tokens": 37,
+      "total_tokens": 160,
+      "reasoning_tokens": 28,
+      "calls": 1,
+      "latency_s": 4.0186465999577194,
+      "request_ids": [
+        "f039d6a4e0d7468a9583458be90ce079"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "54",
+      "text": "Moonglow has 14 pumpkins.  \nThree times that is \\(3 \\times 14 = 42\\).  \n12 more gives \\(42 + 12 = 54\\).\n\n<answer>54</answer>",
+      "input_tokens": 123,
+      "output_tokens": 97,
+      "total_tokens": 220,
+      "reasoning_tokens": 51,
+      "calls": 1,
+      "latency_s": 2.119029200170189,
+      "request_ids": [
+        "da91475b996348ee9a6ab62aa55865a3"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "54",
+      "text": "The interpretation and arithmetic are correct: \\(3 \\times 14 + 12 = 42 + 12 = 54\\).\n\n<answer>54</answer>",
+      "input_tokens": 330,
+      "output_tokens": 199,
+      "total_tokens": 529,
+      "reasoning_tokens": 118,
+      "calls": 2,
+      "latency_s": 10.491776400245726,
+      "request_ids": [
+        "da91475b996348ee9a6ab62aa55865a3",
+        "d7c9725d0646418a8f32136bc15a8d76"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f8c22476e86d0f0c09502796502193646e7b329d9b9b7b43442a50d30c3d4c8d",
+    "question": "John has 2 houses with 3 bedrooms each.  Each bedroom has 2 windows each.  There are an additional 4 windows in each house not connected to bedrooms.  How many total windows are there between the houses?",
+    "answer": "20",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "<answer>20</answer>",
+      "input_tokens": 125,
+      "output_tokens": 56,
+      "total_tokens": 181,
+      "reasoning_tokens": 47,
+      "calls": 1,
+      "latency_s": 0.6340981000103056,
+      "request_ids": [
+        "b174f7f9c1f04e2e967b138e4c38cd58"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "Each house has \\(3 \\times 2 = 6\\) bedroom windows.  \nFor 2 houses: \\(6 \\times 2 = 12\\) bedroom windows.  \nAdditional windows: \\(4 \\times 2 = 8\\).  \nTotal: \\(12 + 8 = 20\\).\n\n<answer>20</answer>",
+      "input_tokens": 125,
+      "output_tokens": 126,
+      "total_tokens": 251,
+      "reasoning_tokens": 56,
+      "calls": 1,
+      "latency_s": 0.9425337999127805,
+      "request_ids": [
+        "8536902a3bc24e2398a9ba4b2a21f6b5"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "20",
+      "text": "Verified: \\(2 \\times 3 \\times 2 = 12\\) bedroom windows, plus \\(2 \\times 4 = 8\\) additional windows, totaling \\(20\\).\n\n<answer>20</answer>",
+      "input_tokens": 358,
+      "output_tokens": 291,
+      "total_tokens": 649,
+      "reasoning_tokens": 175,
+      "calls": 2,
+      "latency_s": 3.3580385998357087,
+      "request_ids": [
+        "8536902a3bc24e2398a9ba4b2a21f6b5",
+        "a43269067ea149d0910e4161aac74375"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

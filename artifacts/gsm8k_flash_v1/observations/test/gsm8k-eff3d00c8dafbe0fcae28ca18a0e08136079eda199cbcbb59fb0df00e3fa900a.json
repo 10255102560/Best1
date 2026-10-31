@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-eff3d00c8dafbe0fcae28ca18a0e08136079eda199cbcbb59fb0df00e3fa900a",
+    "question": "Nancy is cleaning out her old woodshed. She saw 90 spiders, 1/3rd as many millipedes as spiders, and a number of stink bugs equal to twice the number of millipedes minus 12. How many bugs did she count total?",
+    "answer": "168",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "168",
+      "text": "<answer>168</answer>",
+      "input_tokens": 134,
+      "output_tokens": 85,
+      "total_tokens": 219,
+      "reasoning_tokens": 76,
+      "calls": 1,
+      "latency_s": 0.8992912999819964,
+      "request_ids": [
+        "2feb135f8cf946c184c43fcb444d96f9"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "168",
+      "text": "Spiders: 90  \nMillipedes: \\( \\frac{1}{3} \\times 90 = 30 \\)  \nStink bugs: \\( 2 \\times 30 - 12 = 48 \\)  \nTotal: \\( 90 + 30 + 48 = 168 \\)\n\n<answer>168</answer>",
+      "input_tokens": 134,
+      "output_tokens": 159,
+      "total_tokens": 293,
+      "reasoning_tokens": 87,
+      "calls": 1,
+      "latency_s": 1.1869414001703262,
+      "request_ids": [
+        "d4808423285846c49600b6a559a4bc55"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "168",
+      "text": "Spiders: 90  \nMillipedes: \\(90/3=30\\)  \nStink bugs: \\(2(30)-12=48\\)  \nTotal: \\(90+30+48=168\\)\n\n<answer>168</answer>",
+      "input_tokens": 378,
+      "output_tokens": 297,
+      "total_tokens": 675,
+      "reasoning_tokens": 172,
+      "calls": 2,
+      "latency_s": 2.3015889001544565,
+      "request_ids": [
+        "d4808423285846c49600b6a559a4bc55",
+        "d2044dc5a6a4434a94cbf8f884d4ce4b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

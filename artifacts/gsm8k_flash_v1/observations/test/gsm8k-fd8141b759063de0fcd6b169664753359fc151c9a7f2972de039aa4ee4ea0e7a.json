@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-fd8141b759063de0fcd6b169664753359fc151c9a7f2972de039aa4ee4ea0e7a",
+    "question": "My mom went to a gardening shop. She bought a set of pots for $19 and a sack of garden soil for $26. At checkout, she used a coupon for $7 off. How much money did my mom spend at the gardening shop?",
+    "answer": "38",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "38",
+      "text": "<answer>38</answer>",
+      "input_tokens": 129,
+      "output_tokens": 34,
+      "total_tokens": 163,
+      "reasoning_tokens": 25,
+      "calls": 1,
+      "latency_s": 0.8256530000362545,
+      "request_ids": [
+        "69ee0acb14a94a72badf96c35343a34e"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "38",
+      "text": "The total before the coupon is $19 + $26 = $45.  \nAfter the $7 coupon: $45 − $7 = $38.\n\n<answer>38</answer>",
+      "input_tokens": 129,
+      "output_tokens": 66,
+      "total_tokens": 195,
+      "reasoning_tokens": 26,
+      "calls": 1,
+      "latency_s": 1.3345566000789404,
+      "request_ids": [
+        "f58b6c771520424eab99f1f36af26f12"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "38",
+      "text": "The costs sum to $19 + $26 = $45. Applying the $7 coupon gives $45 − $7 = $38. The proposed solution is correct.\n\n<answer>38</answer>",
+      "input_tokens": 336,
+      "output_tokens": 186,
+      "total_tokens": 522,
+      "reasoning_tokens": 103,
+      "calls": 2,
+      "latency_s": 3.0391681001055986,
+      "request_ids": [
+        "f58b6c771520424eab99f1f36af26f12",
+        "f4314da77ff945a984e2739bbda10f54"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "verified_at": "2026-10-31T08:59:38.615957+00:00",
+  "checks": [
+    {
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "----------------------------------------------------------------------\nRan 31 tests in 0.644s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/replay_report.py",
+        "--run",
+        "artifacts/gsm8k_flash_v1"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"status\": \"verified_offline\",\n  \"tasks_verified\": 304,\n  \"test_tasks\": 128,\n  \"successful_requests_verified\": 912,\n  \"selected_version\": 3,\n  \"verified\": [\n    \"implementation hashes\",\n    \"split membership\",\n    \"answer grading\",\n    \"request token accounting\",\n    \"frozen policy\",\n    \"validation gates\",\n    \"test metrics\",\n    \"paired bootstrap\",\n    \"prediction export\"\n  ],\n  \"report\": \"C:\\\\Users\\\\MYF\\\\Desktop\\\\best\\\\artifacts\\\\gsm8k_flash_v1\\\\REPORT.md\",\n  \"chart\": \"C:\\\\Users\\\\MYF\\\\Desktop\\\\best\\\\artifacts\\\\gsm8k_flash_v1\\\\summary.svg\"\n}\n",
+      "stderr": ""
+    }
+  ]
+}

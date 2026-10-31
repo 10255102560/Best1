@@ -4,10 +4,12 @@
 
 这是可运行的工程与小规模真实 API 实验。**它属于 harness 参数层面的受限自改进，不训练基础模型，也不声称实现了开放式递归智能提升。**
 
+真实实验已完成：冻结梯度路由在 128 道独立测试题上保持 **123/128 正确**，平均 token 减少 **1.87%**；但验证集选出的固定直接回答达到 **124/128 正确、token 减少 25.28%**，优于复杂路由。完整的正负结果都保留在 [测评报告](artifacts/gsm8k_flash_v1/REPORT.md) 和 [结果讨论](docs/findings.md)。
+
 ## 交付物
 
 - `docs/research_plan.md`：问题筛选、数学推导、参考工程、实验设计和几天内的实施计划。
-- `artifacts/gsm8k_flash_v1/REPORT.md`：真实 GSM8K 子集测评报告（实验完成后生成）。
+- `artifacts/gsm8k_flash_v1/REPORT.md`：已完成的真实 GSM8K 子集测评报告。
 - `artifacts/gsm8k_flash_v1/summary.json`：可核查的指标、置信区间和请求成本。
 - `artifacts/gsm8k_flash_v1/observations/`：逐题、逐策略输出和评分。
 - `artifacts/gsm8k_flash_v1/rounds.json`、`versions/`、`frozen_policy.json`：自改进过程与最终冻结版本。

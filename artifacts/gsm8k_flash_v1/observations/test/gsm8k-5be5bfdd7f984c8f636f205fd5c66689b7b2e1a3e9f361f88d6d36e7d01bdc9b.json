@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-5be5bfdd7f984c8f636f205fd5c66689b7b2e1a3e9f361f88d6d36e7d01bdc9b",
+    "question": "There are 9 Fast and the Furious movies, Deepa has seen each one in the theatre three times. She has spent $216 seeing these movies. What is the average price she paid per ticket?",
+    "answer": "8",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "<answer>8</answer>",
+      "input_tokens": 120,
+      "output_tokens": 43,
+      "total_tokens": 163,
+      "reasoning_tokens": 34,
+      "calls": 1,
+      "latency_s": 0.5645341000054032,
+      "request_ids": [
+        "64449ec98a754948acdb98cd6c5cc441"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "Deepa saw \\(9 \\times 3 = 27\\) tickets total.\n\nAverage price per ticket: \\(216 \\div 27 = 8\\).\n\n<answer>8</answer>",
+      "input_tokens": 120,
+      "output_tokens": 89,
+      "total_tokens": 209,
+      "reasoning_tokens": 49,
+      "calls": 1,
+      "latency_s": 0.9517723999451846,
+      "request_ids": [
+        "60dbef65a1004814ba6fd5f430dbfe14"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "Verification: \\(9 \\times 3 = 27\\) tickets; \\(216 \\div 27 = 8\\). The interpretation and arithmetic are correct.\n\n<answer>8</answer>",
+      "input_tokens": 318,
+      "output_tokens": 202,
+      "total_tokens": 520,
+      "reasoning_tokens": 121,
+      "calls": 2,
+      "latency_s": 1.7826997998636216,
+      "request_ids": [
+        "60dbef65a1004814ba6fd5f430dbfe14",
+        "9e371ebea8d64109904323ef844e15fc"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

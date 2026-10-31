@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-66a78fee01f5efe59b031eae6085aa2f43ac0afab1ef3e9c30fe2804f0db7815",
+    "question": "Allie's making guacamole for a party. Each batch requires 4 avocados and serves about 6 people. If 42 people are going to be at the party including her, how many avocados does she need?",
+    "answer": "28",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "28",
+      "text": "<answer>28</answer>",
+      "input_tokens": 125,
+      "output_tokens": 67,
+      "total_tokens": 192,
+      "reasoning_tokens": 58,
+      "calls": 1,
+      "latency_s": 1.973067699931562,
+      "request_ids": [
+        "210168739cbb4cf9a89d312bdd4d1b0d"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "28",
+      "text": "42 people ÷ 6 people per batch = 7 batches  \n7 batches × 4 avocados per batch = 28 avocados\n\n<answer>28</answer>",
+      "input_tokens": 125,
+      "output_tokens": 91,
+      "total_tokens": 216,
+      "reasoning_tokens": 54,
+      "calls": 1,
+      "latency_s": 0.9201591999735683,
+      "request_ids": [
+        "bbcb7636450848d5abc7616280883077"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "28",
+      "text": "The calculation is correct: 42 ÷ 6 = 7 batches, and 7 × 4 = 28 avocados.\n\n<answer>28</answer>",
+      "input_tokens": 325,
+      "output_tokens": 192,
+      "total_tokens": 517,
+      "reasoning_tokens": 119,
+      "calls": 2,
+      "latency_s": 13.050361800007522,
+      "request_ids": [
+        "bbcb7636450848d5abc7616280883077",
+        "4fe1991279ca4cdda0be1191c3cde490"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-2dec018e2d325528482554eea27f0c51231c44d9c991cde448dd0ff3e1bced55",
+    "question": "Ava and Emma want to know who is better at the new video game Ava got for her birthday. They are each going to play one level and whoever has the highest score wins. They receive 10 points for every enemy they jump on, 5 points for each berry they collect, and 30 points for every second left on the timer when they finish the level. If Ava jumps on 8 more enemies than Emma and collects 3 more berries, but finishes the level 4 seconds slower, what is the difference between their two scores?",
+    "answer": "25",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "25",
+      "text": "<answer>25</answer>",
+      "input_tokens": 188,
+      "output_tokens": 159,
+      "total_tokens": 347,
+      "reasoning_tokens": 150,
+      "calls": 1,
+      "latency_s": 1.0221193998586386,
+      "request_ids": [
+        "bf1d5e9e61cd42c9bac02e870b6b0a12"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "25",
+      "text": "Ava’s extra points:\n- 8 enemies × 10 = 80\n- 3 berries × 5 = 15\nTotal extra = 95\n\nAva finishes 4 seconds slower, so she has 4 fewer seconds left:\n- 4 × 30 = 120 fewer points\n\nNet difference:\n95 − 120 = −25\n\nSo Ava scores 25 points less than Emma. The difference between their scores is 25.\n\n<answer>25</answer>",
+      "input_tokens": 188,
+      "output_tokens": 273,
+      "total_tokens": 461,
+      "reasoning_tokens": 170,
+      "calls": 1,
+      "latency_s": 1.6011087999213487,
+      "request_ids": [
+        "31bce86632ae41d7b86bbbfc0303deee"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "25",
+      "text": "Ava’s net score relative to Emma: \\(8(10)+3(5)-4(30)=80+15-120=-25\\).  \nSo Ava scores 25 fewer points; the difference is 25.\n\n<answer>25</answer>",
+      "input_tokens": 517,
+      "output_tokens": 451,
+      "total_tokens": 968,
+      "reasoning_tokens": 293,
+      "calls": 2,
+      "latency_s": 2.802499100100249,
+      "request_ids": [
+        "31bce86632ae41d7b86bbbfc0303deee",
+        "d19574d70dd94d34b5131e2910636285"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

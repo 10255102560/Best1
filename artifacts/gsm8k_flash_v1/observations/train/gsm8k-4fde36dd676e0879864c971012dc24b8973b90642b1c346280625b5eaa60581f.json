@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-4fde36dd676e0879864c971012dc24b8973b90642b1c346280625b5eaa60581f",
+    "question": "The Dark Lord needs to transport 1200 pounds of swords to the Enchanted Forest for a battle with the elves. He has 10 squads of 8 orcs each. How many pounds of swords does each orc have to carry?",
+    "answer": "15",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "<answer>15</answer>",
+      "input_tokens": 129,
+      "output_tokens": 60,
+      "total_tokens": 189,
+      "reasoning_tokens": 51,
+      "calls": 1,
+      "latency_s": 1.663143000099808,
+      "request_ids": [
+        "6b100c9f1a3841adae09d8313c534890"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Total orcs: \\(10 \\times 8 = 80\\)\n\nPounds per orc: \\(1200 \\div 80 = 15\\)\n\n<answer>15</answer>",
+      "input_tokens": 129,
+      "output_tokens": 100,
+      "total_tokens": 229,
+      "reasoning_tokens": 60,
+      "calls": 1,
+      "latency_s": 0.8692169000860304,
+      "request_ids": [
+        "377e7557d61d4c70835ec8ff8777974a"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "15",
+      "text": "Total orcs: \\(10 \\times 8 = 80\\).  \nPounds per orc: \\(1200 \\div 80 = 15\\).  \nThe proposed solution is correct.\n\n<answer>15</answer>",
+      "input_tokens": 336,
+      "output_tokens": 215,
+      "total_tokens": 551,
+      "reasoning_tokens": 127,
+      "calls": 2,
+      "latency_s": 1.8323611000087112,
+      "request_ids": [
+        "377e7557d61d4c70835ec8ff8777974a",
+        "d3f7d399592c4a759fd0f36baa447e0e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

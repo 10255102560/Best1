@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-17a31b91347c9a1d770b6d8e145169979de2a5a0e2fd649f5ad70dbd0d46a608",
+    "question": "David and Dasha went to the carnival, where there are 9 rides.  Each ride costs 2 ride tickets at $2 per ticket.  You can also buy a ride bracelet for $30 which gives you 9 rides.  If David buys a ride bracelet and Dasha buys tickets, and they ride all 9 rides, how much money does David save?",
+    "answer": "6",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "<answer>6</answer>",
+      "input_tokens": 154,
+      "output_tokens": 76,
+      "total_tokens": 230,
+      "reasoning_tokens": 67,
+      "calls": 1,
+      "latency_s": 0.8380965001415461,
+      "request_ids": [
+        "2d50f09d263d431586485d7fd236ed5c"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "Each ride costs \\(2 \\times \\$2 = \\$4\\).\n\nFor 9 rides with tickets: \\(9 \\times \\$4 = \\$36\\).\n\nDavid pays \\$30 for the bracelet, so he saves:\n\n\\[\n\\$36 - \\$30 = \\$6\n\\]\n\n<answer>6</answer>",
+      "input_tokens": 154,
+      "output_tokens": 168,
+      "total_tokens": 322,
+      "reasoning_tokens": 105,
+      "calls": 1,
+      "latency_s": 1.5765564998146147,
+      "request_ids": [
+        "874bdfaa43284f4a8ab8dedbaa73cb55"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "Each ride costs \\(2 \\times \\$2 = \\$4\\).  \n9 rides by tickets cost \\(9 \\times \\$4 = \\$36\\).  \nDavid pays \\$30, so he saves \\(\\$36 - \\$30 = \\$6\\).\n\n<answer>6</answer>",
+      "input_tokens": 409,
+      "output_tokens": 311,
+      "total_tokens": 720,
+      "reasoning_tokens": 191,
+      "calls": 2,
+      "latency_s": 2.8202015997376293,
+      "request_ids": [
+        "874bdfaa43284f4a8ab8dedbaa73cb55",
+        "d96a0edb719e4f5ea22273ee14ad83e1"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

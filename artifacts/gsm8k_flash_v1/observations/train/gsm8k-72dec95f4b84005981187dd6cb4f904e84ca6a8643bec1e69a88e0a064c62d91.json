@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-72dec95f4b84005981187dd6cb4f904e84ca6a8643bec1e69a88e0a064c62d91",
+    "question": "There are 14 green papayas on the papaya tree.  On Friday, two of the fruits turned yellow.  On Sunday, twice as many fruits as on Friday turn yellow.  How many green papayas are left on the tree?",
+    "answer": "8",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "<answer>8</answer>",
+      "input_tokens": 128,
+      "output_tokens": 80,
+      "total_tokens": 208,
+      "reasoning_tokens": 71,
+      "calls": 1,
+      "latency_s": 0.7779868000652641,
+      "request_ids": [
+        "e7e95162aa03494ab13ca41311c26c64"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "14 green initially.  \nFriday: 2 turn yellow → 12 green left.  \nSunday: twice as many as Friday = 4 turn yellow → 12 − 4 = 8 green left.\n\n<answer>8</answer>",
+      "input_tokens": 128,
+      "output_tokens": 129,
+      "total_tokens": 257,
+      "reasoning_tokens": 78,
+      "calls": 1,
+      "latency_s": 0.9222593000158668,
+      "request_ids": [
+        "b076205b4e3b46c18886dce1806f98d2"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "The interpretation and arithmetic are correct: 14 − 2 = 12 green after Friday; 12 − 4 = 8 green after Sunday.\n\n<answer>8</answer>",
+      "input_tokens": 345,
+      "output_tokens": 270,
+      "total_tokens": 615,
+      "reasoning_tokens": 179,
+      "calls": 2,
+      "latency_s": 1.820712999906391,
+      "request_ids": [
+        "b076205b4e3b46c18886dce1806f98d2",
+        "184cde33901347b093881364321bdf70"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

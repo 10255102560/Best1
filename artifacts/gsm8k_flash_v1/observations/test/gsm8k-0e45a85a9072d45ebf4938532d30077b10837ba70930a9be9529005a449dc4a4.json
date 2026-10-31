@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0e45a85a9072d45ebf4938532d30077b10837ba70930a9be9529005a449dc4a4",
+    "question": "Russell works at a pet store and is distributing straw among the rodents. The rats are kept in 3 cages in equal groups and each rat is given 6 pieces of straw. There are 10 cages of hamsters that are kept alone and each hamster is given 5 pieces of straw. There is also a pen of rabbits where 20 pieces of straw are distributed among the rabbits. No straw is used anywhere else in the store. If 160 pieces of straw have been distributed among the small rodents, how many rats are in each cage?",
+    "answer": "5",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "<answer>5</answer>",
+      "input_tokens": 188,
+      "output_tokens": 197,
+      "total_tokens": 385,
+      "reasoning_tokens": 188,
+      "calls": 1,
+      "latency_s": 1.054721900029108,
+      "request_ids": [
+        "251b048da6c4406dae67697aeb920857"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Hamsters use \\(10 \\times 5 = 50\\) pieces.  \nRabbits use \\(20\\) pieces.  \nStraw for rats: \\(160 - 50 - 20 = 90\\) pieces.  \nNumber of rats: \\(90 \\div 6 = 15\\).  \nRats per cage: \\(15 \\div 3 = 5\\).\n\n<answer>5</answer>",
+      "input_tokens": 188,
+      "output_tokens": 271,
+      "total_tokens": 459,
+      "reasoning_tokens": 186,
+      "calls": 1,
+      "latency_s": 2.272833999944851,
+      "request_ids": [
+        "c3f7224abfbf44b09c6ea99b929725ea"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "5",
+      "text": "Hamsters use \\(10 \\times 5 = 50\\) pieces.  \nRabbits use \\(20\\) pieces.  \nRat straw: \\(160 - 50 - 20 = 90\\) pieces.  \nNumber of rats: \\(90 \\div 6 = 15\\).  \nRats per cage: \\(15 \\div 3 = 5\\).\n\n<answer>5</answer>",
+      "input_tokens": 499,
+      "output_tokens": 769,
+      "total_tokens": 1268,
+      "reasoning_tokens": 601,
+      "calls": 2,
+      "latency_s": 4.68185959989205,
+      "request_ids": [
+        "c3f7224abfbf44b09c6ea99b929725ea",
+        "d3b4d84c0052499eb3d351697f63ae2b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

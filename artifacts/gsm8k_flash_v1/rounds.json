@@ -1,0 +1,90 @@
+[
+  {
+    "round": 1,
+    "train_tasks": 32,
+    "accepted": false,
+    "val_incumbent": {
+      "accuracy": 0.9791666666666666,
+      "mean_tokens": 330.4375,
+      "mean_calls": 1.0,
+      "mean_latency_s": 2.324059820835828,
+      "utility": 0.9626447916666666
+    },
+    "val_candidate": {
+      "accuracy": 0.9791666666666666,
+      "mean_tokens": 330.4375,
+      "mean_calls": 1.0,
+      "mean_latency_s": 2.324059820835828,
+      "utility": 0.9626447916666666
+    },
+    "objective_start": 0.9577270241121235,
+    "objective_end": 0.9592353442547435,
+    "reason": "validation gate rejected candidate"
+  },
+  {
+    "round": 2,
+    "train_tasks": 64,
+    "accepted": false,
+    "val_incumbent": {
+      "accuracy": 0.9791666666666666,
+      "mean_tokens": 330.4375,
+      "mean_calls": 1.0,
+      "mean_latency_s": 2.324059820835828,
+      "utility": 0.9626447916666666
+    },
+    "val_candidate": {
+      "accuracy": 0.9791666666666666,
+      "mean_tokens": 330.4375,
+      "mean_calls": 1.0,
+      "mean_latency_s": 2.324059820835828,
+      "utility": 0.9626447916666666
+    },
+    "objective_start": 0.9569282848094246,
+    "objective_end": 0.9585808920126321,
+    "reason": "validation gate rejected candidate"
+  },
+  {
+    "round": 3,
+    "train_tasks": 96,
+    "accepted": true,
+    "val_incumbent": {
+      "accuracy": 0.9791666666666666,
+      "mean_tokens": 330.4375,
+      "mean_calls": 1.0,
+      "mean_latency_s": 2.324059820835828,
+      "utility": 0.9626447916666666
+    },
+    "val_candidate": {
+      "accuracy": 0.9791666666666666,
+      "mean_tokens": 323.5833333333333,
+      "mean_calls": 1.0,
+      "mean_latency_s": 2.2691646854170053,
+      "utility": 0.9629875
+    },
+    "objective_start": 0.9506893759305789,
+    "objective_end": 0.9549085490363444,
+    "reason": "validation utility improved and accuracy guard passed"
+  },
+  {
+    "round": 4,
+    "train_tasks": 128,
+    "accepted": false,
+    "val_incumbent": {
+      "accuracy": 0.9791666666666666,
+      "mean_tokens": 323.5833333333333,
+      "mean_calls": 1.0,
+      "mean_latency_s": 2.2691646854170053,
+      "utility": 0.9629875
+    },
+    "val_candidate": {
+      "accuracy": 0.9791666666666666,
+      "mean_tokens": 323.5833333333333,
+      "mean_calls": 1.0,
+      "mean_latency_s": 2.2691646854170053,
+      "utility": 0.9629875
+    },
+    "objective_start": 0.9485537455684059,
+    "objective_end": 0.9492302379143122,
+    "reason": "validation gate rejected candidate"
+  }
+]

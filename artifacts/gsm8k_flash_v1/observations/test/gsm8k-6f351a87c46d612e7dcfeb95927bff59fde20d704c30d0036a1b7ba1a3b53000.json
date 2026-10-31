@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-6f351a87c46d612e7dcfeb95927bff59fde20d704c30d0036a1b7ba1a3b53000",
+    "question": "Ashley has an internet connection speed of 20kb per second. Knowing that 1 Mb has 1000 kb, she wants to know her internet connection speed in Mb per hour. What is Ashley’s internet connection speed in Mb per hour?",
+    "answer": "72",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "72",
+      "text": "<answer>72</answer>",
+      "input_tokens": 129,
+      "output_tokens": 68,
+      "total_tokens": 197,
+      "reasoning_tokens": 59,
+      "calls": 1,
+      "latency_s": 0.6363527998328209,
+      "request_ids": [
+        "884d5dc47ace49108f21c860bda8742c"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "72",
+      "text": "20 kb/s = 0.02 Mb/s  \n0.02 × 3600 = 72 Mb/hour\n\n<answer>72</answer>",
+      "input_tokens": 129,
+      "output_tokens": 96,
+      "total_tokens": 225,
+      "reasoning_tokens": 63,
+      "calls": 1,
+      "latency_s": 0.8176162000745535,
+      "request_ids": [
+        "368acf05fbcf4bedb79fad805ec6af32"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "72",
+      "text": "20 kb/s = 0.02 Mb/s.  \n0.02 × 3600 = 72 Mb/hour. The proposed solution is correct.\n\n<answer>72</answer>",
+      "input_tokens": 329,
+      "output_tokens": 205,
+      "total_tokens": 534,
+      "reasoning_tokens": 132,
+      "calls": 2,
+      "latency_s": 1.7369413999840617,
+      "request_ids": [
+        "368acf05fbcf4bedb79fad805ec6af32",
+        "d0eb23efc1fa424593608515acf389ec"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

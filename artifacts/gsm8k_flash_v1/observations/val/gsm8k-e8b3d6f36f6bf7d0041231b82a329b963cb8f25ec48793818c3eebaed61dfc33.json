@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-e8b3d6f36f6bf7d0041231b82a329b963cb8f25ec48793818c3eebaed61dfc33",
+    "question": "The price of a home is $98 per square foot (sq ft).  The house is 2,400 sq ft and the barn out back is 1,000 sq ft.  How much is this property?",
+    "answer": "333200",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "333200",
+      "text": "<answer>333200</answer>",
+      "input_tokens": 123,
+      "output_tokens": 124,
+      "total_tokens": 247,
+      "reasoning_tokens": 114,
+      "calls": 1,
+      "latency_s": 0.9682321001309901,
+      "request_ids": [
+        "722d81796c7545a3994f71a4feba2efa"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "333200",
+      "text": "Total square footage: \\(2{,}400 + 1{,}000 = 3{,}400\\) sq ft  \nPrice: \\(3{,}400 \\times 98 = 333{,}200\\)\n\n<answer>333200</answer>",
+      "input_tokens": 123,
+      "output_tokens": 143,
+      "total_tokens": 266,
+      "reasoning_tokens": 90,
+      "calls": 1,
+      "latency_s": 7.491127100074664,
+      "request_ids": [
+        "a7d87bfa822143ea93c6361aaeb32833"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "333200",
+      "text": "The proposed interpretation adds the house and barn square footage, then multiplies by $98/sq ft. Arithmetic: \\(2{,}400 + 1{,}000 = 3{,}400\\); \\(3{,}400 \\times 98 = 333{,}200\\). This is consistent with the proposed solution.\n\n<answer>333200</answer>",
+      "input_tokens": 337,
+      "output_tokens": 474,
+      "total_tokens": 811,
+      "reasoning_tokens": 347,
+      "calls": 2,
+      "latency_s": 9.154341000132263,
+      "request_ids": [
+        "a7d87bfa822143ea93c6361aaeb32833",
+        "9d7b96b3a04745febc097db776e500fa"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

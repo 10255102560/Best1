@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-20604168dda90a2e1cc8a01756275a1dea861e1a9a74a7a167b6bd65e0466e59",
+    "question": "One necklace is worth $34. Bob decided to buy one for his wife. But, he also bought a book, which is $5 more expensive than the necklace. Before he went shopping, Bob set a limit and decided not to spend more than $70. How many dollars over the \"limit\" did Bob spend?",
+    "answer": "3",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "<answer>3</answer>",
+      "input_tokens": 143,
+      "output_tokens": 58,
+      "total_tokens": 201,
+      "reasoning_tokens": 49,
+      "calls": 1,
+      "latency_s": 0.8975921000819653,
+      "request_ids": [
+        "2fa81d69fa6341ffadeace9c3d679ede"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "Necklace: $34  \nBook: $34 + $5 = $39  \nTotal spent: $34 + $39 = $73  \nOver limit: $73 - $70 = $3  \n\n<answer>3</answer>",
+      "input_tokens": 143,
+      "output_tokens": 101,
+      "total_tokens": 244,
+      "reasoning_tokens": 50,
+      "calls": 1,
+      "latency_s": 0.7538656000979245,
+      "request_ids": [
+        "5d6b5a2f561f41faaab78e39207b3ca9"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "Necklace: $34. Book: $34 + $5 = $39. Total: $34 + $39 = $73. Over limit: $73 - $70 = $3. The proposed solution is correct.\n\n<answer>3</answer>",
+      "input_tokens": 375,
+      "output_tokens": 222,
+      "total_tokens": 597,
+      "reasoning_tokens": 115,
+      "calls": 2,
+      "latency_s": 1.9644234001170844,
+      "request_ids": [
+        "5d6b5a2f561f41faaab78e39207b3ca9",
+        "0bdaeb3c2ef840c4b7a2603965cca541"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

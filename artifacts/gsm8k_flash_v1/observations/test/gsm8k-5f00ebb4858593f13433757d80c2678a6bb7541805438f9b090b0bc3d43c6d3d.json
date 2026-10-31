@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-5f00ebb4858593f13433757d80c2678a6bb7541805438f9b090b0bc3d43c6d3d",
+    "question": "A fruit vendor bought 50 watermelons for $80. He sold all of them at a profit of 25%. How much was each watermelon sold?",
+    "answer": "2",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "<answer>2</answer>",
+      "input_tokens": 110,
+      "output_tokens": 59,
+      "total_tokens": 169,
+      "reasoning_tokens": 50,
+      "calls": 1,
+      "latency_s": 0.7330736999865621,
+      "request_ids": [
+        "edadecb9b9b043ce810ce33635f29395"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "Total selling price = $80 × 1.25 = $100  \nPrice per watermelon = $100 ÷ 50 = $2\n\n<answer>2</answer>",
+      "input_tokens": 110,
+      "output_tokens": 83,
+      "total_tokens": 193,
+      "reasoning_tokens": 46,
+      "calls": 1,
+      "latency_s": 0.9023817998822778,
+      "request_ids": [
+        "9adc418110974756b9d024c11ea75d0c"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "2",
+      "text": "Total selling price: $80 × 1.25 = $100.  \nPrice per watermelon: $100 ÷ 50 = $2.  \nThe proposed solution is correct.\n\n<answer>2</answer>",
+      "input_tokens": 295,
+      "output_tokens": 213,
+      "total_tokens": 508,
+      "reasoning_tokens": 131,
+      "calls": 2,
+      "latency_s": 3.6532935998402536,
+      "request_ids": [
+        "9adc418110974756b9d024c11ea75d0c",
+        "3f611c6442014d8b97d5998434b4412e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

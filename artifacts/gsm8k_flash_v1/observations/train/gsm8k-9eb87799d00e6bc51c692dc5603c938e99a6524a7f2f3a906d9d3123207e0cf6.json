@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-9eb87799d00e6bc51c692dc5603c938e99a6524a7f2f3a906d9d3123207e0cf6",
+    "question": "Zack's number of marbles can be divided equally among three people, leaving Zack with 5. If Zack decided to give his three friends 20 marbles each and kept five, how many marbles did he initially have?",
+    "answer": "65",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "65",
+      "text": "<answer>65</answer>",
+      "input_tokens": 122,
+      "output_tokens": 396,
+      "total_tokens": 518,
+      "reasoning_tokens": 387,
+      "calls": 1,
+      "latency_s": 13.273380700033158,
+      "request_ids": [
+        "c2c1cf751d00458c98dba07310cee9d1"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "65",
+      "text": "Zack gave 20 marbles to each of 3 friends:  \n\\(3 \\times 20 = 60\\)\n\nHe kept 5 marbles:  \n\\(60 + 5 = 65\\)\n\n<answer>65</answer>",
+      "input_tokens": 122,
+      "output_tokens": 434,
+      "total_tokens": 556,
+      "reasoning_tokens": 385,
+      "calls": 1,
+      "latency_s": 1.9862023000605404,
+      "request_ids": [
+        "6c32bf873d934400b23178540f2a7fb6"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "65",
+      "text": "The three friends receive \\(3 \\times 20 = 60\\) marbles total. Zack keeps 5, so initially he had \\(60 + 5 = 65\\) marbles. The proposed solution is correct.\n\n<answer>65</answer>",
+      "input_tokens": 331,
+      "output_tokens": 845,
+      "total_tokens": 1176,
+      "reasoning_tokens": 744,
+      "calls": 2,
+      "latency_s": 3.8910687000025064,
+      "request_ids": [
+        "6c32bf873d934400b23178540f2a7fb6",
+        "1c14aaeacd5a4ef7ab2780f76cf738b4"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

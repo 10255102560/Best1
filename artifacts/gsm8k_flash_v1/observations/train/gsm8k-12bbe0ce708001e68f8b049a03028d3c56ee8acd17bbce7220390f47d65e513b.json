@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-12bbe0ce708001e68f8b049a03028d3c56ee8acd17bbce7220390f47d65e513b",
+    "question": "In a jar that has 50 ants, the number of ants in the jar doubles each hour. How many ants will be in the jar after 5 hours?",
+    "answer": "1600",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "1600",
+      "text": "<answer>1600</answer>",
+      "input_tokens": 111,
+      "output_tokens": 52,
+      "total_tokens": 163,
+      "reasoning_tokens": 42,
+      "calls": 1,
+      "latency_s": 0.49969800002872944,
+      "request_ids": [
+        "d414f2e0093e4992b7a8809b990c08f0"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "1600",
+      "text": "The number of ants doubles each hour, so after 5 hours:\n\n\\(50 \\times 2^5 = 50 \\times 32 = 1600\\)\n\n<answer>1600</answer>",
+      "input_tokens": 111,
+      "output_tokens": 87,
+      "total_tokens": 198,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 0.9281687000766397,
+      "request_ids": [
+        "cae7b5594ad4430784d086377b5f96f4"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "1600",
+      "text": "The interpretation and arithmetic are correct: \\(50 \\times 2^5 = 50 \\times 32 = 1600\\).\n\n<answer>1600</answer>",
+      "input_tokens": 304,
+      "output_tokens": 180,
+      "total_tokens": 484,
+      "reasoning_tokens": 99,
+      "calls": 2,
+      "latency_s": 2.1554377002175897,
+      "request_ids": [
+        "cae7b5594ad4430784d086377b5f96f4",
+        "cf6b3164063c4b8dbecce5bcd901f23a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

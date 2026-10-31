@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-4eb5a67fb321e2af9b49489642e330337994a1c66ad918e168f3012872f6f8d8",
+    "question": "Melony makes $21 of profit every time she sells 3 shirts and four times as much profit when she sells two pairs of sandals. How much profit will she make if she sells 7 shirts and 3 pairs of sandals?",
+    "answer": "175",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "175",
+      "text": "<answer>175</answer>",
+      "input_tokens": 127,
+      "output_tokens": 200,
+      "total_tokens": 327,
+      "reasoning_tokens": 191,
+      "calls": 1,
+      "latency_s": 1.287464499939233,
+      "request_ids": [
+        "13ec692d89e144439f9b1bafd053f22b"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "175",
+      "text": "Profit for 3 shirts = $21, so profit per shirt = $21 ÷ 3 = $7.\n\nProfit for 2 pairs of sandals = 4 × $21 = $84, so profit per pair = $84 ÷ 2 = $42.\n\nProfit from 7 shirts = 7 × $7 = $49.  \nProfit from 3 pairs of sandals = 3 × $42 = $126.  \nTotal profit = $49 + $126 = $175.\n\n<answer>175</answer>",
+      "input_tokens": 127,
+      "output_tokens": 424,
+      "total_tokens": 551,
+      "reasoning_tokens": 313,
+      "calls": 1,
+      "latency_s": 14.023924599867314,
+      "request_ids": [
+        "70b6facada254eed926ccc3fcca6c217"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "175",
+      "text": "Profit per shirt: $21 ÷ 3 = $7.  \nProfit for 2 pairs of sandals: 4 × $21 = $84, so per pair = $42.  \nTotal: 7×$7 + 3×$42 = $49 + $126 = $175.  \n<answer>175</answer>",
+      "input_tokens": 403,
+      "output_tokens": 630,
+      "total_tokens": 1033,
+      "reasoning_tokens": 446,
+      "calls": 2,
+      "latency_s": 15.221733399899676,
+      "request_ids": [
+        "70b6facada254eed926ccc3fcca6c217",
+        "e2f098b5c3574bbfbb05e24f3fb99d1b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

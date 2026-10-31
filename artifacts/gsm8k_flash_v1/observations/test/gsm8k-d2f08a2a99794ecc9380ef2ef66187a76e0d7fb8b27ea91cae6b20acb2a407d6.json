@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-d2f08a2a99794ecc9380ef2ef66187a76e0d7fb8b27ea91cae6b20acb2a407d6",
+    "question": "A certain company is in the business of selling fresh fruit. One crate of such fruit consists of 5 bananas, 12 apples, and 7 oranges. The price for such a crate depends on the price of its individual fruits. One apple costs $0.5 and one banana costs twice as much. Oranges are the most expensive and cost three times as much as a banana per piece. What would be the price for such a crate of fruit?",
+    "answer": "32",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "<answer>32</answer>",
+      "input_tokens": 170,
+      "output_tokens": 96,
+      "total_tokens": 266,
+      "reasoning_tokens": 87,
+      "calls": 1,
+      "latency_s": 1.0022175000049174,
+      "request_ids": [
+        "4318694243c7464bb58fdc0bb6d042b7"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "Apple price = $0.50  \nBanana price = 2 × $0.50 = $1.00  \nOrange price = 3 × $1.00 = $3.00  \n\nCrate cost:\n- 5 bananas: 5 × $1.00 = $5.00\n- 12 apples: 12 × $0.50 = $6.00\n- 7 oranges: 7 × $3.00 = $21.00\n\nTotal = $5.00 + $6.00 + $21.00 = $32.00\n\n<answer>32</answer>",
+      "input_tokens": 170,
+      "output_tokens": 275,
+      "total_tokens": 445,
+      "reasoning_tokens": 145,
+      "calls": 1,
+      "latency_s": 1.4126834000926465,
+      "request_ids": [
+        "4b6e9b6dfe3d49ffbbe99d3b6f87da97"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "Verification: Banana = 2 × $0.50 = $1.00; orange = 3 × $1.00 = $3.00. Total = 5($1) + 12($0.50) + 7($3) = 5 + 6 + 21 = 32. The proposed solution is correct.\n\n<answer>32</answer>",
+      "input_tokens": 508,
+      "output_tokens": 474,
+      "total_tokens": 982,
+      "reasoning_tokens": 262,
+      "calls": 2,
+      "latency_s": 2.987627800088376,
+      "request_ids": [
+        "4b6e9b6dfe3d49ffbbe99d3b6f87da97",
+        "6f1f64413a2c4c4e94d510fe149f9cf8"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

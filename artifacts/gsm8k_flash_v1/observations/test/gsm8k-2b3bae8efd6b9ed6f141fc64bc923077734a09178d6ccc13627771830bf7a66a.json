@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-2b3bae8efd6b9ed6f141fc64bc923077734a09178d6ccc13627771830bf7a66a",
+    "question": "Felix notices that kids in the neighborhood are always getting things stuck in trees. Since he is an expert tree climber, he decided to start charging kids to get their stuff out. He charges based on how high he has to climb. Every branch he has to climb up costs $.25. During the week he made $105. On average, how many branches did he climb per day?",
+    "answer": "60",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "60",
+      "text": "<answer>60</answer>",
+      "input_tokens": 157,
+      "output_tokens": 82,
+      "total_tokens": 239,
+      "reasoning_tokens": 73,
+      "calls": 1,
+      "latency_s": 0.7802331000566483,
+      "request_ids": [
+        "174dd296286d4eb8b4db9d89d00900a5"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "60",
+      "text": "Total branches climbed: \\(105 \\div 0.25 = 420\\)\n\nAverage per day: \\(420 \\div 7 = 60\\)\n\n<answer>60</answer>",
+      "input_tokens": 157,
+      "output_tokens": 126,
+      "total_tokens": 283,
+      "reasoning_tokens": 87,
+      "calls": 1,
+      "latency_s": 0.9114922999870032,
+      "request_ids": [
+        "bc2ac9804be945168f3669fe66bf5066"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "60",
+      "text": "The calculation is correct: \\(105 \\div 0.25 = 420\\) branches total, and \\(420 \\div 7 = 60\\) branches per day on average.\n\n<answer>60</answer>",
+      "input_tokens": 391,
+      "output_tokens": 231,
+      "total_tokens": 622,
+      "reasoning_tokens": 146,
+      "calls": 2,
+      "latency_s": 1.9101461998652667,
+      "request_ids": [
+        "bc2ac9804be945168f3669fe66bf5066",
+        "f42b6c6918ff434abfb3ae7c83373b1e"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

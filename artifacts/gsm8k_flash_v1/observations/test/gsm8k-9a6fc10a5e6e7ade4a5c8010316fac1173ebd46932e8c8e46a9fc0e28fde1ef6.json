@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-9a6fc10a5e6e7ade4a5c8010316fac1173ebd46932e8c8e46a9fc0e28fde1ef6",
+    "question": "Indras has 6 letters in her name. Her sister's name has 4 more letters than half of the letters in Indras' name. How many letters are in Indras and her sister's names?",
+    "answer": "13",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "13",
+      "text": "<answer>13</answer>",
+      "input_tokens": 121,
+      "output_tokens": 78,
+      "total_tokens": 199,
+      "reasoning_tokens": 69,
+      "calls": 1,
+      "latency_s": 0.6970786999445409,
+      "request_ids": [
+        "27c5f99a3c084e629baedc0f3ceca0eb"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "13",
+      "text": "Indras’ name has 6 letters.  \nHalf of 6 is 3.  \nHer sister’s name has 3 + 4 = 7 letters.  \nTotal letters: 6 + 7 = 13.\n\n<answer>13</answer>",
+      "input_tokens": 121,
+      "output_tokens": 152,
+      "total_tokens": 273,
+      "reasoning_tokens": 95,
+      "calls": 1,
+      "latency_s": 0.9246070999652147,
+      "request_ids": [
+        "1bfe5e281dae4e5dbabe68e87067fabd"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "13",
+      "text": "Verified: Half of 6 is 3; sister has 3 + 4 = 7 letters; total is 6 + 7 = 13.\n\n<answer>13</answer>",
+      "input_tokens": 337,
+      "output_tokens": 291,
+      "total_tokens": 628,
+      "reasoning_tokens": 192,
+      "calls": 2,
+      "latency_s": 2.5566975998226553,
+      "request_ids": [
+        "1bfe5e281dae4e5dbabe68e87067fabd",
+        "aa6ca53ebdfe444e900b026c81fbdda3"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

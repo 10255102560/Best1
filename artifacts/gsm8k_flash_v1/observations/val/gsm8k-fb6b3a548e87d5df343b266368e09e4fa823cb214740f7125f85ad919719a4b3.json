@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-fb6b3a548e87d5df343b266368e09e4fa823cb214740f7125f85ad919719a4b3",
+    "question": "Matt did his homework for 150 minutes. He spent 30% of that time on math and 40% on science. He spent the remaining time on other subjects. How much time did Matt spend on homework in other subjects?",
+    "answer": "45",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "45",
+      "text": "<answer>45</answer>",
+      "input_tokens": 125,
+      "output_tokens": 52,
+      "total_tokens": 177,
+      "reasoning_tokens": 43,
+      "calls": 1,
+      "latency_s": 4.020982700167224,
+      "request_ids": [
+        "3ff4e94d5cb04a3e8141b344f41b749c"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "45",
+      "text": "Matt spent 30% + 40% = 70% of his time on math and science.\n\nRemaining time: 100% − 70% = 30%\n\n30% of 150 minutes = 0.30 × 150 = 45 minutes.\n\n<answer>45</answer>",
+      "input_tokens": 125,
+      "output_tokens": 111,
+      "total_tokens": 236,
+      "reasoning_tokens": 47,
+      "calls": 1,
+      "latency_s": 2.120326899923384,
+      "request_ids": [
+        "b37e565f1524418c9b620146a74fb375"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "45",
+      "text": "The percentages sum to 70%, leaving 30% for other subjects.  \n30% of 150 minutes is 0.30 × 150 = 45 minutes. The proposed solution is correct.\n\n<answer>45</answer>",
+      "input_tokens": 352,
+      "output_tokens": 226,
+      "total_tokens": 578,
+      "reasoning_tokens": 112,
+      "calls": 2,
+      "latency_s": 3.1010613997932523,
+      "request_ids": [
+        "b37e565f1524418c9b620146a74fb375",
+        "49ea9df975d148fbbb6bc8b673050076"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

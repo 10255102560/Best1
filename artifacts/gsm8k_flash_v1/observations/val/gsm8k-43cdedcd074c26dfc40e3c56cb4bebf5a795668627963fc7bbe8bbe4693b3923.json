@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-43cdedcd074c26dfc40e3c56cb4bebf5a795668627963fc7bbe8bbe4693b3923",
+    "question": "Kerry is ready to celebrate his birthday and wants to have three cakes with his age in candles on each of them. Candles come in boxes of 12 and cost $2.5 a box. If the candles cost $5, how old is Kerry?",
+    "answer": "8",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "<answer>8</answer>",
+      "input_tokens": 131,
+      "output_tokens": 284,
+      "total_tokens": 415,
+      "reasoning_tokens": 275,
+      "calls": 1,
+      "latency_s": 1.4946014999877661,
+      "request_ids": [
+        "2fa89e43581d45969973c7eb1c001018"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "Kerry bought $5 ÷ $2.50 = 2 boxes of candles.\n\n2 boxes × 12 candles = 24 candles total.\n\nSince he needs his age in candles on each of 3 cakes:\n24 ÷ 3 = 8\n\n<answer>8</answer>",
+      "input_tokens": 131,
+      "output_tokens": 222,
+      "total_tokens": 353,
+      "reasoning_tokens": 162,
+      "calls": 1,
+      "latency_s": 1.3751749000512064,
+      "request_ids": [
+        "9afec34875ae41298cb0a584a2937e04"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "8",
+      "text": "The $5 cost buys 2 boxes, giving 24 candles. These are split equally across 3 cakes, so Kerry is 24 ÷ 3 = 8 years old.\n\n<answer>8</answer>",
+      "input_tokens": 360,
+      "output_tokens": 363,
+      "total_tokens": 723,
+      "reasoning_tokens": 257,
+      "calls": 2,
+      "latency_s": 2.408936999971047,
+      "request_ids": [
+        "9afec34875ae41298cb0a584a2937e04",
+        "e6c7548a91db49208cc64a661ecc9fa9"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

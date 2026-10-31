@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-85c3fe20535bb44e58361fd67a17141f0021821c2c59d08faef190d9dd9142b0",
+    "question": "The ice cream parlor was offering a deal, buy 2 scoops of ice cream, get 1 scoop free.  Each scoop cost $1.50.  If Erin had  $6.00, how many scoops of ice cream should she buy?",
+    "answer": "6",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "<answer>6</answer>",
+      "input_tokens": 133,
+      "output_tokens": 676,
+      "total_tokens": 809,
+      "reasoning_tokens": 667,
+      "calls": 1,
+      "latency_s": 3.8475919000338763,
+      "request_ids": [
+        "46a975bb7d634c77a83b42c06ed9327c"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 0,
+      "prediction": null,
+      "text": "",
+      "input_tokens": 133,
+      "output_tokens": 2048,
+      "total_tokens": 2181,
+      "reasoning_tokens": 2048,
+      "calls": 1,
+      "latency_s": 8.983874100027606,
+      "request_ids": [
+        "d5ba5a36f307452e8934d595f471a285"
+      ],
+      "finish_reason": "length"
+    },
+    "review": {
+      "correct": 0,
+      "prediction": null,
+      "text": "$6.00 ÷ $1.50 = 4 paid scoops. Buying 2 get 1 free gives 2 free scoops (",
+      "input_tokens": 306,
+      "output_tokens": 4096,
+      "total_tokens": 4402,
+      "reasoning_tokens": 4065,
+      "calls": 2,
+      "latency_s": 18.575355200096965,
+      "request_ids": [
+        "d5ba5a36f307452e8934d595f471a285",
+        "0a130c56088e4f1da8b332b06d016bf6"
+      ],
+      "finish_reason": "length"
+    }
+  }
+}

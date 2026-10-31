@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-2e8432c0efd916983f30dd4f6902e0b80772f59957d92138a56fda8496dece72",
+    "question": "Alicia's clothes have to be sent to the dry cleaners weekly.  Her weekly drop-off includes 5 blouses, 2 pants and 1 skirt.  If they charge her $5.00 per blouse, $6.00 per skirt and $8.00 per pair of pants, how much does she spend on dry-cleaning in 5 weeks?",
+    "answer": "235",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "235",
+      "text": "<answer>235</answer>",
+      "input_tokens": 155,
+      "output_tokens": 71,
+      "total_tokens": 226,
+      "reasoning_tokens": 62,
+      "calls": 1,
+      "latency_s": 0.6459118998609483,
+      "request_ids": [
+        "2a3704afc8d5495d8f88cd6f1495ca0d"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "235",
+      "text": "Weekly cost:\n- Blouses: 5 × $5 = $25\n- Pants: 2 × $8 = $16\n- Skirt: 1 × $6 = $6\n\nTotal per week = $25 + $16 + $6 = $47  \nFor 5 weeks: 5 × $47 = $235\n\n<answer>235</answer>",
+      "input_tokens": 155,
+      "output_tokens": 140,
+      "total_tokens": 295,
+      "reasoning_tokens": 59,
+      "calls": 1,
+      "latency_s": 0.806836900068447,
+      "request_ids": [
+        "61b7d9588e2042568593692d1ae03dea"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "235",
+      "text": "Weekly cost: 5×$5 + 2×$8 + 1×$6 = $25 + $16 + $6 = $47.  \n5 weeks: 5×$47 = $235. The proposed solution is correct.\n\n<answer>235</answer>",
+      "input_tokens": 429,
+      "output_tokens": 243,
+      "total_tokens": 672,
+      "reasoning_tokens": 101,
+      "calls": 2,
+      "latency_s": 1.6543251001276076,
+      "request_ids": [
+        "61b7d9588e2042568593692d1ae03dea",
+        "7821de964072498a9caff77cefde5f64"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

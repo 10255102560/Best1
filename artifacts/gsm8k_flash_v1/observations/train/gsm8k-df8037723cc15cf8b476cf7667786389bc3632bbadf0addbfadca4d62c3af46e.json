@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-df8037723cc15cf8b476cf7667786389bc3632bbadf0addbfadca4d62c3af46e",
+    "question": "Meghan had money in the following denomination: 2 $100 bills, 5 $50 bills, and 10 $10 bills. How much money did he have altogether?",
+    "answer": "550",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "550",
+      "text": "<answer>550</answer>",
+      "input_tokens": 114,
+      "output_tokens": 49,
+      "total_tokens": 163,
+      "reasoning_tokens": 40,
+      "calls": 1,
+      "latency_s": 0.7215664000250399,
+      "request_ids": [
+        "a5ede497668e45d69b061d28fdd14990"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "550",
+      "text": "2 × $100 = $200  \n5 × $50 = $250  \n10 × $10 = $100  \n\nTotal = $200 + $250 + $100 = $550\n\n<answer>550</answer>",
+      "input_tokens": 114,
+      "output_tokens": 99,
+      "total_tokens": 213,
+      "reasoning_tokens": 52,
+      "calls": 1,
+      "latency_s": 0.7710557000245899,
+      "request_ids": [
+        "07448d674bcf451e8eb7fc96dcef0e6d"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "550",
+      "text": "The arithmetic is correct: \\(2(100)+5(50)+10(10)=200+250+100=550\\).\n\n<answer>550</answer>",
+      "input_tokens": 313,
+      "output_tokens": 222,
+      "total_tokens": 535,
+      "reasoning_tokens": 140,
+      "calls": 2,
+      "latency_s": 2.6476297001354396,
+      "request_ids": [
+        "07448d674bcf451e8eb7fc96dcef0e6d",
+        "8cbd2837524f427f8331c22bd4683b70"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

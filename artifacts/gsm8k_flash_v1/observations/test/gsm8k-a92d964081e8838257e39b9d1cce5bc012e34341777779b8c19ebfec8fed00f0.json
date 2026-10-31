@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-a92d964081e8838257e39b9d1cce5bc012e34341777779b8c19ebfec8fed00f0",
+    "question": "Milo is making a mosaic with chips of glass. It takes twelve glass chips to make every square inch of the mosaic. A bag of glass chips holds 72 chips. Milo wants his mosaic to be three inches tall. If he has two bags of glass chips, how many inches long can he make his mosaic?",
+    "answer": "4",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "<answer>4</answer>",
+      "input_tokens": 142,
+      "output_tokens": 74,
+      "total_tokens": 216,
+      "reasoning_tokens": 65,
+      "calls": 1,
+      "latency_s": 0.6616567000746727,
+      "request_ids": [
+        "7d61acf49783423681a8234984312a54"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "Two bags hold \\(2 \\times 72 = 144\\) chips.\n\nAt 12 chips per square inch, the mosaic area is \\(144 \\div 12 = 12\\) square inches.\n\nWith a height of 3 inches, the length is \\(12 \\div 3 = 4\\) inches.\n\n<answer>4</answer>",
+      "input_tokens": 142,
+      "output_tokens": 146,
+      "total_tokens": 288,
+      "reasoning_tokens": 74,
+      "calls": 1,
+      "latency_s": 10.516206000000238,
+      "request_ids": [
+        "157a7a8ba6d04faa99dfd7acaea0affb"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "Verification: \\(2 \\times 72 = 144\\) chips total. \\(144 \\div 12 = 12\\) square inches. \\(12 \\div 3 = 4\\) inches long. The interpretation and arithmetic are correct.\n\n<answer>4</answer>",
+      "input_tokens": 394,
+      "output_tokens": 277,
+      "total_tokens": 671,
+      "reasoning_tokens": 147,
+      "calls": 2,
+      "latency_s": 12.148350600153208,
+      "request_ids": [
+        "157a7a8ba6d04faa99dfd7acaea0affb",
+        "a2f3838b26bc4a32abd4d48947927c69"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

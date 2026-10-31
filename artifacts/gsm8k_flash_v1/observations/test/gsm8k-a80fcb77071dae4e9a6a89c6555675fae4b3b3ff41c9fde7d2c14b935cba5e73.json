@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-a80fcb77071dae4e9a6a89c6555675fae4b3b3ff41c9fde7d2c14b935cba5e73",
+    "question": "Jon's car needs a tune-up every 1000 miles.  He drives 100 miles a day for a 30 day month.  How many tune-ups does he need in that time?",
+    "answer": "3",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "<answer>3</answer>",
+      "input_tokens": 118,
+      "output_tokens": 100,
+      "total_tokens": 218,
+      "reasoning_tokens": 91,
+      "calls": 1,
+      "latency_s": 0.8546748999506235,
+      "request_ids": [
+        "7c0dadb3ffe0403d84b7cef0f77f7d22"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "Jon drives \\(100 \\times 30 = 3000\\) miles in the month.\n\nSince he needs a tune-up every 1000 miles:\n\n\\(3000 \\div 1000 = 3\\)\n\n<answer>3</answer>",
+      "input_tokens": 118,
+      "output_tokens": 164,
+      "total_tokens": 282,
+      "reasoning_tokens": 113,
+      "calls": 1,
+      "latency_s": 0.9350317001808435,
+      "request_ids": [
+        "4e4a8e1f7f8a4bc68b1208f1e32c00db"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "Jon drives \\(100 \\times 30 = 3000\\) miles. At one tune-up per 1000 miles, he needs \\(3000 \\div 1000 = 3\\) tune-ups. The interpretation and arithmetic are correct.\n\n<answer>3</answer>",
+      "input_tokens": 325,
+      "output_tokens": 356,
+      "total_tokens": 681,
+      "reasoning_tokens": 247,
+      "calls": 2,
+      "latency_s": 2.12483930028975,
+      "request_ids": [
+        "4e4a8e1f7f8a4bc68b1208f1e32c00db",
+        "554e78e5ccd348a595e4d550e916de08"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

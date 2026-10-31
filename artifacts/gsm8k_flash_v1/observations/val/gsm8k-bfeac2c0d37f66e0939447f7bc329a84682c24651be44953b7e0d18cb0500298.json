@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-bfeac2c0d37f66e0939447f7bc329a84682c24651be44953b7e0d18cb0500298",
+    "question": "Matt is playing basketball. In the first quarter, he made 2-point shots four times and 3-point shots twice. How many points did he score for that quarter?",
+    "answer": "14",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "<answer>14</answer>",
+      "input_tokens": 113,
+      "output_tokens": 45,
+      "total_tokens": 158,
+      "reasoning_tokens": 36,
+      "calls": 1,
+      "latency_s": 1.7632416000124067,
+      "request_ids": [
+        "b559b81c4c914f0cba1d4e5cfa11d966"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "2-point shots: \\(4 \\times 2 = 8\\) points  \n3-point shots: \\(2 \\times 3 = 6\\) points  \nTotal: \\(8 + 6 = 14\\)\n\n<answer>14</answer>",
+      "input_tokens": 113,
+      "output_tokens": 81,
+      "total_tokens": 194,
+      "reasoning_tokens": 29,
+      "calls": 1,
+      "latency_s": 0.906613300088793,
+      "request_ids": [
+        "1cc20a8a75324c3b84e439df1562a549"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "14",
+      "text": "Verification: \\(4 \\times 2 = 8\\), \\(2 \\times 3 = 6\\), and \\(8 + 6 = 14\\). The interpretation and arithmetic are correct.\n\n<answer>14</answer>",
+      "input_tokens": 316,
+      "output_tokens": 216,
+      "total_tokens": 532,
+      "reasoning_tokens": 115,
+      "calls": 2,
+      "latency_s": 2.1764384999405593,
+      "request_ids": [
+        "1cc20a8a75324c3b84e439df1562a549",
+        "81f718850d2a4965859f86226eac854d"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-8046e774f889119c950c1be0f33bfac03b16340371d8f396bf8b47a22d91499c",
+    "question": "Walter bought 60 apples from the store. He ate 2/5 of them and gave his sister 25% of the remaining number. If he then sold the remaining apples to his uncle at $3 each, how much money did he receive?",
+    "answer": "81",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "81",
+      "text": "<answer>81</answer>",
+      "input_tokens": 129,
+      "output_tokens": 72,
+      "total_tokens": 201,
+      "reasoning_tokens": 63,
+      "calls": 1,
+      "latency_s": 1.0042785999830812,
+      "request_ids": [
+        "c1a6b966ec434121b51381aff7a7bbd1"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "81",
+      "text": "Walter ate \\( \\frac{2}{5} \\times 60 = 24 \\) apples, leaving \\(60 - 24 = 36\\).\n\nHe gave his sister \\(25\\% \\times 36 = 9\\) apples, leaving \\(36 - 9 = 27\\).\n\nHe sold 27 apples at \\$3 each: \\(27 \\times 3 = 81\\).\n\n<answer>81</answer>",
+      "input_tokens": 129,
+      "output_tokens": 148,
+      "total_tokens": 277,
+      "reasoning_tokens": 62,
+      "calls": 1,
+      "latency_s": 1.5258788000792265,
+      "request_ids": [
+        "b57eeb456cba447aad295747cc58d86d"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "81",
+      "text": "Walter ate \\( \\frac{2}{5}\\times 60=24\\), leaving 36.  \nHe gave away \\(25\\%\\times 36=9\\), leaving 27.  \nHe received \\(27\\times 3=81\\).\n\n<answer>81</answer>",
+      "input_tokens": 382,
+      "output_tokens": 238,
+      "total_tokens": 620,
+      "reasoning_tokens": 94,
+      "calls": 2,
+      "latency_s": 2.361540500074625,
+      "request_ids": [
+        "b57eeb456cba447aad295747cc58d86d",
+        "e22cdd6fecfe492f8a5b6a97550eaf35"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

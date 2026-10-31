@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-28fb99429ec958e5b65efd4f5117dc23dc2d94ebde960f4d4f624af5775cac7d",
+    "question": "Manny signed up for Karate classes for $60. His parents tell him that if his classes end up costing more than $10 per class, then they won't sign him up again. If there are 10 total classes, how many can he miss before they don't sign him up again?",
+    "answer": "4",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "<answer>4</answer>",
+      "input_tokens": 139,
+      "output_tokens": 184,
+      "total_tokens": 323,
+      "reasoning_tokens": 175,
+      "calls": 1,
+      "latency_s": 1.1416590998414904,
+      "request_ids": [
+        "bcabbb8335d04f6d900585d6ef6c97a6"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "Total cost = $60.  \nIf he misses \\(m\\) classes, he attends \\(10-m\\) classes.  \nCost per attended class = \\(\\frac{60}{10-m}\\).\n\nTo stay at or below $10 per class:\n\\[\n\\frac{60}{10-m} \\le 10\n\\]\n\\[\n60 \\le 100 - 10m\n\\]\n\\[\n10m \\le 40\n\\]\n\\[\nm \\le 4\n\\]\n\nHe can miss 4 classes and still have the cost be exactly $10 per class. Missing 5 would make it more than $10.\n\n<answer>4</answer>",
+      "input_tokens": 139,
+      "output_tokens": 355,
+      "total_tokens": 494,
+      "reasoning_tokens": 220,
+      "calls": 1,
+      "latency_s": 1.7051180999260396,
+      "request_ids": [
+        "1ad01d2b701f47d68ec18c49c3f745ef"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "4",
+      "text": "The inequality is correct: attending \\(10-m\\) classes at total cost $60 gives cost per class \\(60/(10-m)\\). Requiring this to be at most $10 yields \\(m \\le 4\\). Missing 5 classes would make the cost per class $12, exceeding $10.\n\n<answer>4</answer>",
+      "input_tokens": 451,
+      "output_tokens": 573,
+      "total_tokens": 1024,
+      "reasoning_tokens": 369,
+      "calls": 2,
+      "latency_s": 2.9358115000650287,
+      "request_ids": [
+        "1ad01d2b701f47d68ec18c49c3f745ef",
+        "1a1fec699afa4e5390be4aeb2b0647c0"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-92e8af667512936fcbabb3da581f0e2f1d4dc144f18fbbafdd928b105577eb9a",
+    "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts in $50,000 in repairs.  This increased the value of the house by 150%.  How much profit did he make?",
+    "answer": "70000",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "70000",
+      "text": "<answer>70000</answer>",
+      "input_tokens": 127,
+      "output_tokens": 289,
+      "total_tokens": 416,
+      "reasoning_tokens": 279,
+      "calls": 1,
+      "latency_s": 2.3550287999678403,
+      "request_ids": [
+        "daa444f966e341958c4636ed7048a2b5"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "70000",
+      "text": "Josh’s total cost: $80,000 + $50,000 = $130,000.\n\nA 150% increase on the $80,000 house value means the new value is:\n$80,000 × (1 + 1.50) = $200,000.\n\nProfit: $200,000 − $130,000 = $70,000.\n\n<answer>70000</answer>",
+      "input_tokens": 127,
+      "output_tokens": 312,
+      "total_tokens": 439,
+      "reasoning_tokens": 226,
+      "calls": 1,
+      "latency_s": 2.355368699878454,
+      "request_ids": [
+        "f90f2417c60a409ba1076fe4c5e215a4"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "70000",
+      "text": "Total cost = 80,000 + 50,000 = 130,000.  \n150% increase on 80,000 gives new value = 80,000 × 2.5 = 200,000.  \nProfit = 200,000 − 130,000 = 70,000.  \n<answer>70000</answer>",
+      "input_tokens": 378,
+      "output_tokens": 548,
+      "total_tokens": 926,
+      "reasoning_tokens": 387,
+      "calls": 2,
+      "latency_s": 4.104323899839073,
+      "request_ids": [
+        "f90f2417c60a409ba1076fe4c5e215a4",
+        "dcfab82677b14fc38b50dc0e742aaf84"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

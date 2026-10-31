@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-e9078974a983a90d9d632ee8f868c3e11a22cde864ceca16801444f1d82dd1f4",
+    "question": "James injured his ankle and decides to slowly start working back up to his previous running goals and then surpass them.  Before the injury, he was able to run 100 miles per week.  He wants to get up to 20% more than that total in 280 days and each week he will increase miles walked in the week by the same amount.  How many miles does he need to add per week?",
+    "answer": "3",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "<answer>3</answer>",
+      "input_tokens": 162,
+      "output_tokens": 1083,
+      "total_tokens": 1245,
+      "reasoning_tokens": 1074,
+      "calls": 1,
+      "latency_s": 14.461535400012508,
+      "request_ids": [
+        "98a38012619b4556811557204f7bb011"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "280 days = 40 weeks.  \nTarget weekly mileage = 100 × 1.20 = 120 miles.  \nWeekly increase needed = 120 ÷ 40 = 3 miles per week.\n\n<answer>3</answer>",
+      "input_tokens": 162,
+      "output_tokens": 1182,
+      "total_tokens": 1344,
+      "reasoning_tokens": 1132,
+      "calls": 1,
+      "latency_s": 9.427588399965316,
+      "request_ids": [
+        "b0d00a6e61fb4577a7950dcee257ac25"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "3",
+      "text": "280 days = 40 weeks. Target = 100 × 1.20 = 120 miles/week. Starting from 0 after injury, weekly increase = 120 ÷ 40 = 3 miles/week. The proposed solution is correct.\n\n<answer>3</answer>",
+      "input_tokens": 412,
+      "output_tokens": 2429,
+      "total_tokens": 2841,
+      "reasoning_tokens": 2321,
+      "calls": 2,
+      "latency_s": 14.816056800074875,
+      "request_ids": [
+        "b0d00a6e61fb4577a7950dcee257ac25",
+        "b58d291c6c534faf8b8774aa8b9bec7f"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

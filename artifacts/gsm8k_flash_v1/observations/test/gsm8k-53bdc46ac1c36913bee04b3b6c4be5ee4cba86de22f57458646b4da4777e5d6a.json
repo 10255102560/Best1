@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-53bdc46ac1c36913bee04b3b6c4be5ee4cba86de22f57458646b4da4777e5d6a",
+    "question": "Luke is buying fabric for new curtains. There are five windows. Each window is 35 inches wide and Luke needs to buy fabric equal to 2 times the total width of the windows. How much fabric should he buy?",
+    "answer": "350",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "350",
+      "text": "<answer>350</answer>",
+      "input_tokens": 123,
+      "output_tokens": 41,
+      "total_tokens": 164,
+      "reasoning_tokens": 32,
+      "calls": 1,
+      "latency_s": 0.9187112001236528,
+      "request_ids": [
+        "7b0735f658ea4047ab2128f2e8425e5c"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "350",
+      "text": "Total width of windows: \\(5 \\times 35 = 175\\) inches.  \nFabric needed: \\(2 \\times 175 = 350\\) inches.\n\n<answer>350</answer>",
+      "input_tokens": 123,
+      "output_tokens": 98,
+      "total_tokens": 221,
+      "reasoning_tokens": 55,
+      "calls": 1,
+      "latency_s": 0.9059179001487792,
+      "request_ids": [
+        "18ec7947dd78484091a592008533eb34"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "350",
+      "text": "Total width: \\(5 \\times 35 = 175\\) inches.  \nFabric needed: \\(2 \\times 175 = 350\\) inches. The proposed solution is correct.\n\n<answer>350</answer>",
+      "input_tokens": 327,
+      "output_tokens": 219,
+      "total_tokens": 546,
+      "reasoning_tokens": 129,
+      "calls": 2,
+      "latency_s": 2.143226200249046,
+      "request_ids": [
+        "18ec7947dd78484091a592008533eb34",
+        "a43e9476158142a2b9efcb671014f848"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

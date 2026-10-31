@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-18ff73ee52c7899a553d9e2580bb5879e25daf4c357a04ef6d80ae93fac40630",
+    "question": "A whirligig spins at five times the speed of a thingamabob. A whatchamacallit spins eleven times faster than a thingamabob. A whatchamacallit spins at 121 meters per second. How fast does a whirligig spin?",
+    "answer": "55",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "55",
+      "text": "<answer>55</answer>",
+      "input_tokens": 135,
+      "output_tokens": 149,
+      "total_tokens": 284,
+      "reasoning_tokens": 140,
+      "calls": 1,
+      "latency_s": 1.0045496998354793,
+      "request_ids": [
+        "9191444f76b740b1931a1dfb1db53f89"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "55",
+      "text": "Let the thingamabob’s speed be \\(T\\).\n\nWhatchamacallit: \\(11T = 121\\), so \\(T = 11\\).\n\nWhirligig: \\(5T = 5 \\times 11 = 55\\).\n\n<answer>55</answer>",
+      "input_tokens": 135,
+      "output_tokens": 247,
+      "total_tokens": 382,
+      "reasoning_tokens": 186,
+      "calls": 1,
+      "latency_s": 2.476510399952531,
+      "request_ids": [
+        "3ef8fd5156324a329c15744b0076133c"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "55",
+      "text": "Interpretation uses “eleven times faster” as “11 times as fast,” which is standard for this type of problem. Arithmetic: \\(11T=121 \\Rightarrow T=11\\); whirligig \\(=5T=55\\). Correct.\n\n<answer>55</answer>",
+      "input_tokens": 369,
+      "output_tokens": 491,
+      "total_tokens": 860,
+      "reasoning_tokens": 371,
+      "calls": 2,
+      "latency_s": 4.133432599948719,
+      "request_ids": [
+        "3ef8fd5156324a329c15744b0076133c",
+        "37e3886584e341ed93e5592976bc1a45"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

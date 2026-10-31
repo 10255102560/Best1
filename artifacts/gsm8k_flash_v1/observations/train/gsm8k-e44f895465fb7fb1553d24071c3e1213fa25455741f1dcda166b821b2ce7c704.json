@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-e44f895465fb7fb1553d24071c3e1213fa25455741f1dcda166b821b2ce7c704",
+    "question": "Marianne was 20 years old when Bella was 8 years old. How old will Marianne be when Bella turns 18?",
+    "answer": "30",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "<answer>30</answer>",
+      "input_tokens": 105,
+      "output_tokens": 38,
+      "total_tokens": 143,
+      "reasoning_tokens": 29,
+      "calls": 1,
+      "latency_s": 0.8300606999546289,
+      "request_ids": [
+        "75787d1a23554d2ab2f1d6f0d1cef32f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "Marianne is \\(20 - 8 = 12\\) years older than Bella.\n\nWhen Bella is 18, Marianne will be \\(18 + 12 = 30\\).\n\n<answer>30</answer>",
+      "input_tokens": 105,
+      "output_tokens": 93,
+      "total_tokens": 198,
+      "reasoning_tokens": 48,
+      "calls": 1,
+      "latency_s": 0.9644285999238491,
+      "request_ids": [
+        "c9d4228e98f64bf7b2b7fa683a49ea4e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "The age difference is \\(20 - 8 = 12\\) years. When Bella is 18, Marianne will be \\(18 + 12 = 30\\).\n\n<answer>30</answer>",
+      "input_tokens": 293,
+      "output_tokens": 181,
+      "total_tokens": 474,
+      "reasoning_tokens": 94,
+      "calls": 2,
+      "latency_s": 2.196958099724725,
+      "request_ids": [
+        "c9d4228e98f64bf7b2b7fa683a49ea4e",
+        "38d19b5886de4d08832c3804347bb7bb"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

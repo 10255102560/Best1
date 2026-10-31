@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7ffc7ebfb922f56cbcce3629b49c025dc19c3cc001b846608102c480c3d79e7b",
+    "question": "There have been 15 \"Where's Waldo?\" books published. Each book has 30 puzzles to find Waldo. The average person takes 3 minutes to find Waldo in a puzzle. How long would it take to find every Waldo?",
+    "answer": "1350",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "1350",
+      "text": "<answer>1350</answer>",
+      "input_tokens": 129,
+      "output_tokens": 72,
+      "total_tokens": 201,
+      "reasoning_tokens": 62,
+      "calls": 1,
+      "latency_s": 1.100960000185296,
+      "request_ids": [
+        "51541eae6cef4d4ea1b5f1add860ddd8"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "1350",
+      "text": "15 books × 30 puzzles = 450 puzzles  \n450 puzzles × 3 minutes = 1350 minutes  \n(which is 22.5 hours)\n\n<answer>1350</answer>",
+      "input_tokens": 129,
+      "output_tokens": 650,
+      "total_tokens": 779,
+      "reasoning_tokens": 608,
+      "calls": 1,
+      "latency_s": 5.679096299922094,
+      "request_ids": [
+        "6d098e36afbc4b598af6c180ba20d63f"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "1350",
+      "text": "15 × 30 = 450 puzzles.  \n450 × 3 = 1350 minutes, equivalent to 22.5 hours.  \nThe proposed arithmetic and interpretation are correct.\n\n<answer>1350</answer>",
+      "input_tokens": 338,
+      "output_tokens": 853,
+      "total_tokens": 1191,
+      "reasoning_tokens": 764,
+      "calls": 2,
+      "latency_s": 7.15131470002234,
+      "request_ids": [
+        "6d098e36afbc4b598af6c180ba20d63f",
+        "a204a9241b574b3c8f149345ffb686dd"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

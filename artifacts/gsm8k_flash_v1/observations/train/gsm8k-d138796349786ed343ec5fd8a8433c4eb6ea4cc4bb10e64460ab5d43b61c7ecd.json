@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-d138796349786ed343ec5fd8a8433c4eb6ea4cc4bb10e64460ab5d43b61c7ecd",
+    "question": "Mitzel spent 35% of her allowance. If she spent $14, how much money is left in her allowance?",
+    "answer": "26",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "26",
+      "text": "<answer>26</answer>",
+      "input_tokens": 104,
+      "output_tokens": 56,
+      "total_tokens": 160,
+      "reasoning_tokens": 47,
+      "calls": 1,
+      "latency_s": 0.9014200000092387,
+      "request_ids": [
+        "ef3fbc686b8c45b7a255e5834cedd1c3"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "26",
+      "text": "35% of the allowance is $14.\n\nTotal allowance: \\(14 \\div 0.35 = 40\\)\n\nMoney left: \\(40 - 14 = 26\\)\n\n<answer>26</answer>",
+      "input_tokens": 104,
+      "output_tokens": 105,
+      "total_tokens": 209,
+      "reasoning_tokens": 60,
+      "calls": 1,
+      "latency_s": 7.996382399927825,
+      "request_ids": [
+        "1c80f57d1f3c400bb7e7e17d02140972"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "26",
+      "text": "The interpretation and arithmetic are correct: \\(14 \\div 0.35 = 40\\), and \\(40 - 14 = 26\\).\n\n<answer>26</answer>",
+      "input_tokens": 291,
+      "output_tokens": 210,
+      "total_tokens": 501,
+      "reasoning_tokens": 127,
+      "calls": 2,
+      "latency_s": 8.873074599774554,
+      "request_ids": [
+        "1c80f57d1f3c400bb7e7e17d02140972",
+        "e7c933362ce04c4cb9ac9b56bf3dfbf4"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

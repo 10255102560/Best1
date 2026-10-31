@@ -1,0 +1,58 @@
+{
+  "dataset": "GSM8K (official train/test)",
+  "model": "deepseek-v4.1-flash",
+  "base_url": "https://token.pjlab.org.cn/v1",
+  "train_size": 128,
+  "val_size": 48,
+  "test_size": 128,
+  "seed": 42,
+  "rounds": 4,
+  "steps": 400,
+  "lr": 0.2,
+  "entropy": 0.01,
+  "l2": 0.03,
+  "cost_weight": 0.05,
+  "token_unit": 1000,
+  "max_requests": 980,
+  "max_tokens": 2048,
+  "gate_accuracy_tolerance": 0.03,
+  "gate_utility_margin": 1e-06,
+  "features": [
+    "log_characters",
+    "log_words",
+    "log_numbers",
+    "log_largest_number",
+    "log_sentences",
+    "question_marks",
+    "addition_words",
+    "subtraction_words",
+    "multiplication_words",
+    "division_words",
+    "percentage_words",
+    "sequence_words",
+    "money_words",
+    "comparison_words",
+    "decimal_numbers"
+  ],
+  "strategies": [
+    "direct",
+    "reason",
+    "review"
+  ],
+  "deployment_rule": "argmax",
+  "temperature": 0,
+  "draft_sharing": "reason output is reused as the first review step; deployment counts both steps",
+  "source_sha256": {
+    "train": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465",
+    "test": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+  },
+  "implementation_sha256": {
+    "client.py": "136c8d45e4ddbc20ee071d2f7aec1c4438226c15956a4cb782b45376094fb070",
+    "evaluation.py": "943ba0bb1412e428ae72d299de80d7c3633124516c5ee0d4d19d23158c841904",
+    "experiment.py": "1884a0c5b0cb2f541aa608fb4cb5cf7121eaccc87aea4a1d36541eede045633a",
+    "policy.py": "5cd0c511dfd38549a2942bca01dd0ac78c24680cce13502a11e91b0ef39d643e",
+    "strategies.py": "3c3d0f1213d727aad0ee23077a12a9276f1898951e85e82c6e9121c185f46033",
+    "tasks.py": "f58f9a703d5700b37513e7685be49e16b70604bd6c65adb5773dc2f11464001f",
+    "__init__.py": "1c27a362fe38a39e7c1b451ddcd3f87446a13c8bb473b6f60bb13b18c139a998"
+  }
+}

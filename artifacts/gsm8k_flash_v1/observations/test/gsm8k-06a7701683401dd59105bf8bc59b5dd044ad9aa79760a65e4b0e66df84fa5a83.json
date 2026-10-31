@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-06a7701683401dd59105bf8bc59b5dd044ad9aa79760a65e4b0e66df84fa5a83",
+    "question": "John injured his back and needs to go to physical therapy.  He went to physical therapy for 6 weeks.  Each week he went twice for 2 hours at a time.  If the sessions cost $125 per hour how much did the physical therapy cost?",
+    "answer": "3000",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "3000",
+      "text": "<answer>3000</answer>",
+      "input_tokens": 132,
+      "output_tokens": 50,
+      "total_tokens": 182,
+      "reasoning_tokens": 40,
+      "calls": 1,
+      "latency_s": 0.5558815998956561,
+      "request_ids": [
+        "52c6dd0292cf489581ace87312edde80"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "3000",
+      "text": "6 weeks × 2 sessions/week = 12 sessions  \n12 sessions × 2 hours = 24 hours  \n24 hours × $125/hour = $3,000\n\n<answer>3000</answer>",
+      "input_tokens": 132,
+      "output_tokens": 102,
+      "total_tokens": 234,
+      "reasoning_tokens": 57,
+      "calls": 1,
+      "latency_s": 0.8736750001553446,
+      "request_ids": [
+        "10eb74ff26f5407190ff814108899e0e"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "3000",
+      "text": "Verification: 6 weeks × 2 sessions/week = 12 sessions; 12 × 2 hours = 24 hours; 24 × $125 = $3,000. Correct.\n\n<answer>3000</answer>",
+      "input_tokens": 347,
+      "output_tokens": 246,
+      "total_tokens": 593,
+      "reasoning_tokens": 151,
+      "calls": 2,
+      "latency_s": 1.792591500096023,
+      "request_ids": [
+        "10eb74ff26f5407190ff814108899e0e",
+        "0dba674b67f9413f9e4aec9b2f9536ae"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

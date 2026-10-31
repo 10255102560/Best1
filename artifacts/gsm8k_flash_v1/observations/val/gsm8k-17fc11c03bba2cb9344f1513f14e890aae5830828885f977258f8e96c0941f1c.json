@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-17fc11c03bba2cb9344f1513f14e890aae5830828885f977258f8e96c0941f1c",
+    "question": "Trevor buys three bouquets of carnations. The first included 9 carnations, and the second included 14 carnations. If the average number of carnations in the bouquets is 12, how many carnations were in the third bouquet?",
+    "answer": "13",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "13",
+      "text": "<answer>13</answer>",
+      "input_tokens": 130,
+      "output_tokens": 44,
+      "total_tokens": 174,
+      "reasoning_tokens": 35,
+      "calls": 1,
+      "latency_s": 0.5084867000114173,
+      "request_ids": [
+        "45c6ac433b6d4c22996b5de48c929960"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "13",
+      "text": "Total carnations for 3 bouquets: \\(12 \\times 3 = 36\\)\n\nFirst two bouquets: \\(9 + 14 = 23\\)\n\nThird bouquet: \\(36 - 23 = 13\\)\n\n<answer>13</answer>",
+      "input_tokens": 130,
+      "output_tokens": 89,
+      "total_tokens": 219,
+      "reasoning_tokens": 35,
+      "calls": 1,
+      "latency_s": 0.8019929002039135,
+      "request_ids": [
+        "d4ed50264b874077acd3b5a99a41da92"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "13",
+      "text": "Average check: \\(12 \\times 3 = 36\\) total; \\(9 + 14 = 23\\); third bouquet \\(36 - 23 = 13\\). Correct.\n\n<answer>13</answer>",
+      "input_tokens": 352,
+      "output_tokens": 203,
+      "total_tokens": 555,
+      "reasoning_tokens": 103,
+      "calls": 2,
+      "latency_s": 2.270177900325507,
+      "request_ids": [
+        "d4ed50264b874077acd3b5a99a41da92",
+        "cb2cbdcb9b384c8886a62e1e3a932760"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

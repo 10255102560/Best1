@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7e687c5713021c9a26896d246e2656ecc18ef60bc5f276b8985fcb3a3202c817",
+    "question": "Tom plays an online trading card game.  His deck has 19 rare cards, 11 uncommon, and 30 commons.  The rare cards cost $1, the uncommon are $.50, and the commons are $.25 each.  How much did his deck cost?",
+    "answer": "32",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "<answer>32</answer>",
+      "input_tokens": 134,
+      "output_tokens": 66,
+      "total_tokens": 200,
+      "reasoning_tokens": 57,
+      "calls": 1,
+      "latency_s": 0.659823700087145,
+      "request_ids": [
+        "4ad97da4fce244ed9e9cdde1297e7473"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "Rare cards: \\(19 \\times 1 = 19\\)  \nUncommon cards: \\(11 \\times 0.50 = 5.50\\)  \nCommon cards: \\(30 \\times 0.25 = 7.50\\)  \n\nTotal: \\(19 + 5.50 + 7.50 = 32\\)\n\n<answer>32</answer>",
+      "input_tokens": 134,
+      "output_tokens": 135,
+      "total_tokens": 269,
+      "reasoning_tokens": 56,
+      "calls": 1,
+      "latency_s": 1.009449299890548,
+      "request_ids": [
+        "63aca10efe6840db8b287aef348286c5"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "32",
+      "text": "Rare: 19 × $1 = $19  \nUncommon: 11 × $0.50 = $5.50  \nCommons: 30 × $0.25 = $7.50  \nTotal: 19 + 5.50 + 7.50 = 32. The proposed solution is correct.\n\n<answer>32</answer>",
+      "input_tokens": 385,
+      "output_tokens": 288,
+      "total_tokens": 673,
+      "reasoning_tokens": 132,
+      "calls": 2,
+      "latency_s": 3.8227221998386085,
+      "request_ids": [
+        "63aca10efe6840db8b287aef348286c5",
+        "cdd42dde9baf4871959637069095494f"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

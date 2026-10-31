@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-7113eab498e6007e6ae9599e8354e4c1efeeca76ff3f86132c5b40cbf0a3c6ed",
+    "question": "Mason, Noah and Jacob want to have an eating contest but can't agree on what food to eat. Mason wants hot dogs, Noah insists on burgers, and Jacob thinks they should eat pies. They finally agree that everyone can eat whatever they want and they'll use the weight of the food to determine who wins. A hot dog weighs 2 ounces, a burger weighs 5 ounces, and a pie weighs 10 ounces. Jacob eats three fewer pies than Noah eats burgers. Mason eats 3 times as many hotdogs as the number of pies consumed by Jacob. If Noah ate 8 burgers, what is the total weight of the hotdogs that Mason ate?",
+    "answer": "30",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "<answer>30</answer>",
+      "input_tokens": 213,
+      "output_tokens": 115,
+      "total_tokens": 328,
+      "reasoning_tokens": 106,
+      "calls": 1,
+      "latency_s": 0.820136999944225,
+      "request_ids": [
+        "fe068ac715444cab8f5dfa2097f9502a"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "Noah ate 8 burgers, so Jacob ate \\(8 - 3 = 5\\) pies.\n\nMason ate \\(3 \\times 5 = 15\\) hot dogs.\n\nEach hot dog weighs 2 ounces, so Mason ate \\(15 \\times 2 = 30\\) ounces of hot dogs.\n\n<answer>30</answer>",
+      "input_tokens": 213,
+      "output_tokens": 204,
+      "total_tokens": 417,
+      "reasoning_tokens": 132,
+      "calls": 1,
+      "latency_s": 1.027625699993223,
+      "request_ids": [
+        "b574b2b9e98b4ca4adfc69ce33551672"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "30",
+      "text": "Noah ate 8 burgers, so Jacob ate \\(8-3=5\\) pies. Mason ate \\(3\\times5=15\\) hot dogs. At 2 ounces each, Mason ate \\(15\\times2=30\\) ounces. The solution is correct.\n\n<answer>30</answer>",
+      "input_tokens": 536,
+      "output_tokens": 360,
+      "total_tokens": 896,
+      "reasoning_tokens": 226,
+      "calls": 2,
+      "latency_s": 2.0578101999126375,
+      "request_ids": [
+        "b574b2b9e98b4ca4adfc69ce33551672",
+        "eef03d55f1774e01a62b56684ce18686"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-885f54b75b068b4560c8ba32a0b22f80faeba3b1313fdb1c538a302196bd51bf",
+    "question": "Tony is painting a room with four walls. The north and south walls are 10 x 8 feet. The east and west walls are 5 x 8 feet. A gallon of paint can cover 20 square feet and cost $12. How much will it cost to paint the room?",
+    "answer": "144",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "144",
+      "text": "<answer>144</answer>",
+      "input_tokens": 138,
+      "output_tokens": 116,
+      "total_tokens": 254,
+      "reasoning_tokens": 107,
+      "calls": 1,
+      "latency_s": 0.9140308999922127,
+      "request_ids": [
+        "c0174e6ead7d4e059700788d683858c1"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "144",
+      "text": "North and south walls: \\(2 \\times (10 \\times 8) = 160\\) sq ft  \nEast and west walls: \\(2 \\times (5 \\times 8) = 80\\) sq ft  \nTotal area: \\(160 + 80 = 240\\) sq ft  \nGallons needed: \\(240 \\div 20 = 12\\)  \nCost: \\(12 \\times 12 = 144\\)\n\n<answer>144</answer>",
+      "input_tokens": 138,
+      "output_tokens": 188,
+      "total_tokens": 326,
+      "reasoning_tokens": 91,
+      "calls": 1,
+      "latency_s": 6.121143999975175,
+      "request_ids": [
+        "018d3a77293e443a8fd48aef82122ec8"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "144",
+      "text": "Areas: \\(2(10\\cdot8)+2(5\\cdot8)=160+80=240\\) sq ft.  \nGallons: \\(240/20=12\\).  \nCost: \\(12\\cdot12=144\\).  \n<answer>144</answer>",
+      "input_tokens": 411,
+      "output_tokens": 320,
+      "total_tokens": 731,
+      "reasoning_tokens": 167,
+      "calls": 2,
+      "latency_s": 7.0696947001852095,
+      "request_ids": [
+        "018d3a77293e443a8fd48aef82122ec8",
+        "f9069fdf148e4376bb51612a44bc8069"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

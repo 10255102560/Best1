@@ -1,0 +1,381 @@
+{
+  "frozen_at": "2026-10-31T08:47:09.292222+00:00",
+  "policy": {
+    "version": 1,
+    "n_features": 15,
+    "n_actions": 3,
+    "seed": 42,
+    "weights": [
+      [
+        0.002345877616491737,
+        0.003460149102964784,
+        -0.005806026719456511
+      ],
+      [
+        0.001770744754499783,
+        0.003686617701253225,
+        -0.0054573624557530025
+      ],
+      [
+        0.012162909264053081,
+        -0.004445962058526438,
+        -0.007716947205526618
+      ],
+      [
+        -0.006693985740542686,
+        0.006703528099051541,
+        -9.542358508843368e-06
+      ],
+      [
+        0.009899049923576887,
+        -0.004147699822514499,
+        -0.005751350101062399
+      ],
+      [
+        0.020965547661892656,
+        -0.017176369313720442,
+        -0.0037891783481722344
+      ],
+      [
+        -0.008817202718806608,
+        0.005635386838594278,
+        0.003181815880212359
+      ],
+      [
+        -0.0051487915279448855,
+        0.0013818913253757239,
+        0.003766900202569097
+      ],
+      [
+        0.0014182996750410637,
+        -0.0014508491965668294,
+        3.2549521525731214e-05
+      ],
+      [
+        0.008847451626975261,
+        -0.008661672865325588,
+        -0.00018577876164964005
+      ],
+      [
+        -0.006500363280522978,
+        0.0017237562589041322,
+        0.00477660702161884
+      ],
+      [
+        -0.0108459092858183,
+        0.009941969619258088,
+        0.0009039396665601945
+      ],
+      [
+        -0.0046959726004689875,
+        0.000770125824476062,
+        0.003925846775992987
+      ],
+      [
+        -0.0016628971221491783,
+        0.001996903611451063,
+        -0.00033400648930191114
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "bias": [
+      0.9474018699628264,
+      0.5493508254887568,
+      -0.9967526954515818
+    ],
+    "mean": [
+      5.356897531531965,
+      3.660327019280364,
+      1.3813116972814017,
+      4.6034863839640945,
+      1.5437379409937333,
+      1.0,
+      0.375,
+      0.125,
+      0.25,
+      0.5625,
+      0.125,
+      0.46875,
+      0.28125,
+      0.53125,
+      0.0
+    ],
+    "scale": [
+      0.3437685492853405,
+      0.34086052153275764,
+      0.29264926262289764,
+      2.0052336962432933,
+      0.26289900208305855,
+      0.25,
+      0.4841229182759271,
+      0.414578098794425,
+      0.4330127018922193,
+      0.8637671850678283,
+      0.33071891388307384,
+      0.9008459565874734,
+      0.5144399260360728,
+      0.9008459565874734,
+      1.0
+    ],
+    "scaler_fitted": true,
+    "total_steps": 4000
+  },
+  "selected_version": 1,
+  "steps_per_round": 4000,
+  "source_run": "artifacts\\gsm8k_flash_v1",
+  "source_config": {
+    "dataset": "GSM8K (official train/test)",
+    "model": "deepseek-v4.1-flash",
+    "base_url": "https://token.pjlab.org.cn/v1",
+    "train_size": 128,
+    "val_size": 48,
+    "test_size": 128,
+    "seed": 42,
+    "rounds": 4,
+    "steps": 400,
+    "lr": 0.2,
+    "entropy": 0.01,
+    "l2": 0.03,
+    "cost_weight": 0.05,
+    "token_unit": 1000,
+    "max_requests": 980,
+    "max_tokens": 2048,
+    "gate_accuracy_tolerance": 0.03,
+    "gate_utility_margin": 1e-06,
+    "features": [
+      "log_characters",
+      "log_words",
+      "log_numbers",
+      "log_largest_number",
+      "log_sentences",
+      "question_marks",
+      "addition_words",
+      "subtraction_words",
+      "multiplication_words",
+      "division_words",
+      "percentage_words",
+      "sequence_words",
+      "money_words",
+      "comparison_words",
+      "decimal_numbers"
+    ],
+    "strategies": [
+      "direct",
+      "reason",
+      "review"
+    ],
+    "deployment_rule": "argmax",
+    "temperature": 0,
+    "draft_sharing": "reason output is reused as the first review step; deployment counts both steps",
+    "source_sha256": {
+      "train": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465",
+      "test": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+    },
+    "implementation_sha256": {
+      "client.py": "9c3a402551fdaee7a913f4f7475522bc3646cd40007858fc854f58ca0d97d9d7",
+      "evaluation.py": "943ba0bb1412e428ae72d299de80d7c3633124516c5ee0d4d19d23158c841904",
+      "experiment.py": "1884a0c5b0cb2f541aa608fb4cb5cf7121eaccc87aea4a1d36541eede045633a",
+      "policy.py": "5cd0c511dfd38549a2942bca01dd0ac78c24680cce13502a11e91b0ef39d643e",
+      "strategies.py": "3c3d0f1213d727aad0ee23077a12a9276f1898951e85e82c6e9121c185f46033",
+      "tasks.py": "f58f9a703d5700b37513e7685be49e16b70604bd6c65adb5773dc2f11464001f",
+      "__init__.py": "1c27a362fe38a39e7c1b451ddcd3f87446a13c8bb473b6f60bb13b18c139a998"
+    }
+  },
+  "source_config_sha256": "1c4568a4cd95d06f9de6c18391cdc7b5c382836f6101de95e0f818bd3fbcb336",
+  "train_ids": [
+    "gsm8k-d0a23490eddc2afe4f3134e8c65830c5d7707f4f89f74365d5275bf89b35a8a6",
+    "gsm8k-d3cd55ba003213e2c4e543f19f95202c0a31dcbe9c2e932dc138db159890642c",
+    "gsm8k-b2e7552a2dd740512aa6d8c486309df477cc5d3e7ceaa9316e0ab7374277bded",
+    "gsm8k-9402eb43ec740cd453f0211733b50bcfa70dbb36cf577ecac4a31a08f0c0cb4d",
+    "gsm8k-329ba6ef9541ba9279a148fe6b123ea05178961a91b2b49fdca07b4d811209a2",
+    "gsm8k-a5fdce1e53e8dd0cf47737bb77fb0b24ad5f215920c228a83e67f6742d41774f",
+    "gsm8k-7ffc7ebfb922f56cbcce3629b49c025dc19c3cc001b846608102c480c3d79e7b",
+    "gsm8k-b8c05eb8f1c342748f48d687c32411cc2db46953dcd840089efb541dc1762250",
+    "gsm8k-f42bf80670176ce906bb59d0659a798cf8336d432fc82316cd20f2a13fdad81f",
+    "gsm8k-9a7d95af461725130bbc7cac77fb6a8b35d002d2c1ea6175bc385d403d4fe8c6",
+    "gsm8k-1d8bed9cca754dd0cf8eb1d909e44af7209a5f10081b135ad9e1af1a1ddda48f",
+    "gsm8k-070a9000d8f3f68ddcc98f43e6f66ce9c7a636deadbb5ef16d48616414756e12",
+    "gsm8k-b6585711cbc409852f582d56b3c475115ab241bda12c46b21957246eda86a6cd",
+    "gsm8k-d138796349786ed343ec5fd8a8433c4eb6ea4cc4bb10e64460ab5d43b61c7ecd",
+    "gsm8k-ef1a365a6d5a7d5e6e3b9eca5e5415836dfc91ec17cfe2e87b93cee502108c45",
+    "gsm8k-6547b334577a7c66943e06fbcb9986c4235d806504e1f6c896bc68a7d6851ae5",
+    "gsm8k-423ef1ee5d153d430930ba72ac9f413fd0c90ac85ffab1c49484e14db029e2b0",
+    "gsm8k-bdfad0cd75e37d1730bae6e34e9f9770b471e7c9db79077457fa8b88644521f1",
+    "gsm8k-ca27ac4611d796fc951e867217c5aadaf33133ee57834559eccc3c055a783c00",
+    "gsm8k-1934da231dbb8b6d0ae0b1e261e4e3b9c7b8d4a16d8de582a2115f1e376c0764",
+    "gsm8k-0dd63101ea6c0b53afd92d1e5c318a1b922e8910d334bc4eeaf0c47db3a9bb98",
+    "gsm8k-4e3ed1c5c2bed9b15535f1d7f638d65e4538c420d734703338a5b971bab7e672",
+    "gsm8k-5393a5cb8aa4f2085a956a96154a2d1584b56517fe90124ad0a6db33603b16fe",
+    "gsm8k-b3876ecfb6eaf39caf0d04e2c84a86c99ec66d9dadd1c32b3c3697e4a0f550d2",
+    "gsm8k-c14c262610dd3b4a97d942670b87647df36725701de531ce325230dd5ac19720",
+    "gsm8k-66a78fee01f5efe59b031eae6085aa2f43ac0afab1ef3e9c30fe2804f0db7815",
+    "gsm8k-76dcf3ba8159230fc0e873b4e1351237b9a7adc46506fb82c7a4e4dcff61509a",
+    "gsm8k-0c0fa1223acf2929f44490f24c27802008ddd330131c9f1c051fd44fbbfc39bf",
+    "gsm8k-8d4e44e3961336e22712ed7e8d6454105531d77a107a67fea90f4dbf1ca80640",
+    "gsm8k-f10823a40d5b398998ff4aa30aac18581a9daa05a64741f7aae2dd67066cb61b",
+    "gsm8k-72dec95f4b84005981187dd6cb4f904e84ca6a8643bec1e69a88e0a064c62d91",
+    "gsm8k-3cff15eb1e6c8e30e4eec95f663b4d76d5411f1af575fecc8eaf4dddf99e3b8d",
+    "gsm8k-59fff92cd0086a1d8323064ea91f07c4028098812590435407eab62eaa057552",
+    "gsm8k-66b265771aea61422de682c2e1853095b9725b8a8582b4ea40fec8d2a7ab3ab6",
+    "gsm8k-df8037723cc15cf8b476cf7667786389bc3632bbadf0addbfadca4d62c3af46e",
+    "gsm8k-d9f4bc5ca15236aa72e8b92440b4a3c7c1d693717920f10e391164d6eb4cadba",
+    "gsm8k-4eb5a67fb321e2af9b49489642e330337994a1c66ad918e168f3012872f6f8d8",
+    "gsm8k-d0ebccf8e71282953508ebec880aa8a999d5b04cc8c51dc03be4ee642ddac945",
+    "gsm8k-4d13c42364a29411b62df16664c132bc31937b73dd63fefbbd9e1c6b7f250b85",
+    "gsm8k-f167cd6547069c6b55913a197bb929690656acb3b1e50ce7f5de6acd70d0d75b",
+    "gsm8k-ca3f9dfdbe6af9f5f3c0960b0cee4966fd6ad115dc989b92d9e8aec9c099f5aa",
+    "gsm8k-696fcc179d5a96071d3733299af98663ed93aba4bf6d36872dff131a1810ab32",
+    "gsm8k-af3b66589b989cb81b7d1a8138c04878d55643f422ddc65d5a7573bf3c5b552b",
+    "gsm8k-0ccceb275f04a790ecd34c5cf5b038b4a86b83afd8ae5354623be284b65738de",
+    "gsm8k-9922eed36d66686976c9c2782d3cdc2a1ff94dc909bd797965636d94367f3c12",
+    "gsm8k-c009dc514aeec76abb345fda12877774e5bd90d0eeb4cddb29d80fe429e32bd7",
+    "gsm8k-6d5c6aa35d5799929e7595b615efed1c86015c2a2c6abdd97131fb1f68a4833b",
+    "gsm8k-09c6d43b08bdd4a0c1e9969fd50d6de9ddcfb4d87695ab3b6923792552bea82b",
+    "gsm8k-20604168dda90a2e1cc8a01756275a1dea861e1a9a74a7a167b6bd65e0466e59",
+    "gsm8k-ae36664dc501756c5e434af983cced02f62a42c381f533b3f117c3d0ecfb13da",
+    "gsm8k-6b01e183784606ceb2d571a7f817db55b87a7ec6044deb75da9eb08e7d49a92c",
+    "gsm8k-1dd36e3eddc631903a876bceed55808afb0018e013644012aaf56f86922ed2cc",
+    "gsm8k-dd952e02780da6103040d88fb1d186aead0ed71118239b61c4c2be3cbaa853ba",
+    "gsm8k-eec2fb2a582bcc6062a223f6022be83d0c099e017480ce756d62e51374435cdf",
+    "gsm8k-177dfa7e01f6b4859a47e5192db80b4ff8a808871711055007d9214b0aa2705c",
+    "gsm8k-2c2325f52ce69361c492b6fe1f76ee3f4914eb39f8396bd06cffce451f1709f4",
+    "gsm8k-b5afe73a2a0b3bc5fcf1654d7f16d888a9a76dd551c04a610df402ad72ec62b2",
+    "gsm8k-2e48e96ab901b97b6e29619ff089c048039dd030a7a4e54929e27779f15ad46b",
+    "gsm8k-9eb87799d00e6bc51c692dc5603c938e99a6524a7f2f3a906d9d3123207e0cf6",
+    "gsm8k-fb9463d72ffbda23b80ee30cfb504000f0b654cedb3d4ba034c5a37c6e5ca8b9",
+    "gsm8k-11d5aee8de3519d32d36b26c21c8168894a158ab1698f6bdeb57552690a00a1d",
+    "gsm8k-0a94d6be5b36508c24ca3f01e832ca5f59c04c3b25408b15cc7f5490f2045447",
+    "gsm8k-48a14de8bec9a95bdfb1311440a5dee74b4051b6d35fcead361f31bf6368f214",
+    "gsm8k-793bc2727b13e3837b78901bfa0e1e764e57ac093c8eef8effbb426475ec6fae"
+  ],
+  "validation_ids": [
+    "gsm8k-f5bbed77d1bcef25df9c905b015d3f24946104c6d8bd4701a5890a4f3f1a7c71",
+    "gsm8k-3fd6d38e1919ab0ef5480ed30808145260824096767ef91cd177b8cc301be3f2",
+    "gsm8k-fb6b3a548e87d5df343b266368e09e4fa823cb214740f7125f85ad919719a4b3",
+    "gsm8k-98897d56866edf1bbeba6e3368d17a3e7705035c0de50071f8323a2d26543a46",
+    "gsm8k-3eca32ab0e062da3f6606451f8cae4260989490ec6e3d3afab347b0f54db1e06",
+    "gsm8k-31e99e0f748c4f7943236f6adaade0d92206d9d59c57509d1a71ac260c80f519",
+    "gsm8k-4e65f5645e63494b8d8a114771b4edb5f18ac47ea6d291a2b1d4638844aecf6c",
+    "gsm8k-fe9e3a0791409ec9bee010ee58603a49822238e7fafd0f6df8f6d62ee4e7fc99",
+    "gsm8k-f29da6de9cb82bd0f19dcb37fef27320f818b8b21c4aeee58f01a099909de5dc",
+    "gsm8k-e9078974a983a90d9d632ee8f868c3e11a22cde864ceca16801444f1d82dd1f4",
+    "gsm8k-15c3f1e0e40725bdb8314be4296dad4b11fcc272d1da3d6e5ddb67f805ba592b",
+    "gsm8k-9455e2b14f8f9a385acc0fa2cb2c9915aa5c3adeae4c6cb0df2c6a6c484001c8",
+    "gsm8k-7113eab498e6007e6ae9599e8354e4c1efeeca76ff3f86132c5b40cbf0a3c6ed",
+    "gsm8k-e8b3d6f36f6bf7d0041231b82a329b963cb8f25ec48793818c3eebaed61dfc33",
+    "gsm8k-ea0d2074e76b76a1d590696d0e79ff9e2d8d308e9a90bb85ddaec425892f37ff",
+    "gsm8k-6f902cedcd73196b96ccac135e5072847d8e1104ea04bcfcb7d0201cf98f6f10",
+    "gsm8k-0e2c0311365f518160dbc1740354d54e25c8e691a0afe2f24ea3411361caee1b",
+    "gsm8k-83b76780c67d80e87979ee3e498e6c56139624624068e2323e08473d8d7116d2",
+    "gsm8k-0e8a96e636ebc6111a725ae90f3fc21b9efb4a5acf180f27349f00aec09ea1ad",
+    "gsm8k-502bdd9a83db080edfb74b432ed297e9cf6f19cdae6fded4a7ca61b8ed638b59",
+    "gsm8k-1d2a63951b5168a48841bd307d70b7d6f706e8bf9f81d9507dce9d55c6949e13",
+    "gsm8k-808874d17510719b3d442b018a0e5414a92ef911129876241506a1c84b23e525",
+    "gsm8k-1e14fd22fbdb93811153fffab038c5da9bec33d9ed817c1984f828a1f17d8ec8",
+    "gsm8k-0c5fd414b6b7921bb2b39e313e529439b63e6e95f3caa11e652b52c818e7548b",
+    "gsm8k-a988816b83475770703f463340c71f184fa2b79847bc0578976ee86fa878067b",
+    "gsm8k-b04ff52f75dfb4299706d07f7a0339f8c092361b937d71d9128db1ac027b13b3",
+    "gsm8k-17fc11c03bba2cb9344f1513f14e890aae5830828885f977258f8e96c0941f1c",
+    "gsm8k-69fb8fcf37a63730a7c889187ba4b036fea60c1c437a45f2ac83783a79a767ba",
+    "gsm8k-43cdedcd074c26dfc40e3c56cb4bebf5a795668627963fc7bbe8bbe4693b3923",
+    "gsm8k-c514f1edab6e4613d1fc1d214621af875bba3e00e04befaee0b4c3f2f13f146e",
+    "gsm8k-782d5855692d1ebe49b9636ecf04521646db400043239cf821c4cde265392986",
+    "gsm8k-95be86c829d3ab0a2af31a6e23f9b44d57092ffadfc4c4dcf13215310fb1f87b",
+    "gsm8k-da52489ca063ca94df9f7518ea0e6497e14c1cf553ed3a4c477eaf0acdce8cff",
+    "gsm8k-7f8490c5da0110da72311fec58f0d93afe92d1001777b639310182d6febd4817",
+    "gsm8k-b13af739f81a31cffe2dee9ada88a87b95562b46c5eef078cb444fff9d3b6039",
+    "gsm8k-512a1fb2d89f3368743f7fc2e65fa71b5c8400ab382a364bda8014781700902e",
+    "gsm8k-969abee1da71257d82dd03173c2649c1c043a197d64534083b766eedaca82cfc",
+    "gsm8k-6e9654b8a3d78196e2eab9b7f08b466ec14750a182f518c9c44ae0351a8ea298",
+    "gsm8k-37a15f98495ca5172150c8399814b29ae3fe2d3d29decf4ef548fc32fb5c6ba4",
+    "gsm8k-50699c12cc17c6a920e10aa226d1f436665e7ab49a512ac3a85fa24cddd80cdf",
+    "gsm8k-bfeac2c0d37f66e0939447f7bc329a84682c24651be44953b7e0d18cb0500298",
+    "gsm8k-f15c5c474f7a1f934b839ba9d369787b1e49a4a0cbf2b97d448cb886e4861128",
+    "gsm8k-0fec1b004dfd1d349cc9b4eb4ae87b3c4df0d7f88704272b20e61df537140968",
+    "gsm8k-175ac547615ad18026b94d3b6a09971cc3a48ae1854f39f7aaeccec8e2bbe3bf",
+    "gsm8k-c58e956d278bcf292d460de10259aaeac7276d0c5c5aff14513021dbb773ea27",
+    "gsm8k-5e358a41566ee6587e5efc0532ebeafcfefdf5e5c9603bed442b989add97374f",
+    "gsm8k-2d1e6d5c203b74c5d8ae4dbac073df4a76e5228fd50a0db8e250ae1920733e8e",
+    "gsm8k-5b01f4e2dd87e9fba27cb31dd74b72ebcef5848cb063e48b15de0684a3c9a741"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "train_tasks": 32,
+      "steps": 4000,
+      "accepted": true,
+      "val_incumbent": {
+        "accuracy": 0.9791666666666666,
+        "mean_tokens": 330.4375,
+        "mean_calls": 1.0,
+        "mean_latency_s": 2.324059820835828,
+        "utility": 0.9626447916666666
+      },
+      "val_candidate": {
+        "accuracy": 0.9791666666666666,
+        "mean_tokens": 291.2708333333333,
+        "mean_calls": 1.0,
+        "mean_latency_s": 1.9393695270991884,
+        "utility": 0.964603125
+      },
+      "candidate_actions": {
+        "direct": 48,
+        "reason": 0,
+        "review": 0
+      },
+      "objective_start": 0.9577270241121235,
+      "objective_end": 0.9612855904115817
+    },
+    {
+      "round": 2,
+      "train_tasks": 64,
+      "steps": 4000,
+      "accepted": false,
+      "val_incumbent": {
+        "accuracy": 0.9791666666666666,
+        "mean_tokens": 291.2708333333333,
+        "mean_calls": 1.0,
+        "mean_latency_s": 1.9393695270991884,
+        "utility": 0.964603125
+      },
+      "val_candidate": {
+        "accuracy": 0.9791666666666666,
+        "mean_tokens": 291.2708333333333,
+        "mean_calls": 1.0,
+        "mean_latency_s": 1.9393695270991884,
+        "utility": 0.964603125
+      },
+      "candidate_actions": {
+        "direct": 48,
+        "reason": 0,
+        "review": 0
+      },
+      "objective_start": 0.9607063072944125,
+      "objective_end": 0.9608367937040792
+    }
+  ],
+  "initial_validation": {
+    "accuracy": 0.9791666666666666,
+    "mean_tokens": 330.4375,
+    "mean_calls": 1.0,
+    "mean_latency_s": 2.324059820835828,
+    "utility": 0.9626447916666666
+  },
+  "selected_validation": {
+    "accuracy": 0.9791666666666666,
+    "mean_tokens": 291.2708333333333,
+    "mean_calls": 1.0,
+    "mean_latency_s": 1.9393695270991884,
+    "utility": 0.964603125
+  },
+  "selected_actions": {
+    "direct": 48,
+    "reason": 0,
+    "review": 0
+  },
+  "disclosure": "One additional 4000-step convergence check chosen after seeing early validation results. Not originally preregistered. No test outcomes or summary were read; only the first 64 training tasks and validation set were used."
+}

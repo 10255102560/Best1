@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-2e93b685058765db9a677267b049f69e81cd0ba8ec1822cfe55913387ea88479",
+    "question": "Laran has started a poster business. She is selling 5 posters per day at school. Two posters per day are her large posters that sell for $10. The large posters cost her $5 to make. The remaining posters are small posters that sell for $6. They cost $3 to produce. How much profit, in dollars, does Laran make per 5-day school week?",
+    "answer": "95",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "95",
+      "text": "<answer>95</answer>",
+      "input_tokens": 158,
+      "output_tokens": 82,
+      "total_tokens": 240,
+      "reasoning_tokens": 73,
+      "calls": 1,
+      "latency_s": 0.9202290999237448,
+      "request_ids": [
+        "40bc89442bdf4929bc6b5703b9dc2cfe"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "95",
+      "text": "Large posters: 2 × ($10 − $5) = 2 × $5 = $10 profit per day  \nSmall posters: 3 × ($6 − $3) = 3 × $3 = $9 profit per day  \nDaily profit: $10 + $9 = $19  \n5-day week profit: 5 × $19 = $95\n\n<answer>95</answer>",
+      "input_tokens": 158,
+      "output_tokens": 190,
+      "total_tokens": 348,
+      "reasoning_tokens": 105,
+      "calls": 1,
+      "latency_s": 1.2642737999558449,
+      "request_ids": [
+        "8ee5707f6b3849f3885693c6a896879a"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "95",
+      "text": "Verification: Large profit = 2 × ($10 − $5) = $10/day. Small profit = 3 × ($6 − $3) = $9/day. Total = $19/day. Per 5-day week = 5 × $19 = $95. The proposed solution is correct.\n\n<answer>95</answer>",
+      "input_tokens": 439,
+      "output_tokens": 370,
+      "total_tokens": 809,
+      "reasoning_tokens": 212,
+      "calls": 2,
+      "latency_s": 2.931770799914375,
+      "request_ids": [
+        "8ee5707f6b3849f3885693c6a896879a",
+        "c7314c60bb484d98b9defda00a430a53"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-175ac547615ad18026b94d3b6a09971cc3a48ae1854f39f7aaeccec8e2bbe3bf",
+    "question": "James had two browsers on his computer. In each browser, he opened three windows, each with ten tabs. What's the total number of tabs he opened in all the browsers together?",
+    "answer": "60",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "60",
+      "text": "<answer>60</answer>",
+      "input_tokens": 115,
+      "output_tokens": 54,
+      "total_tokens": 169,
+      "reasoning_tokens": 45,
+      "calls": 1,
+      "latency_s": 0.7514345000963658,
+      "request_ids": [
+        "af7c49e213fe490d815083571f0e8d99"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "60",
+      "text": "2 browsers × 3 windows × 10 tabs = 60 tabs.\n\n<answer>60</answer>",
+      "input_tokens": 115,
+      "output_tokens": 69,
+      "total_tokens": 184,
+      "reasoning_tokens": 45,
+      "calls": 1,
+      "latency_s": 0.7669242999982089,
+      "request_ids": [
+        "9e1f7f5ccd5845f0991d385531b4f72b"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "60",
+      "text": "The interpretation and arithmetic are correct: \\(2 \\times 3 \\times 10 = 60\\) tabs total.\n\n<answer>60</answer>",
+      "input_tokens": 292,
+      "output_tokens": 169,
+      "total_tokens": 461,
+      "reasoning_tokens": 112,
+      "calls": 2,
+      "latency_s": 5.658595599932596,
+      "request_ids": [
+        "9e1f7f5ccd5845f0991d385531b4f72b",
+        "208330d4e7f5497e880c6117e8c4893a"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-3cff15eb1e6c8e30e4eec95f663b4d76d5411f1af575fecc8eaf4dddf99e3b8d",
+    "question": "Out of 804 senior high school students, 75% passed their exams and so got their degree. The rest failed. How many didn't pass their exams?",
+    "answer": "201",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "201",
+      "text": "<answer>201</answer>",
+      "input_tokens": 111,
+      "output_tokens": 38,
+      "total_tokens": 149,
+      "reasoning_tokens": 29,
+      "calls": 1,
+      "latency_s": 9.756900199921802,
+      "request_ids": [
+        "189c02c58fb04233bb95d06289d5875f"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "201",
+      "text": "75% passed, so 25% did not pass.\n\n\\(804 \\times 0.25 = 201\\)\n\n<answer>201</answer>",
+      "input_tokens": 111,
+      "output_tokens": 68,
+      "total_tokens": 179,
+      "reasoning_tokens": 35,
+      "calls": 1,
+      "latency_s": 0.9667587999720126,
+      "request_ids": [
+        "a48218ca82ac45059375b91eea267f3a"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "201",
+      "text": "25% of 804 is \\(804 \\times 0.25 = 201\\). The interpretation and arithmetic are correct.\n\n<answer>201</answer>",
+      "input_tokens": 293,
+      "output_tokens": 152,
+      "total_tokens": 445,
+      "reasoning_tokens": 85,
+      "calls": 2,
+      "latency_s": 1.7259556998033077,
+      "request_ids": [
+        "a48218ca82ac45059375b91eea267f3a",
+        "761fd638d67143ebb05f5f6c37bc16ed"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

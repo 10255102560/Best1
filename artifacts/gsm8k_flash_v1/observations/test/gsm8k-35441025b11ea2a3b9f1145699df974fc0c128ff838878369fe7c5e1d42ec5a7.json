@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-35441025b11ea2a3b9f1145699df974fc0c128ff838878369fe7c5e1d42ec5a7",
+    "question": "James runs 12 miles a day for 5 days a week.  If he runs 10 miles an hour how many hours does he run a week?",
+    "answer": "6",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "<answer>6</answer>",
+      "input_tokens": 110,
+      "output_tokens": 44,
+      "total_tokens": 154,
+      "reasoning_tokens": 35,
+      "calls": 1,
+      "latency_s": 0.9108819998800755,
+      "request_ids": [
+        "81aa6edbbd234761afcc1328ee45ab23"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "James runs \\(12 \\times 5 = 60\\) miles per week.  \nAt 10 miles per hour, time is \\(60 \\div 10 = 6\\) hours.\n\n<answer>6</answer>",
+      "input_tokens": 110,
+      "output_tokens": 99,
+      "total_tokens": 209,
+      "reasoning_tokens": 52,
+      "calls": 1,
+      "latency_s": 1.1682684000115842,
+      "request_ids": [
+        "cdd3469756af47f1af815d1dd26bc8fb"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "Verification: \\(12 \\times 5 = 60\\) miles/week; \\(60 \\div 10 = 6\\) hours/week. The proposed solution is correct.\n\n<answer>6</answer>",
+      "input_tokens": 305,
+      "output_tokens": 219,
+      "total_tokens": 524,
+      "reasoning_tokens": 128,
+      "calls": 2,
+      "latency_s": 2.027090100105852,
+      "request_ids": [
+        "cdd3469756af47f1af815d1dd26bc8fb",
+        "52a92b3b1f8e479ba2c1ef72cb26c453"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

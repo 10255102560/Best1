@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f29da6de9cb82bd0f19dcb37fef27320f818b8b21c4aeee58f01a099909de5dc",
+    "question": "John's neighbor tells him to walk his dog for 1 hour each day for a total of $10. He does this for April, save for the 4 Sundays in April. He later spent $50 on books and gave his sister Kaylee the same amount. How much money did John have left?",
+    "answer": "160",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "160",
+      "text": "<answer>160</answer>",
+      "input_tokens": 140,
+      "output_tokens": 533,
+      "total_tokens": 673,
+      "reasoning_tokens": 524,
+      "calls": 1,
+      "latency_s": 16.442629999946803,
+      "request_ids": [
+        "95ee99c30d304e8fa08f68af6489ea32"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "160",
+      "text": "April has 30 days. Excluding 4 Sundays leaves:\n\n30 − 4 = 26 days\n\nJohn earns $10 per day:\n\n26 × 10 = $260\n\nHe spends $50 on books and gives Kaylee $50:\n\n50 + 50 = $100\n\nMoney left:\n\n260 − 100 = 160\n\n<answer>160</answer>",
+      "input_tokens": 140,
+      "output_tokens": 555,
+      "total_tokens": 695,
+      "reasoning_tokens": 477,
+      "calls": 1,
+      "latency_s": 2.733165099984035,
+      "request_ids": [
+        "44c0ece442cb41ab9b8e91219896031a"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "160",
+      "text": "April has 30 days; excluding 4 Sundays gives 26 paid days. At $10/day, earnings are 26 × 10 = 260. Spending $50 on books and giving Kaylee $50 totals $100. Money left: 260 − 100 = 160.\n\n<answer>160</answer>",
+      "input_tokens": 396,
+      "output_tokens": 823,
+      "total_tokens": 1219,
+      "reasoning_tokens": 677,
+      "calls": 2,
+      "latency_s": 4.155460600042716,
+      "request_ids": [
+        "44c0ece442cb41ab9b8e91219896031a",
+        "3983a25775804a1eada763b80a7d98eb"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

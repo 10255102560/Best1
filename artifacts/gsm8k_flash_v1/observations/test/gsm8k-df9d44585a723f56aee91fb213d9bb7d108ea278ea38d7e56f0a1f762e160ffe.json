@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-df9d44585a723f56aee91fb213d9bb7d108ea278ea38d7e56f0a1f762e160ffe",
+    "question": "Jen works for 7.5 hours a day 6 days a week. Her hourly rate is $1.5. Jen also receives an additional $10 if she has complete attendance. Suppose Jen did not incur any absences for  April, and there are exactly 4 weeks in April, how much will she receive?",
+    "answer": "280",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "280",
+      "text": "<answer>280</answer>",
+      "input_tokens": 144,
+      "output_tokens": 117,
+      "total_tokens": 261,
+      "reasoning_tokens": 108,
+      "calls": 1,
+      "latency_s": 0.9901449999306351,
+      "request_ids": [
+        "3de1a1dbf64c454683fd3c6469e21a41"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "280",
+      "text": "Jen works \\(7.5 \\times 6 = 45\\) hours per week.  \nIn 4 weeks: \\(45 \\times 4 = 180\\) hours.  \nPay: \\(180 \\times 1.5 = 270\\).  \nAdd attendance bonus: \\(270 + 10 = 280\\).\n\n<answer>280</answer>",
+      "input_tokens": 144,
+      "output_tokens": 147,
+      "total_tokens": 291,
+      "reasoning_tokens": 73,
+      "calls": 1,
+      "latency_s": 0.9267654998693615,
+      "request_ids": [
+        "4518febbb76847d0b1b6c97f542f323b"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "280",
+      "text": "Verification: \\(7.5 \\times 6 \\times 4 = 180\\) hours. Pay: \\(180 \\times 1.5 = 270\\). Add $10 attendance bonus: \\(270 + 10 = 280\\). The proposed solution is correct.\n\n<answer>280</answer>",
+      "input_tokens": 400,
+      "output_tokens": 303,
+      "total_tokens": 703,
+      "reasoning_tokens": 164,
+      "calls": 2,
+      "latency_s": 2.05769809987396,
+      "request_ids": [
+        "4518febbb76847d0b1b6c97f542f323b",
+        "d5bc7eabfca3441c8c4311c9eab004d7"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

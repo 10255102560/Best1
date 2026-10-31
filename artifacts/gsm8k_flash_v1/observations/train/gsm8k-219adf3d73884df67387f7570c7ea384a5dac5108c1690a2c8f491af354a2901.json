@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-219adf3d73884df67387f7570c7ea384a5dac5108c1690a2c8f491af354a2901",
+    "question": "Mr. and Mrs. McPherson have to renew their rent by the end of the year. They agreed that Mrs. McPherson would raise 30% of the money. If their rent is $1200 per year, how much does Mr. McPherson need to raise to complete the rent?",
+    "answer": "840",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "840",
+      "text": "<answer>840</answer>",
+      "input_tokens": 141,
+      "output_tokens": 53,
+      "total_tokens": 194,
+      "reasoning_tokens": 44,
+      "calls": 1,
+      "latency_s": 1.2637511000502855,
+      "request_ids": [
+        "2da7638fea1744c9a6a08dcf315e8ba7"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "840",
+      "text": "Mrs. McPherson raises 30% of $1200:\n\n\\(0.30 \\times 1200 = 360\\)\n\nMr. McPherson must raise the remaining amount:\n\n\\(1200 - 360 = 840\\)\n\n<answer>840</answer>",
+      "input_tokens": 141,
+      "output_tokens": 105,
+      "total_tokens": 246,
+      "reasoning_tokens": 48,
+      "calls": 1,
+      "latency_s": 1.534296700032428,
+      "request_ids": [
+        "ae080c15e51b426093618022035375e1"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "840",
+      "text": "Verified: 30% of $1200 is $360, leaving $1200 − $360 = $840 for Mr. McPherson.\n\n<answer>840</answer>",
+      "input_tokens": 377,
+      "output_tokens": 228,
+      "total_tokens": 605,
+      "reasoning_tokens": 132,
+      "calls": 2,
+      "latency_s": 2.3532465000171214,
+      "request_ids": [
+        "ae080c15e51b426093618022035375e1",
+        "0f2486a867de419ea2c763a78cff7156"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

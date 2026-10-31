@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-512a1fb2d89f3368743f7fc2e65fa71b5c8400ab382a364bda8014781700902e",
+    "question": "Nancy has a bag containing 22 tortilla chips. She gives 7 tortilla chips to her brother and 5 tortilla chips to her sister, keeping the rest for herself. How many did Nancy keep for herself?",
+    "answer": "10",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "<answer>10</answer>",
+      "input_tokens": 123,
+      "output_tokens": 70,
+      "total_tokens": 193,
+      "reasoning_tokens": 61,
+      "calls": 1,
+      "latency_s": 0.8133602000307292,
+      "request_ids": [
+        "609cd1d11bbb4df199e624e0b4921747"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "Nancy starts with 22 chips.  \nShe gives away 7 + 5 = 12 chips.  \nShe keeps 22 − 12 = 10 chips.\n\n<answer>10</answer>",
+      "input_tokens": 123,
+      "output_tokens": 76,
+      "total_tokens": 199,
+      "reasoning_tokens": 33,
+      "calls": 1,
+      "latency_s": 0.7914150999858975,
+      "request_ids": [
+        "77c68a5fd2c24793be27409fa53359ae"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "10",
+      "text": "Verified: 7 + 5 = 12 given away; 22 − 12 = 10 kept.\n\n<answer>10</answer>",
+      "input_tokens": 327,
+      "output_tokens": 182,
+      "total_tokens": 509,
+      "reasoning_tokens": 107,
+      "calls": 2,
+      "latency_s": 1.9292026001494378,
+      "request_ids": [
+        "77c68a5fd2c24793be27409fa53359ae",
+        "d111c1c64b7f44afab20235ff4a1bf55"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

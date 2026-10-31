@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-31a8b48524f498c9cb67d41574e2a4a0eae7be6061810cc55c22f5dfb196db8b",
+    "question": "After Bella’s ballet performance, she received 2 dozen roses from her parents, and 2 roses from each of her 10 dancer friends.  How many roses did Bella receive?",
+    "answer": "44",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "44",
+      "text": "<answer>44</answer>",
+      "input_tokens": 116,
+      "output_tokens": 47,
+      "total_tokens": 163,
+      "reasoning_tokens": 38,
+      "calls": 1,
+      "latency_s": 0.5530809001065791,
+      "request_ids": [
+        "f3eaad2d00da43779d3cdc07d137f9c1"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "44",
+      "text": "2 dozen roses = \\(2 \\times 12 = 24\\) roses.  \nFrom friends: \\(2 \\times 10 = 20\\) roses.  \nTotal: \\(24 + 20 = 44\\).\n\n<answer>44</answer>",
+      "input_tokens": 116,
+      "output_tokens": 100,
+      "total_tokens": 216,
+      "reasoning_tokens": 47,
+      "calls": 1,
+      "latency_s": 0.7604737000074238,
+      "request_ids": [
+        "8f8e6986a904446e8b5bef9406471935"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "44",
+      "text": "2 dozen = 24 roses; 10 friends × 2 = 20 roses; total = 24 + 20 = 44. The proposed solution is correct.\n\n<answer>44</answer>",
+      "input_tokens": 323,
+      "output_tokens": 210,
+      "total_tokens": 533,
+      "reasoning_tokens": 113,
+      "calls": 2,
+      "latency_s": 1.8366665998473763,
+      "request_ids": [
+        "8f8e6986a904446e8b5bef9406471935",
+        "1163f2fe88f143cbaf6debf5fb6b9991"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

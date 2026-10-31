@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-341d9cae0dc739aff2a980a812b6ae732202a08285004020bbba45d14c10354d",
+    "question": "The cheese pizza is cut into 12 slices and the pepperoni pizza is cut into 8 slices.  If Kate’s 6 friends each eat 6 cheese pizza slices and 4 pepperoni pizza slices, how many pizza pies does she need to buy?",
+    "answer": "6",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "<answer>6</answer>",
+      "input_tokens": 132,
+      "output_tokens": 100,
+      "total_tokens": 232,
+      "reasoning_tokens": 91,
+      "calls": 1,
+      "latency_s": 1.0088706999085844,
+      "request_ids": [
+        "e40f7649f48949f5ab2c18e7a5f12cb7"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "Cheese slices needed: \\(6 \\times 6 = 36\\)  \nCheese pizzas: \\(36 \\div 12 = 3\\)\n\nPepperoni slices needed: \\(6 \\times 4 = 24\\)  \nPepperoni pizzas: \\(24 \\div 8 = 3\\)\n\nTotal pizzas: \\(3 + 3 = 6\\)\n\n<answer>6</answer>",
+      "input_tokens": 132,
+      "output_tokens": 204,
+      "total_tokens": 336,
+      "reasoning_tokens": 118,
+      "calls": 1,
+      "latency_s": 1.2429534001275897,
+      "request_ids": [
+        "3b41ef8ee10c4a48a022f6d478a30df1"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "6",
+      "text": "Verification: 6 friends × 6 cheese slices = 36 slices, requiring 36 ÷ 12 = 3 cheese pizzas. 6 friends × 4 pepperoni slices = 24 slices, requiring 24 ÷ 8 = 3 pepperoni pizzas. Total = 3 + 3 = 6 pizzas.\n\n<answer>6</answer>",
+      "input_tokens": 388,
+      "output_tokens": 474,
+      "total_tokens": 862,
+      "reasoning_tokens": 309,
+      "calls": 2,
+      "latency_s": 2.850067500025034,
+      "request_ids": [
+        "3b41ef8ee10c4a48a022f6d478a30df1",
+        "e130770dabdb43448fb348c2575997f1"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

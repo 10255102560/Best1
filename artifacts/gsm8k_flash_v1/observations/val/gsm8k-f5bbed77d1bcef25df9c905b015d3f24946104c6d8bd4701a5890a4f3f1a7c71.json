@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-f5bbed77d1bcef25df9c905b015d3f24946104c6d8bd4701a5890a4f3f1a7c71",
+    "question": "Anika has 4 more than twice the number of pencils as Reeta. If Reeta has 20 pencils, how many pencils do the two have together?",
+    "answer": "64",
+    "source_split": "gsm8k_train"
+  },
+  "split": "val",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "64",
+      "text": "<answer>64</answer>",
+      "input_tokens": 111,
+      "output_tokens": 58,
+      "total_tokens": 169,
+      "reasoning_tokens": 49,
+      "calls": 1,
+      "latency_s": 0.8097461999859661,
+      "request_ids": [
+        "582e09f61b4043ae893ce70d6f8fad81"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "64",
+      "text": "Reeta has 20 pencils.  \nAnika has \\(2 \\times 20 + 4 = 44\\) pencils.  \nTogether: \\(20 + 44 = 64\\).\n\n<answer>64</answer>",
+      "input_tokens": 111,
+      "output_tokens": 99,
+      "total_tokens": 210,
+      "reasoning_tokens": 52,
+      "calls": 1,
+      "latency_s": 6.4514345000498,
+      "request_ids": [
+        "bca0b66faf964d8db7ab67fa6604a6c5"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "64",
+      "text": "Reeta: 20 pencils.  \nAnika: \\(2 \\times 20 + 4 = 44\\) pencils.  \nTogether: \\(20 + 44 = 64\\). The proposed solution is correct.\n\n<answer>64</answer>",
+      "input_tokens": 307,
+      "output_tokens": 223,
+      "total_tokens": 530,
+      "reasoning_tokens": 123,
+      "calls": 2,
+      "latency_s": 12.0303921001032,
+      "request_ids": [
+        "bca0b66faf964d8db7ab67fa6604a6c5",
+        "c08d1dd4cd4b45e7aa08649879aa5f2b"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

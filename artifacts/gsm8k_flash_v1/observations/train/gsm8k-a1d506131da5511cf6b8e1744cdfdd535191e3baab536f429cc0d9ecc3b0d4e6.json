@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-a1d506131da5511cf6b8e1744cdfdd535191e3baab536f429cc0d9ecc3b0d4e6",
+    "question": "Tim decides to start selling necklaces he makes.  He uses 10 charms to make each necklace.  Each charm cost $15.  He sells the necklace for $200.  How much profit does he make if he sells 30?",
+    "answer": "1500",
+    "source_split": "gsm8k_train"
+  },
+  "split": "train",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "1500",
+      "text": "<answer>1500</answer>",
+      "input_tokens": 128,
+      "output_tokens": 55,
+      "total_tokens": 183,
+      "reasoning_tokens": 45,
+      "calls": 1,
+      "latency_s": 1.521532799815759,
+      "request_ids": [
+        "fe7826fb850a4770831b733b8faf18fa"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "1500",
+      "text": "Each necklace costs \\(10 \\times 15 = 150\\).\n\nProfit per necklace: \\(200 - 150 = 50\\).\n\nFor 30 necklaces: \\(30 \\times 50 = 1500\\).\n\n<answer>1500</answer>",
+      "input_tokens": 128,
+      "output_tokens": 102,
+      "total_tokens": 230,
+      "reasoning_tokens": 49,
+      "calls": 1,
+      "latency_s": 0.8812785998452455,
+      "request_ids": [
+        "de99d5e16fd645319c28b5af79ba8955"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "1500",
+      "text": "Cost per necklace: \\(10 \\times 15 = 150\\).  \nProfit per necklace: \\(200 - 150 = 50\\).  \nTotal profit for 30: \\(30 \\times 50 = 1500\\).  \nThe proposed solution is correct.\n\n<answer>1500</answer>",
+      "input_tokens": 347,
+      "output_tokens": 226,
+      "total_tokens": 573,
+      "reasoning_tokens": 110,
+      "calls": 2,
+      "latency_s": 1.9786371998488903,
+      "request_ids": [
+        "de99d5e16fd645319c28b5af79ba8955",
+        "60ed5388ed944a26bf79fcadc73e0969"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}

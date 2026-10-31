@@ -1,0 +1,57 @@
+{
+  "task": {
+    "id": "gsm8k-0b4f455e95a59897b45a6aafd73b13e5e51bfc176dd376a03a9481317b2c4f52",
+    "question": "Mrs. Jameson's bamboo in the backyard grows up to 30 inches a day. Today, its height is 20 feet. In how many days will its height be 600 inches?",
+    "answer": "12",
+    "source_split": "gsm8k_test"
+  },
+  "split": "test",
+  "outcomes": {
+    "direct": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "<answer>12</answer>",
+      "input_tokens": 117,
+      "output_tokens": 74,
+      "total_tokens": 191,
+      "reasoning_tokens": 65,
+      "calls": 1,
+      "latency_s": 0.85602100007236,
+      "request_ids": [
+        "4ea6d9ee354f408db3efd3c3d07a8042"
+      ],
+      "finish_reason": "stop"
+    },
+    "reason": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "Today's height: \\(20 \\times 12 = 240\\) inches  \nNeeded growth: \\(600 - 240 = 360\\) inches  \nDays: \\(360 \\div 30 = 12\\)\n\n<answer>12</answer>",
+      "input_tokens": 117,
+      "output_tokens": 118,
+      "total_tokens": 235,
+      "reasoning_tokens": 66,
+      "calls": 1,
+      "latency_s": 0.924198100110516,
+      "request_ids": [
+        "a4d10aa49d224dfc9850a1149d453b16"
+      ],
+      "finish_reason": "stop"
+    },
+    "review": {
+      "correct": 1,
+      "prediction": "12",
+      "text": "Conversion: \\(20 \\times 12 = 240\\) inches.  \nRequired growth: \\(600 - 240 = 360\\) inches.  \nTime: \\(360 \\div 30 = 12\\) days. The solution is correct.\n\n<answer>12</answer>",
+      "input_tokens": 324,
+      "output_tokens": 283,
+      "total_tokens": 607,
+      "reasoning_tokens": 173,
+      "calls": 2,
+      "latency_s": 2.083228000206873,
+      "request_ids": [
+        "a4d10aa49d224dfc9850a1149d453b16",
+        "2992f5e5a6c346a8a3a3fce40bf6b342"
+      ],
+      "finish_reason": "stop"
+    }
+  }
+}
