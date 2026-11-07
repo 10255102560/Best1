@@ -1,60 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="493" viewBox="0 0 1120 493" role="img">
-<title>Held-out accuracy and token cost by harness strategy</title>
-<desc>Two bar charts compare answer accuracy and average token usage. Oracle uses test labels and is not deployable.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="414" viewBox="0 0 960 414" role="img" aria-labelledby="title desc">
+<title id="title">gsm8k_flash_v1：独立测试集上的 token 成本、正确题数与效用</title>
+<desc id="desc">每行一种策略：横条为平均 token（越短越省），右侧为正确题数与成本感知效用。蓝色为梯度学习路由器，橙色为验证集选出的最佳固定策略，灰色为其他基线；oracle 使用测试标签，不可部署。</desc>
 <rect width="100%" height="100%" fill="#ffffff"/>
-<style>text{font-family:Arial,sans-serif;fill:#172b4d;font-size:13px}.title{font-size:20px;font-weight:bold}.muted{fill:#53657b;font-size:12px}</style>
-<text class="title" x="24" y="32">gsm8k_flash_v1</text>
-<text x="220" y="65">Accuracy (higher is better)</text>
-<text x="720" y="65">Mean tokens (lower is cheaper)</text>
-<text x="24" y="105">Fixed direct</text>
-<rect x="220" y="88" width="340" height="24" rx="3" fill="#edf1f7"/>
-<rect x="220" y="88" width="329.38" height="24" rx="3" fill="#426da9"/>
-<text x="570" y="105">96.9%</text>
-<rect x="720" y="88" width="290" height="24" rx="3" fill="#edf1f7"/>
-<rect x="720" y="88" width="93.19" height="24" rx="3" fill="#426da9"/>
-<text x="1020" y="105">245.2</text>
-<text x="24" y="154">Fixed reason</text>
-<rect x="220" y="137" width="340" height="24" rx="3" fill="#edf1f7"/>
-<rect x="220" y="137" width="326.72" height="24" rx="3" fill="#426da9"/>
-<text x="570" y="154">96.1%</text>
-<rect x="720" y="137" width="290" height="24" rx="3" fill="#edf1f7"/>
-<rect x="720" y="137" width="124.72" height="24" rx="3" fill="#426da9"/>
-<text x="1020" y="154">328.1</text>
-<text x="24" y="203">Fixed review</text>
-<rect x="220" y="186" width="340" height="24" rx="3" fill="#edf1f7"/>
-<rect x="220" y="186" width="326.72" height="24" rx="3" fill="#426da9"/>
-<text x="570" y="203">96.1%</text>
-<rect x="720" y="186" width="290" height="24" rx="3" fill="#edf1f7"/>
-<rect x="720" y="186" width="290.00" height="24" rx="3" fill="#426da9"/>
-<text x="1020" y="203">763.0</text>
-<text x="24" y="252">Best fixed (validation)</text>
-<rect x="220" y="235" width="340" height="24" rx="3" fill="#edf1f7"/>
-<rect x="220" y="235" width="329.38" height="24" rx="3" fill="#426da9"/>
-<text x="570" y="252">96.9%</text>
-<rect x="720" y="235" width="290" height="24" rx="3" fill="#edf1f7"/>
-<rect x="720" y="235" width="93.19" height="24" rx="3" fill="#426da9"/>
-<text x="1020" y="252">245.2</text>
-<text x="24" y="301">Learned router</text>
-<rect x="220" y="284" width="340" height="24" rx="3" fill="#edf1f7"/>
-<rect x="220" y="284" width="326.72" height="24" rx="3" fill="#138468"/>
-<text x="570" y="301">96.1%</text>
-<rect x="720" y="284" width="290" height="24" rx="3" fill="#edf1f7"/>
-<rect x="720" y="284" width="122.39" height="24" rx="3" fill="#138468"/>
-<text x="1020" y="301">322.0</text>
-<text x="24" y="350">Uniform (expected)</text>
-<rect x="220" y="333" width="340" height="24" rx="3" fill="#edf1f7"/>
-<rect x="220" y="333" width="327.60" height="24" rx="3" fill="#426da9"/>
-<text x="570" y="350">96.4%</text>
-<rect x="720" y="333" width="290" height="24" rx="3" fill="#edf1f7"/>
-<rect x="720" y="333" width="169.30" height="24" rx="3" fill="#426da9"/>
-<text x="1020" y="350">445.4</text>
-<text x="24" y="399">Oracle (test labels)</text>
-<rect x="220" y="382" width="340" height="24" rx="3" fill="#edf1f7"/>
-<rect x="220" y="382" width="329.38" height="24" rx="3" fill="#8a94a2"/>
-<text x="570" y="399">96.9%</text>
-<rect x="720" y="382" width="290" height="24" rx="3" fill="#edf1f7"/>
-<rect x="720" y="382" width="91.93" height="24" rx="3" fill="#8a94a2"/>
-<text x="1020" y="399">241.9</text>
-<text class="muted" x="24" y="458">Green: deployed router. Gray: oracle uses test labels and is not a deployed strategy.</text>
-<text class="muted" x="24" y="477">Accuracy and token cost are separate metrics; tokens are not a currency price.</text>
+<style>text{font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC','Source Han Sans SC','WenQuanYi Micro Hei',Arial,sans-serif;fill:#52514e;font-size:13px}.title{fill:#0b0b0b;font-size:18px;font-weight:600}.head{fill:#0b0b0b;font-size:13px;font-weight:600}.strong{fill:#0b0b0b;font-weight:600}.note{fill:#898781;font-size:12px}</style>
+<text class="title" x="24" y="36">gsm8k_flash_v1：独立测试集（128 题）部署指标</text>
+<text class="head" x="250" y="82">平均 token / 题（越短越省）</text>
+<text class="head" x="760" y="82" text-anchor="end">正确题数</text>
+<text class="head" x="920" y="82" text-anchor="end">效用 ↑</text>
+<line x1="24" y1="94" x2="936" y2="94" stroke="#e1e0d9" stroke-width="1"/>
+<text class="strong" x="24" y="120">梯度学习路由器（GFPG）</text>
+<rect x="250" y="107" width="139.3" height="18" rx="4" fill="#2a78d6" stroke="none"/>
+<text x="397.3" y="120">322.0</text>
+<text class="strong" x="760" y="120" text-anchor="end">123/128</text>
+<text class="strong" x="920" y="120" text-anchor="end">0.9448</text>
+<text class="strong" x="24" y="160">最佳固定策略：direct</text>
+<rect x="250" y="147" width="106.0" height="18" rx="4" fill="#eb6834" stroke="none"/>
+<text x="364.0" y="160">245.2</text>
+<text class="strong" x="760" y="160" text-anchor="end">124/128</text>
+<text class="strong" x="920" y="160" text-anchor="end">0.9565</text>
+<text x="24" y="200">初始策略：reason</text>
+<rect x="250" y="187" width="141.9" height="18" rx="4" fill="#a8a69e" stroke="none"/>
+<text x="399.9" y="200">328.1</text>
+<text x="760" y="200" text-anchor="end">123/128</text>
+<text x="920" y="200" text-anchor="end">0.9445</text>
+<text x="24" y="240">固定策略：review</text>
+<rect x="250" y="227" width="330.0" height="18" rx="4" fill="#a8a69e" stroke="none"/>
+<text x="588.0" y="240">763.0</text>
+<text x="760" y="240" text-anchor="end">123/128</text>
+<text x="920" y="240" text-anchor="end">0.9228</text>
+<text x="24" y="280">均匀随机（期望）</text>
+<rect x="250" y="267" width="192.7" height="18" rx="4" fill="#a8a69e" stroke="none"/>
+<text x="450.7" y="280">445.4</text>
+<text x="760" y="280" text-anchor="end">123.33/128</text>
+<text x="920" y="280" text-anchor="end">0.9413</text>
+<text x="24" y="320">Oracle（不可部署）</text>
+<rect x="250" y="307" width="104.6" height="18" rx="4" fill="#e4e2db" stroke="#898781" stroke-dasharray="3 2"/>
+<text x="362.6" y="320">241.9</text>
+<text x="760" y="320" text-anchor="end">124/128</text>
+<text x="920" y="320" text-anchor="end">0.9567</text>
+<line x1="24" y1="344" x2="936" y2="344" stroke="#e1e0d9" stroke-width="1"/>
+<text class="note" x="24" y="370">蓝色：梯度学习路由器；橙色：验证集选出的最佳固定策略；灰色：其他基线；虚线框：oracle 使用测试标签，仅作上界、不可部署。</text>
+<text class="note" x="24" y="390">效用 = 正确率 − 0.05 × 平均 token / 1000。正确率与 token 成本分开报告；token 不等于货币价格。</text>
 </svg>

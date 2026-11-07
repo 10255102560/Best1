@@ -171,7 +171,7 @@ $$
 
 ## 9. 相关工作与本项目定位
 
-以下四篇论文的标题与摘要已从 arXiv 页面核验，页面存于 `data/raw/`，元信息见 `docs/source_verification.json`。本项目未声称复现它们的完整实验，也不复述未核验的论文细节。
+以下四篇论文的标题与摘要已从 arXiv 页面核验。核验时的页面快照保存在本地 `data/raw/`（该目录被 `.gitignore` 排除，不随仓库分发），核验记录（字节数与页面标题）见 `docs/source_verification.json`；该记录中两条 GSM8K 条目是早期直连 GitHub 超时的日志，数据最终经 jsDelivr 镜像下载并逐行校验，见 `data/SOURCE.md`。本项目未声称复现它们的完整实验，也不复述未核验的论文细节。
 
 1. **TextGrad: Automatic "Differentiation" via Text**，arXiv:2406.07496。[原文](https://arxiv.org/abs/2406.07496)。其摘要描述由 LLM 提供并反向传播文本反馈，用于改进复合系统组件。这里的“文本梯度”是自然语言优化反馈，并不是对实值参数求出的严格数值导数。本项目选择 softmax 参数的解析梯度，便于最优化课程进行公式推导和数值验证。
 2. **Automated Design of Agentic Systems**，arXiv:2408.08435。[原文](https://arxiv.org/abs/2408.08435)。其摘要提出由元智能体编写代理代码，并利用已有设计档案逐步发现新系统。本项目将可变空间限制为固定流程间的路由参数，以适应少量调用与短周期。

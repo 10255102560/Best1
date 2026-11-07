@@ -7,3 +7,15 @@ data/raw/
 artifacts/**/cache/
 dist/
 *.tmp
+
+# LaTeX build products (report/main.tex is compiled to REPORT.pdf)
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.xdv
+report/*.synctex.gz
+report/main.pdf
+.DS_Store
