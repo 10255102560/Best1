@@ -60,7 +60,7 @@
 
 \hypersetup{colorlinks=true, linkcolor=accentdark, citecolor=accent, urlcolor=accent,
             pdftitle={GFPG：门控全信息策略梯度——面向 LLM Harness 受限自我改进的梯度类方法},
-            pdfauthor={Best1 项目}, pdfsubject={课程作业：AI 辅助设计梯度类方法并实验验证}}
+            pdfauthor={毛语菲（10255102560）}, pdfsubject={课程作业：AI 辅助设计梯度类方法并实验验证}}
 
 \input{generated/numbers.tex}
 
@@ -176,6 +176,8 @@
 \vspace{0.8cm}
 \noindent{\small
 \begin{tabularx}{\linewidth}{@{}>{\leavevmode\sffamily\bfseries\color{accentdark}}p{2.25cm}L@{}}
+姓名 & 毛语菲 \\
+学号 & 10255102560 \\
 作业要求 & 针对梯度类方法，AI 辅助下设计一个新的“梯度类”方法，并通过实验验证其有效性；可以是一个 RSI 相关的 Harness 工程。\\
 方法 & 全信息精确策略梯度 + 预算感知效用 + 验证门控增量自改进 + 测试前冻结协议（第 \ref{sec:method} 节）\\
 实验 & GSM8K 官方 train/test 抽样，训练 / 验证 / 测试 = \numTrainN{} / \numValN{} / \numTestN{} 题；模型 \code{deepseek-v4.1-flash}，温度 0 \\
@@ -240,23 +242,6 @@ ADAS 由元智能体编写新的代理代码\cite{adas}；GEPA 通过轨迹反�
 本项目选择相反的路线：\textbf{把 harness 的自我改进限制在一个可微、可推导、可验证的参数空间里}，让经典梯度类方法在真实的 LLM 系统上落地，
 并用严格的实验协议检验它是否真的带来收益。这是一种\emph{受限}的递归自我改进（RSI）：系统根据自身的运行反馈修改自己的决策参数，
 但不修改基础模型，也不自动编写新代码。
-
-\subsection{作业要求与本项目的对应}
-\begin{table}[H]
-\centering\small
-\caption{作业要求逐项对应}\label{tab:mapping}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\sffamily\bfseries}p{2.9cm}Lp{1.75cm}@{}}
-\toprule
-作业要求 & 本项目的对应内容 & 位置 \\
-\midrule
-针对梯度类方法 & 以期望效用为目标的 softmax 策略梯度上升；给出含熵正则的解析梯度，并用有限差分逐分量验证 & \S\ref{sec:method}、\S\ref{sec:verify} \\
-设计“新的”梯度类方法 & GFPG：全信息精确梯度 + 预算感知效用 + 验证门控增量自改进 + 测试前冻结协议 & \S\ref{sec:method} \\
-AI 辅助下设计 & AI 编程助手参与问题筛选、梯度推导、实现、测试与报告；人负责目标、约束与审核 & \S\ref{sec:ai} \\
-通过实验验证有效性 & \numAttempts{} 次真实 API 请求；独立测试集；配对 bootstrap；强基线与 oracle 诊断；正负结果均报告 & \S\ref{sec:setup}–\S\ref{sec:discussion} \\
-RSI 相关的 Harness 工程 & 四轮“反馈 $\to$ 梯度更新 $\to$ 门控 $\to$ 接纳 / 回退”循环；预算账本、缓存、冻结与离线复核 & \S\ref{sec:loop}、\S\ref{sec:engineering} \\
-\bottomrule
-\end{tabularx}
-\end{table}
 
 \subsection{主要贡献}
 \begin{enumerate}[label=\textbf{\arabic*.}]
